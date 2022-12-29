@@ -1,0 +1,5 @@
+Blockname,Input,Move
+event_whenflagclicked,,{}
+control_wait,,"{'DURATION': [1, [5, '1']]}"
+control_repeat,,"{'TIMES': [1, [6, '10']], 'SUBSTACK': [2, 'No:2ibr`x^+}vd^f4K4s']}"
+motion_ifonedgebounce,,{}
