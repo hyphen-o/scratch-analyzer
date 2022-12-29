@@ -122,22 +122,24 @@ def ScreenShot():
     driver.close()
 
 
-def getMovement():
-    # if (not df_none.iloc[index][2] == None):
-    #     json_data = json.loads(df_none.iloc[index][2])
-    #     for k, v in json_data.items():
-    #         print(k + '!!!!!')
-    #         print(v)
-    #     if (df_none.iloc[index][2] == 'DX' or 'DY'):
-    #         X += df_none.iloc
+def getMovement(index):
+    X = 0
+    if (not pd.isna(df_none.iloc[index][2])):
+        print(df_none.iloc[index][2] + '!!!!!!!!!!!!!!!!!!!')
+        # json_data = json.loads(str(df_none.iloc[index][2]))
+        # for k, v in json_data.items():
+        #     print(k + '!!!!!')
+        #     print(v)
 
-    if (not df_none.iloc[index][1] == None):
+    if (not pd.isna(df_none.iloc[index][1])):
         return df_none.iloc[index][1]
+
+    if (index < len(df_none.index)):
+        index += 1
 
 
 def AutoInput():
-    X = 0
-    Y = 0
+    index = 0
     for i in range(100000):
 
         try:
@@ -146,7 +148,7 @@ def AutoInput():
             if len(end) == 0:
                 break  # 作品のプログラムが終了していれば，スクリーンショット収集終了
 
-            # result = getMovement()
+            result = getMovement(index)
 
             # スプライトのX座標Y座標を取得
             for j in positionX:
@@ -164,7 +166,6 @@ def AutoInput():
             break
 
 
-index = 0
 with ThreadPoolExecutor(max_workers=2) as executor:
     executor.submit(ScreenShot)
     executor.submit(AutoInput)
