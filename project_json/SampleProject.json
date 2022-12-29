@@ -1,0 +1,250 @@
+{
+    "targets": [
+        {
+            "isStage": true,
+            "name": "Stage",
+            "variables": {
+                "`jEk@4|i[#Fk?(8x)AV.-my variable": [
+                    "変数",
+                    0
+                ]
+            },
+            "lists": {},
+            "broadcasts": {},
+            "blocks": {},
+            "comments": {},
+            "currentCostume": 0,
+            "costumes": [
+                {
+                    "name": "背景1",
+                    "dataFormat": "svg",
+                    "assetId": "cd21514d0531fdffb22204e0ec5ed84a",
+                    "md5ext": "cd21514d0531fdffb22204e0ec5ed84a.svg",
+                    "rotationCenterX": 240,
+                    "rotationCenterY": 180
+                }
+            ],
+            "sounds": [
+                {
+                    "name": "ポップ",
+                    "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+                    "dataFormat": "wav",
+                    "format": "",
+                    "rate": 44100,
+                    "sampleCount": 1032,
+                    "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+                }
+            ],
+            "volume": 100,
+            "layerOrder": 0,
+            "tempo": 60,
+            "videoTransparency": 50,
+            "videoState": "on",
+            "textToSpeechLanguage": null
+        },
+        {
+            "isStage": false,
+            "name": "スプライト1",
+            "variables": {},
+            "lists": {},
+            "broadcasts": {},
+            "blocks": {
+                "*I?npOakxQl(`y+4!*je": {
+                    "opcode": "event_whenflagclicked",
+                    "next": "0o*#fi%/+~p+,yD7VS%$",
+                    "parent": null,
+                    "inputs": {},
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": true,
+                    "x": 179,
+                    "y": 83
+                },
+                "EYFpO4|9Iv23`wt-DrnK": {
+                    "opcode": "sensing_keypressed",
+                    "next": null,
+                    "parent": "tc?sxZaLg%;LWerD`Hw.",
+                    "inputs": {
+                        "KEY_OPTION": [
+                            1,
+                            "_lZf=Jc?fY6Lsd{TNr!q"
+                        ]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "_lZf=Jc?fY6Lsd{TNr!q": {
+                    "opcode": "sensing_keyoptions",
+                    "next": null,
+                    "parent": "EYFpO4|9Iv23`wt-DrnK",
+                    "inputs": {},
+                    "fields": {
+                        "KEY_OPTION": [
+                            "space",
+                            null
+                        ]
+                    },
+                    "shadow": true,
+                    "topLevel": false
+                },
+                "tc?sxZaLg%;LWerD`Hw.": {
+                    "opcode": "control_if",
+                    "next": null,
+                    "parent": "(/~20E53*qVK*eP%)Ckq",
+                    "inputs": {
+                        "CONDITION": [
+                            2,
+                            "EYFpO4|9Iv23`wt-DrnK"
+                        ],
+                        "SUBSTACK": [
+                            2,
+                            "UHp[({]P6,`^t@-%NyuS"
+                        ]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "0o*#fi%/+~p+,yD7VS%$": {
+                    "opcode": "motion_gotoxy",
+                    "next": "(/~20E53*qVK*eP%)Ckq",
+                    "parent": "*I?npOakxQl(`y+4!*je",
+                    "inputs": {
+                        "X": [
+                            1,
+                            [
+                                4,
+                                "-100"
+                            ]
+                        ],
+                        "Y": [
+                            1,
+                            [
+                                4,
+                                "100"
+                            ]
+                        ]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "UHp[({]P6,`^t@-%NyuS": {
+                    "opcode": "motion_movesteps",
+                    "next": "=QO.!x1rG%1{vtg;K=]9",
+                    "parent": "tc?sxZaLg%;LWerD`Hw.",
+                    "inputs": {
+                        "STEPS": [
+                            1,
+                            [
+                                4,
+                                "100"
+                            ]
+                        ]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "|?9}9,I.+8GA9JG|T]f5": {
+                    "opcode": "motion_turnright",
+                    "next": null,
+                    "parent": "=QO.!x1rG%1{vtg;K=]9",
+                    "inputs": {
+                        "DEGREES": [
+                            1,
+                            [
+                                4,
+                                "90"
+                            ]
+                        ]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "(/~20E53*qVK*eP%)Ckq": {
+                    "opcode": "control_forever",
+                    "next": null,
+                    "parent": "0o*#fi%/+~p+,yD7VS%$",
+                    "inputs": {
+                        "SUBSTACK": [
+                            2,
+                            "tc?sxZaLg%;LWerD`Hw."
+                        ]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "=QO.!x1rG%1{vtg;K=]9": {
+                    "opcode": "control_wait",
+                    "next": "|?9}9,I.+8GA9JG|T]f5",
+                    "parent": "UHp[({]P6,`^t@-%NyuS",
+                    "inputs": {
+                        "DURATION": [
+                            1,
+                            [
+                                5,
+                                "1"
+                            ]
+                        ]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                }
+            },
+            "comments": {},
+            "currentCostume": 0,
+            "costumes": [
+                {
+                    "name": "コスチューム1",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "bcf454acf82e4504149f7ffe07081dbc",
+                    "md5ext": "bcf454acf82e4504149f7ffe07081dbc.svg",
+                    "rotationCenterX": 48,
+                    "rotationCenterY": 50
+                },
+                {
+                    "name": "コスチューム2",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "0fb9be3e8397c983338cb71dc84d0b25",
+                    "md5ext": "0fb9be3e8397c983338cb71dc84d0b25.svg",
+                    "rotationCenterX": 46,
+                    "rotationCenterY": 53
+                }
+            ],
+            "sounds": [
+                {
+                    "name": "ニャー",
+                    "assetId": "83c36d806dc92327b9e7049a565c6bff",
+                    "dataFormat": "wav",
+                    "format": "",
+                    "rate": 44100,
+                    "sampleCount": 37376,
+                    "md5ext": "83c36d806dc92327b9e7049a565c6bff.wav"
+                }
+            ],
+            "volume": 100,
+            "layerOrder": 1,
+            "visible": true,
+            "x": 0,
+            "y": 200,
+            "size": 100,
+            "direction": 180,
+            "draggable": false,
+            "rotationStyle": "all around"
+        }
+    ],
+    "monitors": [],
+    "extensions": [],
+    "meta": {
+        "semver": "3.0.0",
+        "vm": "1.2.22",
+        "agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+    }
+}

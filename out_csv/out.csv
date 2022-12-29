@@ -1,0 +1,9 @@
+block,node_id,parent_node_id,script_id,sprite_name,project_id
+SCRIPT,0,-1,0,スプライト1,747365086
+event_whenflagclicked,1,0,0,スプライト1,747365086
+motion_gotoxy,2,0,0,スプライト1,747365086
+control_forever,3,0,0,スプライト1,747365086
+control_if,4,3,0,スプライト1,747365086
+motion_movesteps,5,4,0,スプライト1,747365086
+control_wait,6,4,0,スプライト1,747365086
+motion_turnright,7,4,0,スプライト1,747365086
