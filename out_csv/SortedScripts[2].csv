@@ -1,5 +1,12 @@
 Blockname,Input,Move
-event_whenflagclicked,,
+event_whenkeypressed,,up arrow
+control_if,,
+sensing_keypressed,,
+sensing_keyoptions,space,
+motion_movesteps,,"{'STEPS': [1, [4, '100']]}"
 control_wait,,"{'DURATION': [1, [5, '1']]}"
-control_repeat,,
-motion_ifonedgebounce,,
+motion_turnright,,"{'DEGREES': [1, [4, '90']]}"
+control_if,,
+sensing_keypressed,,
+sensing_keyoptions,up arrow,
+motion_sety,,"{'Y': [1, [4, '100']]}"

@@ -1,8 +1,5 @@
 Blockname,Input,Move
-event_whenflagclicked,,
-motion_gotoxy,,"{'X': [1, [4, '0']], 'Y': [1, [4, '0']]}"
-control_forever,,
-motion_movesteps,,"{'STEPS': [1, [4, '10']]}"
+event_whenkeypressed,,up arrow
 control_if,,
 sensing_keypressed,,
 sensing_keyoptions,space,

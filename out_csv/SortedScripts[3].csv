@@ -1,3 +1,15 @@
 Blockname,Input,Move
-event_whenkeypressed,,space
-motion_changeyby,,"{'DY': [1, [4, '10']]}"
+event_whenflagclicked,,
+motion_gotoxy,,"{'X': [1, [4, '0']], 'Y': [1, [4, '0']]}"
+motion_pointindirection,,
+control_forever,,
+motion_movesteps,,"{'STEPS': [1, [4, '1']]}"
+control_if,,
+sensing_keypressed,,
+sensing_keyoptions,space,
+motion_pointindirection,,
+motion_movesteps,,"{'STEPS': [1, [4, '1']]}"
+control_if,,
+sensing_keypressed,,
+sensing_keyoptions,up arrow,
+motion_turnleft,,"{'DEGREES': [1, [4, '15']]}"
