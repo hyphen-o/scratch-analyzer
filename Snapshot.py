@@ -99,5 +99,3 @@ def snapshot(startID, endID):
 if __name__ == '__main__':
     with ThreadPoolExecutor(max_workers=3) as executor:
         executor.submit(snapshot, 726794902, 726795902)
-        executor.submit(snapshot, 726795903, 726796903)
-        executor.submit(snapshot, 726796904, 726797902)

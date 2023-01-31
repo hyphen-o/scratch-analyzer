@@ -1,0 +1,29 @@
+BlockName,Input,Movement
+Nextscript,,
+event_whenkeypressed,up arrow,
+control_if,,
+sensing_keypressed,,
+sensing_keyoptions,space,
+motion_movesteps,,"{'STEPS': [1, [4, '100']]}"
+control_wait,,"{'DURATION': [1, [5, '1']]}"
+motion_turnright,,"{'DEGREES': [1, [4, '90']]}"
+control_if,,
+sensing_keypressed,,
+sensing_keyoptions,up arrow,
+motion_sety,,"{'Y': [1, [4, '100']]}"
+Nextscript,,
+event_whenflagclicked,,
+motion_gotoxy,,"{'X': [1, [4, '0']], 'Y': [1, [4, '0']]}"
+motion_pointindirection,,"{'DIRECTION': [1, [8, '60']]}"
+control_forever,,
+motion_movesteps,,"{'STEPS': [1, [4, '1']]}"
+control_if,,
+sensing_keypressed,,
+sensing_keyoptions,space,
+motion_pointindirection,,"{'DIRECTION': [1, [8, '180']]}"
+Nextscript,,
+event_whenkeypressed,space,
+motion_movesteps,,"{'STEPS': [1, [4, '10']]}"
+motion_pointindirection,,"{'DIRECTION': [1, [8, '90']]}"
+motion_pointindirection,,"{'DIRECTION': [1, [8, '90']]}"
+motion_turnleft,,"{'DEGREES': [1, [4, '15']]}"

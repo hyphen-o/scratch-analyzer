@@ -2,83 +2,80 @@ import json
 import requests
 import csv
 
+# 座標情報を格納しているキー名
+MOVE = ['STEPS', 'DEGREES', 'DIRECTION', 'X', 'Y', 'DX', 'DY']
+# 待機時間情報を格納しているキー名
+WAIT = ['DURATION', 'SECS']
+
 
 def toJson(project_id):
     # プロジェクトIDからScratchAPIを叩いてJson取得
     url = requests.get(
         f'https://api.scratch.mit.edu/projects/{project_id}')
     project_token = json.loads(url.text)['project_token']
-    text = requests.get(
-        f'https://projects.scratch.mit.edu/{project_id}?token={project_token}').text
-    json_data = json.loads(text)
+    json_data = json.loads(requests.get(
+        f'https://projects.scratch.mit.edu/{project_id}?token={project_token}').text)
     with open('project_json/Square.json', 'w') as f:
         json.dump(json_data, f, ensure_ascii=False)
+    print(json_data)
     return json_data
 
 # スクリプトの初めのブロックを出力
 
 
-def firstnode(allblocks, start_hash, i):
-    if (allblocks[start_hash]['next'] != None):
-        csv_name = 'SortedScripts[' + str(i) + '].csv'
-        print(csv_name)
-        # CSVファイルに書き込み
-        with open(f'out_csv/{csv_name}', 'w') as f:
-            writer = csv.writer(f)
-            writer.writerow(['Blockname', 'Input', 'Move'])
-            # フラグとしての入力ブロックの時，入力ブロックの種類を出力
-            if (allblocks[start_hash]['opcode'] == 'event_whenkeypressed'):
-                writer.writerow([allblocks[start_hash]['opcode'],
-                                None, allblocks[start_hash]['fields']['KEY_OPTION'][0]])
-            else:
-                writer.writerow([allblocks[start_hash]['opcode'],
-                                None, None])
-        print(allblocks[start_hash]['opcode'])
-        print(allblocks[start_hash]['inputs'])
-        print(allblocks[start_hash]['fields'])
-        nextblock(allblocks, allblocks[start_hash]
-                  ['next'], csv_name, None)
-
-
-def nextblock(blocks, hash, csv_name, fieldname):
-
-    # CSVファイルに書き込み
+def writeBlocks(allblocks, block_hash, csv_name, field_name):
+    block_name = allblocks[block_hash]['opcode']
     with open(f'out_csv/{csv_name}', 'a') as f:
         writer = csv.writer(f)
         flg = False
-        if (fieldname):
-            writer.writerow([blocks[hash]['opcode'], blocks[hash]
-                            ['fields'][fieldname][0], None])
+        if (field_name):
+            writer.writerow([block_name, allblocks[block_hash]
+                            ['fields'][field_name][0], None])
         else:
-            if (blocks[hash]['inputs'] == "{{}}"):
+            if (allblocks[block_hash]['inputs'] == "{{}}"):
                 writer.writerow(
-                    [blocks[hash]['opcode'], None, None])
+                    [block_name, None, None])
             else:
-                for k in blocks[hash]['inputs']:
-                    if (k in MOVE or k in WAIT):
+                for key in allblocks[block_hash]['inputs']:
+                    if (key in MOVE or key in WAIT):
                         writer.writerow(
-                            [blocks[hash]['opcode'], None, blocks[hash]['inputs']])
+                            [block_name, None, allblocks[block_hash]['inputs']])
                         flg = True
                         break
                 if not flg:
                     writer.writerow(
-                        [blocks[hash]['opcode'], None, None])
-    print(blocks[hash]['opcode'])
-    print(blocks[hash]['inputs'])
-    print(blocks[hash]['fields'])
-    if (blocks[hash]['inputs'] != None):
-        for k in blocks[hash]['inputs']:
+                        [block_name, None, None])
+    if (allblocks[block_hash]['inputs'] != None):
+        for key in allblocks[block_hash]['inputs']:
             # 制御ブロックor条件付きブロックの場合その中身も見る
-            if (k == 'SUBSTACK' or k == 'CONDITION'):
-                nextblock(blocks, blocks[hash]['inputs']
-                          [str(k)][1], csv_name, None)
+            if (key == 'SUBSTACK' or key == 'CONDITION'):
+                writeBlocks(
+                    allblocks, allblocks[block_hash]['inputs'][str(key)][1], csv_name, None)
             # 条件ブロックの中身を見る
-            if (k == 'KEY_OPTION' and blocks[hash]['inputs']['KEY_OPTION'][1] != None):
-                nextblock(blocks, blocks[hash]['inputs']
-                          [str(k)][1], csv_name, k)
+            if (key == 'KEY_OPTION' and allblocks[block_hash]['inputs']['KEY_OPTION'][1] != None):
+                writeBlocks(
+                    allblocks, allblocks[block_hash]['inputs'][str(key)][1], csv_name, key)
     # 次のブロックを見る
-    if (blocks[hash]['next'] != None):
-        nextblock(blocks, blocks[hash]['next'], csv_name, None)
+    if (allblocks[block_hash]['next'] != None):
+        writeBlocks(allblocks, allblocks[block_hash]['next'], csv_name, None)
+
+
+def writeEventBlock(allblocks, block_hash, csv_name):
+    # 次のブロックがあるか確認
+    if (allblocks[block_hash]['next'] != None):
+        block_name = allblocks[block_hash]['opcode']
+        # CSVファイルにブロック情報を書き込む
+        with open(f'out_csv/{csv_name}', 'a') as f:
+            writer = csv.writer(f)
+            writer.writerow(['Nextscript', None, None])
+            # 「キーを押した時ブロック」の時はキー情報も書き込む
+            if (block_name == 'event_whenkeypressed'):
+                key_name = allblocks[block_hash]['fields']['KEY_OPTION'][0]
+                writer.writerow([block_name, key_name, None])
+            else:
+                writer.writerow([block_name, None, None])
+        # 次のブロックを見る
+        writeBlocks(allblocks, allblocks[block_hash]['next'], csv_name, None)
 
 
 project_id = 747365086
@@ -87,15 +84,16 @@ json_data = toJson(project_id)
 allblocks = json_data['targets'][1]['blocks']
 start_hash = ''
 
-# 座標情報を格納しているキー名
-MOVE = ['STEPS', 'DEGREES', 'X', 'Y', 'DX', 'DY']
-# 待機時間情報を格納しているキー名
-WAIT = ['DURATION', 'SECS']
+csv_name = f'{project_id}_sorted.csv'
+with open(f'out_csv/{csv_name}', 'w') as f:
+    writer = csv.writer(f)
+    writer.writerow(['BlockName', 'Input', 'Movement'])
 
 # 並列に存在するフラグブロックのハッシュ値の特定
 i = 0
 for k, v in allblocks.items():
-    print(k)
+    print('blockname: ' + v['opcode'])
     if ('event' in v['opcode']):
-        firstnode(allblocks, k, i)
+        print(v['opcode'])
+        writeEventBlock(allblocks, k, csv_name)
         i += 1

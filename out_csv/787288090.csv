@@ -1,4 +1,4 @@
-Blockname,Input,Move
+Next,,
 event_whenflagclicked,,
 motion_gotoxy,,"{'X': [1, [4, '0']], 'Y': [1, [4, '0']]}"
 control_forever,,
