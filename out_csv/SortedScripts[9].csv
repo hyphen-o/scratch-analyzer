@@ -1,0 +1,17 @@
+Blockname,Input,Move
+event_whenflagclicked,,
+motion_pointindirection,,"{'DIRECTION': [1, [8, 90]]}"
+looks_switchcostumeto,,
+looks_show,,
+motion_gotoxy,,"{'X': [1, [4, -197]], 'Y': [1, [4, -46]]}"
+control_forever,,
+control_if,,
+sensing_keypressed,,
+sensing_keyoptions,right arrow,
+looks_switchcostumeto,,
+motion_movesteps,,"{'STEPS': [1, [4, '3.2']]}"
+control_if,,
+sensing_keypressed,,
+sensing_keyoptions,left arrow,
+motion_movesteps,,"{'STEPS': [1, [4, '-3.2']]}"
+looks_switchcostumeto,,

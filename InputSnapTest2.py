@@ -27,15 +27,18 @@ input_flg = False
 input_key = ''
 index = 0
 
+program_move = []
+input_keys = []
+
 # 座標情報を格納しているキー名
 MOVE = ['DX', 'DY']
 SET = ['X', 'Y']
-DEGREE = ['DEGREES']
+DEGREE = ['DEGREES', 'DIRECTION']
 STEP = ['STEPS']
 BOUND = ['motion_ifonedgebounce']
 # 待機時間情報を格納しているキー名
 WAIT = ['DURATION', 'SECS']
-# キー用の辞書
+
 KEY_DICT = {'space': Keys.SPACE,
             'up arrow': Keys.ARROW_UP,
             'down arrow': Keys.ARROW_DOWN,
@@ -44,12 +47,12 @@ KEY_DICT = {'space': Keys.SPACE,
             'any': Keys.SPACE}
 
 # 作品のASTを取得する
-id = "747365086"
+id = "787288090"
 
-df_none = pd.read_csv('out_csv/SortedScripts[3].csv')
+df_none = pd.read_csv('out_csv/SortedScripts[0].csv')
 
 chrome_service = fs.Service("/usr/local/bin/chromedriver")
-driver = webdriver.Chrome(service=chrome_service)
+driver = webdriver.Chrome()
 
 driver.get("https://scratch.mit.edu/projects/" + str(id) + "/editor")
 
@@ -64,7 +67,7 @@ def getStepMovement(degrees, steps):
     return dx, dy
 
 
-def getMovement(index):
+def getMovement():
     global program_x
     global program_y
     global program_degrees
@@ -73,8 +76,7 @@ def getMovement(index):
     X = 0
     try:
         print('Movement change-------')
-        for i in range(index, len(df_none.index)):
-            print(index)
+        for i in range(len(df_none.index)):
             if (not pd.isna(df_none.iloc[i][2])):
                 dic = ast.literal_eval(df_none.iloc[i][2])
                 for key in dic.keys():
@@ -102,13 +104,16 @@ def getMovement(index):
                         program_x = program_x + result[0]
                         program_y = program_y + result[1]
             if (not pd.isna(df_none.iloc[i][1])):
-                input_key = df_none.iloc[i][1]
-                index = i + 1
-                break
+                program_move.append([program_x, program_y])
+                print(program_move)
+                input_keys.append(df_none.iloc[i][1])
+                print(input_keys)
         print('-------')
-        return index, input_key
     except Exception as e:
         print(e)
+
+
+getMovement()
 
 
 try:
@@ -132,23 +137,11 @@ try:
     for i in positionY:
         print(i.get_attribute("value"))
 
-    program_x = 0
-    program_y = 0
-    program_degrees = 30
-    input_flg = False
-    index = 0
-
-    result = getMovement(index)
-    input_flg = True
-    index = result[0]
-    print(index)
-    input_key = result[1]
-
     start = driver.find_elements(
         By.CLASS_NAME, "green-flag_green-flag_1kiAo")
 
     start[0].click()
-    print('click')
+    print('start')
 
 except Exception as e:
     print(str(id) + ": crash error")  # Scratchがクラッシュするエラー
@@ -198,12 +191,8 @@ def ScreenShot():
 
 
 def AutoInput():
-    global program_x
-    global program_y
-    global program_degrees
-    global input_flg
-    global input_key
-    global index
+    prog_index = 0
+    input_index = 0
     for i in range(10000000):
 
         try:
@@ -211,13 +200,6 @@ def AutoInput():
                 By.CSS_SELECTOR, ".green-flag_green-flag_1kiAo.green-flag_is-active_2oExT")
             if len(end) == 0:
                 break  # 作品のプログラムが終了していれば，スクリーンショット収集終了
-
-            if not input_flg:
-                result = getMovement(index)
-                input_flg = True
-                index = result[0]
-                print(index)
-                input_key = result[1]
 
             # スプライトのX座標Y座標を取得
             for j in positionX:
@@ -230,16 +212,16 @@ def AutoInput():
             print('X: ' + str(X))
             print('Y: ' + str(Y))
 
-            if (input_key and abs(round(program_x) - int(X)) < 5 and abs(round(program_y) - int(Y)) < 5):
+            if (abs(round(program_move[prog_index][0]) - int(X)) < 5 and abs(round(program_move[prog_index][1]) - int(Y)) < 5):
                 actions = ActionChains(driver)
                 print('input!!!!!!!!!!')
-                input_flg = False
-                print(input_key)
-                actions.key_down(KEY_DICT[input_key]).perform()
+                print(input_keys[input_index])
+                actions.key_down(KEY_DICT[input_keys[input_index]]).perform()
                 time.sleep(0.0005)
-                actions.key_up(KEY_DICT[input_key]).perform()
+                actions.key_up(KEY_DICT[input_keys[input_index]]).perform()
                 # actions.send_keys(KEY_DICT[input_key]).perform()
-                input_key = ''
+                # prog_index = prog_index + 1
+                # input_index = input_index + 1
 
         except Exception as e:
             print(str(id) + ": error")  # 予期せぬエラー

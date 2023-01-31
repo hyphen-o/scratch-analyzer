@@ -1,0 +1,10 @@
+Blockname,Input,Move
+event_whenflagclicked,,
+control_forever,,
+control_if,,
+sensing_keypressed,,
+sensing_keyoptions,up arrow,
+control_if,,
+sensing_touchingcolor,,
+control_repeat,,
+motion_changeyby,,"{'DY': [1, [4, '8']]}"
