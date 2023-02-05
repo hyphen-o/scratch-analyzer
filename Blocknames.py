@@ -2,25 +2,11 @@ import json
 import requests
 import csv
 
-# 座標情報を格納しているキー名
-MOVE = ['STEPS', 'DEGREES', 'DIRECTION', 'X', 'Y', 'DX', 'DY']
-# 待機時間情報を格納しているキー名
-WAIT = ['DURATION', 'SECS']
-
 
 def toJson(project_id):
-    # プロジェクトIDからScratchAPIを叩いてJson取得
-    try:
-        url = requests.get(
-            f'https://api.scratch.mit.edu/projects/{project_id}')
-        project_token = json.loads(url.text)['project_token']
-        json_data = json.loads(requests.get(
-            f'https://projects.scratch.mit.edu/{project_id}?token={project_token}').text)
-        with open('project_json/Square.json', 'w') as f:
-            json.dump(json_data, f, ensure_ascii=False)
-    except Exception as e:
-        print(e)
-    print(json_data)
+    with open(f'project_json/{project_id}.json') as f:
+        json_data = json.load(f)
+
     return json_data
 
 # スクリプトの初めのブロックを出力
@@ -81,23 +67,35 @@ def writeEventBlock(allblocks, block_hash, csv_name):
         writeBlocks(allblocks, allblocks[block_hash]['next'], csv_name, None)
 
 
-project_id = 747365086
-json_data = toJson(project_id)
-# スプライト1の全ブロック情報
-allblocks = json_data['targets'][1]['blocks']
-start_hash = ''
+project_id1 = 797975999
+project_id2 = 112717508
+json_data1 = toJson(project_id1)
+json_data2 = toJson(project_id2)
 
-csv_name = f'{project_id}_sorted.csv'
-with open(f'out_csv/{csv_name}', 'w') as f:
-    writer = csv.writer(f)
-    writer.writerow([json_data['targets'][1]['direction'], json_data['targets'][1]
-                    ['x'], json_data['targets'][1]['y']])
+allblocks2 = json_data2['children'][0]['scripts']
 
-# 並列に存在するフラグブロックのハッシュ値の特定
+
+allblocks1 = json_data1['targets'][1]['blocks']
 i = 0
-for k, v in allblocks.items():
-    print('blockname: ' + v['opcode'])
-    if ('event' in v['opcode']):
-        print(v['opcode'])
-        writeEventBlock(allblocks, k, csv_name)
-        i += 1
+for k, v in allblocks1.items():
+    print('"' + str(allblocks2[i][2][0][0]) + '"' + ' : ' +
+          '"' + v['opcode'] + '",')
+    i += 1
+
+# # スプライト1の全ブロック情報
+# allblocks = json_data['targets'][1]['blocks']
+# start_hash = ''
+
+# csv_name = f'{project_id}_sorted.csv'
+# with open(f'out_csv/{csv_name}', 'w') as f:
+#     writer = csv.writer(f)
+#     writer.writerow(['BlockName', 'Input', 'Movement'])
+
+# # 並列に存在するフラグブロックのハッシュ値の特定
+# i = 0
+# for k, v in allblocks.items():
+#     print('blockname: ' + v['opcode'])
+#     if ('event' in v['opcode']):
+#         print(v['opcode'])
+#         writeEventBlock(allblocks, k, csv_name)
+#         i += 1
