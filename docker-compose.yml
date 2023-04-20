@@ -1,0 +1,21 @@
+version: '3.9'
+
+volumes:
+  out_csv:
+  coordinate_csv:
+  sorted_csv:
+  screenshots:
+
+services:
+  python3:
+    build:
+      context: ./sources
+    container_name: research-python
+    tty: true
+    volumes:
+      - ./sources:/works
+      - out_csv:/works/out_csv
+      - sorted_csv:/works/sorted_csv
+      - coordinate_csv:/works/coordinate_csv
+      - screenshots:/works/screenshots
+

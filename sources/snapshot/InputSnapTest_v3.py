@@ -1,9 +1,7 @@
 import os
 import time
 import sys
-import math
 import pandas as pd
-import ast
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome import service as fs
@@ -13,31 +11,13 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 from concurrent.futures import ThreadPoolExecutor
+from webdriver_manager.chrome import ChromeDriverManager
 
 # ids = pd.read_csv("/Users/socsel/dataset.csv", usecols=["p_ID"], dtype="str")
 # retryIds = pd.read_csv("/Users/socsel/retryIds.csv", usecols=["p_ID"], dtype="str")
 retryIds = pd.read_csv("out_csv/retryIds.csv",
                        usecols=["p_ID"], dtype="str")
 retryIds = list(retryIds)
-
-program_x = 0
-program_y = 0
-program_degrees = 60
-input_flg = False
-input_key = ''
-index = 0
-
-program_move = []
-input_keys = []
-
-# 座標情報を格納しているキー名
-MOVE = ['DX', 'DY']
-SET = ['X', 'Y']
-DEGREE = ['DEGREES', 'DIRECTION']
-STEP = ['STEPS']
-BOUND = ['motion_ifonedgebounce']
-# 待機時間情報を格納しているキー名
-WAIT = ['DURATION', 'SECS']
 
 # キー名と一致するセレニウムキーオプションの辞書
 KEY_DICT = {'space': Keys.SPACE,
@@ -48,74 +28,19 @@ KEY_DICT = {'space': Keys.SPACE,
             'any': Keys.SPACE}
 
 # 作品のASTを取得する
-id = "747365086"
+id = sys.argv[1]
 
-df_none = pd.read_csv(f'out_csv/{id}_sorted.csv')
+df_none = pd.read_csv(f'coordinate_csv/{id}_coordinate.csv')
 
-chrome_service = fs.Service("/usr/local/bin/chromedriver")
-driver = webdriver.Chrome()
+
+# chrome_service = fs.Service(
+#     "/Users/keigo-o/chromedriver")
+driver = webdriver.Chrome(ChromeDriverManager().install())
 
 driver.get("https://scratch.mit.edu/projects/" + str(id) + "/editor")
 
 wait = WebDriverWait(driver, 15)
 loadClassName = "loader_bottom-block_1-3rO"
-
-
-def getStepMovement(degrees, steps):
-    degree_rad = math.radians(90 - degrees)
-    dx = steps * math.cos(degree_rad)
-    dy = steps * math.sin(degree_rad)
-    return dx, dy
-
-
-def getMovement():
-    global program_x
-    global program_y
-    global program_degrees
-    global input_flg
-    global input_key
-    X = 0
-    try:
-        print('Movement change-------')
-        for i in range(len(df_none.index)):
-            if (not pd.isna(df_none.iloc[i][2])):
-                dic = ast.literal_eval(df_none.iloc[i][2])
-                for key in dic.keys():
-                    if key in MOVE:
-                        if key == 'DX':
-                            program_x = program_x + int(dic[key][1][1])
-                        elif key == 'DY':
-                            program_y = program_y + int(dic[key][1][1])
-                        print('progX: ' + str(program_x))
-                        print('progY: ' + str(program_y))
-                    elif key in SET:
-                        if key == 'X':
-                            program_x = int(dic[key][1][1])
-                        elif key == 'Y':
-                            program_y = int(dic[key][1][1])
-                        print('progX: ' + str(program_x))
-                        print('progY: ' + str(program_y))
-                    elif key in DEGREE:
-                        program_degrees = int(dic[key][1][1])
-                    elif key == 'STEPS':
-                        result = getStepMovement(
-                            program_degrees, int(dic[key][1][1]))
-                        print(result[0])
-                        print(result[1])
-                        program_x = program_x + result[0]
-                        program_y = program_y + result[1]
-            if (not pd.isna(df_none.iloc[i][1])):
-                program_move.append([program_x, program_y])
-                print(program_move)
-                input_keys.append(df_none.iloc[i][1])
-                print(input_keys)
-        print('-------')
-    except Exception as e:
-        print(e)
-
-
-getMovement()
-
 
 try:
     wait.until(EC.presence_of_element_located(
@@ -125,7 +50,7 @@ try:
 except TimeoutException as te:
     print(str(id) + ": timeout")  # 作品が存在していないため，スキップ
     driver.close()
-    sys.exit()
+    driver.quit()
 
 try:
     # スプライトのX座標,Y座標を取ってくる
@@ -149,9 +74,9 @@ except Exception as e:
     print(str(e))
     retryIds.append(str(id))  # エラーが発生した場合，後ほど再試行するためidを配列に追加して保持
     driver.close()
-    sys.exit()
+    driver.quit()
 
-savePath = "/Users/keigo-o/Desktop/screenshots/" + str(id)
+savePath = "./screenshots/" + str(id)
 if not os.path.isdir(savePath):
     os.mkdir(savePath)
 
@@ -163,74 +88,92 @@ startTime = time.time()
 def ScreenShot():
     for i in range(100):
         time.sleep(0.2)
-
+        print('shot')
         try:
-            end = driver.find_elements(
-                By.CSS_SELECTOR, ".green-flag_green-flag_1kiAo.green-flag_is-active_2oExT")
-            if len(end) == 0:
-                break  # 作品のプログラムが終了していれば，スクリーンショット収集終了
             png = driver.find_element(
                 By.CLASS_NAME, "stage-wrapper_stage-canvas-wrapper_3ewmd").screenshot_as_png  # スクリーンショットを取得
+            print('screenshot')
         except Exception as e:
             print(str(id) + ": error")  # 予期せぬエラー
             print(e)
             retryIds.append(str(id))  # エラーが発生した場合，後ほど再試行するためidを配列に追加して保持
-            driver.close()
             break
-
         try:
             with open(savePath + "/" + str(id) + "-" + str(i) + ".png", "wb") as f:
                 f.write(png)
             print("save png: " + str(i))
         except OSError as oe:
             print("save error")  # 画像保存失敗エラー
-            driver.close()
-            continue
+            break
     driver.close()
+    driver.quit()
 
 # 自動入力を行う関数
 
 
-def AutoInput():
-    prog_index = 0
-    input_index = 0
-    for i in range(10000000):
+def sameCoordinate(index):
+    try:
+        actions = ActionChains(driver)
+        print(index)
+        if ((df_none.iloc[index + 1][1] == df_none.iloc[index - 1][1]) and (df_none.iloc[index + 1][2] == df_none.iloc[index - 1][2])):
+            if (len(df_none.index) - 1 > index + 2):
+                actions.key_down(
+                    KEY_DICT[str(df_none.iloc[index + 2][0])]).perform()
+                time.sleep(0.1)
+                actions.key_up(
+                    KEY_DICT[str(df_none.iloc[index + 2][0])]).perform()
+                return sameCoordinate(index + 2)
+            else:
+                return index + 1
+        else:
+            return index + 1
+    except Exception as e:
+        print('samecoordinate: ' + str(e))
 
+
+def AutoInput():
+    index = 0
+    actions = ActionChains(driver)
+    print('action')
+    for i in range(1000000):
         try:
-            end = driver.find_elements(
-                By.CSS_SELECTOR, ".green-flag_green-flag_1kiAo.green-flag_is-active_2oExT")
-            if len(end) == 0:
-                break  # 作品のプログラムが終了していれば，スクリーンショット収集終了
+            print('position')
 
             # スプライトのX座標Y座標を取得
             for j in positionX:
                 X = j.get_attribute("value")
             for j in positionY:
                 Y = j.get_attribute("value")
-
-            print('progX: ' + str(round(program_x)))
-            print('progY: ' + str(round(program_y)))
             print('X: ' + str(X))
             print('Y: ' + str(Y))
 
-            if (abs(round(program_move[prog_index][0]) - int(X)) < 5 and abs(round(program_move[prog_index][1]) - int(Y)) < 5):
-                actions = ActionChains(driver)
-                print('input!!!!!!!!!!')
-                print(input_keys[input_index])
-                actions.key_down(KEY_DICT[input_keys[input_index]]).perform()
-                time.sleep(0.0005)
-                actions.key_up(KEY_DICT[input_keys[input_index]]).perform()
-                # actions.send_keys(KEY_DICT[input_key]).perform()
-                # prog_index = prog_index + 1
-                # input_index = input_index + 1
+            print('path')
+            print('not wait')
+            if (len(df_none.index) - 1 > index and df_none.iloc[index + 1][0] and (abs(round(df_none.iloc[index][1]) - int(X)) < 5 and abs(round(df_none.iloc[index][2]) - int(Y)) < 5)):
+                if (not (df_none.iloc[index][3] == 0.0)):
+                    print('sleep')
+                    time.sleep(int(df_none.iloc[index][3]))
+                    print('wake up')
+                index = index + 1
+                print(index)
+                actions.key_down(
+                    KEY_DICT[str(df_none.iloc[index][0])]).perform()
+                time.sleep(0.1)
+                actions.key_up(
+                    KEY_DICT[str(df_none.iloc[index][0])]).perform()
+                if (len(df_none.index) - 1 > index):
+                    index = sameCoordinate(index)
+                    print(index)
 
         except Exception as e:
             print(str(id) + ": error")  # 予期せぬエラー
             print(e)
-            driver.close()
             break
+    driver.close()
+    driver.quit()
 
 
+print('threading')
 with ThreadPoolExecutor(max_workers=2) as executor:
     executor.submit(ScreenShot)
     executor.submit(AutoInput)
