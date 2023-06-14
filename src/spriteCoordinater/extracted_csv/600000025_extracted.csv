@@ -1,0 +1,10 @@
+Blockname,Key,Field
+74.51511313510625,-76.88567114125351,-14
+Nextscript,,
+event_whenflagclicked,,
+motion_pointindirection,,"{'DIRECTION': [1, [8, '30']]}"
+motion_gotoxy,,"{'X': [1, [4, '-250']], 'Y': [1, [4, '-14']]}"
+control_repeat_until,,
+operator_equals,,
+motion_turnright,,"{'DEGREES': [3, 'Z46J2z3bP_(vwcQCaF.]', [4, '15']]}"
+motion_changexby,,"{'DX': [3, 'Go$tr8suJ@`|h;Ou[B3I', [4, '10']]}"

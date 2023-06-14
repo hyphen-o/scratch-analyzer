@@ -1,0 +1,18 @@
+Blockname,Key,Field
+90,-54.899,138.103
+Nextscript,,
+event_whenflagclicked,,
+control_forever,,
+motion_glideto,,"{'SECS': [1, [4, '1']], 'TO': [1, 'LpYt@@b-3L~a`CO89Y3l']}"
+Nextscript,,
+event_whenflagclicked,,
+looks_show,,
+control_forever,,
+control_if,,
+sensing_touchingobject,,
+looks_hide,,
+data_changevariableby,,
+data_changevariableby,,
+sound_playuntildone,,
+control_wait,,"{'DURATION': [1, [5, '.8']]}"
+looks_show,,

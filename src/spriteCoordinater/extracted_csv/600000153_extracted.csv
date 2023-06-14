@@ -1,0 +1,6 @@
+Blockname,Key,Field
+90,-150,-52
+Nextscript,,
+event_whenkeypressed,space,
+looks_sayforsecs,,"{'MESSAGE': [1, [10, 'Cuanto es 5+4']], 'SECS': [1, [4, '5']]}"
+looks_say,,

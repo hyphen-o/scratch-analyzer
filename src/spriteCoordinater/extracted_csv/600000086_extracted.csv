@@ -1,0 +1,34 @@
+Blockname,Key,Field
+0,1,-140
+Nextscript,,
+event_whenflagclicked,,
+looks_hide,,
+Nextscript,,
+event_whenbroadcastreceived,,
+looks_show,,
+Nextscript,,
+event_whenbroadcastreceived,,
+looks_hide,,
+Nextscript,,
+event_whenbroadcastreceived,,
+data_setvariableto,,
+motion_gotoxy,,"{'X': [1, [4, '1']], 'Y': [1, [4, '-140']]}"
+motion_pointindirection,,"{'DIRECTION': [1, [8, '0']]}"
+looks_setsizeto,,
+looks_show,,
+Nextscript,,
+event_whenbroadcastreceived,,
+control_forever,,
+control_if,,
+operator_gt,,
+motion_gotoxy,,"{'X': [1, [4, '0']], 'Y': [1, [4, '-140']]}"
+data_changevariableby,,
+Nextscript,,
+event_whenbroadcastreceived,,
+looks_setsizeto,,
+control_repeat,,
+looks_changesizeby,,
+motion_movesteps,,"{'STEPS': [1, [4, '5']]}"
+control_repeat,,
+looks_changesizeby,,
+motion_movesteps,,"{'STEPS': [1, [4, '5']]}"
