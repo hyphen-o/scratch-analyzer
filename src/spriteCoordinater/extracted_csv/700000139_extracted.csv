@@ -1,0 +1,12 @@
+Blockname,Key,Field
+90,5,10
+Nextscript,,
+event_whenflagclicked,,
+motion_gotoxy,,"{'X': [1, [4, '7']], 'Y': [1, [4, '-117']]}"
+control_forever,,
+looks_switchcostumeto,,
+control_wait,,"{'DURATION': [1, [5, '0.5']]}"
+looks_switchcostumeto,,
+control_repeat,,
+motion_glidesecstoxy,,"{'SECS': [1, [4, '1']], 'X': [1, [4, '5']], 'Y': [1, [4, '10']]}"
+looks_say,,

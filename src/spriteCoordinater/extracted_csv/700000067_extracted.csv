@@ -1,0 +1,11 @@
+Blockname,Key,Field
+135,106.04055724699376,-39.807692894446404
+Nextscript,,
+event_whenkeypressed,right arrow,
+motion_movesteps,,"{'STEPS': [1, [4, '10']]}"
+Nextscript,,
+event_whenkeypressed,up arrow,
+motion_turnleft,,"{'DEGREES': [1, [4, '15']]}"
+Nextscript,,
+event_whenkeypressed,down arrow,
+motion_turnright,,"{'DEGREES': [1, [4, '15']]}"
