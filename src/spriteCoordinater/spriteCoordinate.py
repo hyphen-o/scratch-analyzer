@@ -126,7 +126,7 @@ for filename in os.listdir("./extracted_csv"):
         if (flg):
             continue
         filename = re.sub(r"\D", "", filename)
-        csv_name = f'{filename}_coordinate.csv'
+        csv_name = f'{j}.csv'
         if (os.path.exists(f'coordinate_csv/{csv_name}')):
             print('exist')
             continue

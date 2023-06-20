@@ -17,4 +17,10 @@ RUN apt-get install -y vim less
 RUN pip install --upgrade pip
 RUN pip install --upgrade setuptools
 
+RUN pip install pandas
+RUN pip install json
+RUN pip install collections
+RUN pip install uuid
+RUN pip install requests
+
 RUN python -m pip install jupyterlab
