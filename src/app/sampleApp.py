@@ -1,7 +1,8 @@
 import sys
+
 sys.path.append('../')
 
-from utils import dataset, toFiles
+from utils import toFiles
 from dtw import DTW
 
 

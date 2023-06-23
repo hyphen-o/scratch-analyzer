@@ -1,14 +1,15 @@
 import json
 import requests
 
-BASE_URL = "https://api.scratch.mit.edu"
+API_BASE_URL = "https://api.scratch.mit.edu"
+BASE_URL = "https://projects.scratch.mit.edu"
 
 # プロジェクト取得用のトークン取得
 def get_token(id):
 
     try:
         url = requests.get(
-            f'{BASE_URL}/projects/{id}'
+            f'{API_BASE_URL}/projects/{id}'
         )
     except Exception as e:
         print("トークン取得中にエラーが発生しました")
@@ -22,9 +23,10 @@ def get_token(id):
         return False
 
 # プロジェクト取得
-def get_project(id, token):
-    
+def get_project(id):
+    json_data = ""
     try:
+        token = get_token(id)
         json_data = json.loads(requests.get(
             f'{BASE_URL}/{id}?token={token}').text)
     except Exception as e:
