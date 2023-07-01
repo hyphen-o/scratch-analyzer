@@ -1,7 +1,25 @@
 import numpy as np
 import pandas as pd
+import os
 import csv
 import json
+
+def count_files(dir_path):
+    file_count = 0
+
+    # ディレクトリ内のファイルとディレクトリのリストを取得
+    items = os.listdir(dir_path)
+
+    for item in items:
+        item_path = os.path.join(dir_path, item)
+        if os.path.isfile(item_path):  # ファイルであればカウント
+            file_count += 1
+
+    return file_count
+
+def removeExtension(file_name):
+    base_name = os.path.splitext(file_name)[0]
+    return base_name
 
 
 def numpyToFile(data, path):
@@ -17,6 +35,16 @@ def dfToFile(data, path):
 def jsonToFile(data, path):
     with open(path, "w") as json_file:
         json.dump(data, json_file)
+
+def readJsonFile(path):
+    try:
+        with open(path, 'r') as file:
+            json_data = json.load(file)
+            return json_data
+    except Exception as e:
+        print('JSON読み込み中にエラーが発生しました．')
+        print(e)
+        
 
 class ToCSV:
     def __init__(self, csv_path, rowNames):

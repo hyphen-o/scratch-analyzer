@@ -1,3 +1,3 @@
-from .toFiles import *
+from .manageFiles import *
 from .scratchManager import scratchManager
-from .files import *
+from .drawGraph import *

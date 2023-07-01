@@ -16,7 +16,7 @@ WAIT = ['DURATION', 'SECS']
 
 
 def writeToCsv(key, x, y, wait, csv_name):
-    with open(f'coordinate_csv/{csv_name}', 'a') as f:
+    with open(f'../coordinate_csv2/{csv_name}', 'a') as f:
         writer = csv.writer(f)
         writer.writerow([key, x, y, wait])
 
@@ -60,13 +60,10 @@ def calculate(index, df_length, x, y, degree, block_info, csv_name):
                     elif key == 'STEPS':
                         result = getStepMovement(
                             float(degree), float(dic[key][1][1]))
-                        print(result[0])
-                        print(result[1])
                         x = float(x) + result[0]
                         y = float(y) + result[1]
                     elif key in WAIT:
                         wait += float(dic[key][1][1])
-                print('write')
                 writeToCsv(None, x, y, wait, csv_name)
                 wait = 0.0
         except Exception as e:
@@ -80,9 +77,6 @@ def getMovement(block_info, csv_name):
     x = block_info.iloc[0][1]
     y = block_info.iloc[0][2]
     df_length = len(block_info.index)
-    print(x)
-    print(y)
-    print(degree)
 
     try:
         for i in range(df_length):
@@ -109,34 +103,26 @@ def getMovement(block_info, csv_name):
 
 
 j = 0
-for filename in os.listdir("./extracted_csv"):
-    j += 1
+for filename in os.listdir("../sorted_csv"):
     try:
         print(j)
-        blocks = []
-        flg = False
-        coordinated_csv = pd.read_csv(f'extracted_csv/{filename}')
-        for i in range(1, len(coordinated_csv.index)):
-            if ('event' in coordinated_csv.iloc[i][0]):
-                if (coordinated_csv.iloc[i][0] in blocks):
-                    flg = True
-                else:
-                    blocks.append(coordinated_csv.iloc[i][0])
-            print(i)
-        if (flg):
-            continue
+        if j > 2000:
+            break
+        coordinated_csv = pd.read_csv(f'../sorted_csv/{filename}')
         filename = re.sub(r"\D", "", filename)
-        csv_name = f'{j}.csv'
-        if (os.path.exists(f'coordinate_csv/{csv_name}')):
+        csv_name = f'{filename}.csv'
+        if (os.path.exists(f'../coordinate_csv2/{csv_name}')):
             print('exist')
             continue
-        if (len(coordinated_csv.index) > 1):
-            with open(f'coordinate_csv/{csv_name}', 'w') as f:
+        if (coordinated_csv.shape[0] > 3):
+            print(coordinated_csv.shape[0])
+            with open(f'../coordinate_csv2/{csv_name}', 'w') as f:
                 writer = csv.writer(f)
-                writer.writerow(['key', 'x', 'y', 'wait'])
+                writer.writerow(['key', 'x', 'y', 'wait', filename])
             getMovement(coordinated_csv, csv_name)
-            coordinate_csv = pd.read_csv(f'coordinate_csv/{csv_name}')
+            coordinate_csv = pd.read_csv(f'../coordinate_csv2/{csv_name}')
             if (not len(coordinate_csv.index)):
-                os.remove(f'coordinate_csv/{csv_name}')
+                os.remove(f'../coordinate_csv2/{csv_name}')
+            j += 1
     except Exception as e:
         print(e)

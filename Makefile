@@ -9,3 +9,6 @@ exec:
 
 cp:
 	@docker cp research-python:/works ./sources
+
+install:
+	@pip install -r src/requirements.txt
