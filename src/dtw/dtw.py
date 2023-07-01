@@ -1,5 +1,10 @@
+import sys
+
+sys.path.append('../')
+
 import pandas as pd
 import numpy as np
+from tqdm import tqdm
 
 
 class DTW:
@@ -12,11 +17,14 @@ class DTW:
     def getDtw(self):
         # 各動作ごとにDTW距離を算出
         dtwResults = pd.DataFrame(columns=["moveNum", "dtw"])
-        for i in range(len(self.__data)):
+        for i in tqdm(range(len(self.__data))):
             for j in range(len(self.__data)):
                 dtwVal = None
                 if i == j or i > j:
                     continue
+
+                key1 = next(iter(self.__data[i]))
+                key2 = next(iter(self.__data[j]))
 
                 # ウインドウサイズを指定した場合は部分一致DTWを実行
                 if self.__windowSize:
@@ -27,11 +35,9 @@ class DTW:
                     dtwResults = dtwResults.append(addRow)
                 else:
                     dtwVal = self.__calculateDtw(
-                        self.__data[i], self.__data[j])[1]
-                    print(dtwVal)
-                    addRow = pd.DataFrame([[str(i) + " / " + str(j), dtwVal]], columns=[
-                        "moveNum", "dtw"])
-                    dtwResults = dtwResults.append(addRow)
+                        self.__data[i][key1], self.__data[j][key2])[1]
+                    addRow = pd.DataFrame([[str(key1), str(key2), dtwVal]], columns=["Project1", "Project2", "dtw"])
+                    dtwResults = pd.concat([dtwResults, addRow])
 
         # このdtwResultsは，csv出力することでローカルに結果を保存可能
         dtwResults = dtwResults.sort_values("dtw")

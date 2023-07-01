@@ -26,7 +26,7 @@ def get_id(start_id, end_id):
                 data = scratchApi.get_project(id, project_token)
                 print('go')
                 for j in range(len(sprites.index)):
-                    if (json_data['targets'][1]['name'] == sprites.iloc[j][0]):
+                    if (data['targets'][1]['name'] == sprites.iloc[j][0]):
                         with open(f'out_csv/{csv_name}', 'a') as f:
                             writer = csv.writer(f)
                             writer.writerow([i, sprites.iloc[j][0]])

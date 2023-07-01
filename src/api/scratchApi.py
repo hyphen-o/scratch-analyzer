@@ -6,7 +6,6 @@ BASE_URL = "https://projects.scratch.mit.edu"
 
 # プロジェクト取得用のトークン取得
 def get_token(id):
-
     try:
         url = requests.get(
             f'{API_BASE_URL}/projects/{id}'
