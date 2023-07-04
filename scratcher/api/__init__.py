@@ -1,1 +1,1 @@
-from .scratchApi import *
+from .scratch_client import *

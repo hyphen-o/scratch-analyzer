@@ -6,7 +6,7 @@ def requirements_from_file(file_name):
 setup(
     name="scratcher",
     version="0.9.0",
-    install_requires=['pandas','numpy','uuid','requests','selenium','webdriver_manager','opencv-python','matplotlib'],
+    install_requires=['pandas','numpy','uuid','requests','selenium','webdriver_manager','opencv-python','matplotlib', 'tslearn'],
     packages=find_packages(),
     entry_points={
     }
