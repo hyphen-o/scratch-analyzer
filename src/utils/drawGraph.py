@@ -1,4 +1,7 @@
 import matplotlib.pyplot as plt
+import matplotlib.font_manager
+
+plt.rcParams['font.family'] = 'Hiragino Sans'
 
 # props = {
 #     title : string,
