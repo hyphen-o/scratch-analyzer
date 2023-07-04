@@ -1,28 +1,47 @@
-## Scratch研究用ライブラリ
+## Scratch 研究用ライブラリ
+
 （ライブラリと同じ感覚で使用できることを目標としています）
 
 ## 本ライブラリを使う主な目的
-* Scratchのデータをjson, csv形式で取得
-* Scratchデータをより使いやすい形に変換
-* Scratchデータを用いた類似度算出（DTWや編集距離）
+
+- Scratch のデータを json, csv 形式で取得
+- Scratch データをより使いやすい形に変換
+- Scratch データを用いた類似度算出（DTW や編集距離）
 
 ## Setup
-```git clone https://github.com/keigo-0314/scratch-analyzer.git```
 
-※ ローカルで実行する方
-1. `src`ディレクトリに移動
-2. ```pip install requirements.txt```
+`git clone https://github.com/keigo-0314/scratch-analyzer.git`
 
-※ Dockerで実行する方
-1. ルートディレクトリへ移動して以下のコードを入力
+**ローカルで実行する**
 
-```make up```
+※Mac の方
 
-2. Pythonファイルを実行する場合は以下のコマンドでコンテナ内に入ってコマンド実行
+1. インストールしたプロジェクトのルートディレクトリに移動
+2. `make build`
 
-```make exec```
+※Windows の方
+
+1. インストールしたプロジェクトのルートディレクトリに移動
+2. `pip install setuptools wheel`
+3. `python setup.py sdist bdist_wheel`
+
+※共通
+
+- どちらの場合も上記のコマンドを実行すると，ルートディレクト内に`dist`ディレクトリが作成される．
+- パッケージをインストールする際は，
+
+`pip install {このプロジェクトまでのPATH}/dist/scratcher-{dist内のバージョン参照}.tar.gz`
+
+- 将来的には
+
+**Docker で実行する**
+
+1. インストールしたプロジェクトのルートディレクトリに移動
+2. `make up`
+3. `make exec`
 
 ## モジュールの解説（整理済みのモジュールのみ記載しています）
+
 ```src
 ├── api
 │   ├── __init__.py
@@ -47,8 +66,9 @@
 │   └── spriteCoordinate.py　#スプライトの座標取得プログラム
 └── utils
     ├── __init__.py
-    ├── dataset.py
+    ├── util.py #汎用関数
+    ├── dataset.py #データセット整形用モジュール
     ├── drawGraph.py #図を描画するためのモジュール
     ├── manageFiles.py #ファイル管理するためのモジュール
-    └── scratchManager.py #scratchプログラムを管理するためのモジュール
+    └── pm.py #scratchプログラムを管理するためのモジュール
 ```

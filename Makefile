@@ -11,4 +11,8 @@ cp:
 	@docker cp research-python:/works ./sources
 
 install:
-	@pip install -r src/requirements.txt
+	@pip install -r requirements.txt
+
+build:
+	@pip install setuptools wheel
+	@python setup.py sdist bdist_wheel
