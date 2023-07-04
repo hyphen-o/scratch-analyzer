@@ -8,7 +8,7 @@ import csv
 import time
 import pandas as pd
 from concurrent.futures import ThreadPoolExecutor
-from api import scratchApi
+from scratcher.api import scratch_client
 
 id1 = 271005087
 id2 = 500946724
@@ -21,9 +21,9 @@ def get_id(start_id, end_id):
         time.sleep(0.01)
         try:
             
-            project_token = scratchApi.get_token(id)
+            project_token = scratch_client.get_token(id)
             if(project_token):
-                data = scratchApi.get_project(id, project_token)
+                data = scratch_client.get_project(id, project_token)
                 print('go')
                 for j in range(len(sprites.index)):
                     if (data['targets'][1]['name'] == sprites.iloc[j][0]):

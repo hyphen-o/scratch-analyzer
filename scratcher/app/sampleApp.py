@@ -1,8 +1,9 @@
 import sys
+from scratcher.utils import fileman
 
 sys.path.append('../')
 
-from utils import manageFiles, dataset
+from utils import dataset
 from dtw import DTW
 
 
@@ -21,6 +22,6 @@ dtw = DTW(3)
 dtw.setData(normalizedData)
 # DTW距離の計算
 result = dtw.getDtw()
-manageFiles.dfToFile(result, RESULT_PATH)
+fileman.dfToFile(result, RESULT_PATH)
 
 print(result)
