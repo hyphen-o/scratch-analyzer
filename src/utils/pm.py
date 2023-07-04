@@ -5,7 +5,7 @@ import csv
 from utils import ToCSV, jsonToFile, readJsonFile
 from api import scratchApi
 
-class scratchManager:
+class projectManager:
     # 座標情報を格納しているキー名
     __MOVE = ['STEPS', 'DEGREES', 'DIRECTION', 'X', 'Y', 'DX', 'DY']
     # 待機時間情報を格納しているキー名

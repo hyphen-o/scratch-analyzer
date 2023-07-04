@@ -1,3 +1,4 @@
 from .manageFiles import *
-from .scratchManager import scratchManager
+from .pm import projectManager
 from .drawGraph import *
+from .util import *
