@@ -2,9 +2,9 @@ import sys
 sys.path.append('../')
 
 import csv
-from utils import ToCsv, json_to_file
+from utils import json_to_file
 from api import scratch_client
-from tools import Sorter
+from tools import Sorter, Tracker
 
 class ProjectManager:
     # 座標情報を格納しているキー名
@@ -43,6 +43,15 @@ class ProjectManager:
             return
         else:
             return sorter.sort_blocks()
+        
+    def get_coordinate(self, dir_path=None):
+        tracker = Tracker(self.get_sorted_blocks())
+        if(dir_path):
+            tracker.get_coordinate()
+            tracker.to_csv(dir_path)
+            return
+        else:
+            return tracker.get_coordinate()
         
     def to_json(self, dir_path=".", type="project"):
         #typeに応じて出力するJSONファイルを変える

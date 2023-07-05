@@ -1,7 +1,7 @@
 import sys
 sys.path.append('../')
 
-from utils import ToCsv, DfManager
+from utils import DfManager
 
 class Sorter:
     # 座標情報を格納しているキー名
