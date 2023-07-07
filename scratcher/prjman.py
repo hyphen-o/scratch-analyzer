@@ -7,10 +7,6 @@ from api import scratch_client
 from tools import Sorter, Tracker
 
 class ProjectManager:
-    # 座標情報を格納しているキー名
-    __MOVE = ['STEPS', 'DEGREES', 'DIRECTION', 'X', 'Y', 'DX', 'DY']
-    # 待機時間情報を格納しているキー名
-    __WAIT = ['DURATION', 'SECS']
 
     def __init__(self, id):
         try:
@@ -31,7 +27,6 @@ class ProjectManager:
     def get_blocks(self):
         return self.__blocks
     
-
     def get_blocks_length(self):
         return len(self.__blocks)
     
@@ -64,7 +59,6 @@ class ProjectManager:
                 json_to_file(self.__blocks, f'{dir_path}/{self.__ID}_blocks.json')
                 
     def is_dataset(self, ava_path="utils/filter/filter.csv"):
-
         ava_blocks = []
         #フィルタリング用CSVの読み込み
         with open(ava_path, encoding = 'utf-8-sig') as f:

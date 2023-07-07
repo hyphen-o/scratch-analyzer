@@ -18,7 +18,7 @@ def get_token(id):
     project = json.loads(response.text)
 
     if (project['id']):
-        return json.loads(response.text)['project_token']
+        return project['project_token']
     else:
         return False
 

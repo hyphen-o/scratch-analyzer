@@ -17,5 +17,3 @@ def drawScatter(props):
     plt.grid(True)
     plt.savefig(props["save_path"])
     plt.show()
-
-drawScatter()
