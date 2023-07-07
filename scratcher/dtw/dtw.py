@@ -1,11 +1,13 @@
 import sys
+import csv
 
 sys.path.append('../')
 
-import pandas as pd
 import numpy as np
+import pandas as pd
 from tqdm import tqdm
 
+from utils import DfManager, parallel_runner, ToCsv, generate_hash
 
 class DTW:
     def __init__(self, windowSize=False):
@@ -13,61 +15,96 @@ class DTW:
 
     def setData(self, data):
         self.__data = data
+    
+    def parallel_run(self, path='./result.csv'):
+        # csv = ToCsv(path, ["Project1", "Project2", "DTW", "range1", "range2"])
+        with open(path, 'w') as f:
+            writer = csv.writer(f)
+            writer.writerow(["Project1", "Project2", "DTW", "range1", "range2"])
+        parallel_runner(self.getDtw, 4, [['', 0, 1000], ['', 1001, 2000], ['', 2001, 3000], ['', 3001, 4000]])
 
-    def getDtw(self):
+    def getDtw(self, data_path='', start=0, end=None):
+        self.__DATA_PATH = data_path
+        if(not end):
+            end = len(self.__data)
         # 各動作ごとにDTW距離を算出
-        dtwResults = pd.DataFrame(columns=["moveNum", "dtw"])
-        for i in tqdm(range(len(self.__data))):
-            for j in range(len(self.__data)):
-                dtwVal = None
-                if i == j or i > j:
-                    continue
+        with open('./result.csv', 'a') as f:
+            for i in tqdm(range(start, end)):
+                for j in range(len(self.__data)):
+                    dtwVal = None
+                    if i == j or i > j:
+                        continue
 
-                key1 = next(iter(self.__data[i]))
-                key2 = next(iter(self.__data[j]))
+                    key1 = next(iter(self.__data[i]))
+                    key2 = next(iter(self.__data[j]))
 
-                # ウインドウサイズを指定した場合は部分一致DTWを実行
-                if self.__windowSize:
-                    result = self.__calculatePartialDtw(i, j)
+                    # dtwResults = DfManager(["Project1", "Project2", "DTW", "range1", "range2"])
+                    hash = generate_hash(key1, key2)
+                    # ウインドウサイズを指定した場合は部分一致DTWを実行
+                    if self.__windowSize:
+                        result = self.__calculatePartialDtw(self.__data[i][key1], self.__data[j][key2])
+                        # dtwResults.add_row([str(key1), str(key2), result[0], result[1], result[2]])
+                        writer = csv.writer(f)
+                        range1 = result[1]
+                        range2 = result[2]
+                        writer.writerow([hash, str(key1), str(key2), result[0], range1, range2])
 
-                    addRow = pd.DataFrame([[str(i) + " / " + str(j), result[1], result[0]]], columns=[
-                        "moveNum", "range", "dtw"])
-                    dtwResults = dtwResults.append(addRow)
-                else:
-                    dtwVal = self.__calculateDtw(
-                        self.__data[i][key1], self.__data[j][key2])[1]
-                    addRow = pd.DataFrame([[str(key1), str(key2), dtwVal]], columns=["Project1", "Project2", "dtw"])
-                    dtwResults = pd.concat([dtwResults, addRow])
+                        prj1 = pd.read_csv(f'../out/ast_final/{key1}.csv')
+                        ranged_prj1 = prj1.iloc[key1 - 1 : key2 - 1]
+                        ranged_prj1['parent_node_id']
+                        # 特定の列の中で最小の数値を取得
+                        target_column = 'Column2'
+                        min_value = df[target_column].min()
+
+                        # 列の全ての要素から最小値を引く処理
+                        df[target_column] = df[target_column] - min_value
+                        selected_rows = prj1.iloc[[0] + list(range(key1 - 1, key2 - 1))]
+
+
+
+
+
+                    else:
+                        dtwVal = self.__calculateDtw(self.__data[i][key1], self.__data[j][key2])[1]
+                        # dtwResults.add_row([str(key1), str(key2), dtwVal, 'All', 'All'])
+                        writer = csv.writer(f)
+                        writer.writerow([hash, str(key1), str(key2), dtwVal, 'All', 'All'])
 
         # このdtwResultsは，csv出力することでローカルに結果を保存可能
-        dtwResults = dtwResults.sort_values("dtw")
-        return dtwResults
+        # dtwResults = dtwResults.sort_row("dtw")
+        # dtwResults.to_csv(data_path)
+        # return dtwResults
 
-    def __calculatePartialDtw(self, index1, index2):
-        if len(self.__data[index1]) < self.__windowSize or len(self.__data[index2]) < self.__windowSize:
+    def __calculatePartialDtw(self, data1, data2):
+        if len(data1) < self.__windowSize or len(data2) < self.__windowSize:
             print("ウインドウサイズがデータサイズよりも大きいです")
             return None, None
 
         minDtwValue = float('inf')
-        minRange = ""
+        minRange1 = ""
+        minRange2 = ""
         data1 = []
         data2 = []
-        for i in range(len(self.__data[index1])):
-            if i + self.__windowSize - 1 > len(self.__data[index1]):
+
+        dfM = DfManager(self.__DATA_PATH)
+        df = dfM.get_df()
+
+        for i in range(len(data1)):
+            if i + self.__windowSize - 1 > len(data1):
                 break
-            for j in range(len(self.__data[index2])):
-                if j + self.__windowSize - 1 > len(self.__data[index2]):
+            for j in range(len(data2)):
+                if j + self.__windowSize - 1 > len(data2):
                     break
-                data1 = self.__data[index1][i: i + self.__windowSize - 1]
-                data2 = self.__data[index2][j: j + self.__windowSize - 1]
+                data1 = data1[i: i + self.__windowSize - 1]
+                data2 = data2[j: j + self.__windowSize - 1]
 
                 dtwVal = self.__calculateDtw(data1, data2)[1]
                 if dtwVal <= minDtwValue:
                     minDtwValue = dtwVal
-                    minRange = str(i) + '-' + str(i + self.__windowSize - 1) + \
-                        " / " + str(j) + "-" + str(j + self.__windowSize - 1)
+                    minRange1 = [df.iloc[i]['move_index'], df.iloc[i + self.__windowSize - 1]['move_index']]
+                    minRange2 = [df.iloc[j]['move_index'], df.iloc[j + self.__windowSize - 1]['move_index']]
 
-        return minDtwValue, minRange
+        return minDtwValue, minRange1, minRange2
 
     def __calculateDtw(self, x, y):
         # xのデータ数，yのデータ数をそれぞれTx,Tyに代入

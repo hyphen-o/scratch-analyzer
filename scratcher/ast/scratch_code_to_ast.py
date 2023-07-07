@@ -122,15 +122,21 @@ if __name__ == '__main__':
         for sprite_data in json_data['targets']:
             sprite_name = sprite_data['name']
             json_blocks = sprite_data['blocks']
-            for k, v in json_blocks.items():
-                if v['topLevel'] == True:
-                    cta = CodeToASTNode(json_blocks=json_blocks)
-                    cta.depth_first_search(node_hash=k, parent_node_id=0)
-                    script_df = cta.get_result()
-                    script_df['script_id'] = script_id
-                    script_df['sprite_name'] = sprite_name
-                    list_df.append(script_df)
-                    script_id += 1
+            if(sprite_name != 'Stage'):
+                for k, v in json_blocks.items():
+                    if v['topLevel'] == True:
+                        cta = CodeToASTNode(json_blocks=json_blocks)
+                        cta.depth_first_search(node_hash=k, parent_node_id=0)
+                        script_df = cta.get_result()
+                        script_df['script_id'] = script_id
+                        script_df['sprite_name'] = sprite_name
+                        list_df.append(script_df)
+                        script_id += 1
+                        break
+                break
+            else:
+                continue
+            
 
         # 結果の出力
         df_concat = pd.concat(list_df)

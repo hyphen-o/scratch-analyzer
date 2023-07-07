@@ -29,6 +29,7 @@ class Sorter:
     
     def __get_parent_index(self, block):
         if(block['parent']):
+            print(block['parent'])
             df = self.__dfM.get_df()
             return df[df['hash'] == block['parent']].index
         else:

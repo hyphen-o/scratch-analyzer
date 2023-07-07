@@ -21,6 +21,10 @@ def remove_extension(file_name):
     base_name = os.path.splitext(file_name)[0]
     return base_name
 
+def remove_str(file_name):
+    numbers = ''.join(filter(str.isdigit, file_name))
+    return numbers
+
 
 def numpy_to_tile(data, path):
     np.savetxt(path, data, delimiter=',')

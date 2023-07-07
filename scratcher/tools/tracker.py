@@ -3,21 +3,9 @@ sys.path.append('../')
 
 from utils import DfManager
 
-import csv
 import math
 import pandas as pd
 import ast
-import os
-import re
-
-# 座標情報を格納しているキー名
-MOVE = ['DX', 'DY']
-SET = ['X', 'Y']
-DEGREE = ['DEGREES', 'DIRECTION']
-STEP = ['STEPS']
-BOUND = ['motion_ifonedgebounce']
-# 待機時間情報を格納しているキー名
-WAIT = ['DURATION', 'SECS']
 
 
 class Tracker:
@@ -40,14 +28,14 @@ class Tracker:
             print("プロジェクトへのパスか，プロジェクトを入力としてください．")
             return
 
-        self.__df = DfManager(['key', 'x', 'y', 'wait', 'move_index'])
+        self.__dfM = DfManager(['key', 'x', 'y', 'wait', 'move_index'])
         
     
     def to_csv(self, dir_path):
-        self.__df.to_csv(dir_path)
+        self.__dfM.to_csv(dir_path)
     
-    def __get_step_movement(degrees, steps):
-        degree_rad = math.radians(90 - degrees)
+    def __get_step_movement(self, steps):
+        degree_rad = math.radians(90.0 - float(self.__degree))
         dx = steps * math.cos(degree_rad)
         dy = steps * math.sin(degree_rad)
         return (dx, dy)
@@ -62,59 +50,58 @@ class Tracker:
             for i in range(self.__df_length):
                 block_name = self.__sorted_df.iloc[i][0]
                 if (block_name == 'event_whenflagclicked'):
-                    calculate_coordinate(i)
+                    self.__calculate_coordinate(i)
                     break
             for i in range(self.__df_length):
                 block_name = self.__sorted_df.iloc[i][0]
                 if ('event' in block_name):
                     if (block_name != 'event_whenflagclicked'):
-                        calculate_coordinate(i)
+                        self.__calculate_coordinate(i)
+        
+            return self.__dfM.get_df()
 
         except Exception as e:
             print('error: ' + str(e))
 
-        def calculate_coordinate(index):
-            wait = 0.0
-            for i in range(index, self.__df_length):
-                try:
-                    if (self.__sorted_df.iloc[i][0] == 'SCRIPT'):
-                        return
-                    if (not pd.isna(self.__sorted_df.iloc[i][2])):
-                        dic = ast.literal_eval(self.__sorted_df.iloc[i][2])
-                        for key in dic.keys():
-                            if key in MOVE:
-                                if key == 'DX':
-                                    self.__x = float(self.__x) + float(dic[key][1][1])
-                                elif key == 'DY':
-                                    self.__y = float(self.__y) + float(dic[key][1][1])
-                            elif key in SET:
-                                if key == 'X':
-                                    self.__x = float(dic[key][1][1])
-                                elif key == 'Y':
-                                    self.__y = float(dic[key][1][1])
-                            elif key in DEGREE:
-                                if key == 'DEGREES':
-                                    if (self.__sorted_df.iloc[i][0] == 'motion_turnleft'):
-                                        print('turnleft')
-                                        self.__degree = float(self.__degree) + float(dic[key][1][1])
-                                    elif (self.__sorted_df.iloc[i][0] == 'motion_turnright'):
-                                        print('turnright')
-                                        self.__degree = float(self.__degree) - float(dic[key][1][1])
-                                if key == 'DIRECTION':
-                                    self.__degree = float(dic[key][1][1])
-                            elif key == 'STEPS':
-                                result = self.__get_step_movement(
-                                    float(self.__degree), float(dic[key][1][1]))
-                                self.__x = float(self.__x) + result[0]
-                                self.__y = float(self.__y) + result[1]
-                            elif key in WAIT:
-                                wait += float(dic[key][1][1])
-                        self.__df.add_row([None, self.__x, self.__y, wait, i])
-                        wait = 0.0
-                except Exception as e:
-                    print(e)
+    def __calculate_coordinate(self, index):
+        wait = 0.0
+        for i in range(index, self.__df_length):
+            try:
+                if (self.__sorted_df.iloc[i][0] == 'SCRIPT'):
+                    return
+                if (not pd.isna(self.__sorted_df.iloc[i][2])):
+                    dic = ast.literal_eval(self.__sorted_df.iloc[i][2])
+                    for key in dic.keys():
+                        if key in self.__MOVE:
+                            if key == 'DX':
+                                self.__x = float(self.__x) + float(dic[key][1][1])
+                            elif key == 'DY':
+                                self.__y = float(self.__y) + float(dic[key][1][1])
+                        elif key in self.__SET:
+                            if key == 'X':
+                                self.__x = float(dic[key][1][1])
+                            elif key == 'Y':
+                                self.__y = float(dic[key][1][1])
+                        elif key in self.__DEGREE:
+                            if key == 'DEGREES':
+                                if (self.__sorted_df.iloc[i][0] == 'motion_turnleft'):
+                                    self.__degree = float(self.__degree) + float(dic[key][1][1])
+                                elif (self.__sorted_df.iloc[i][0] == 'motion_turnright'):
+                                    self.__degree = float(self.__degree) - float(dic[key][1][1])
+                            if key == 'DIRECTION':
+                                self.__degree = float(dic[key][1][1])
+                        elif key == 'STEPS':
+                            result = self.__get_step_movement(float(dic[key][1][1]))
+                            self.__x = float(self.__x) + result[0]
+                            self.__y = float(self.__y) + result[1]
+                        elif key in self.__WAIT:
+                            wait += float(dic[key][1][1])
+                    self.__dfM.add_row([None, self.__x, self.__y, wait, i])
+                    wait = 0.0
+            except Exception as e:
+                print(e)
 
-            return
+        return
     
 
 j = 0
