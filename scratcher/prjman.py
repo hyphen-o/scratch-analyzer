@@ -5,6 +5,7 @@ import csv
 from utils import json_to_file
 from api import scratch_client
 from tools import Sorter, Tracker
+from converter import AstConverter
 
 class ProjectManager:
 
@@ -29,6 +30,11 @@ class ProjectManager:
     
     def get_blocks_length(self):
         return len(self.__blocks)
+
+    def get_ast(self, path=''):
+        ast_conv = AstConverter(self.__project)
+        result = ast_conv.get_ast(path)
+        return result
     
     def get_sorted_blocks(self, dir_path=None):
         sorter = Sorter(self.__project)

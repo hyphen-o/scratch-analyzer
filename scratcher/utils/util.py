@@ -18,3 +18,13 @@ def generate_hash(value1, value2):
     # ハッシュ値を取得して返す
     hash_value = hash_object.hexdigest()
     return hash_value
+
+def bind_numbers(value1, value2):
+    key = len(value)
+    value = value1 * 10 * key + value2
+    return value, key
+
+def resolve_numbers(value, key):
+    result = divmod(value, key)
+    return result
+
