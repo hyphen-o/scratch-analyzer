@@ -75,8 +75,6 @@ class ProjectManager:
         isDataset = self.__filter_json(ava_blocks)
         return isDataset
     
-
-
     # Private関数
 
     #フィルタリング
