@@ -8,8 +8,22 @@ from tools import Sorter, Tracker
 from converter import AstConverter
 
 class ProjectManager:
+    """Scratch作品を管理するためのクラス
+
+    Args:
+        __ID (int): 現在管理しているScratch作品のID
+        __project (dictionary): 現在管理しているScratch作品全体のプログラム
+        __sprite (dictionary): 現在管理しているScratch作品の1番目のスプライトのプログラム
+        __blocks (dictionary): 現在管理しているScratch作品の1番目のスプライトに含まれるスプライトのブロック
+    """
 
     def __init__(self, id):
+        """ProjectManagerの初期化
+
+        Args:
+            id (int): 対象とするScratch作品のID
+        """
+
         try:
             self.__ID = id
             self.__project = scratch_client.get_project(self.__ID)
@@ -20,23 +34,63 @@ class ProjectManager:
             print(e)
     
     def get_id(self):
+        """管理しているScratch作品のIDを取得
+
+        Returns:
+            int: 保持しているScratch作品のIDを返す
+        """
+
         return self.__ID
     
     def get_project(self):
+        """現在管理している作品のプログラムを取得
+
+        Returns:
+            dictionary: 現在管理している作品のプログラムを返す
+        """
         return self.__project
     
     def get_blocks(self):
+        """現在管理しているスプライトに含まれるスプライトのブロックを取得
+
+        Returns:
+            dictionary: 現在管理しているスプライトに含まれるスプライトのブロックを返す
+        """
         return self.__blocks
     
     def get_blocks_length(self):
+        """現在管理しているスプライトに含まれるスプライトのブロックの数を取得
+
+        Returns:
+            int: 現在管理しているスプライトに含まれるスプライトのブロックの数を返す
+        """
+         
         return len(self.__blocks)
 
     def get_ast(self, path=''):
+        """現在管理しているブロックをASTに変換して取得
+
+        Args:
+            path (str, optional): ASTをファイルに保存する際のパス. 保存しない場合は指定なしでよい.
+
+        Returns:
+            dictionary: 現在管理しているブロックをASTに変換したJSONを返す
+        """
+
         ast_conv = AstConverter(self.__project)
         result = ast_conv.get_ast(path)
         return result
     
     def get_sorted_blocks(self, dir_path=None):
+        """現在管理しているブロックを命令処理順にソートして取得
+
+        Args:
+            dir_path (str, optional): ソートしたブロックをファイルに保存する場合のディレクトリのパス. 保存しない場合は指定なしでよい.
+
+        Returns:
+            Dataframe: 現在管理しているブロックを命令処理順にソートしたDataframeを返す
+        """
+
         sorter = Sorter(self.__project)
         if(dir_path):
             sorter.sort_blocks()
@@ -46,6 +100,15 @@ class ProjectManager:
             return sorter.sort_blocks()
         
     def get_coordinate(self, dir_path=None):
+        """現在管理しているスプライトの移動軌跡を算出し，座標データを取得
+
+        Args:
+            dir_path (str, optional): 座標データをファイルに保存する場合のディレクトリのパス. 保存しない場合は指定なしでよい.
+
+        Returns:
+            DAtaframe: 現在管理しているスプライトの移動軌跡を算出し，座標データを返す
+        """
+
         tracker = Tracker(self.get_sorted_blocks())
         if(dir_path):
             tracker.get_coordinate()
@@ -55,7 +118,13 @@ class ProjectManager:
             return tracker.get_coordinate()
         
     def to_json(self, dir_path=".", type="project"):
-        #typeに応じて出力するJSONファイルを変える
+        """プログラムのJsonファイルを保存
+
+        Args:
+            dir_path (str, optional): jsonファイルを保存する際のディレクトリのパス. 指定なしだと直下に保存.
+            type (str, optional): 保存するJsonの粒度を指定．project or sprite or blocks. デフォルトはproject.
+        """
+
         match(type):
             case "project":
                 json_to_file(self.__project, f'{dir_path}/{self.__ID}.json')
@@ -65,6 +134,14 @@ class ProjectManager:
                 json_to_file(self.__blocks, f'{dir_path}/{self.__ID}_blocks.json')
                 
     def is_dataset(self, ava_path="utils/filter/filter.csv"):
+        """フィルタリング用関数
+
+        Args:
+            ava_path (str, optional): フィルタリング用CSVのパス. Defaults to "utils/filter/filter.csv".
+
+        Returns:
+            boolean: フィルタリングに引っかかったか否かを返す．True -> 引っかかっていない　False -> 引っかかった
+        """
         ava_blocks = []
         #フィルタリング用CSVの読み込み
         with open(ava_path, encoding = 'utf-8-sig') as f:
