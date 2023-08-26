@@ -1,2 +1,10 @@
 {
+  "CONTROL_BLOCKS": ["control_forever", "control_repeat"],
+  "COORDINATE_FIELDS": ["STEPS", "DEGREES", "DIRECTION", "X", "Y", "DX", "DY"],
+  "MOVE_FIELDS": ["DX", "DY"],
+  "SET_FIELDS": ["X", "Y"],
+  "DEGREE_FIELDS": ["DEGREES", "DIRECTION"],
+  "STEP_FIELDS": ["STEPS"],
+  "BOUND_FIELDS": ["motion_ifonedgebounce"],
+  "WAIT_FIELDS": ["DURATION", "SECS"]
 }
