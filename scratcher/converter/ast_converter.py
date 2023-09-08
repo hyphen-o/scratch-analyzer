@@ -1,10 +1,9 @@
 import json
 
+from utils import constants_reader
+
 class AstConverter:
-    __C_BLOCKS = [
-        'control_repeat', 'control_forever', 'control_if', 'control_if_else',
-        'control_repeat_until', 'control_all_at_once', 'control_while', 'control_for_each'
-    ]
+    __C_BLOCKS = constants_reader("CONTROL_BLOCKS")
 
     def __init__(self, project):
         self.__project = project
