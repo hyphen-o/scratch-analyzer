@@ -1,4 +1,3 @@
-import json
 import requests
 
 API_BASE_URL = "https://api.scratch.mit.edu"
