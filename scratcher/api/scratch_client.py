@@ -22,6 +22,17 @@ def get_token(id):
     else:
         return False
 
+def get_description(id):
+    try:
+        response = requests.get(
+            f'{API_BASE_URL}/projects/{id}'
+        )
+
+        return response["instructions"]
+    except Exception as e:
+        print("トークン取得中にエラーが発生しました")
+        print(e)
+
 # プロジェクト取得
 def get_project(id):
     json_data = ""
