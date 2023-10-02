@@ -15,6 +15,7 @@ class ProjectManager:
         __project (dictionary): 現在管理しているScratch作品全体のプログラム
         __sprite (dictionary): 現在管理しているScratch作品の1番目のスプライトのプログラム
         __blocks (dictionary): 現在管理しているScratch作品の1番目のスプライトに含まれるスプライトのブロック
+        __description（str）: 現在管理しているScratch作品の使用方法
     """
 
     def __init__(self, id):
@@ -29,6 +30,7 @@ class ProjectManager:
             self.__project = scratch_client.get_project(self.__ID)
             self.__sprite = self.__project['targets'][1]
             self.__blocks = self.__project['targets'][1]['blocks']
+            self.__description = scratch_client.get_description(self.__ID)
         except Exception as e:
             print('Scratch3.0以降の作品を入力してください．')
             print(e)
@@ -57,6 +59,14 @@ class ProjectManager:
             dictionary: 現在管理しているスプライトに含まれるスプライトのブロックを返す
         """
         return self.__blocks
+    
+    def get_description(self):
+        """現在管理しているScratch作品の使用方法を取得
+
+        Returns:
+            str: 現在管理しているScratch作品の使用方法を返す
+        """
+        return self.__description
     
     def get_blocks_length(self):
         """現在管理しているスプライトに含まれるスプライトのブロックの数を取得
