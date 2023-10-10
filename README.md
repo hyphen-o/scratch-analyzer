@@ -1,6 +1,4 @@
-## Scratcher
-
-（ライブラリと同じ感覚で使用できることを目標としています）
+# Scratcher
 
 ## 本ライブラリを使う主な目的
 
@@ -32,8 +30,6 @@
 
 `pip install {このプロジェクトまでのPATH}/dist/scratcher-{dist内のバージョン参照}.tar.gz`
 
-- 将来的には
-
 **Docker で実行する**
 
 1. インストールしたプロジェクトのルートディレクトリに移動
@@ -47,8 +43,12 @@
 ├── dtw
 │   ├── __init__.py
 │   └── dtw.py #DTWを算出するためのモジュール
+├── animation
+|   ├── __init__.py
+|   └── animater.py #ScratchスプライトからアニメーションGIFを生成するためのモジュール
 ├── api
 │   ├── __init__.py
+|   ├── google_client.py #GoogleFormAPIを叩くためのモジュール
 │   └── scratch_client.py #ScratchAPIを叩くためのモジュール
 ├── __init__.py
 ├── tools
@@ -71,6 +71,7 @@
 │   ├── fileman.py #ファイル管理するためのモジュール
 │   ├── parallelizer.py #並列化処理するためのモジュール
 │   ├── draw_graph.py #図を描画するためのモジュール
+|   ├── env.py #env管理するためのモジュール
 │   ├── util.py #汎用関数
 │   ├── cmd_runnner.py #コマンド実行用モジュール
 │   └── __init__.py
