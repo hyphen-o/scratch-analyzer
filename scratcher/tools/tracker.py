@@ -2,7 +2,7 @@ import sys
 sys.path.append('../')
 
 from utils import DfManager
-from utils import constants_reader
+from config import constants
 
 import math
 import pandas as pd
@@ -11,11 +11,11 @@ import ast
 
 class Tracker:
     # 座標情報を格納しているキー名
-    __MOVE = constants_reader("MOVE_FIELDS")
-    __SET = constants_reader("SET_FIELDS")
-    __DEGREE = constants_reader("DEGREE_FIELDS")
+    __MOVE = constants.MOVE_FIELDS
+    __SET = constants.SET_FIELDS
+    __DEGREE = constants.DEGREE_FIELDS
     # 待機時間情報を格納しているキー名
-    __WAIT = constants_reader("WAIT_FIELDS")
+    __WAIT = constants.WAIT_FIELDS
 
 
     def __init__(self, project):
