@@ -3,3 +3,5 @@ dist
 scratcher.egg-info
 sources
 .DS_Store
+.env
+scratcher/cert/*

@@ -1,13 +1,14 @@
 import sys
 sys.path.append('../')
 
-from utils import DfManager, constants_reader
+from utils import DfManager
+from config import constants
 
 class Sorter:
     # 座標情報を格納しているキー名
-    __MOVE = constants_reader("COORDINATE_FIELDS")
+    __MOVE = constants.COORDINATE_FIELDS
     # 待機時間情報を格納しているキー名
-    __WAIT = constants_reader("WAIT_FIELDS")
+    __WAIT = constants.WAIT_FIELDS
 
     def __init__(self, project):
         self.__dfM = DfManager(['BlockName', 'Key', 'Field', 'node_id', 'parent_id', 'hash'])

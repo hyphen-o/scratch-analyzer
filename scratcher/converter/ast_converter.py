@@ -1,9 +1,9 @@
 import json
 
-from utils import constants_reader
+from config import constants
 
 class AstConverter:
-    __C_BLOCKS = constants_reader("CONTROL_BLOCKS")
+    __C_BLOCKS = constants.CONTROL_BLOCKS
 
     def __init__(self, project):
         self.__project = project

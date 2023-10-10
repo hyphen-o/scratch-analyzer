@@ -1,7 +1,11 @@
-import requests
+import sys
+sys.path.append('../')
 
-API_BASE_URL = "https://api.scratch.mit.edu"
-BASE_URL = "https://projects.scratch.mit.edu"
+import requests
+from config import constants
+
+API_BASE_URL = constants.SCRATCH_API_BASE_URL
+BASE_URL = constants.SCRATCH_BASE_URL
 
 # プロジェクト取得用のトークン取得
 def get_token(id):
