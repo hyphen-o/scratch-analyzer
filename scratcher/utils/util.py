@@ -28,3 +28,7 @@ def resolve_numbers(value, key):
     result = divmod(value, key)
     return result
 
+def single_to_double(string):
+    return string.replace("'", "\"")
+
+
