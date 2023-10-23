@@ -1,7 +1,4 @@
 import sys
-import csv
-import os
-
 sys.path.append('../')
 
 import numpy as np
@@ -9,6 +6,7 @@ from tslearn.preprocessing import TimeSeriesScalerMinMax
 from tslearn.utils import to_time_series_dataset
 
 from utils import DfManager
+from config import constants
 
 class DTW:
     def __init__(self, windowSize=False):
@@ -18,40 +16,40 @@ class DTW:
         self.__data1 = self.__load_coordinate(data1)
         self.__data2 = self.__load_coordinate(data2)
 
-    def getDtw(self, data_path=''): 
+    def getDtw(self, keys=[]): 
         if self.__windowSize:
-            result = self.__calculatePartialDtw(self.__data1, self.__data2)
+            result = self.__calculatePartialDtw(keys[0], keys[1])
             return result
         else:
             dtwVal = self.__calculateDtw(self.__data1, self.__data2)[1]
             return dtwVal
                     
 
-    def __calculatePartialDtw(self, data1, data2):
+    def __calculatePartialDtw(self, key1, key2):
         try:
-            if len(data1) < self.__windowSize or len(data2) < self.__windowSize:
+            if len(self.__data1) < self.__windowSize or len(self.__data2) < self.__windowSize:
                 print("ウインドウサイズがデータサイズよりも大きいです")
-                return None
+                return []
 
             minDtwValue = float('inf')
-            minRange1 = ""
-            minRange2 = ""
+            minRange1 = []
+            minRange2 = []
 
-            dfM = DfManager(f'../out/coordinate_final/{self.__key1}.csv')
-            dfM2 = DfManager(f'../out/coordinate_final/{self.__key2}.csv')
+            dfM = DfManager(f'{constants.COORDINATE_PATH}{key1}.csv')
+            dfM2 = DfManager(f'{constants.COORDINATE_PATH}{key2}.csv')
             df = dfM.get_df()
             df2 = dfM2.get_df()
 
-            for i in range(len(data1)):
-                if i + self.__windowSize - 1 > len(data1):
+            for i in range(len(self.__data1)):
+                if i + self.__windowSize - 1 > len(self.__data1):
                     break
-                for j in range(len(data2)):
-                    if j + self.__windowSize - 1 > len(data2):
+                for j in range(len(self.__data2)):
+                    if j + self.__windowSize - 1 > len(self.__data2):
                         break
-                    data1 = data1[i: i + self.__windowSize - 1]
-                    data2 = data2[j: j + self.__windowSize - 1]
+                    self.__ranged_data1 = self.__data1[i: i + self.__windowSize - 1]
+                    self.__ranged_data2 = self.__data2[j: j + self.__windowSize - 1]
 
-                    dtwVal = self.__calculateDtw(data1, data2)[1]
+                    dtwVal = self.__calculateDtw(self.__ranged_data1, self.__ranged_data2)[1]
                     if dtwVal <= minDtwValue:
                         minDtwValue = dtwVal
 

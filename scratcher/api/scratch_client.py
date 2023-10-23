@@ -17,7 +17,6 @@ def get_token(id):
         print("トークン取得中にエラーが発生しました")
         print(e)
 
-    # TODO：response.json()で受け取れる
     project = response.json()
 
     if (project['id']):
@@ -31,7 +30,9 @@ def get_description(id):
             f'{API_BASE_URL}/projects/{id}'
         )
 
-        return response["instructions"]
+        project = response.json()
+
+        return project["instructions"]
     except Exception as e:
         print("トークン取得中にエラーが発生しました")
         print(e)

@@ -1,21 +1,23 @@
 version: '3.9'
 
 volumes:
-  out_csv:
-  coordinate_csv:
-  sorted_csv:
-  screenshots:
+  packages:
+  out:
 
 services:
-  python3:
+  scratcher:
     build:
-      context: ./sources
-    container_name: research-python
+      context: ./scratcher
+    container_name: scratcher
     tty: true
     volumes:
-      - ./sources:/works
-      - out_csv:/works/out_csv
-      - sorted_csv:/works/sorted_csv
-      - coordinate_csv:/works/coordinate_csv
-      - screenshots:/works/screenshots
+      - type: bind
+        source: ./scratcher
+        target: /works
+      - type: volume
+        source: packages
+        target: /usr/local/lib/python3.9/site-packages
+      - type: volume
+        source: out
+        target: /works/out
 
