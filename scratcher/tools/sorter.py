@@ -1,7 +1,7 @@
 import sys
 sys.path.append('../')
 
-from utils import DfManager
+from utils import DfManager, single_to_double
 from config import constants
 
 class Sorter:
@@ -21,13 +21,13 @@ class Sorter:
     def sort_blocks(self):
         self.__dfM.add_row([self.__sprite['direction'], self.__sprite['x'], self.__sprite['y'], None, None, None])
         for block_hash, blocks in self.__blocks.items():
-            if ('event' in blocks['opcode']):
+            if 'event' in blocks['opcode']:
               self.__write_blocks(block_hash)
 
-        return self.__dfM.get_df
+        return self.__dfM.get_df()
     
     def __get_parent_index(self, block):
-        if(block['parent']):
+        if block['parent']:
             df = self.__dfM.get_df()
             return df[df['hash'] == block['parent']].index.to_list()[0]
         else:
@@ -35,11 +35,11 @@ class Sorter:
         
     def __categorize_blocks(self, block_name):
         try:
-            if("event" in block_name):
+            if "event" in block_name:
                 return "EVENT"
-            elif(block_name in self.__IF_BLOCKS):
+            elif block_name in self.__IF_BLOCKS:
                 return "IF"
-            elif(block_name in self.__R_BLOCKS):
+            elif block_name in self.__R_BLOCKS:
                 return "REPEAT"
             else:
                 return "NORMAL"
@@ -58,35 +58,35 @@ class Sorter:
                 self.__node_id = 0
                 self.__dfM.add_row(['SCRIPT', None, None, self.__node_id, self.__get_parent_index(block), None])
                 self.__node_id += 1
-                if (block_name == constants.EVENT_KEY_BLOCK):
+                if block_name == constants.EVENT_KEY_BLOCK:
                     key_name = self.__blocks[block_hash]['fields']['KEY_OPTION'][0]
                     self.__dfM.add_row([block_name, key_name, None, self.__node_id, self.__get_parent_index(block), block_hash])
                 else:
                     self.__dfM.add_row([block_name, None, None, self.__node_id, self.__get_parent_index(block), block_hash])
-                if(block["next"]):     
+                if block["next"]:     
                     self.__write_blocks(block['next'])
              case "REPEAT":
                 self.__dfM.add_row([block_name, None, None, self.__node_id, self.__get_parent_index(block), block_hash])
-                if(block_name == constants.REPEAT_BLOCK):
+                if block_name == constants.REPEAT_BLOCK:
                   times = int(block["inputs"]["TIMES"][1][1])
-                elif(block_name == constants.FOREVER_BLOCK):
+                elif block_name == constants.FOREVER_BLOCK:
                   times = constants.REPEAT_TIMES
-                if(block["inputs"]["SUBSTACK"]):    
+                if block["inputs"]["SUBSTACK"]:    
                   for key in range(times):
                     self.__write_blocks(block["inputs"]["SUBSTACK"][1]) 
              case "IF":
                 self.__dfM.add_row([block_name, None, None, self.__node_id, self.__get_parent_index(block), block_hash])
-                if(block["inputs"]["SUBSTACK"]):
+                if block["inputs"]["SUBSTACK"]:
                   self.__write_blocks(block["inputs"]["SUBSTACK"][1])
              case _:
-                if(block["inputs"] != None):
-                   self.__dfM.add_row([block_name, None, block['inputs'], self.__node_id, self.__get_parent_index(block), block_hash])
-                elif(block["fields"] != None):
-                   self.__dfM.add_row([block_name, block["fields"], None, self.__node_id, self.__get_parent_index(block), block_hash])
+                if block["inputs"] != None:
+                   self.__dfM.add_row([block_name, None, single_to_double(str(block['inputs'])), self.__node_id, self.__get_parent_index(block), block_hash])
+                elif block["fields"] != None:
+                   self.__dfM.add_row([block_name, single_to_double(str(block["fields"])), None, self.__node_id, self.__get_parent_index(block), block_hash])
                 else:
                    self.__dfM.add_row([block_name, None, None, self.__node_id, self.__get_parent_index(block), block_hash])
                 
-                if(block["next"]):
+                if block["next"]:
                    self.__write_blocks(block["next"])
       except Exception as e:
           print(e)

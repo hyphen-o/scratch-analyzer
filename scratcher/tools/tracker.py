@@ -46,12 +46,12 @@ class Tracker:
         self.__df_length = len(self.__sorted_df.index)
 
         try:
-            for i in range(self.__df_length):
+            for i in range(1, self.__df_length):
                 block_name = self.__sorted_df.iloc[i][0]
                 if (block_name == 'event_whenflagclicked'):
                     self.__calculate_coordinate(i)
                     break
-            for i in range(self.__df_length):
+            for i in range(1, self.__df_length):
                 block_name = self.__sorted_df.iloc[i][0]
                 if ('event' in block_name):
                     if (block_name != 'event_whenflagclicked'):
@@ -66,9 +66,11 @@ class Tracker:
         wait = 0.0
         for i in range(index, self.__df_length):
             try:
-                if (self.__sorted_df.iloc[i][0] == 'SCRIPT'):
+                if (self.__sorted_df["BlockName"].iloc[i] == 'SCRIPT'):
                     return
                 if (not pd.isna(self.__sorted_df.iloc[i][2])):
+                    if "COSTUME" in self.__sorted_df.iloc[i][2]:
+                        continue
                     dic = ast.literal_eval(self.__sorted_df.iloc[i][2])
                     for key in dic.keys():
                         if key in self.__MOVE:
@@ -76,11 +78,13 @@ class Tracker:
                                 self.__x = float(self.__x) + float(dic[key][1][1])
                             elif key == 'DY':
                                 self.__y = float(self.__y) + float(dic[key][1][1])
+                            self.__dfM.add_row([None, self.__x, self.__y, wait, i])
                         elif key in self.__SET:
                             if key == 'X':
                                 self.__x = float(dic[key][1][1])
                             elif key == 'Y':
                                 self.__y = float(dic[key][1][1])
+                            self.__dfM.add_row([None, self.__x, self.__y, wait, i])
                         elif key in self.__DEGREE:
                             if key == 'DEGREES':
                                 if (self.__sorted_df.iloc[i][0] == 'motion_turnleft'):
@@ -93,38 +97,12 @@ class Tracker:
                             result = self.__get_step_movement(float(dic[key][1][1]))
                             self.__x = float(self.__x) + result[0]
                             self.__y = float(self.__y) + result[1]
+                            self.__dfM.add_row([None, self.__x, self.__y, wait, i])
                         elif key in self.__WAIT:
                             wait += float(dic[key][1][1])
-                    self.__dfM.add_row([None, self.__x, self.__y, wait, i])
+                            self.__dfM.add_row([None, self.__x, self.__y, wait, i])
                     wait = 0.0
             except Exception as e:
                 print(e)
 
         return
-    
-
-j = 0
-
-# for filename in os.listdir("../sorted_csv"):
-#     try:
-#         print(j)
-#         if j > 2000:
-#             break
-#         coordinated_csv = pd.read_csv(f'../sorted_csv/{filename}')
-#         filename = re.sub(r"\D", "", filename)
-#         csv_name = f'{filename}.csv'
-#         if (os.path.exists(f'../coordinate_csv2/{csv_name}')):
-#             print('exist')
-#             continue
-#         if (coordinated_csv.shape[0] > 3):
-#             print(coordinated_csv.shape[0])
-#             with open(f'../coordinate_csv2/{csv_name}', 'w') as f:
-#                 writer = csv.writer(f)
-#                 writer.writerow(['key', 'x', 'y', 'wait', 'move_index', filename])
-#             getMovement(coordinated_csv, csv_name)
-#             coordinate_csv = pd.read_csv(f'../coordinate_csv2/{csv_name}')
-#             if (not len(coordinate_csv.index)):
-#                 os.remove(f'../coordinate_csv2/{csv_name}')
-#             j += 1
-#     except Exception as e:
-#         print(e)
