@@ -5,10 +5,8 @@ from utils import DfManager
 from config import constants
 
 class Sorter:
-    # 座標情報を格納しているキー名
-    __MOVE = constants.COORDINATE_FIELDS
-    # 待機時間情報を格納しているキー名
-    __WAIT = constants.WAIT_FIELDS
+    __IF_BLOCKS = constants.IF_BLOCKS
+    __R_BLOCKS = constants.REPEAT_BLOCKS
 
     def __init__(self, project):
         self.__dfM = DfManager(['BlockName', 'Key', 'Field', 'node_id', 'parent_id', 'hash'])
@@ -24,82 +22,72 @@ class Sorter:
         self.__dfM.add_row([self.__sprite['direction'], self.__sprite['x'], self.__sprite['y'], None, None, None])
         for block_hash, blocks in self.__blocks.items():
             if ('event' in blocks['opcode']):
-              self.__write_event_block(block_hash)
+              self.__write_blocks(block_hash)
 
         return self.__dfM.get_df
     
     def __get_parent_index(self, block):
         if(block['parent']):
-            print(block['parent'])
             df = self.__dfM.get_df()
-            return df[df['hash'] == block['parent']].index
+            return df[df['hash'] == block['parent']].index.to_list()[0]
         else:
             return 0
         
-    def __identify_blocks(self, block_hash):
+    def __categorize_blocks(self, block_name):
         try:
-            block = self.__blocks[block_hash]
-            if (block['inputs'] != None):
-                    for key in block['inputs']:
-                        # 制御ブロックor条件付きブロックの場合その中身も見る
-                        if (key == 'SUBSTACK' or key == 'CONDITION'):
-                            self.__write_blocks(block['inputs'][str(key)][1])
-                        # 条件ブロックの中身を見る
-                        if (key == 'KEY_OPTION' and block['inputs']['KEY_OPTION'][1] != None):
-                            self.__write_blocks(block['inputs'][str(key)][1], key)
-            # 次のブロックを見る
-            if (block['next'] != None):
-                self.__write_blocks(block['next'])
+            if("event" in block_name):
+                return "EVENT"
+            elif(block_name in self.__IF_BLOCKS):
+                return "IF"
+            elif(block_name in self.__R_BLOCKS):
+                return "REPEAT"
+            else:
+                return "NORMAL"
         except Exception as e:
-            print('1')
             print(e)
             
     
-    def __write_blocks(self, block_hash, field_name = None):
+    def __write_blocks(self, block_hash):
       try:
           block = self.__blocks[block_hash]
-          block_name = block['opcode']
-
+          block_name = block["opcode"]
+          category = self.__categorize_blocks(block_name)
           self.__node_id += 1
-          flg = False
-          if(field_name):
-              self.__dfM.add_row([block_name, block['fields'][field_name][0], None, self.__node_id, self.__get_parent_index(block), block_hash])
-          else:
-              if (block['inputs'] == "{{}}"):
-                  self.__dfM.add_row([block_name, None, None, self.__node_id, self.__get_parent_index(block), block_hash])
-              else:
-                  for key in block['inputs']:
-                      if (key in self.__MOVE or key in self.__WAIT):
-                          self.__dfM.add_row([block_name, None, block['inputs'], self.__node_id, self.__get_parent_index(block), block_hash])
-                          flg = True
-                          break
-                  if not flg:
-                      self.__dfM.add_row([block_name, None, None, self.__node_id, self.__get_parent_index(block), block_hash])
-
-          self.__identify_blocks(block_hash)
+          match category:
+             case "EVENT":
+                self.__node_id = 0
+                self.__dfM.add_row(['SCRIPT', None, None, self.__node_id, self.__get_parent_index(block), None])
+                self.__node_id += 1
+                if (block_name == constants.EVENT_KEY_BLOCK):
+                    key_name = self.__blocks[block_hash]['fields']['KEY_OPTION'][0]
+                    self.__dfM.add_row([block_name, key_name, None, self.__node_id, self.__get_parent_index(block), block_hash])
+                else:
+                    self.__dfM.add_row([block_name, None, None, self.__node_id, self.__get_parent_index(block), block_hash])
+                if(block["next"]):     
+                    self.__write_blocks(block['next'])
+             case "REPEAT":
+                self.__dfM.add_row([block_name, None, None, self.__node_id, self.__get_parent_index(block), block_hash])
+                if(block_name == constants.REPEAT_BLOCK):
+                  times = int(block["inputs"]["TIMES"][1][1])
+                elif(block_name == constants.FOREVER_BLOCK):
+                  times = constants.REPEAT_TIMES
+                if(block["inputs"]["SUBSTACK"]):    
+                  for key in range(times):
+                    self.__write_blocks(block["inputs"]["SUBSTACK"][1]) 
+             case "IF":
+                self.__dfM.add_row([block_name, None, None, self.__node_id, self.__get_parent_index(block), block_hash])
+                if(block["inputs"]["SUBSTACK"]):
+                  self.__write_blocks(block["inputs"]["SUBSTACK"][1])
+             case _:
+                if(block["inputs"] != None):
+                   self.__dfM.add_row([block_name, None, block['inputs'], self.__node_id, self.__get_parent_index(block), block_hash])
+                elif(block["fields"] != None):
+                   self.__dfM.add_row([block_name, block["fields"], None, self.__node_id, self.__get_parent_index(block), block_hash])
+                else:
+                   self.__dfM.add_row([block_name, None, None, self.__node_id, self.__get_parent_index(block), block_hash])
+                
+                if(block["next"]):
+                   self.__write_blocks(block["next"])
       except Exception as e:
-          print('2')
           print(e)
-    
-    def __write_event_block(self, block_hash):
-    # 次のブロックがあるか確認
-      try:
-          if (self.__blocks[block_hash]['next'] != None):
-              block = self.__blocks[block_hash]
-              block_name = block['opcode']
-              # CSVファイルにブロック情報を書き込む
-
-              self.__dfM.add_row(['SCRIPT', None, None, self.__node_id, self.__get_parent_index(block), None])
-
-              self.__node_id += 1
-              if (block_name == 'event_whenkeypressed'):
-                  key_name = self.__blocks[block_hash]['fields']['KEY_OPTION'][0]
-                  self.__dfM.add_row([block_name, key_name, None, self.__node_id, self.__get_parent_index(block), block_hash])
-              else:
-                  self.__dfM.add_row([block_name, None, None, self.__node_id, self.__get_parent_index(block), block_hash])
-              
-              self.__write_blocks(self.__blocks[block_hash]['next'])
-      except Exception as e:
-          print('3')
-          print(e)  
 

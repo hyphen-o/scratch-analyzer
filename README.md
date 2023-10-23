@@ -15,7 +15,7 @@
 ※Mac の方
 
 1. インストールしたプロジェクトのルートディレクトリに移動
-2. `make build`
+2. `make setup`
 
 ※Windows の方
 
