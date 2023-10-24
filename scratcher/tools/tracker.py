@@ -16,6 +16,7 @@ class Tracker:
     __DEGREE = constants.DEGREE_FIELDS
     # 待機時間情報を格納しているキー名
     __WAIT = constants.WAIT_FIELDS
+    __COORDINATE = constants.COORDINATE_FIELDS
 
 
     def __init__(self, project):
@@ -49,12 +50,14 @@ class Tracker:
             for i in range(1, self.__df_length):
                 block_name = self.__sorted_df.iloc[i][0]
                 if (block_name == 'event_whenflagclicked'):
+                    self.__dfM.add_row([None, self.__x, self.__y, 0, i])
                     self.__calculate_coordinate(i)
                     break
             for i in range(1, self.__df_length):
                 block_name = self.__sorted_df.iloc[i][0]
                 if ('event' in block_name):
                     if (block_name != 'event_whenflagclicked'):
+                        self.__dfM.add_row([None, self.__x, self.__y, 0, i])
                         self.__calculate_coordinate(i)
         
             return self.__dfM.get_df()
@@ -69,8 +72,6 @@ class Tracker:
                 if (self.__sorted_df["BlockName"].iloc[i] == 'SCRIPT'):
                     return
                 if (not pd.isna(self.__sorted_df.iloc[i][2])):
-                    if "COSTUME" in self.__sorted_df.iloc[i][2]:
-                        continue
                     dic = ast.literal_eval(self.__sorted_df.iloc[i][2])
                     for key in dic.keys():
                         if key in self.__MOVE:
@@ -78,13 +79,11 @@ class Tracker:
                                 self.__x = float(self.__x) + float(dic[key][1][1])
                             elif key == 'DY':
                                 self.__y = float(self.__y) + float(dic[key][1][1])
-                            self.__dfM.add_row([None, self.__x, self.__y, wait, i])
                         elif key in self.__SET:
                             if key == 'X':
                                 self.__x = float(dic[key][1][1])
                             elif key == 'Y':
                                 self.__y = float(dic[key][1][1])
-                            self.__dfM.add_row([None, self.__x, self.__y, wait, i])
                         elif key in self.__DEGREE:
                             if key == 'DEGREES':
                                 if (self.__sorted_df.iloc[i][0] == 'motion_turnleft'):
@@ -97,10 +96,13 @@ class Tracker:
                             result = self.__get_step_movement(float(dic[key][1][1]))
                             self.__x = float(self.__x) + result[0]
                             self.__y = float(self.__y) + result[1]
-                            self.__dfM.add_row([None, self.__x, self.__y, wait, i])
                         elif key in self.__WAIT:
                             wait += float(dic[key][1][1])
+                    for string in self.__COORDINATE:
+                        print(string)
+                        if(string in dic):
                             self.__dfM.add_row([None, self.__x, self.__y, wait, i])
+                            break
                     wait = 0.0
             except Exception as e:
                 print(e)
