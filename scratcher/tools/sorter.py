@@ -7,6 +7,7 @@ from config import constants
 class Sorter:
     __IF_BLOCKS = constants.IF_BLOCKS
     __R_BLOCKS = constants.REPEAT_BLOCKS
+    __E_BLOCKS = constants.EVENT_BLOCKS
 
     def __init__(self, project):
         self.__dfM = DfManager(['BlockName', 'Key', 'Field', 'node_id', 'parent_id', 'hash'])
@@ -35,7 +36,7 @@ class Sorter:
         
     def __categorize_blocks(self, block_name):
         try:
-            if "event" in block_name:
+            if block_name in self.__E_BLOCKS:
                 return "EVENT"
             elif block_name in self.__IF_BLOCKS:
                 return "IF"
