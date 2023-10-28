@@ -99,7 +99,6 @@ class Tracker:
                         elif key in self.__WAIT:
                             wait += float(dic[key][1][1])
                     for string in self.__COORDINATE:
-                        print(string)
                         if(string in dic):
                             self.__dfM.add_row([None, self.__x, self.__y, wait, i])
                             break

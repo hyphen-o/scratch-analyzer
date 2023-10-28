@@ -12,20 +12,20 @@ class DTW:
     def __init__(self, windowSize=False):
         self.__windowSize = windowSize
 
-    def setData(self, data1, data2):
+    def set_dtw(self, data1, data2):
         self.__data1 = self.__load_coordinate(data1)
         self.__data2 = self.__load_coordinate(data2)
 
-    def getDtw(self, keys=[]): 
+    def get_dtw(self, keys=[]): 
         if self.__windowSize:
-            result = self.__calculatePartialDtw(keys[0], keys[1])
+            result = self.__calculate_partial_dtw(keys[0], keys[1])
             return result
         else:
-            dtwVal = self.__calculateDtw(self.__data1, self.__data2)[1]
+            dtwVal = self.__calculate_dtw(self.__data1, self.__data2)[1]
             return dtwVal
                     
 
-    def __calculatePartialDtw(self, key1, key2):
+    def __calculate_partial_dtw(self, key1, key2):
         try:
             if len(self.__data1) < self.__windowSize or len(self.__data2) < self.__windowSize:
                 print("ウインドウサイズがデータサイズよりも大きいです")
@@ -49,7 +49,7 @@ class DTW:
                     self.__ranged_data1 = self.__data1[i: i + self.__windowSize - 1]
                     self.__ranged_data2 = self.__data2[j: j + self.__windowSize - 1]
 
-                    dtwVal = self.__calculateDtw(self.__ranged_data1, self.__ranged_data2)[1]
+                    dtwVal = self.__calculate_dtw(self.__ranged_data1, self.__ranged_data2)[1]
                     if dtwVal <= minDtwValue:
                         minDtwValue = dtwVal
 
@@ -72,7 +72,7 @@ class DTW:
         return TimeSeriesScalerMinMax().fit_transform(
             to_time_series_dataset([data])).flatten().reshape(-1, 2)
 
-    def __calculateDtw(self, x, y):
+    def __calculate_dtw(self, x, y):
         # xのデータ数，yのデータ数をそれぞれTx,Tyに代入
         Tx = len(x)
         Ty = len(y)
