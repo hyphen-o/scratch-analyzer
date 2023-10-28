@@ -20,4 +20,3 @@ services:
       - type: volume
         source: out
         target: /works/out
-

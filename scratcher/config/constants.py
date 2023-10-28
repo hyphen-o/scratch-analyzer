@@ -23,6 +23,7 @@ EVENT_KEY_BLOCK = "event_whenkeypressed"
 
 #パス
 COORDINATE_PATH = sys.path[-1] + "/out/coorfinate_final/"
+COORDINATE_LIST_PATH = sys.path[-1] + "out/coordinate_looped"
 TOKEN_PATH = sys.path[-1] + "/cert/token.json"
 
 
