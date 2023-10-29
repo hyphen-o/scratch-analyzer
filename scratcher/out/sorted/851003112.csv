@@ -1,0 +1,33 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,212,22,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,z$3IpT/TiM+(*%1XY0U[
+3,pen_penUp,,{},2,2,)6|qMaC|x8u%Dzk/f;]~
+4,pen_clear,,{},3,3,nRA0+)eV7J47)H.u}t*$
+5,pen_setPenColorToColor,,"{""COLOR"": [1, [9, ""#33d003""]]}",4,4,ub@vRRv_aQW(+`VA7uF)
+6,pen_setPenSizeTo,,"{""SIZE"": [1, [4, ""5""]]}",5,5,Bl1M9(B/qBcxN/^GC+`8
+7,motion_gotoxy,,"{""X"": [1, [4, ""-178""]], ""Y"": [1, [4, ""22""]]}",6,6,uD3I7Pk$4]Zg+o];rOM;
+8,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",7,7,`R/PdrYDs6=HFIsz@8@[
+9,pen_penDown,,{},8,8,Fp{5qEpX}=Z4FDCyoz`2
+10,motion_movesteps,,"{""STEPS"": [1, [4, ""30""]]}",9,9,wi_@R?zt9e{x=isR#i`A
+11,pen_penUp,,{},10,10,"-;G!8VhI,c7iqET1A[wZ"
+12,motion_movesteps,,"{""STEPS"": [1, [4, ""30""]]}",11,11,F~Ouf023RMN]6SCP?kY!
+13,pen_setPenColorToColor,,"{""COLOR"": [1, [9, ""#026cd0""]]}",12,12,@Golr?V?b(0ixgZw}4$:
+14,pen_setPenSizeTo,,"{""SIZE"": [1, [4, ""10""]]}",13,13,;PUSh(u8T+yx2(`:G/ji
+15,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",14,14,m65YhR6Qurj-0W-fZ?RA
+16,pen_penDown,,{},15,15,em;Vn/[@?LE:F$j~K]qv
+17,motion_movesteps,,"{""STEPS"": [1, [4, ""60""]]}",16,16,lL:gBk)5S$cVh;kqFw0~
+18,pen_penUp,,{},17,17,"gXY;R8d|7csj,}?DnG2("
+19,motion_movesteps,,"{""STEPS"": [1, [4, ""30""]]}",18,18,~`4FU#S$*U1N4AZf31}d
+20,pen_setPenColorToColor,,"{""COLOR"": [1, [9, ""#d00202""]]}",19,19,#R)]di._6xvSCj}u8j9M
+21,pen_setPenSizeTo,,"{""SIZE"": [1, [4, ""15""]]}",20,20,"@/[HY;%`0@N]QRK,DGr,"
+22,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",21,21,"H~4!Y.MZ,Z0!3#[_:_-H"
+23,pen_penDown,,{},22,22,:+3l!b@=]RQ.gI!st?k[
+24,motion_movesteps,,"{""STEPS"": [1, [4, ""90""]]}",23,23,D7G*~-V/w=izNg2A_Akh
+25,pen_penUp,,{},24,24,Lz+]_u}teH/@mB{p^ZIq
+26,motion_movesteps,,"{""STEPS"": [1, [4, ""30""]]}",25,25,w{d@;/oZO;TM:yfqzU4.
+27,pen_setPenColorToColor,,"{""COLOR"": [1, [9, ""#b102d0""]]}",26,26,"6HK!yy]Y|Sslpj^OP9,D"
+28,pen_setPenSizeTo,,"{""SIZE"": [1, [4, ""20""]]}",27,27,#G@WlJon1$ot|-_%dC1m
+29,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",28,28,"xW1%!$!,+7n0)$j3J)fi"
+30,pen_penDown,,{},29,29,%mo[_E)`P/gmFz;:2!rv
+31,motion_movesteps,,"{""STEPS"": [1, [4, ""120""]]}",30,30,BNr=S!okq^`$Ebd^~Uk8

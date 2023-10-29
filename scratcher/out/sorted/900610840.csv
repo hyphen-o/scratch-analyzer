@@ -1,0 +1,10 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,137,-14.75641182056933,-24.14702680628069,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,$Y`NI/I$EA{aUadqG#34
+3,sensing_askandwait,,"{""QUESTION"": [1, [10, ""Number of sides? ""]]}",2,2,H-H;aQ$4~#J3fT2Lr*n1
+4,data_setvariableto,,,3,3,DxX6xd[J1AOb#VeNKs||
+5,sensing_askandwait,,"{""QUESTION"": [1, [10, ""What is the length of the side? ""]]}",4,4,"gr}s84o2k^WPKJ#8jRK,"
+6,data_setvariableto,,,5,5,XP[A3}J9I?37]k`oK`eq
+7,pen_penDown,,{},6,6,!MVyR3{E6w@|p9*N3P(*
+8,control_repeat,,,7,7,|6Y9m1^_TA+bq{V:=:-q

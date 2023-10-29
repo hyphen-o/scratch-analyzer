@@ -1,0 +1,14 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,27,-92,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,E+QDt`x3|I^v*Dtc.N`U
+3,looks_switchbackdropto,,"{""BACKDROP"": [1, ""UM%uY{{Inio`?*~Jn2GL""]}",2,2,"QpLxqs/?|iWJPc{4-C^,"
+4,motion_gotoxy,,"{""X"": [1, [4, ""-27""]], ""Y"": [1, [4, ""1""]]}",3,3,"PFekS=MfjIVfDW,VAs@{"
+5,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""45""]]}",4,4,3QT7aww]ru233wv+`U:R
+6,control_wait,,"{""DURATION"": [1, [5, ""2""]]}",5,5,EfU$HBZ[`Igl9H!qM5~C
+7,motion_gotoxy,,"{""X"": [1, [4, ""27""]], ""Y"": [1, [4, ""-92""]]}",6,6,/!OW;=SW5=J(!h;bDrR}
+8,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""90""]]}",7,7,9bUeEFXZtxi(JV|NfS(5
+9,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Hello my name is Braylen, I am usually very lazy at my house""]], ""SECS"": [1, [4, ""5""]]}",8,8,9QZ=X6DS14#`fd4{8YI_
+10,SCRIPT,,,0,0,
+11,event_whenkeypressed,space,,1,0,hLNo_tu!3[1C6P$Y0#1L
+12,looks_switchbackdropto,,"{""BACKDROP"": [1, ""fFcqfCZ]^#;CJv)B^G;|""]}",2,11,Ic3e{/*gh/)U/DpOAtl1

@@ -1,0 +1,9 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-166,-70,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,^G`FY=n94`!6Sbtw1r.Y
+3,motion_gotoxy,,"{""X"": [1, [4, ""-166""]], ""Y"": [1, [4, ""-70""]]}",2,2,"t1HRf^Ji,bl1GJ~Wlbs+"
+4,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Hello! Can you help us?""]], ""SECS"": [1, [4, ""3""]]}",3,3,N_6eYk5?|d[1R:lVJK~^
+5,SCRIPT,,,0,0,
+6,event_whenkeypressed,space,,1,0,K0BrNGY.UaJApD{0_-$`
+7,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""I""m Kiran! Monet and I are trapped on this planet! ""]], ""SECS"": [1, [4, ""3""]]}",2,6,"aI,Cd5K(^-lAuh.H68]p"

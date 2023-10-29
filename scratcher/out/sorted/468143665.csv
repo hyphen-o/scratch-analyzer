@@ -1,0 +1,18 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,0,-42,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,NN*JxWPi9g23e{Tt4U#P
+3,motion_gotoxy,,"{""X"": [1, [4, ""0""]], ""Y"": [1, [4, ""-42""]]}",2,2,l)Sj3HWuKuFCd{J-)7a1
+4,looks_switchbackdropto,,"{""BACKDROP"": [1, ""LU4b4p3]-:yYZfyOE%:|""]}",3,3,t6n=h7xAsQo%J*.F;s3O
+5,looks_switchcostumeto,,"{""COSTUME"": [1, ""fk.Z8*)uHMOyMNlc9DAz""]}",4,4,".6ex1,bE0)uhDZ5-.4cK"
+6,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""ciao questo è il quiz di inglese""]], ""SECS"": [1, [4, ""2""]]}",5,5,"J6I,`VL0%,2;+@V*NOy#"
+7,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""ti farò delle domande e tu scriverai la risposta giusta.""]], ""SECS"": [1, [4, ""2""]]}",6,6,%HqE!%000?yZl4u?yin|
+8,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""schiaccia la barra spaziatrice""]], ""SECS"": [1, [4, ""2""]]}",7,7,ge*u(S_TN*fmu^8WUs@w
+9,SCRIPT,,,0,0,
+10,event_whenkeypressed,space,,1,0,tvp{Y.v(Ll4b6n=!|A[F
+11,looks_switchbackdropto,,"{""BACKDROP"": [1, ""6sK$C{,~OX3I-63IU[+@""]}",2,10,v*.*;gRAN`gP#$5cfGRi
+12,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""traduci questa frase""]], ""SECS"": [1, [4, ""2""]]}",3,11,51HY3*y$fIN9z7cM}pBb
+13,sensing_askandwait,,"{""QUESTION"": [1, [10, ""I speak english and you?""]]}",4,12,d@SO@:(ean).-DU#Y%7=
+14,control_if_else,,,5,13,y7YIQSD%F7f)fO$D++.v
+15,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""super!!!!!""]], ""SECS"": [1, [4, ""2""]]}",6,14,]$S-Y*I:`ow!P$lRkV(n
+16,looks_switchcostumeto,,"{""COSTUME"": [1, ""d.s*3B9bxXQ,xk_t9m0Q""]}",7,15,"us;+A{l@,?7x$WvXi/M["

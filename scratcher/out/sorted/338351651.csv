@@ -1,0 +1,11 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,-48.52601259131862,-96.13442729294005,36.287809008100226,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,"lN2G.4vrm?lPRpwQG6x,"
+3,motion_gotoxy,,"{""X"": [1, [4, ""0""]], ""Y"": [1, [4, ""0""]]}",2,2,"T3,W^(b7JOX@Zf@|/Se["
+4,data_setvariableto,,,3,3,gS]h4)Hp.m3}4S6QH9VV
+5,control_repeat_until,,"{""SUBSTACK"": [2, "")3Z6SAlJ8]D!cpKw=L}#""], ""CONDITION"": [2, ""_)@z%%U;MBfQ.9bv_bG%""]}",4,4,"3yDol?UzimLZ{b#Tl),|"
+6,SCRIPT,,,0,5,
+7,event_broadcast,,,1,5,La_nx9GGW+;l+ey]))P8
+8,SCRIPT,,,0,5,
+9,event_broadcast,,,1,5,La_nx9GGW+;l+ey]))P8

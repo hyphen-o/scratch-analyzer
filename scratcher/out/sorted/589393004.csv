@@ -1,0 +1,18 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,-25.42857142857119,140.1049617768322,129.13084403667918,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,298o[C`k5liMW+k5:C;Q
+3,motion_gotoxy,,"{""X"": [1, [4, ""0""]], ""Y"": [1, [4, ""0""]]}",2,2,7$?|`9YiWlCjV2eJ:eu*
+4,data_setvariableto,,,3,3,".~=X:I71dai-Xtc[V;,G"
+5,data_setvariableto,,,4,4,Ds#@Qid5#:G)S+U-7$/`
+6,data_setvariableto,,,5,5,A`gP4-hvHYz94~GC7kaA
+7,pen_clear,,{},6,6,%XJ[5$-eyr@+[.U;2w;O
+8,sensing_askandwait,,"{""QUESTION"": [1, [10, ""How many sides?""]]}",7,7,7s1g6$/w~=Lo3Z_QctD!
+9,data_setvariableto,,,8,8,"nGz,7!ibvLve*,7(D?;}"
+10,sensing_askandwait,,"{""QUESTION"": [1, [10, ""How long do you want the sides?""]]}",9,9,"Z^SOHN76}WHYSv$$q;4,"
+11,data_setvariableto,,,10,10,EZ8FNIwBjf6#5CK[]S(3
+12,sensing_askandwait,,"{""QUESTION"": [1, [10, ""How many do you want?""]]}",11,11,"C!h.s]A,0KdlyxwDl/AZ"
+13,data_setvariableto,,,12,12,{1IH[P5f0tEExpMI(*H}
+14,pen_setPenColorToColor,,"{""COLOR"": [1, [9, ""#4eb2be""]]}",13,13,AH{:(Qs5q^}J2V^N[.wF
+15,pen_setPenSizeTo,,"{""SIZE"": [1, [4, ""5""]]}",14,14,MTk2(j=lPMhnceGa1@$*
+16,control_repeat,,,15,15,"9jG)@]Snd|4FY2kgj45,"

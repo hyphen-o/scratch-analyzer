@@ -1,0 +1,9 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,-4,-17.897723286765014,-24.564120446530353,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,B5U8|n^rNFQ4JpLQRZBj
+3,data_setvariableto,,,2,2,7{FOV{OZDNTuJJzBK1/:
+4,data_setvariableto,,,3,3,cD{U3*dfCLSFgWDUlAr%
+5,motion_pointindirection,,"{""DIRECTION"": [3, ""NlMt~v@`woeuJgS7PwtL"", [8, ""45""]]}",4,4,AT:9H7C$=$AIO|K~H7gg
+6,control_if,,,5,5,/up9pC2tMa8/f=Fx!/UB
+7,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""-30""]]}",6,6,zOGhQ*b0^!C/|7NVJp|)

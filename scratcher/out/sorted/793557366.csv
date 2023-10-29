@@ -1,0 +1,39 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-92,-62,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,gb7f36V3rcwZSSHyPBLm
+3,looks_show,,{},2,2,"Jhx?LZ*?Y;~]%pv,;5*="
+4,looks_setsizeto,,"{""SIZE"": [1, [4, ""90""]]}",3,3,68H^1Q+y4edz|/^sW+I3
+5,looks_switchbackdropto,,"{""BACKDROP"": [1, ""y%eeXePZr4Fx~}0(+]u7""]}",4,4,++g-/#~{KXw;gT`h[wR;
+6,motion_setx,,"{""X"": [1, [4, ""-81""]]}",5,5,"74obuj`a%(+F8qa,k1oE"
+7,motion_sety,,"{""Y"": [1, [4, ""-66""]]}",6,6,hK}kCbdL`Mg{HubnDr/w
+8,looks_switchcostumeto,,"{""COSTUME"": [1, ""9eO-#=P?JUa`JGVdHbjc""]}",7,7,?kgdI:OyX~_Cy~uNFA#)
+9,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Hello! I am Monet""]], ""SECS"": [1, [4, ""2""]]}",8,8,Gyb0*/8/(Q0!1oAdn|@+
+10,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Today I will walk you through an issue that I believe needs to be addressed""]], ""SECS"": [1, [4, ""4""]]}",9,9,Vq8h=NUuWsck*9X1wrS2
+11,looks_switchcostumeto,,"{""COSTUME"": [1, ""Q7]CAW8*OTQ/-$iBM:;c""]}",10,10,Pf29pfRh+ZYm;{He[G.C
+12,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""And that issue is student vaping""]], ""SECS"": [1, [4, ""3""]]}",11,11,7I)v=u8D}krnesXI~|qg
+13,looks_hide,,{},12,12,5aESwfI|q]G]6)9^_q:5
+14,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",13,13,HXtifUm5vQvfrl?KBf:k
+15,motion_setx,,"{""X"": [1, [4, ""-116""]]}",14,14,s#}}gkDdv2^*@K^D6V!i
+16,motion_sety,,"{""Y"": [1, [4, ""-61""]]}",15,15,n0^:dLl8QWVnL1hU1;?R
+17,looks_switchcostumeto,,"{""COSTUME"": [1, ""tfZ-y~|HFKCb[]hE^QOQ""]}",16,16,$]i^)MF@PY[)V-@kN3J-
+18,looks_switchbackdropto,,"{""BACKDROP"": [1, ""$B9}.OgaQE;2,G0fgE4T""]}",17,17,o|5l5N?iuvQO0m!myq?6
+19,looks_show,,{},18,18,qaW|Rg(6L:/Gwz2#hJBz
+20,looks_setsizeto,,"{""SIZE"": [1, [4, ""160""]]}",19,19,Bs[TvBq3pN|=RQ_jFRT8
+21,looks_switchcostumeto,,"{""COSTUME"": [1, ""WyxI;0OOsh[dN2qMc(9Q""]}",20,20,#iF(qb4HeC!H)_`SN)!|
+22,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Students are often attracted to vapes because of their sleek design and different flavors.""]], ""SECS"": [1, [4, ""4""]]}",21,21,b5e~e_-$;N[lRW{pfYOH
+23,looks_switchcostumeto,,"{""COSTUME"": [1, ""=%2Z?AsPsZdMe~[T!(40""]}",22,22,C`Dnoc#n2j=HUGMWaFkQ
+24,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""However, they""re not always mindful to how dangerous it is on their health.""]], ""SECS"": [1, [4, ""4""]]}",23,23,_HPu]vR{b3Yir%rfldXB
+25,looks_switchcostumeto,,"{""COSTUME"": [1, ""^mfoI{4xg95,fe_taNiP""]}",24,24,e|s)-$oLJIbA#$}B*Bfb
+26,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Let""s have Kiran share some facts!""]], ""SECS"": [1, [4, ""2""]]}",25,25,c!aFDC{Tq?EAeTW(cHXp
+27,looks_hide,,{},26,26,lj8rU[~;Sa2LYS2W`A[f
+28,control_wait,,"{""DURATION"": [1, [5, ""25""]]}",27,27,nx8MJ1/sDxAatZg%(40*
+29,looks_switchbackdropto,,"{""BACKDROP"": [1, ""Z2~Y{Wu+IBn3`R.-pIEC""]}",28,28,(Z%}`3|=7u_[.kG5-+}i
+30,looks_show,,{},29,29,fr-{]weZ=;jXk$_qXl.u
+31,looks_setsizeto,,"{""SIZE"": [1, [4, ""80""]]}",30,30,Bc5I_dB*x!^VlTib!=N.
+32,looks_switchcostumeto,,"{""COSTUME"": [1, ""Eo?u3=+lVfZp6E:A]wz!""]}",31,31,"x|O77cuD%gh(r--9e8,2"
+33,motion_setx,,"{""X"": [1, [4, ""-92""]]}",32,32,sX:uLSDW)7b]{*vDxmEu
+34,motion_sety,,"{""Y"": [1, [4, ""-62""]]}",33,33,}EWmALhQzK5/pV{B/vGt
+35,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Thank you Kiran for sharing!""]], ""SECS"": [1, [4, ""2""]]}",34,34,"MYk1LQvt,UGK#w]{U]x0"
+36,control_wait,,"{""DURATION"": [1, [5, ""11""]]}",35,35,"1OyW-h%:g-d6WR26,#~b"
+37,looks_say,,"{""MESSAGE"": [1, [10, ""Thank you for listening!""]]}",36,36,.t}}1Lob`zf9J(!sH96l

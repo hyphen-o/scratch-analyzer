@@ -1,0 +1,31 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,10,-106,,,
+1,SCRIPT,,,0,0,
+2,event_whenkeypressed,space,,1,0,)|bIy#!xRY5Kz62L.OSh
+3,looks_switchcostumeto,,"{""COSTUME"": [1, ""{Y^}qsg/l0{o$j2T[7YP""]}",2,2,1v5PKAKa!S{6bvBjC91F
+4,motion_gotoxy,,"{""X"": [1, [4, ""10""]], ""Y"": [1, [4, ""-106""]]}",3,3,xkiIkl4OU.mZPE1^rM:8
+5,looks_show,,{},4,4,SVPgS~=6H/t*K.m-k0X$
+6,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",5,5,;@pO]cf*+b^6h}$bLXPY
+7,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Takže dnes jsou Velikonoce, jo?""]], ""SECS"": [1, [4, ""2""]]}",6,6,H9w:fN`2PTwx8XJHyvMT
+8,control_wait,,"{""DURATION"": [1, [5, ""2""]]}",7,7,+T9;euxY|9j1f`SW}J~2
+9,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""A co budeme dělat?""]], ""SECS"": [1, [4, ""2""]]}",8,8,My#reYc9Q]Qen6/VbNH!
+10,control_wait,,"{""DURATION"": [1, [5, ""7""]]}",9,9,MfP:QG_[EIiOuKny_51^
+11,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Jo""]], ""SECS"": [1, [4, ""2""]]}",10,10,A^Mex;WnCzJIZNT.sk2N
+12,control_wait,,"{""DURATION"": [1, [5, ""6.5""]]}",11,11,{QHM4M?BeE_[%[8=9wdb
+13,looks_hide,,{},12,12,Q1y_F[FMJOkfs7!*r%Dp
+14,control_wait,,"{""DURATION"": [1, [5, ""5.5""]]}",13,13,X`db)5oIFtzwFF@^!HwO
+15,looks_show,,{},14,14,FYH8hDXmVyEM{U)hQ}@A
+16,control_wait,,"{""DURATION"": [1, [5, ""4""]]}",15,15,*ociq(u=F*j8MiBbVf.$
+17,looks_switchcostumeto,,"{""COSTUME"": [1, ""fFx!9jSjY-2M//q_4YsQ""]}",16,16,t-c]PV..]JyqhNsA-q7O
+18,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",17,17,Y]O5W0UnEt^xXF+F(os)
+19,looks_switchcostumeto,,"{""COSTUME"": [1, ""ZoC)Mh@rCKXPpD0cyAgT""]}",18,18,"b!$D4KbrSs7hmy,$H+s6"
+20,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",19,19,+!T=mWoyowv1O07B%uAO
+21,looks_switchcostumeto,,"{""COSTUME"": [1, ""fzG5Vaz5@XL}?dia0/(N""]}",20,20,"?KUIN-=tJ)4ZVA,[uOxO"
+22,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",21,21,Vd`iTCewNr#%o[=4^aF^
+23,looks_switchcostumeto,,"{""COSTUME"": [1, "":zRtIv_t|8RxCBl@$$89""]}",22,22,LeoH0Jy#U)+{fC~u[QYb
+24,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",23,23,RQVssC%T6n~o@xQhY!%2
+25,looks_switchcostumeto,,"{""COSTUME"": [1, ""(HYf9B$C_Aom^~/N=S7H""]}",24,24,JyxW?=dsv-S8*9%;7v1%
+26,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",25,25,JW.w#`Tlsd`~oKQ.-7k:
+27,looks_switchcostumeto,,"{""COSTUME"": [1, ""#G=/nf,wB=Mk0uQ5hD}#""]}",26,26,3GPc[|bpwia5.g.mO{G?
+28,control_wait,,"{""DURATION"": [1, [5, ""5""]]}",27,27,iqgl~LKR8ZkC4|UxA6x/
+29,looks_hide,,{},28,28,F2FF0WH_we_hEY[e$#oC

@@ -1,0 +1,24 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-62,-106,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,k3g*|YL5eGMZft3L%o6-
+3,looks_hide,,{},2,2,"r,SReY)EmQQn/BjHB`Io"
+4,SCRIPT,,,0,0,
+5,event_whenkeypressed,space,,1,0,pXAXv=q1%y|=Uvyih*_`
+6,motion_gotoxy,,"{""X"": [1, [4, ""-112""]], ""Y"": [1, [4, ""-106""]]}",2,5,I;as=w(jhDm:04+]elnR
+7,looks_show,,{},3,6,$A36;UsT%k0Bfx?sX8jf
+8,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""¡WOW! increíble esta mañana""]], ""SECS"": [1, [4, ""2""]]}",4,7,"}*ppy90,xEO$/QANa[v="
+9,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""NO CREES?""]], ""SECS"": [1, [4, ""2""]]}",5,8,"2I7e,TWsyu@xcM[$n!`?"
+10,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""te presento a mi amigo el insano""]], ""SECS"": [1, [4, ""2""]]}",6,9,Gv_vNr[?*r/#}EmZFXSt
+11,motion_movesteps,,"{""STEPS"": [1, [4, ""25""]]}",7,10,A#@vc^CB$!]48OR?*hc6
+12,motion_ifonedgebounce,,{},8,11,}-y1zQiv[(-(Un.JKrCg
+13,looks_thinkforsecs,,"{""MESSAGE"": [1, [10, ""PRESIONA LA TECLA A""]], ""SECS"": [1, [4, ""2""]]}",9,12,!OH4xo{X!p0[=6G$G]pC
+14,SCRIPT,,,0,0,
+15,event_whenthisspriteclicked,,,1,0,82G)W]Ge=BCK}{@u*;9|
+16,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""POR QUE INSANO""]], ""SECS"": [1, [4, ""2""]]}",2,15,W@#)3;[}}*:{AGdfyc}c
+17,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""TE VEO DESORIENTADO""]], ""SECS"": [1, [4, ""2""]]}",3,16,"uE{F,}N6vk^9W|=cy1k2"
+18,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""TE AYUDO EN ALGO?""]], ""SECS"": [1, [4, ""2""]]}",4,17,kJs:Ny1G(-.c1YvOJ*9+
+19,motion_movesteps,,"{""STEPS"": [1, [4, ""25""]]}",5,18,fU.bI)2wO`gaGbHA7.S]
+20,motion_ifonedgebounce,,{},6,19,QR.^yfvb(F;Ohx)]g6sf
+21,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""DA CLICK SOBRE CHANGUA""]], ""SECS"": [1, [4, ""2""]]}",7,20,Eq4Y[z{ash/}9akpn|nL
+22,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""DESPUES TE AYUDARE, LA LEYENDA ES ASI, e describe como un ser que ataca a animales de diferentes especies en zonas ganaderas o rurales. El mito tuvo su origen en Puerto Rico en 1995,1\u200b y desde entonces se han reportado diversos supuestos avistamientos en lugares tan lejanos a la isla como Maine y Chile""]], ""SECS"": [1, [4, ""40""]]}",8,21,jou}SZRh:~b=/|9!#*e@

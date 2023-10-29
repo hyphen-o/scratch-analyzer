@@ -1,0 +1,25 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-20,0,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,"`,*W]7|+Q5:]]nt{#ZG-"
+3,motion_gotoxy,,"{""X"": [1, [4, ""-180""]], ""Y"": [1, [4, ""0""]]}",2,2,.9Kg:!WP]]RGnZZ0I~@s
+4,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""90""]]}",3,3,Tl;9Qg0w3}0v^CU)52-T
+5,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""why are you here?""]], ""SECS"": [1, [4, ""2""]]}",4,4,)g:Rm%Ao*4Q0k#9I[sQg
+6,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""well since your here I might as well tell you about my self""]], ""SECS"": [1, [4, ""2""]]}",5,5,XxDT/CAwe){/@WxQ5ND/
+7,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""this right here is my name""]], ""SECS"": [1, [4, ""2""]]}",6,6,d_KvUlGN1LtMONZaB8#:
+8,motion_movesteps,,"{""STEPS"": [1, [4, ""20""]]}",7,7,(__=:^*#J.Yu=T7[wUuC
+9,motion_movesteps,,"{""STEPS"": [1, [4, ""20""]]}",8,8,vyZn2;snYK]9O0csVj3{
+10,motion_movesteps,,"{""STEPS"": [1, [4, ""20""]]}",9,9,"FB#@fyN:7L60uf,q3HgL"
+11,motion_movesteps,,"{""STEPS"": [1, [4, ""20""]]}",10,10,.]~LlZXuH0w3JBMt8UwR
+12,motion_movesteps,,"{""STEPS"": [1, [4, ""20""]]}",11,11,Z(t6MP2dvk$w}}h?Ik/F
+13,motion_movesteps,,"{""STEPS"": [1, [4, ""20""]]}",12,12,j}3cP}j~THLwGcm4NO[A
+14,motion_movesteps,,"{""STEPS"": [1, [4, ""20""]]}",13,13,oE(eIK^e@ZB)IigDxOk5
+15,motion_movesteps,,"{""STEPS"": [1, [4, ""20""]]}",14,14,#V2wmU`s-BoDOR++vLwG
+16,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""this right here is a great quality picture of me where you can see me in my favorite jacket""]], ""SECS"": [1, [4, ""4""]]}",15,15,GzexC$ZuD1t3`CrSEui?
+17,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",16,16,3_MNs#wv-?0B{M8b#y+N
+18,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""I also play the trumpet""]], ""SECS"": [1, [4, ""2""]]}",17,17,=;@yoi2IrcH702jMaquy
+19,control_wait_until,,"{""CONDITION"": [2, ""889*Y`CB[@-)spd+3+c!""]}",18,18,"HXw#[aL~^BizzzeH4E,R"
+20,control_wait,,"{""DURATION"": [1, [5, ""8""]]}",19,19,09XsJXj.Acq0p%=Sh?F:
+21,SCRIPT,,,0,0,
+22,event_whenkeypressed,space,,1,0,"C,M@+,w~L,NMcqJ`~#E]"
+23,sound_playuntildone,,"{""SOUND_MENU"": [1, ""jTwrAKS{*2@@n/I87:j6""]}",2,22,K)9Cpb-k74e1OE5N%}._

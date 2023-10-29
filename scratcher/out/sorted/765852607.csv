@@ -1,0 +1,21 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-112,92,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,"DQ2E~B?HL.fq,s#:*+`8"
+3,looks_show,,{},2,2,e.CiH4yC2bkRQl:pdV*J
+4,motion_gotoxy,,"{""X"": [1, [4, ""-112""]], ""Y"": [1, [4, ""92""]]}",3,3,$oj%i1w=$TmCGRBW.-hz
+5,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""you look really bad""]], ""SECS"": [1, [4, ""2""]]}",4,4,"1oHl.T)K6*r7,DNsCmML"
+6,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",5,5,?tLgqqtD)FRStJt!V|YV
+7,looks_thinkforsecs,,"{""MESSAGE"": [1, [10, ""he deserved it""]], ""SECS"": [1, [4, ""2""]]}",6,6,nPHInSb]~WVj`y|9C`fK
+8,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",7,7,"OTxTfhn}3kzwp,NlvL*7"
+9,looks_switchbackdropto,,"{""BACKDROP"": [1, ""r[),FV)!+;a(uyMn7rgZ""]}",8,8,~1{;6k$fD443:z:7tq?i
+10,control_wait,,"{""DURATION"": [1, [5, ""3""]]}",9,9,nyBt|gYd;P1XI|[K0+:2
+11,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""No way. I can beat you in any competition""]], ""SECS"": [1, [4, ""2""]]}",10,10,h8XLwR7r*gEnT2ik@42m
+12,control_wait,,"{""DURATION"": [1, [5, ""2""]]}",11,11,{l+_b;Tms*DUrh-ED}cP
+13,motion_gotoxy,,"{""X"": [1, [4, ""-145""]], ""Y"": [1, [4, ""52""]]}",12,12,EgE4G7#7Boy]/0vOJRmx
+14,control_wait,,"{""DURATION"": [1, [5, ""4""]]}",13,13,2q}yUvG#LYv!dk[n_H*m
+15,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""3,2,1 go""]], ""SECS"": [1, [4, ""1""]]}",14,14,"QW+|M,{^,(D0@TfBSLh2"
+16,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",15,15,",z,PmjgP72S!F9p6ZuUT"
+17,motion_movesteps,,"{""STEPS"": [1, [4, ""260""]]}",16,16,)mn|1|Fph|NF/O8#fkd0
+18,control_wait,,"{""DURATION"": [1, [5, ""2""]]}",17,17,?XSg5yFUhMJl#|0/3Lj#
+19,looks_hide,,{},18,18,|[g.)q41^WD-EK{V6N+L

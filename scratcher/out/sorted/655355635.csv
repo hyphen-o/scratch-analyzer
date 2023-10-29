@@ -1,0 +1,12 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,20,0,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,8MAEwB8N;3*{#MKK?nf;
+3,motion_movesteps,,"{""STEPS"": [1, [4, ""20""]]}",2,2,fv^)Or#5Ck`@bi4LfvH#
+4,sensing_askandwait,,"{""QUESTION"": [1, [10, ""Kako se zoveš?""]]}",3,3,RW6@Hr%(/:aI|/;?)8hZ
+5,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Pozdrav Skrečeru!""]], ""SECS"": [1, [4, ""2""]]}",4,4,"W2KFB~yV8+pzSX,jYBoe"
+6,SCRIPT,,,0,0,
+7,event_whenkeypressed,space,,1,0,Iq5+7)UwToM_={y+F5S(
+8,motion_movesteps,,"{""STEPS"": [1, [4, ""20""]]}",2,7,"ReIKq!v``L:,G36U$+NK"
+9,sensing_askandwait,,"{""QUESTION"": [1, [10, ""Kako se zoveš?""]]}",3,8,/rZy9m-Rzy{Dq[dt0NoF
+10,looks_sayforsecs,,"{""MESSAGE"": [3, ""v3X(X/Ef7ZXGq$^?e]85"", [10, ""Pozdrav Skrečeru!""]], ""SECS"": [1, [4, ""2""]]}",4,9,Y+$:VBW%)Fp@.~:+k|-+

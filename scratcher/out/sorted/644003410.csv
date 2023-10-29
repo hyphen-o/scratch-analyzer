@@ -1,0 +1,16 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,62,58,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,~i?2q92WWHYqvo`k]kq5
+3,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",2,2,n0bbL[Il4+{3MPh-B/h3
+4,control_repeat,,,3,3,BXz%=cB?c!=|}W;KChzF
+5,control_create_clone_of,,"{""CLONE_OPTION"": [1, ""gp5r^McTJvH-eP%eW;7Y""]}",4,4,d:25J(xBnN?R9U@dz43L
+6,motion_gotoxy,,"{""X"": [1, [4, ""-143""]], ""Y"": [1, [4, ""-67""]]}",5,5,yU4hLs#XV6XKS-D^EUP2
+7,control_create_clone_of,,"{""CLONE_OPTION"": [1, ""gp5r^McTJvH-eP%eW;7Y""]}",6,4,d:25J(xBnN?R9U@dz43L
+8,motion_gotoxy,,"{""X"": [1, [4, ""-143""]], ""Y"": [1, [4, ""-67""]]}",7,5,yU4hLs#XV6XKS-D^EUP2
+9,control_create_clone_of,,"{""CLONE_OPTION"": [1, ""gp5r^McTJvH-eP%eW;7Y""]}",8,4,d:25J(xBnN?R9U@dz43L
+10,motion_gotoxy,,"{""X"": [1, [4, ""-143""]], ""Y"": [1, [4, ""-67""]]}",9,5,yU4hLs#XV6XKS-D^EUP2
+11,control_create_clone_of,,"{""CLONE_OPTION"": [1, ""gp5r^McTJvH-eP%eW;7Y""]}",10,4,d:25J(xBnN?R9U@dz43L
+12,motion_gotoxy,,"{""X"": [1, [4, ""-143""]], ""Y"": [1, [4, ""-67""]]}",11,5,yU4hLs#XV6XKS-D^EUP2
+13,control_create_clone_of,,"{""CLONE_OPTION"": [1, ""gp5r^McTJvH-eP%eW;7Y""]}",12,4,d:25J(xBnN?R9U@dz43L
+14,motion_gotoxy,,"{""X"": [1, [4, ""-143""]], ""Y"": [1, [4, ""-67""]]}",13,5,yU4hLs#XV6XKS-D^EUP2

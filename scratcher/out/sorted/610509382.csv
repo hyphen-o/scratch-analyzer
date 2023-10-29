@@ -1,0 +1,28 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,175,-92,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,E1{yjP$H:5)H__Nfa$$h
+3,motion_gotoxy,,"{""X"": [1, [4, ""-162""]], ""Y"": [1, [4, ""-76""]]}",2,2,Cjlxg!4N-nwyW=WkfpI4
+4,sound_playuntildone,,"{""SOUND_MENU"": [1, ""Dk?9S]u#{y7^7n70Toid""]}",3,3,$yp}HmgJhYt(b-vc.GUc
+5,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""143""]], ""Y"": [1, [4, ""-76""]]}",4,4,"lL,xwGbUzso,/~N_dE]R"
+6,sound_playuntildone,,"{""SOUND_MENU"": [1, ""I2n[-2x4;XhXXj4#GQv;""]}",5,5,"-EyjJB?omE-pY,o4RuUt"
+7,SCRIPT,,,0,0,
+8,event_whenthisspriteclicked,,,1,0,"8I,sz=:v[n-y`I7A-32l"
+9,looks_switchbackdropto,,"{""BACKDROP"": [1, ""TY#]8}Eto188HrbrS|cQ""]}",2,8,T)r23X5;C-+P)|/5]18F
+10,motion_gotoxy,,"{""X"": [1, [4, ""175""]], ""Y"": [1, [4, ""-92""]]}",3,9,KwEKb}cb3490tEw=$=Tq
+11,sound_playuntildone,,"{""SOUND_MENU"": [1, ""p]~vX9Yq{nFP6c^ht!ed""]}",4,10,Bf3YrA0d6~aqRppU`@?d
+12,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",5,11,cQ*F-teItWy1_@GQeZVF
+13,sound_playuntildone,,"{""SOUND_MENU"": [1, ""PTW136U*+UA|{r=htDBf""]}",6,12,Rl2-@6sTgzx9)I0i~bXW
+14,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",7,13,aXnpF6cl8KoU%-NEY)y#
+15,SCRIPT,,,0,14,
+16,event_broadcast,,,1,14,u7t@;W|KpKrXA}/so49t
+17,looks_switchbackdropto,,"{""BACKDROP"": [1, "")3xwLT$%oo@HPBLW?i4E""]}",2,16,[cm`]Kg}^|=2UqGZZ=aY
+18,control_repeat_until,,"{""SUBSTACK"": [2, ""i,dy50ZLn=RAP2^xXq8Z""], ""CONDITION"": [2, ""!GVvMEVl):LE+Q8Keblg""]}",3,17,+:5hWqTB20u=M}PvNH:*
+19,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Great job today! Keep working hard. ""]], ""SECS"": [1, [4, ""5""]]}",4,18,vJSu#}Ev7V.(U/3)IwpK
+20,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""If you want to try this again, click on the green flag.""]], ""SECS"": [1, [4, ""5""]]}",5,19,B@]r;9N}!@pjW]$!KLM:
+21,SCRIPT,,,0,14,
+22,event_broadcast,,,1,14,u7t@;W|KpKrXA}/so49t
+23,looks_switchbackdropto,,"{""BACKDROP"": [1, "")3xwLT$%oo@HPBLW?i4E""]}",2,16,[cm`]Kg}^|=2UqGZZ=aY
+24,control_repeat_until,,"{""SUBSTACK"": [2, ""i,dy50ZLn=RAP2^xXq8Z""], ""CONDITION"": [2, ""!GVvMEVl):LE+Q8Keblg""]}",3,17,+:5hWqTB20u=M}PvNH:*
+25,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Great job today! Keep working hard. ""]], ""SECS"": [1, [4, ""5""]]}",4,18,vJSu#}Ev7V.(U/3)IwpK
+26,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""If you want to try this again, click on the green flag.""]], ""SECS"": [1, [4, ""5""]]}",5,19,B@]r;9N}!@pjW]$!KLM:

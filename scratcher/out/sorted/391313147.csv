@@ -1,0 +1,12 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-168.99804902012346,-127.0130883930168,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,nt`Fy5HBLvH*QuJZ:M`d
+3,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",2,2,^jh3j$ovzbS{7K}tPqhf
+4,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",3,3,;Kg?m7$FPdY*xV7m8?Bw
+5,motion_turnleft,,"{""DEGREES"": [1, [4, ""30""]]}",4,4,2=RlNg~v~+;H7bkF*ij%
+6,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",5,5,`D)uTcq*FE$DpM^^9WxA
+7,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",6,6,PZZ(N%M+Z1{;h25l6YUz
+8,sound_playuntildone,,"{""SOUND_MENU"": [1, ""omgd`zPj+fV!/}o(#Xgx""]}",7,7,z#pU/$H#61%xV+Q@bxj9
+9,control_wait,,"{""DURATION"": [1, [5, ""3""]]}",8,8,_Q@$l?kv%Px$)MdqBqme
+10,sound_playuntildone,,"{""SOUND_MENU"": [1, ""!cD{4=SUjdUto;a0G-Vi""]}",9,9,l^Pfv56(IVh_%y(:{/*I

@@ -1,0 +1,159 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-240,-138,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,;Jw!g[fA1APx-]5CBd@^
+3,motion_gotoxy,,"{""X"": [1, [4, ""-212""]], ""Y"": [1, [4, ""-158""]]}",2,2,y0jilc|2;wUFpv2rrZTo
+4,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""迷路スタート！！""]], ""SECS"": [1, [4, ""2""]]}",3,3,@D4TDq!|3C?X!L^Zvh#p
+5,SCRIPT,,,0,0,
+6,event_whenthisspriteclicked,,,1,0,1.:[6-3pkD%xRniHascY
+7,control_forever,,,2,6,hRTOJPG-PwbjZoSMmkd~
+8,motion_goto,,"{""TO"": [1, ""BLGpbd3z0D+UMmu?BfAh""]}",3,7,p3zt-Oav5=jExd7J%6s0
+9,control_if,,,4,8,@GMR}N84D2g{F4T)3ZAL
+10,motion_gotoxy,,"{""X"": [1, [4, ""-212""]], ""Y"": [1, [4, ""-158""]]}",5,9,1!6#wTg-Bp8kJx?{8jji
+11,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""残念！やり直し！""]], ""SECS"": [1, [4, ""2""]]}",6,10,GS-LNBFBwd(!Nttr*pi4
+12,control_stop,,{},7,11,a[~OHVFcjHWI3a$]EDB2
+13,motion_goto,,"{""TO"": [1, ""BLGpbd3z0D+UMmu?BfAh""]}",8,7,p3zt-Oav5=jExd7J%6s0
+14,control_if,,,9,8,@GMR}N84D2g{F4T)3ZAL
+15,motion_gotoxy,,"{""X"": [1, [4, ""-212""]], ""Y"": [1, [4, ""-158""]]}",10,9,1!6#wTg-Bp8kJx?{8jji
+16,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""残念！やり直し！""]], ""SECS"": [1, [4, ""2""]]}",11,10,GS-LNBFBwd(!Nttr*pi4
+17,control_stop,,{},12,11,a[~OHVFcjHWI3a$]EDB2
+18,motion_goto,,"{""TO"": [1, ""BLGpbd3z0D+UMmu?BfAh""]}",13,7,p3zt-Oav5=jExd7J%6s0
+19,control_if,,,14,8,@GMR}N84D2g{F4T)3ZAL
+20,motion_gotoxy,,"{""X"": [1, [4, ""-212""]], ""Y"": [1, [4, ""-158""]]}",15,9,1!6#wTg-Bp8kJx?{8jji
+21,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""残念！やり直し！""]], ""SECS"": [1, [4, ""2""]]}",16,10,GS-LNBFBwd(!Nttr*pi4
+22,control_stop,,{},17,11,a[~OHVFcjHWI3a$]EDB2
+23,motion_goto,,"{""TO"": [1, ""BLGpbd3z0D+UMmu?BfAh""]}",18,7,p3zt-Oav5=jExd7J%6s0
+24,control_if,,,19,8,@GMR}N84D2g{F4T)3ZAL
+25,motion_gotoxy,,"{""X"": [1, [4, ""-212""]], ""Y"": [1, [4, ""-158""]]}",20,9,1!6#wTg-Bp8kJx?{8jji
+26,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""残念！やり直し！""]], ""SECS"": [1, [4, ""2""]]}",21,10,GS-LNBFBwd(!Nttr*pi4
+27,control_stop,,{},22,11,a[~OHVFcjHWI3a$]EDB2
+28,motion_goto,,"{""TO"": [1, ""BLGpbd3z0D+UMmu?BfAh""]}",23,7,p3zt-Oav5=jExd7J%6s0
+29,control_if,,,24,8,@GMR}N84D2g{F4T)3ZAL
+30,motion_gotoxy,,"{""X"": [1, [4, ""-212""]], ""Y"": [1, [4, ""-158""]]}",25,9,1!6#wTg-Bp8kJx?{8jji
+31,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""残念！やり直し！""]], ""SECS"": [1, [4, ""2""]]}",26,10,GS-LNBFBwd(!Nttr*pi4
+32,control_stop,,{},27,11,a[~OHVFcjHWI3a$]EDB2
+33,motion_goto,,"{""TO"": [1, ""BLGpbd3z0D+UMmu?BfAh""]}",28,7,p3zt-Oav5=jExd7J%6s0
+34,control_if,,,29,8,@GMR}N84D2g{F4T)3ZAL
+35,motion_gotoxy,,"{""X"": [1, [4, ""-212""]], ""Y"": [1, [4, ""-158""]]}",30,9,1!6#wTg-Bp8kJx?{8jji
+36,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""残念！やり直し！""]], ""SECS"": [1, [4, ""2""]]}",31,10,GS-LNBFBwd(!Nttr*pi4
+37,control_stop,,{},32,11,a[~OHVFcjHWI3a$]EDB2
+38,motion_goto,,"{""TO"": [1, ""BLGpbd3z0D+UMmu?BfAh""]}",33,7,p3zt-Oav5=jExd7J%6s0
+39,control_if,,,34,8,@GMR}N84D2g{F4T)3ZAL
+40,motion_gotoxy,,"{""X"": [1, [4, ""-212""]], ""Y"": [1, [4, ""-158""]]}",35,9,1!6#wTg-Bp8kJx?{8jji
+41,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""残念！やり直し！""]], ""SECS"": [1, [4, ""2""]]}",36,10,GS-LNBFBwd(!Nttr*pi4
+42,control_stop,,{},37,11,a[~OHVFcjHWI3a$]EDB2
+43,motion_goto,,"{""TO"": [1, ""BLGpbd3z0D+UMmu?BfAh""]}",38,7,p3zt-Oav5=jExd7J%6s0
+44,control_if,,,39,8,@GMR}N84D2g{F4T)3ZAL
+45,motion_gotoxy,,"{""X"": [1, [4, ""-212""]], ""Y"": [1, [4, ""-158""]]}",40,9,1!6#wTg-Bp8kJx?{8jji
+46,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""残念！やり直し！""]], ""SECS"": [1, [4, ""2""]]}",41,10,GS-LNBFBwd(!Nttr*pi4
+47,control_stop,,{},42,11,a[~OHVFcjHWI3a$]EDB2
+48,motion_goto,,"{""TO"": [1, ""BLGpbd3z0D+UMmu?BfAh""]}",43,7,p3zt-Oav5=jExd7J%6s0
+49,control_if,,,44,8,@GMR}N84D2g{F4T)3ZAL
+50,motion_gotoxy,,"{""X"": [1, [4, ""-212""]], ""Y"": [1, [4, ""-158""]]}",45,9,1!6#wTg-Bp8kJx?{8jji
+51,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""残念！やり直し！""]], ""SECS"": [1, [4, ""2""]]}",46,10,GS-LNBFBwd(!Nttr*pi4
+52,control_stop,,{},47,11,a[~OHVFcjHWI3a$]EDB2
+53,motion_goto,,"{""TO"": [1, ""BLGpbd3z0D+UMmu?BfAh""]}",48,7,p3zt-Oav5=jExd7J%6s0
+54,control_if,,,49,8,@GMR}N84D2g{F4T)3ZAL
+55,motion_gotoxy,,"{""X"": [1, [4, ""-212""]], ""Y"": [1, [4, ""-158""]]}",50,9,1!6#wTg-Bp8kJx?{8jji
+56,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""残念！やり直し！""]], ""SECS"": [1, [4, ""2""]]}",51,10,GS-LNBFBwd(!Nttr*pi4
+57,control_stop,,{},52,11,a[~OHVFcjHWI3a$]EDB2
+58,motion_goto,,"{""TO"": [1, ""BLGpbd3z0D+UMmu?BfAh""]}",53,7,p3zt-Oav5=jExd7J%6s0
+59,control_if,,,54,8,@GMR}N84D2g{F4T)3ZAL
+60,motion_gotoxy,,"{""X"": [1, [4, ""-212""]], ""Y"": [1, [4, ""-158""]]}",55,9,1!6#wTg-Bp8kJx?{8jji
+61,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""残念！やり直し！""]], ""SECS"": [1, [4, ""2""]]}",56,10,GS-LNBFBwd(!Nttr*pi4
+62,control_stop,,{},57,11,a[~OHVFcjHWI3a$]EDB2
+63,motion_goto,,"{""TO"": [1, ""BLGpbd3z0D+UMmu?BfAh""]}",58,7,p3zt-Oav5=jExd7J%6s0
+64,control_if,,,59,8,@GMR}N84D2g{F4T)3ZAL
+65,motion_gotoxy,,"{""X"": [1, [4, ""-212""]], ""Y"": [1, [4, ""-158""]]}",60,9,1!6#wTg-Bp8kJx?{8jji
+66,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""残念！やり直し！""]], ""SECS"": [1, [4, ""2""]]}",61,10,GS-LNBFBwd(!Nttr*pi4
+67,control_stop,,{},62,11,a[~OHVFcjHWI3a$]EDB2
+68,motion_goto,,"{""TO"": [1, ""BLGpbd3z0D+UMmu?BfAh""]}",63,7,p3zt-Oav5=jExd7J%6s0
+69,control_if,,,64,8,@GMR}N84D2g{F4T)3ZAL
+70,motion_gotoxy,,"{""X"": [1, [4, ""-212""]], ""Y"": [1, [4, ""-158""]]}",65,9,1!6#wTg-Bp8kJx?{8jji
+71,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""残念！やり直し！""]], ""SECS"": [1, [4, ""2""]]}",66,10,GS-LNBFBwd(!Nttr*pi4
+72,control_stop,,{},67,11,a[~OHVFcjHWI3a$]EDB2
+73,motion_goto,,"{""TO"": [1, ""BLGpbd3z0D+UMmu?BfAh""]}",68,7,p3zt-Oav5=jExd7J%6s0
+74,control_if,,,69,8,@GMR}N84D2g{F4T)3ZAL
+75,motion_gotoxy,,"{""X"": [1, [4, ""-212""]], ""Y"": [1, [4, ""-158""]]}",70,9,1!6#wTg-Bp8kJx?{8jji
+76,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""残念！やり直し！""]], ""SECS"": [1, [4, ""2""]]}",71,10,GS-LNBFBwd(!Nttr*pi4
+77,control_stop,,{},72,11,a[~OHVFcjHWI3a$]EDB2
+78,motion_goto,,"{""TO"": [1, ""BLGpbd3z0D+UMmu?BfAh""]}",73,7,p3zt-Oav5=jExd7J%6s0
+79,control_if,,,74,8,@GMR}N84D2g{F4T)3ZAL
+80,motion_gotoxy,,"{""X"": [1, [4, ""-212""]], ""Y"": [1, [4, ""-158""]]}",75,9,1!6#wTg-Bp8kJx?{8jji
+81,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""残念！やり直し！""]], ""SECS"": [1, [4, ""2""]]}",76,10,GS-LNBFBwd(!Nttr*pi4
+82,control_stop,,{},77,11,a[~OHVFcjHWI3a$]EDB2
+83,motion_goto,,"{""TO"": [1, ""BLGpbd3z0D+UMmu?BfAh""]}",78,7,p3zt-Oav5=jExd7J%6s0
+84,control_if,,,79,8,@GMR}N84D2g{F4T)3ZAL
+85,motion_gotoxy,,"{""X"": [1, [4, ""-212""]], ""Y"": [1, [4, ""-158""]]}",80,9,1!6#wTg-Bp8kJx?{8jji
+86,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""残念！やり直し！""]], ""SECS"": [1, [4, ""2""]]}",81,10,GS-LNBFBwd(!Nttr*pi4
+87,control_stop,,{},82,11,a[~OHVFcjHWI3a$]EDB2
+88,motion_goto,,"{""TO"": [1, ""BLGpbd3z0D+UMmu?BfAh""]}",83,7,p3zt-Oav5=jExd7J%6s0
+89,control_if,,,84,8,@GMR}N84D2g{F4T)3ZAL
+90,motion_gotoxy,,"{""X"": [1, [4, ""-212""]], ""Y"": [1, [4, ""-158""]]}",85,9,1!6#wTg-Bp8kJx?{8jji
+91,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""残念！やり直し！""]], ""SECS"": [1, [4, ""2""]]}",86,10,GS-LNBFBwd(!Nttr*pi4
+92,control_stop,,{},87,11,a[~OHVFcjHWI3a$]EDB2
+93,motion_goto,,"{""TO"": [1, ""BLGpbd3z0D+UMmu?BfAh""]}",88,7,p3zt-Oav5=jExd7J%6s0
+94,control_if,,,89,8,@GMR}N84D2g{F4T)3ZAL
+95,motion_gotoxy,,"{""X"": [1, [4, ""-212""]], ""Y"": [1, [4, ""-158""]]}",90,9,1!6#wTg-Bp8kJx?{8jji
+96,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""残念！やり直し！""]], ""SECS"": [1, [4, ""2""]]}",91,10,GS-LNBFBwd(!Nttr*pi4
+97,control_stop,,{},92,11,a[~OHVFcjHWI3a$]EDB2
+98,motion_goto,,"{""TO"": [1, ""BLGpbd3z0D+UMmu?BfAh""]}",93,7,p3zt-Oav5=jExd7J%6s0
+99,control_if,,,94,8,@GMR}N84D2g{F4T)3ZAL
+100,motion_gotoxy,,"{""X"": [1, [4, ""-212""]], ""Y"": [1, [4, ""-158""]]}",95,9,1!6#wTg-Bp8kJx?{8jji
+101,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""残念！やり直し！""]], ""SECS"": [1, [4, ""2""]]}",96,10,GS-LNBFBwd(!Nttr*pi4
+102,control_stop,,{},97,11,a[~OHVFcjHWI3a$]EDB2
+103,motion_goto,,"{""TO"": [1, ""BLGpbd3z0D+UMmu?BfAh""]}",98,7,p3zt-Oav5=jExd7J%6s0
+104,control_if,,,99,8,@GMR}N84D2g{F4T)3ZAL
+105,motion_gotoxy,,"{""X"": [1, [4, ""-212""]], ""Y"": [1, [4, ""-158""]]}",100,9,1!6#wTg-Bp8kJx?{8jji
+106,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""残念！やり直し！""]], ""SECS"": [1, [4, ""2""]]}",101,10,GS-LNBFBwd(!Nttr*pi4
+107,control_stop,,{},102,11,a[~OHVFcjHWI3a$]EDB2
+108,motion_goto,,"{""TO"": [1, ""BLGpbd3z0D+UMmu?BfAh""]}",103,7,p3zt-Oav5=jExd7J%6s0
+109,control_if,,,104,8,@GMR}N84D2g{F4T)3ZAL
+110,motion_gotoxy,,"{""X"": [1, [4, ""-212""]], ""Y"": [1, [4, ""-158""]]}",105,9,1!6#wTg-Bp8kJx?{8jji
+111,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""残念！やり直し！""]], ""SECS"": [1, [4, ""2""]]}",106,10,GS-LNBFBwd(!Nttr*pi4
+112,control_stop,,{},107,11,a[~OHVFcjHWI3a$]EDB2
+113,motion_goto,,"{""TO"": [1, ""BLGpbd3z0D+UMmu?BfAh""]}",108,7,p3zt-Oav5=jExd7J%6s0
+114,control_if,,,109,8,@GMR}N84D2g{F4T)3ZAL
+115,motion_gotoxy,,"{""X"": [1, [4, ""-212""]], ""Y"": [1, [4, ""-158""]]}",110,9,1!6#wTg-Bp8kJx?{8jji
+116,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""残念！やり直し！""]], ""SECS"": [1, [4, ""2""]]}",111,10,GS-LNBFBwd(!Nttr*pi4
+117,control_stop,,{},112,11,a[~OHVFcjHWI3a$]EDB2
+118,motion_goto,,"{""TO"": [1, ""BLGpbd3z0D+UMmu?BfAh""]}",113,7,p3zt-Oav5=jExd7J%6s0
+119,control_if,,,114,8,@GMR}N84D2g{F4T)3ZAL
+120,motion_gotoxy,,"{""X"": [1, [4, ""-212""]], ""Y"": [1, [4, ""-158""]]}",115,9,1!6#wTg-Bp8kJx?{8jji
+121,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""残念！やり直し！""]], ""SECS"": [1, [4, ""2""]]}",116,10,GS-LNBFBwd(!Nttr*pi4
+122,control_stop,,{},117,11,a[~OHVFcjHWI3a$]EDB2
+123,motion_goto,,"{""TO"": [1, ""BLGpbd3z0D+UMmu?BfAh""]}",118,7,p3zt-Oav5=jExd7J%6s0
+124,control_if,,,119,8,@GMR}N84D2g{F4T)3ZAL
+125,motion_gotoxy,,"{""X"": [1, [4, ""-212""]], ""Y"": [1, [4, ""-158""]]}",120,9,1!6#wTg-Bp8kJx?{8jji
+126,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""残念！やり直し！""]], ""SECS"": [1, [4, ""2""]]}",121,10,GS-LNBFBwd(!Nttr*pi4
+127,control_stop,,{},122,11,a[~OHVFcjHWI3a$]EDB2
+128,motion_goto,,"{""TO"": [1, ""BLGpbd3z0D+UMmu?BfAh""]}",123,7,p3zt-Oav5=jExd7J%6s0
+129,control_if,,,124,8,@GMR}N84D2g{F4T)3ZAL
+130,motion_gotoxy,,"{""X"": [1, [4, ""-212""]], ""Y"": [1, [4, ""-158""]]}",125,9,1!6#wTg-Bp8kJx?{8jji
+131,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""残念！やり直し！""]], ""SECS"": [1, [4, ""2""]]}",126,10,GS-LNBFBwd(!Nttr*pi4
+132,control_stop,,{},127,11,a[~OHVFcjHWI3a$]EDB2
+133,motion_goto,,"{""TO"": [1, ""BLGpbd3z0D+UMmu?BfAh""]}",128,7,p3zt-Oav5=jExd7J%6s0
+134,control_if,,,129,8,@GMR}N84D2g{F4T)3ZAL
+135,motion_gotoxy,,"{""X"": [1, [4, ""-212""]], ""Y"": [1, [4, ""-158""]]}",130,9,1!6#wTg-Bp8kJx?{8jji
+136,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""残念！やり直し！""]], ""SECS"": [1, [4, ""2""]]}",131,10,GS-LNBFBwd(!Nttr*pi4
+137,control_stop,,{},132,11,a[~OHVFcjHWI3a$]EDB2
+138,motion_goto,,"{""TO"": [1, ""BLGpbd3z0D+UMmu?BfAh""]}",133,7,p3zt-Oav5=jExd7J%6s0
+139,control_if,,,134,8,@GMR}N84D2g{F4T)3ZAL
+140,motion_gotoxy,,"{""X"": [1, [4, ""-212""]], ""Y"": [1, [4, ""-158""]]}",135,9,1!6#wTg-Bp8kJx?{8jji
+141,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""残念！やり直し！""]], ""SECS"": [1, [4, ""2""]]}",136,10,GS-LNBFBwd(!Nttr*pi4
+142,control_stop,,{},137,11,a[~OHVFcjHWI3a$]EDB2
+143,motion_goto,,"{""TO"": [1, ""BLGpbd3z0D+UMmu?BfAh""]}",138,7,p3zt-Oav5=jExd7J%6s0
+144,control_if,,,139,8,@GMR}N84D2g{F4T)3ZAL
+145,motion_gotoxy,,"{""X"": [1, [4, ""-212""]], ""Y"": [1, [4, ""-158""]]}",140,9,1!6#wTg-Bp8kJx?{8jji
+146,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""残念！やり直し！""]], ""SECS"": [1, [4, ""2""]]}",141,10,GS-LNBFBwd(!Nttr*pi4
+147,control_stop,,{},142,11,a[~OHVFcjHWI3a$]EDB2
+148,motion_goto,,"{""TO"": [1, ""BLGpbd3z0D+UMmu?BfAh""]}",143,7,p3zt-Oav5=jExd7J%6s0
+149,control_if,,,144,8,@GMR}N84D2g{F4T)3ZAL
+150,motion_gotoxy,,"{""X"": [1, [4, ""-212""]], ""Y"": [1, [4, ""-158""]]}",145,9,1!6#wTg-Bp8kJx?{8jji
+151,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""残念！やり直し！""]], ""SECS"": [1, [4, ""2""]]}",146,10,GS-LNBFBwd(!Nttr*pi4
+152,control_stop,,{},147,11,a[~OHVFcjHWI3a$]EDB2
+153,motion_goto,,"{""TO"": [1, ""BLGpbd3z0D+UMmu?BfAh""]}",148,7,p3zt-Oav5=jExd7J%6s0
+154,control_if,,,149,8,@GMR}N84D2g{F4T)3ZAL
+155,motion_gotoxy,,"{""X"": [1, [4, ""-212""]], ""Y"": [1, [4, ""-158""]]}",150,9,1!6#wTg-Bp8kJx?{8jji
+156,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""残念！やり直し！""]], ""SECS"": [1, [4, ""2""]]}",151,10,GS-LNBFBwd(!Nttr*pi4
+157,control_stop,,{},152,11,a[~OHVFcjHWI3a$]EDB2

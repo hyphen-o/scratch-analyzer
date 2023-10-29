@@ -1,0 +1,8 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-135.1764705882353,-19,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,Z|#_6*Bw;3]Q/d:w_(8`
+3,control_wait,,"{""DURATION"": [1, [5, ""5""]]}",2,2,V(LUphe`2kiSQ-`zHaz3
+4,text2speech_speakAndWait,,"{""WORDS"": [1, [10, ""Hey Abby of course I’m ready""]]}",3,3,y$gL~:A!M.ci|[)*UOZ3
+5,text2speech_speakAndWait,,"{""WORDS"": [1, [10, ""I’m so excited to go to the park after so long ""]]}",4,4,[hKdI0$M3Yb7g7(*|JQ?
+6,motion_movesteps,,"{""STEPS"": [1, [4, ""100""]]}",5,5,Dc-x%UdXSw0/qoOJ/^wI

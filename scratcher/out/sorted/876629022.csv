@@ -1,0 +1,18 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-197,-73,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,JL-Y=v6pgog1#k+cuKOp
+3,motion_gotoxy,,"{""X"": [1, [4, ""100""]], ""Y"": [1, [4, ""-37""]]}",2,2,gH`C5J2ND0bU0MJn5!ZI
+4,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""ABBY!""]], ""SECS"": [1, [4, ""2""]]}",3,3,t_uyU-bav$2=xDW?-rIC
+5,control_wait,,"{""DURATION"": [1, [5, ""2""]]}",4,4,nXnBl#Qud2$brMZb?S73
+6,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""WOULD YOU MIND TAKING A SHEET OF PAPER?""]], ""SECS"": [1, [4, ""2""]]}",5,5,",2]W`|AIf:@hCkzWy/?5"
+7,control_wait,,"{""DURATION"": [1, [5, ""2""]]}",6,6,5Wx1F^HbnpEHuYybgRNZ
+8,motion_gotoxy,,"{""X"": [1, [4, ""-197""]], ""Y"": [1, [4, ""-73""]]}",7,7,yp{KozpxO^;Y]-?dI3ug
+9,control_wait,,"{""DURATION"": [1, [5, ""2""]]}",8,8,r$8(*#uD:UyM_%6xhZ5v
+10,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""NOW WRITE 51 ON THE PAPER.""]], ""SECS"": [1, [4, ""2""]]}",9,9,yK||Cgn:^p611Xkzrw+n
+11,control_wait,,"{""DURATION"": [1, [5, ""2""]]}",10,10,KPK-5fw8yV2WBv:IE+GK
+12,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""NOW DOUBLE IT.""]], ""SECS"": [1, [4, ""2""]]}",11,11,Z~}Ac_8bH|p6M$T-BZFf
+13,control_wait,,"{""DURATION"": [1, [5, ""2""]]}",12,12,B1((TTUVLBI5sI%-7T_]
+14,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""DIVIDE THIS NUMBER WITH 2.""]], ""SECS"": [1, [4, ""2""]]}",13,13,46Sz?4ZUC(kmML2v!lH~
+15,control_wait,,"{""DURATION"": [1, [5, ""30""]]}",14,14,L%+UFppi[s_[K}zm|FvE
+16,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""I LEARNT THIS MATH HACK IN SCHOOL, YOU KNOW ?""]], ""SECS"": [1, [4, ""2""]]}",15,15,O?F^EvmcY%X.*;+IyO|X

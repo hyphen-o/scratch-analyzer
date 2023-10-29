@@ -1,0 +1,19 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,180.00000000000074,0,0,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,zM#_mpID_(.s!oDlz]b7
+3,pen_clear,,{},2,2,)wmk!%0/0#2nBc4cn:y*
+4,motion_gotoxy,,"{""X"": [1, [4, ""0""]], ""Y"": [1, [4, ""0""]]}",3,3,"tp!DYKjtUnFpb..YJ,JL"
+5,motion_setrotationstyle,,{},4,4,"|B:4.?,VXj,_;|hAJsHv"
+6,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Hello!""]], ""SECS"": [1, [4, ""2""]]}",5,5,yVPMIlPNXpptM41r!]=Z
+7,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Welcome to the shape generator!""]], ""SECS"": [1, [4, ""4""]]}",6,6,FV!O.=alVH}Id~Yh/rE=
+8,sensing_askandwait,,"{""QUESTION"": [1, [10, ""How many sides do you wnat your shape to have?""]]}",7,7,G!$JBxSMG(Jb[{KqCOl5
+9,data_setvariableto,,,8,8,N~;c0~t5Ze(@vj522e$(
+10,sensing_askandwait,,"{""QUESTION"": [1, [10, ""How big do you want your shape?""]]}",9,9,q2ZXw=XQl`-8T9^YA-jH
+11,data_setvariableto,,,10,10,)3KY1QhBO}Gar.rsiT~M
+12,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Okay! I""m ready to draw!""]], ""SECS"": [1, [4, ""6""]]}",11,11,K|p=?FAHKt)+?T0Q0BNp
+13,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Just press the spacebar to get me going!""]], ""SECS"": [1, [4, ""5""]]}",12,12,/JfzKCCy8O08RFX}!Nay
+14,SCRIPT,,,0,0,
+15,event_whenkeypressed,space,,1,0,(MyClEP![W)%}f!l|TuY
+16,pen_penDown,,{},2,15,wc*5f|fA:W.quJ5jRQug
+17,control_repeat,,,3,16,5LYY;X}haq|f.Fp.`An(

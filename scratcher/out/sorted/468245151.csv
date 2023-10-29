@@ -1,0 +1,100 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,4,-15,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,peFV1cr?)Qe*4esW1-jz
+3,control_forever,,,2,2,"dR,T0$rwib:sj2-dZ3f~"
+4,sensing_askandwait,,"{""QUESTION"": [1, [10, ""成績是?""]]}",3,3,:k^2D7Tm6r+nbkbOOhrj
+5,control_if_else,,,4,4,"gb%[/^JzGlJ~,s,-WgB0"
+6,control_stop,,{},5,5,f?wV}_5.;1Uku[RpaX!`
+7,sensing_askandwait,,"{""QUESTION"": [1, [10, ""成績是?""]]}",6,3,:k^2D7Tm6r+nbkbOOhrj
+8,control_if_else,,,7,4,"gb%[/^JzGlJ~,s,-WgB0"
+9,control_stop,,{},8,5,f?wV}_5.;1Uku[RpaX!`
+10,sensing_askandwait,,"{""QUESTION"": [1, [10, ""成績是?""]]}",9,3,:k^2D7Tm6r+nbkbOOhrj
+11,control_if_else,,,10,4,"gb%[/^JzGlJ~,s,-WgB0"
+12,control_stop,,{},11,5,f?wV}_5.;1Uku[RpaX!`
+13,sensing_askandwait,,"{""QUESTION"": [1, [10, ""成績是?""]]}",12,3,:k^2D7Tm6r+nbkbOOhrj
+14,control_if_else,,,13,4,"gb%[/^JzGlJ~,s,-WgB0"
+15,control_stop,,{},14,5,f?wV}_5.;1Uku[RpaX!`
+16,sensing_askandwait,,"{""QUESTION"": [1, [10, ""成績是?""]]}",15,3,:k^2D7Tm6r+nbkbOOhrj
+17,control_if_else,,,16,4,"gb%[/^JzGlJ~,s,-WgB0"
+18,control_stop,,{},17,5,f?wV}_5.;1Uku[RpaX!`
+19,sensing_askandwait,,"{""QUESTION"": [1, [10, ""成績是?""]]}",18,3,:k^2D7Tm6r+nbkbOOhrj
+20,control_if_else,,,19,4,"gb%[/^JzGlJ~,s,-WgB0"
+21,control_stop,,{},20,5,f?wV}_5.;1Uku[RpaX!`
+22,sensing_askandwait,,"{""QUESTION"": [1, [10, ""成績是?""]]}",21,3,:k^2D7Tm6r+nbkbOOhrj
+23,control_if_else,,,22,4,"gb%[/^JzGlJ~,s,-WgB0"
+24,control_stop,,{},23,5,f?wV}_5.;1Uku[RpaX!`
+25,sensing_askandwait,,"{""QUESTION"": [1, [10, ""成績是?""]]}",24,3,:k^2D7Tm6r+nbkbOOhrj
+26,control_if_else,,,25,4,"gb%[/^JzGlJ~,s,-WgB0"
+27,control_stop,,{},26,5,f?wV}_5.;1Uku[RpaX!`
+28,sensing_askandwait,,"{""QUESTION"": [1, [10, ""成績是?""]]}",27,3,:k^2D7Tm6r+nbkbOOhrj
+29,control_if_else,,,28,4,"gb%[/^JzGlJ~,s,-WgB0"
+30,control_stop,,{},29,5,f?wV}_5.;1Uku[RpaX!`
+31,sensing_askandwait,,"{""QUESTION"": [1, [10, ""成績是?""]]}",30,3,:k^2D7Tm6r+nbkbOOhrj
+32,control_if_else,,,31,4,"gb%[/^JzGlJ~,s,-WgB0"
+33,control_stop,,{},32,5,f?wV}_5.;1Uku[RpaX!`
+34,sensing_askandwait,,"{""QUESTION"": [1, [10, ""成績是?""]]}",33,3,:k^2D7Tm6r+nbkbOOhrj
+35,control_if_else,,,34,4,"gb%[/^JzGlJ~,s,-WgB0"
+36,control_stop,,{},35,5,f?wV}_5.;1Uku[RpaX!`
+37,sensing_askandwait,,"{""QUESTION"": [1, [10, ""成績是?""]]}",36,3,:k^2D7Tm6r+nbkbOOhrj
+38,control_if_else,,,37,4,"gb%[/^JzGlJ~,s,-WgB0"
+39,control_stop,,{},38,5,f?wV}_5.;1Uku[RpaX!`
+40,sensing_askandwait,,"{""QUESTION"": [1, [10, ""成績是?""]]}",39,3,:k^2D7Tm6r+nbkbOOhrj
+41,control_if_else,,,40,4,"gb%[/^JzGlJ~,s,-WgB0"
+42,control_stop,,{},41,5,f?wV}_5.;1Uku[RpaX!`
+43,sensing_askandwait,,"{""QUESTION"": [1, [10, ""成績是?""]]}",42,3,:k^2D7Tm6r+nbkbOOhrj
+44,control_if_else,,,43,4,"gb%[/^JzGlJ~,s,-WgB0"
+45,control_stop,,{},44,5,f?wV}_5.;1Uku[RpaX!`
+46,sensing_askandwait,,"{""QUESTION"": [1, [10, ""成績是?""]]}",45,3,:k^2D7Tm6r+nbkbOOhrj
+47,control_if_else,,,46,4,"gb%[/^JzGlJ~,s,-WgB0"
+48,control_stop,,{},47,5,f?wV}_5.;1Uku[RpaX!`
+49,sensing_askandwait,,"{""QUESTION"": [1, [10, ""成績是?""]]}",48,3,:k^2D7Tm6r+nbkbOOhrj
+50,control_if_else,,,49,4,"gb%[/^JzGlJ~,s,-WgB0"
+51,control_stop,,{},50,5,f?wV}_5.;1Uku[RpaX!`
+52,sensing_askandwait,,"{""QUESTION"": [1, [10, ""成績是?""]]}",51,3,:k^2D7Tm6r+nbkbOOhrj
+53,control_if_else,,,52,4,"gb%[/^JzGlJ~,s,-WgB0"
+54,control_stop,,{},53,5,f?wV}_5.;1Uku[RpaX!`
+55,sensing_askandwait,,"{""QUESTION"": [1, [10, ""成績是?""]]}",54,3,:k^2D7Tm6r+nbkbOOhrj
+56,control_if_else,,,55,4,"gb%[/^JzGlJ~,s,-WgB0"
+57,control_stop,,{},56,5,f?wV}_5.;1Uku[RpaX!`
+58,sensing_askandwait,,"{""QUESTION"": [1, [10, ""成績是?""]]}",57,3,:k^2D7Tm6r+nbkbOOhrj
+59,control_if_else,,,58,4,"gb%[/^JzGlJ~,s,-WgB0"
+60,control_stop,,{},59,5,f?wV}_5.;1Uku[RpaX!`
+61,sensing_askandwait,,"{""QUESTION"": [1, [10, ""成績是?""]]}",60,3,:k^2D7Tm6r+nbkbOOhrj
+62,control_if_else,,,61,4,"gb%[/^JzGlJ~,s,-WgB0"
+63,control_stop,,{},62,5,f?wV}_5.;1Uku[RpaX!`
+64,sensing_askandwait,,"{""QUESTION"": [1, [10, ""成績是?""]]}",63,3,:k^2D7Tm6r+nbkbOOhrj
+65,control_if_else,,,64,4,"gb%[/^JzGlJ~,s,-WgB0"
+66,control_stop,,{},65,5,f?wV}_5.;1Uku[RpaX!`
+67,sensing_askandwait,,"{""QUESTION"": [1, [10, ""成績是?""]]}",66,3,:k^2D7Tm6r+nbkbOOhrj
+68,control_if_else,,,67,4,"gb%[/^JzGlJ~,s,-WgB0"
+69,control_stop,,{},68,5,f?wV}_5.;1Uku[RpaX!`
+70,sensing_askandwait,,"{""QUESTION"": [1, [10, ""成績是?""]]}",69,3,:k^2D7Tm6r+nbkbOOhrj
+71,control_if_else,,,70,4,"gb%[/^JzGlJ~,s,-WgB0"
+72,control_stop,,{},71,5,f?wV}_5.;1Uku[RpaX!`
+73,sensing_askandwait,,"{""QUESTION"": [1, [10, ""成績是?""]]}",72,3,:k^2D7Tm6r+nbkbOOhrj
+74,control_if_else,,,73,4,"gb%[/^JzGlJ~,s,-WgB0"
+75,control_stop,,{},74,5,f?wV}_5.;1Uku[RpaX!`
+76,sensing_askandwait,,"{""QUESTION"": [1, [10, ""成績是?""]]}",75,3,:k^2D7Tm6r+nbkbOOhrj
+77,control_if_else,,,76,4,"gb%[/^JzGlJ~,s,-WgB0"
+78,control_stop,,{},77,5,f?wV}_5.;1Uku[RpaX!`
+79,sensing_askandwait,,"{""QUESTION"": [1, [10, ""成績是?""]]}",78,3,:k^2D7Tm6r+nbkbOOhrj
+80,control_if_else,,,79,4,"gb%[/^JzGlJ~,s,-WgB0"
+81,control_stop,,{},80,5,f?wV}_5.;1Uku[RpaX!`
+82,sensing_askandwait,,"{""QUESTION"": [1, [10, ""成績是?""]]}",81,3,:k^2D7Tm6r+nbkbOOhrj
+83,control_if_else,,,82,4,"gb%[/^JzGlJ~,s,-WgB0"
+84,control_stop,,{},83,5,f?wV}_5.;1Uku[RpaX!`
+85,sensing_askandwait,,"{""QUESTION"": [1, [10, ""成績是?""]]}",84,3,:k^2D7Tm6r+nbkbOOhrj
+86,control_if_else,,,85,4,"gb%[/^JzGlJ~,s,-WgB0"
+87,control_stop,,{},86,5,f?wV}_5.;1Uku[RpaX!`
+88,sensing_askandwait,,"{""QUESTION"": [1, [10, ""成績是?""]]}",87,3,:k^2D7Tm6r+nbkbOOhrj
+89,control_if_else,,,88,4,"gb%[/^JzGlJ~,s,-WgB0"
+90,control_stop,,{},89,5,f?wV}_5.;1Uku[RpaX!`
+91,sensing_askandwait,,"{""QUESTION"": [1, [10, ""成績是?""]]}",90,3,:k^2D7Tm6r+nbkbOOhrj
+92,control_if_else,,,91,4,"gb%[/^JzGlJ~,s,-WgB0"
+93,control_stop,,{},92,5,f?wV}_5.;1Uku[RpaX!`
+94,SCRIPT,,,0,0,
+95,event_whenthisspriteclicked,,,1,0,"*bPFN,tV)?X|EDv7vBSG"
+96,sensing_askandwait,,"{""QUESTION"": [1, [10, ""你要查詢幾號同學的成績？""]]}",2,95,v]GG4E1p+O:LPLGKLo!o
+97,looks_say,,"{""MESSAGE"": [3, ""Xb2z!v=qS:xiklkT;l;W"", [10, ""Hello!""]]}",3,96,")b8Ch-/6U;P[~iQ,#nfa"
+98,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",4,97,R!5^}0Z6rpxyYm%eYC:P

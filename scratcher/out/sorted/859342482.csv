@@ -1,0 +1,6 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-4,-133,,,
+1,SCRIPT,,,0,0,
+2,event_whenkeypressed,left arrow,,1,0,VL%=CatizL%@Z~wFT4pJ
+3,control_wait,,"{""DURATION"": [1, [5, ""5""]]}",2,2,04wvAq^KvlZ|-#Kf~nCx
+4,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""5""]], ""X"": [1, [4, ""-5""]], ""Y"": [1, [4, ""900""]]}",3,3,[nH-hYok+sAL$kLM=t/_

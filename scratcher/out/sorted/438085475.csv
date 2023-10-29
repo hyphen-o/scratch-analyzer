@@ -1,0 +1,14 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-44.0724345707787,19.828887447051212,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,Oi[+FYV0XZcu@=Nb[5Qf
+3,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Hello! My name is Balubita ""]], ""SECS"": [1, [4, ""2""]]}",2,2,vV1pA/K_nD(SnE1wokOO
+4,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""I am 150 years old ""]], ""SECS"": [1, [4, ""2""]]}",3,3,r2oUGhub1jC;n;t5-4w0
+5,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""My favorite color is blue!!""]], ""SECS"": [1, [4, ""2""]]}",4,4,sUQ0Q1pOlFgx?R?PCc]=
+6,looks_changeeffectby,,"{""CHANGE"": [1, [4, ""150""]]}",5,5,mA0upZ8fLef8#2Nql_UY
+7,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""150""]], ""Y"": [1, [4, ""-50""]]}",6,6,NEMIh=esYhd3/M5cw.oY
+8,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Click me!""]], ""SECS"": [1, [4, ""2""]]}",7,7,Fxs](CbU4Q`t_RXr{0X=
+9,SCRIPT,,,0,0,
+10,event_whenthisspriteclicked,,,1,0,sr(hob@r0KLNi9(NHzY]
+11,sound_playuntildone,,"{""SOUND_MENU"": [1, ""A8iW[129xC!v*%eUOUbG""]}",2,10,{#sOi!I@n.w;eV~QoYvY
+12,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-40""]], ""Y"": [1, [4, ""20""]]}",3,11,ri%UwM(yFv]P8n4DB2BO

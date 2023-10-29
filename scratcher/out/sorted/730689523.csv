@@ -1,0 +1,15 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,105,-108,-58,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,m7ldkB5/|ifZqO!1ZxK8
+3,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Al infinito y mas allá!""]], ""SECS"": [1, [4, ""3""]]}",2,2,:p`](q$f%CccIyBf(!XH
+4,sound_play,,"{""SOUND_MENU"": [1, ""k(DC*S-#s8`DF(0^ozV6""]}",3,3,7a}Up/ene}[AiR?BpO$W
+5,motion_glideto,,"{""SECS"": [1, [4, ""1""]], ""TO"": [1, ""1!VIN4_~5dmK3rKK(E*2""]}",4,4,A9Q^S[VFzs_ZFK5Izn8V
+6,sound_play,,"{""SOUND_MENU"": [1, ""^X#ZxA:nK9HX5T;]:Pi-""]}",5,5,"b*h@xW,)VI/z)lP^_:N-"
+7,motion_glideto,,"{""SECS"": [1, [4, ""1""]], ""TO"": [1, ""t3Oi,uI(10c`SS7l92/H""]}",6,6,"[X*),c[qbt?7YjU:Xn3I"
+8,sound_play,,"{""SOUND_MENU"": [1, ""|s-=SC@m@qVa4x8brQP]""]}",7,7,"M,Jwc4Ln]tI{tLCS*-a$"
+9,motion_glideto,,"{""SECS"": [1, [4, ""1""]], ""TO"": [1, ""]$?qR(5I.FuCHqr4g;].""]}",8,8,8+eoZ*8sQ=9%ta~)h7FH
+10,SCRIPT,,,0,0,
+11,event_whenkeypressed,space,,1,0,U/v)/oC)!%h.51evS8]3
+12,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",2,11,Kc@GG5=sU]vEZyagXAvL
+13,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",3,12,g$e8m-./?]T?xgzoS0Ps

@@ -1,0 +1,20 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,102,-81,,,
+1,SCRIPT,,,0,0,
+2,event_whenbroadcastreceived,,,1,0,J-S`p-Ct_NPhw3yu^|{`
+3,looks_hide,,{},2,2,",w#b-Yd:FFBZ3CoX;UP)"
+4,looks_switchbackdropto,,"{""BACKDROP"": [1, ""6x}Rx1gjx/aMFWMK3dj9""]}",3,3,q}tu_}f@hIw;DfljZk2}
+5,SCRIPT,,,0,0,
+6,event_whenthisspriteclicked,,,1,0,iHfdS-9Y0KpPY1%32I|O
+7,looks_hide,,{},2,6,Is0U7re)MH_.;jNM%sR?
+8,SCRIPT,,,0,7,
+9,event_broadcast,,,1,7,Na!-)Ft[A2s/ixrRhn?R
+10,SCRIPT,,,0,7,
+11,event_broadcast,,,1,7,Na!-)Ft[A2s/ixrRhn?R
+12,SCRIPT,,,0,0,
+13,event_whenflagclicked,,,1,0,f25s2SNm+L}{l8X/]$)j
+14,looks_hide,,{},2,13,#_*tjB9j3e7VtciCC0[V
+15,SCRIPT,,,0,0,
+16,event_whenbackdropswitchesto,,,1,0,yT7qvCY;MVvfF$vL0QY%
+17,motion_gotoxy,,"{""X"": [1, [4, ""102""]], ""Y"": [1, [4, ""-81""]]}",2,16,"dtdB-,gua!S/5-Y0@(9#"
+18,looks_show,,{},3,17,t6_Pbu0`ak2LSRlL9EnX

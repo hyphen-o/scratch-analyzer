@@ -1,0 +1,8 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,0,0,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,b1~he(U-~3AZze$3vZ`o
+3,motion_setx,,"{""X"": [1, [4, ""-160""]]}",2,2,"b|dlJHMhP/)NF,X5f?%1"
+4,motion_sety,,"{""Y"": [1, [4, ""0""]]}",3,3,Hz0gh%Te{|Z#Q]aX-.F}
+5,control_wait,,"{""DURATION"": [1, [5, ""2""]]}",4,4,A`qYH[Nde?|4g2XwVk*N
+6,motion_gotoxy,,"{""X"": [1, [4, ""0""]], ""Y"": [1, [4, ""0""]]}",5,5,MH.`{C!pX6O2yKN*x+=v

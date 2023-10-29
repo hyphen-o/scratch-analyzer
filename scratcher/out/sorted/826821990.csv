@@ -1,0 +1,35 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,0,0,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,pZF?Jw[dmB0tI6Rv$Xx_
+3,looks_show,,{},2,2,XPqm_hnT]qAulod[3.Pn
+4,motion_gotoxy,,"{""X"": [1, [4, ""-148""]], ""Y"": [1, [4, ""-97""]]}",3,3,"%,J=(Ej8TFRl^Uf[F`0J"
+5,looks_switchbackdropto,,"{""BACKDROP"": [1, ""YBA:atvF-d+33MX!3qJl""]}",4,4,aaR_OWt(0_K^+/C2{dNI
+6,looks_switchcostumeto,,"{""COSTUME"": [1, ""?`OGZaS*Ih4)%;)P~n7L""]}",5,5,t@H@uf(*%Q|gi(99_#AR
+7,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",6,6,c71`}D6arFtPScb3=]of
+8,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""5""]], ""X"": [1, [4, ""178""]], ""Y"": [1, [4, ""-85""]]}",7,7,sC^C9OVQY?%!^-o.W%6t
+9,looks_switchcostumeto,,"{""COSTUME"": [1, "".+edUiUCj3MphZHRHyRH""]}",8,8,o=un0jE/vu3x9H]}X!cF
+10,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Hello! Today im going to be telling the story of the Gingerbread Man""]], ""SECS"": [1, [4, ""6""]]}",9,9,X.BmxFy#z#x#}[._^]Gf
+11,looks_switchbackdropto,,"{""BACKDROP"": [1, ""Lu!cM!.vQjOHD@=SV16Q""]}",10,10,IHHt~Z$cl:wPAZ]nvsDl
+12,sound_play,,"{""SOUND_MENU"": [1, ""QTT^8cRhCw)e:aWrWyhw""]}",11,11,"A)=,DZ7pca`@bt(C}LIc"
+13,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1.5""]], ""X"": [1, [4, ""-116""]], ""Y"": [1, [4, ""-75""]]}",12,12,+3mRZtw%Ey5:Q/MOU4(d
+14,looks_hide,,{},13,13,u_|#i5Dq_fqyDRTTvPqf
+15,control_wait,,"{""DURATION"": [1, [5, ""75""]]}",14,14,*w8hZ`.Ap:Bx)I%(ukX!
+16,motion_gotoxy,,"{""X"": [1, [4, ""-223""]], ""Y"": [1, [4, ""-157""]]}",15,15,jkdUO4Kj$hVYT=j*fM@q
+17,looks_switchcostumeto,,"{""COSTUME"": [1, ""I*i1Fhf!)U!xSq=p42IZ""]}",16,16,/E;NFA5{5Oqyh$mN2BZc
+18,looks_show,,{},17,17,_#k9.yx*Xz__MyAUaata
+19,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""2""]], ""X"": [1, [4, ""20""]], ""Y"": [1, [4, ""-14""]]}",18,18,`BNJo5i$fF$k@F+F|Ez.
+20,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Hello, I’ll help you just hop on my nose""]], ""SECS"": [1, [4, ""2""]]}",19,19,@;s7u=|}mkAuT2k;UYJC
+21,control_wait,,"{""DURATION"": [1, [5, ""2.5""]]}",20,20,E{w^`e7V%Bq9^*UVEZw2
+22,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""No problem""]], ""SECS"": [1, [4, ""2""]]}",21,21,[%lQIj:NEH!||pQ)eMrU
+23,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""3""]], ""X"": [1, [4, ""-44""]], ""Y"": [1, [4, ""-136""]]}",22,22,b-e1_1xCg:`NOq]^bA#d
+24,looks_switchcostumeto,,"{""COSTUME"": [1, ""5/-pcQA)LI*{=hpwUJ}e""]}",23,23,"e#aP${@TL+A3Q6IZ0,#)"
+25,sound_playuntildone,,"{""SOUND_MENU"": [1, ""#8,b_q)a:S]F:%faR:,|""]}",24,24,r_Oo=.fA]ZS#2s@hy5I4
+26,looks_switchcostumeto,,"{""COSTUME"": [1, ""va_HR}$o5Wqj[iD9Z3j^""]}",25,25,"VEbQjQ*c@,#0Hn[7t4vq"
+27,control_wait,,"{""DURATION"": [1, [5, ""0.4""]]}",26,26,"S2P7!8nh~Hi,KL=!5pPi"
+28,sound_playuntildone,,"{""SOUND_MENU"": [1, ""*P##1FD(Jwf]#.;$GbiC""]}",27,27,",HB*kA4BB:Mi!{rWw11+"
+29,looks_hide,,{},28,28,WrX5ZskTKZM(5dFyDgq]
+30,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",29,29,1gC]JJ)[#.qv.Z1+1aKG
+31,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""0""]], ""Y"": [1, [4, ""0""]]}",30,30,jx$rlAXpc9dJTCUyM!Xp
+32,looks_switchcostumeto,,"{""COSTUME"": [1, ""wx_Hqyo$?LS,(8V+Nt_c""]}",31,31,rLp=Q!n/D.`dO6rLZ`Y.
+33,looks_show,,{},32,32,"RrX$~D#duKRj,@wSymyb"

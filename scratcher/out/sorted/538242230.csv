@@ -1,0 +1,12 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,112,1,,,
+1,SCRIPT,,,0,0,
+2,event_whenbroadcastreceived,,,1,0,SXV{r_AW9Lo`=1.CBDik
+3,looks_show,,{},2,2,s/t3~+Xrp_%xZz=*JiEL
+4,control_wait,,"{""DURATION"": [1, [5, ""17""]]}",3,3,tEoF7?5FifxEnkbPh9Mz
+5,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Hip hip hooray!""]], ""SECS"": [1, [4, ""2""]]}",4,4,E@qjmmw.=_@nR52cV$5V
+6,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Bluey is our big birthday star!""]], ""SECS"": [1, [4, ""2""]]}",5,5,Px6::0z^svPgnC|K2jHy
+7,SCRIPT,,,0,0,
+8,event_whenflagclicked,,,1,0,lOEL5pBYT?hPyGH[ftXK
+9,motion_gotoxy,,"{""X"": [1, [4, ""112""]], ""Y"": [1, [4, ""1""]]}",2,8,((]YXCF:E6!;oq!8l65[
+10,looks_hide,,{},3,9,*l~rxj2N+Wb||^YbJ%|=

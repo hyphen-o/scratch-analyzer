@@ -1,0 +1,35 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,10,-42,22,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,"#*vX.`Y${j{of2Ve+,}6"
+3,looks_show,,{},2,2,5LH(~j5TZp1@aX*-$ktE
+4,looks_switchbackdropto,,"{""BACKDROP"": [1, ""l2IZ^^?Mp^@w},Bnr8py""]}",3,3,"y@_GJF*O/-~,(AWy3+{M"
+5,looks_switchcostumeto,,"{""COSTUME"": [1, ""*2D1CW2}mg3ocvd.fHO7""]}",4,4,zuv_w3TR1%MYpOQKt-cZ
+6,motion_gotoxy,,"{""X"": [1, [4, ""-42""]], ""Y"": [1, [4, ""22""]]}",5,5,"{#==O[d9*Yl],pte$qxG"
+7,control_wait,,"{""DURATION"": [1, [5, ""7""]]}",6,6,c#c!g3XcJ`:3?:D4MX:3
+8,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Mom, do I have to go to school?""]], ""SECS"": [1, [4, ""2""]]}",7,7,(/UX/OrnCWf$0rWc-h1{
+9,control_wait,,"{""DURATION"": [1, [5, ""4""]]}",8,8,9pf[DRHzy]k+{|):p;`9
+10,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""MOM! I WANNA GO TO SCHOOL! STAYING HOME IS SO BORING!!!!!""]], ""SECS"": [1, [4, ""2""]]}",9,9,#_d19sWAJK2SkeMCvOdf
+11,control_wait,,"{""DURATION"": [1, [5, ""2""]]}",10,10,q1w`.r=NT@-sf_~D!DfB
+12,looks_switchbackdropto,,"{""BACKDROP"": [1, ""NxTt`TcNZ`)MqlLd%,Cq""]}",11,11,"e|]lv#U,B)`cO/P@/U7{"
+13,looks_hide,,{},12,12,".|$[,z?`tq}$pv]+)F?["
+14,control_wait,,"{""DURATION"": [1, [5, ""2""]]}",13,13,K#U$B/$h-7wl]SzP~PTt
+15,looks_switchbackdropto,,"{""BACKDROP"": [1, ""Fbc5#Na[eK@.rJIK|iZD""]}",14,14,2oZgWK76v(jvtcF6tWXL
+16,looks_show,,{},15,15,"U7,ydr?{aPXvuubJG:xs"
+17,control_wait,,"{""DURATION"": [1, [5, ""2""]]}",16,16,38~S0=$N3F0D+3^Uz$bV
+18,looks_hide,,{},17,17,9eEW6Vh*dqQQT)i%L05_
+19,looks_switchbackdropto,,"{""BACKDROP"": [1, ""F]FwgyZkb#-1n;YQ{KRR""]}",18,18,b./40mDtPMKlu+`CCe[K
+20,control_wait,,"{""DURATION"": [1, [5, ""2""]]}",19,19,n?4d$Kaz[2Qa2P?X$red
+21,looks_switchbackdropto,,"{""BACKDROP"": [1, ""#8n%2XVn$=WW/oYDE$K$""]}",20,20,V2N55dTLxb*+jGsfLp6L
+22,looks_show,,{},21,21,+jkW}lf;N=sgC+|IrnKG
+23,control_wait,,"{""DURATION"": [1, [5, ""2""]]}",22,22,F1sdY2R3I3g=.K;l.K8E
+24,looks_switchbackdropto,,"{""BACKDROP"": [1, ""{^4mpK!S3T.e|awwX0c9""]}",23,23,MyoQ?UER}2wg$+lHj^{=
+25,looks_hide,,{},24,24,#pSGYs%$m?^bS1/mR#+j
+26,control_wait,,"{""DURATION"": [1, [5, ""2""]]}",25,25,=Z4xWY8.Y@Mg;%3in)[+
+27,looks_switchbackdropto,,"{""BACKDROP"": [1, ""ZEdp{/a1${s)1a8I9YhU""]}",26,26,s`a5(=9*yrAeJj:D-p+0
+28,looks_show,,{},27,27,a/{T@FZ=ty1MkpYs6?0s
+29,control_wait,,"{""DURATION"": [1, [5, ""2""]]}",28,28,Nag]Uqy=Kpy/hc^zx=4w
+30,looks_thinkforsecs,,"{""MESSAGE"": [1, [10, ""Boring!""]], ""SECS"": [1, [4, ""2""]]}",29,29,Q{Dn)Nhd_V_+]MCtG=p:
+31,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Fun...""]], ""SECS"": [1, [4, ""2""]]}",30,30,g=tS_K03CtZ)6dVgi5e(
+32,looks_hide,,{},31,31,mYGBH*0tVCKXooFp%x|y
+33,looks_switchbackdropto,,"{""BACKDROP"": [1, ""9z1!Sva|]+O68i:+@VlD""]}",32,32,m`5Kbo=+ptVUT8WcY{sL

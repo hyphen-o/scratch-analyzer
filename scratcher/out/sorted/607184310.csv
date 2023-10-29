@@ -1,0 +1,10 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,50,50,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,1;y4Ou]juaoM;v_q|S/l
+3,pen_clear,,{},2,2,!nkfG07{ymuzGpNL+cAG
+4,motion_gotoxy,,"{""X"": [1, [4, ""50""]], ""Y"": [1, [4, ""50""]]}",3,3,aUE^j]|=FeT[a9OOIlis
+5,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""90""]]}",4,4,WR$KD1DR{h7!U[e6G-rD
+6,sensing_askandwait,,"{""QUESTION"": [1, [10, ""正幾邊形?""]]}",5,5,aI}(ENtc7xLacnpWL(_1
+7,data_setvariableto,,,6,6,"ORt[@cU,iS7:{291_lEh"
+8,control_repeat,,,7,7,rHQ7sC)eC{yZVhLm5-rY

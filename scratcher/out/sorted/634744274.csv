@@ -1,0 +1,15 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,0,0,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,jhw/?]^ubicr/Ha|roAq
+3,procedures_call,,,2,2,+**X:Cl+%/eyWX}Xa-9k
+4,procedures_definition,,,2,0,"T:7=/fV#2C2+){,0my%6"
+5,motion_gotoxy,,"{""X"": [1, [4, ""0""]], ""Y"": [1, [4, ""0""]]}",3,4,^?${b:KL@;|)JEfEKJe9
+6,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""90""]]}",4,5,=FZAk/iC(u[O!pHxqw]@
+7,pen_clear,,{},5,6,+=LohUt9J9sK9}RRfB+h
+8,pen_penDown,,{},6,3,q9|^OryhHhMc$H^MQN?5
+9,sensing_askandwait,,"{""QUESTION"": [1, [10, ""要畫出正幾邊形?""]]}",7,8,uHS1DkR1IVa[LNtbl-mF
+10,data_setvariableto,,,8,9,",~X(|eZ1P386s;cV`UK`"
+11,sensing_askandwait,,"{""QUESTION"": [1, [10, ""要畫幾個圓形?""]]}",9,10,=|FqVC2iT5]4($@dPv1@
+12,data_setvariableto,,,10,11,cieiGHsd~L`MZ:n)HG2`
+13,control_repeat,,,11,12,A7%u14w:r]=|D}Rv:L=x

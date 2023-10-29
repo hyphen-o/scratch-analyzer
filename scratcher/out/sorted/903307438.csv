@@ -1,0 +1,13 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,7.105427357601002e-15,-1.0658141036401503e-14,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,s-j~KHYas=2y^(Hu{Etc
+3,pen_clear,,{},2,2,T-nT4I7PiZG#-]$SxL+k
+4,pen_setPenColorToColor,,"{""COLOR"": [1, [9, ""#680df9""]]}",3,3,{LoRxp+SQFC3w28;^T)i
+5,pen_penDown,,{},4,4,:E~6+FN4KywCH~ofZ]yG
+6,motion_gotoxy,,"{""X"": [1, [4, ""0""]], ""Y"": [1, [4, ""0""]]}",5,5,g`x`6](=ns^ctFLF//c1
+7,sensing_askandwait,,"{""QUESTION"": [1, [10, ""你的邊數是？""]]}",6,6,"nAtFeUNc/Yn3[ip?,ZxP"
+8,data_setvariableto,,,7,7,"DCnz_HpXIoMSm,%5vwkB"
+9,sensing_askandwait,,"{""QUESTION"": [1, [10, ""你的邊長是？""]]}",8,8,VQbJBFY~M@;L|K?Eo45B
+10,data_setvariableto,,,9,9,V[iOE.UzA.O@ZiNV=;8W
+11,control_repeat,,,10,10,"-r0kdbw4+Q%,a_A:Mz6C"

@@ -1,0 +1,41 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,0,0,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,?ST`2uB|ng2:FlCE@ipJ
+3,looks_show,,{},2,2,DwAZEwfUk72+pjw[O6Ye
+4,motion_gotoxy,,"{""X"": [1, [4, ""0""]], ""Y"": [1, [4, ""0""]]}",3,3,",LfJ]D5J[D8I.[xig}P3"
+5,text2speech_setVoice,,"{""VOICE"": [1, ""drLJ@O:mGcQxym~3`B-5""]}",4,4,{-KdGXk+ox3qnDF5Al#O
+6,text2speech_setLanguage,,"{""LANGUAGE"": [1, ""l?Y4W3R=;PG1bwvrx~=o""]}",5,5,|{;GR.ga5Q-V88:$:?zu
+7,looks_switchcostumeto,,"{""COSTUME"": [1, ""QWiE_pL`a0q|SmeMcwJ(""]}",6,6,!Tgs=UrK##7~0L29d+`F
+8,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",7,7,vCOYurK0[@RL:`Co10U?
+9,text2speech_speakAndWait,,"{""WORDS"": [1, [10, ""Finally, after 20 years, I""ve found it. The fabled BOOK OF OPALESCENCE.""]]}",8,8,ZLQ?1#o6Z-?Y-qO{:w[0
+10,control_wait,,"{""DURATION"": [1, [5, "".5""]]}",9,9,%p`nM|u|bGA6]Ap.wEr6
+11,text2speech_speakAndWait,,"{""WORDS"": [1, [10, ""I shall now discover its secrets!""]]}",10,10,]@lIU};R{@G977a:(/o_
+12,sound_play,,"{""SOUND_MENU"": [1, ""rx_d0g:H{vT?![IcEt-E""]}",11,11,"[#5h1S1^#9%#@Uf,:b-2"
+13,looks_nextcostume,,{},12,12,[oLo#S/i~V)vbB1SNgiu
+14,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",13,13,UPZ.T^q.VZB3-0=b@rHC
+15,text2speech_setLanguage,,"{""LANGUAGE"": [1, ""BMd_7~~Xb7wENP_%rOkQ""]}",14,14,GKE-#^XyC#URxWeKi/LF
+16,text2speech_speakAndWait,,"{""WORDS"": [1, [10, ""Thank you for freeing me from this book, friend. Opalescence banished me to this wretched tome and-""]]}",15,15,~y{y~i.Z0Y=aR7/?+~uP
+17,sound_play,,"{""SOUND_MENU"": [1, ""oOk!zyjjfs,){5`my0|-""]}",16,16,"k10{,oE+z*V[#-Ho:!cb"
+18,looks_nextcostume,,{},17,17,56DrM22oMEKgrIGnG?Lt
+19,text2speech_setLanguage,,"{""LANGUAGE"": [1, ""noZkVBV;m{A`,KTuCsB@""]}",18,18,WVkz6;*lh[)]oml$jxA_
+20,control_wait,,"{""DURATION"": [1, [5, "".5""]]}",19,19,"z9$5d@T^]^L?b6.,a9G!"
+21,text2speech_speakAndWait,,"{""WORDS"": [1, [10, ""NO. NO OPAL BLOOM.""]]}",20,20,LFK3MWc-_b9_D0PG:|*{
+22,sound_play,,"{""SOUND_MENU"": [1, ""Jk]t,DtK$2Dz8/Vei695""]}",21,21,`KJxzEw#Wg{5?B4vIxZn
+23,motion_glidesecstoxy,,"{""SECS"": [1, [4, "".2""]], ""X"": [1, [4, ""-331""]], ""Y"": [1, [4, ""-1""]]}",22,22,9etOyEh@5EiFMR5cXBrP
+24,looks_hide,,{},23,23,"#vsl!yPsK,#Ge+#ncd{n"
+25,control_wait,,"{""DURATION"": [1, [5, ""2""]]}",24,24,"Eoco@XtWhwa7hBo,aboP"
+26,sound_playuntildone,,"{""SOUND_MENU"": [1, ""ErV.3[QTzI63C.6;Rl.4""]}",25,25,"/,1E0im%2a1o%Ov~v9F{"
+27,text2speech_speakAndWait,,"{""WORDS"": [1, [10, ""Did it work? Is she gone?""]]}",26,26,"nD;a*c8ZjkdRw[C,be)j"
+28,text2speech_setLanguage,,"{""LANGUAGE"": [1, ""i1mWf7J*93y0u)wIW,Hd""]}",27,27,+lGL+p74y*O8#`+UVwKW
+29,text2speech_speakAndWait,,"{""WORDS"": [1, [10, ""YOU FOOL. YOU HAVE NOT DESTROYED ME, YOU HAVE ONLY FREED ME FROM THE BOOK. YOU SHALL NOW TAKE MY PLACE IN THE BOOK.""]]}",28,28,|Savw:Q^8bdZJ[b/3F:}
+30,control_wait,,"{""DURATION"": [1, [5, "".5""]]}",29,29,o;}C.[j/-?gan;Bc@sdj
+31,text2speech_setLanguage,,"{""LANGUAGE"": [1, ""LEk/F}h!r}|E#;qPWsp5""]}",30,30,"Vn2x|RrQ;(I-.68],=~("
+32,text2speech_speakAndWait,,"{""WORDS"": [1, [10, ""No, please don""t do this! Opal Bloom, NO!""]]}",31,31,",QMbU1z+Q|p(J.E(#p@#"
+33,control_wait,,"{""DURATION"": [1, [5, "".5""]]}",32,32,",M6^4u4:b1hg781m{pj="
+34,text2speech_setLanguage,,"{""LANGUAGE"": [1, ""S;1-2n~,m;!1/wMIt8WX""]}",33,33,U!}xq2IjIXL(%R;c^*L9
+35,text2speech_speakAndWait,,"{""WORDS"": [1, [10, ""I WILL DO IT! YES.""]]}",34,34,Vb7%d#e(;{H}r47TU799
+36,control_wait,,"{""DURATION"": [1, [5, "".5""]]}",35,35,S;wv-.mM9ub6_1ve)!xd
+37,sound_playuntildone,,"{""SOUND_MENU"": [1, ""9B:kqI,x!9SC3:]wJ|S{""]}",36,36,"@_Buq[f1Ro9Ud*4Vh,.R"
+38,control_wait,,"{""DURATION"": [1, [5, "".5""]]}",37,37,rC1gUm=sKSd7F3AXvpCt
+39,text2speech_speakAndWait,,"{""WORDS"": [1, [10, ""PONY BALONEY""]]}",38,38,@E-Ipd[Zpep?hJCVUOAB

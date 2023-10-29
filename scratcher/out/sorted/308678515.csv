@@ -1,0 +1,13 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-196,-94,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,A[HS)ld/C#9bPa3_Hoh|
+3,looks_seteffectto,,"{""VALUE"": [1, [4, 0]]}",2,2,V}:Xh9EfCox_d;@U?8:P
+4,motion_gotoxy,,"{""X"": [1, [4, -196]], ""Y"": [1, [4, -94]]}",3,3,"juX@FTvt1I4F7V,jS#m`"
+5,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Yay! Pool party!""]], ""SECS"": [1, [4, 2]]}",4,4,rCLUxc[1?A;DnC}2L0m?
+6,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""I""m so cool""]], ""SECS"": [1, [4, 2]]}",5,5,[gWuKO@Q30jUA=@K1a`n
+7,control_wait,,"{""DURATION"": [1, [5, ""6""]]}",6,6,AOvHK$#N2SdW=0G0]@^G
+8,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""hop in""]], ""SECS"": [1, [4, ""2""]]}",7,7,T!Ln+7Qxt9N:oa.}#3ID
+9,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""yea now get in""]], ""SECS"": [1, [4, ""2""]]}",8,8,seu#U}_@FmrD1IJGOr(e
+10,control_wait,,"{""DURATION"": [1, [5, ""10""]]}",9,9,1J$V_8LbA4@p5D77=/Fl
+11,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Oh He gone... Lets go ""]], ""SECS"": [1, [4, ""2""]]}",10,10,tcUNWvHCv5LRQprdKjBT

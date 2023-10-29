@@ -1,0 +1,34 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,41,-55,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,*]gS#J0i`?.BQ*!wh6ub
+3,motion_setrotationstyle,,{},2,2,"jg@fN_W,#PC*lHJv.zwP"
+4,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""90""]]}",3,3,50f5uSC=Q$}|`Ia8gsJP
+5,looks_show,,{},4,4,10B)5py4bH_M/TQ|19!U
+6,motion_gotoxy,,"{""X"": [1, [4, ""41""]], ""Y"": [1, [4, ""-55""]]}",5,5,k73ypHs#Zc*`qsjd6+Tv
+7,looks_switchcostumeto,,"{""COSTUME"": [1, ""iArh(j?V,V$KU2JQgzv%""]}",6,6,"l.]aKFtUdO_(a6Xd=,V0"
+8,SCRIPT,,,0,0,
+9,event_whenbroadcastreceived,,,1,0,gRRwuJRBVP#P1rduS9N2
+10,control_wait,,"{""DURATION"": [1, [5, ""13""]]}",2,9,w)=z[yG5i2~xxOQO3mxf
+11,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""-90""]]}",3,10,?;4$7!2%Kq=2*RIxFp5O
+12,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",4,11,#LkJ5=H23SZWUU5aQs=i
+13,control_repeat,,,5,12,uz|9yVCORJRXNlh2lA5`
+14,looks_switchcostumeto,,"{""COSTUME"": [1, ""^;i%:=lDN4[0Jd43C4G6""]}",6,13,"a@;P;7,SdhkojbB.~N6v"
+15,control_repeat,,,7,14,#VA;dmHbGLzTMUo0[yr+
+16,motion_changexby,,"{""DX"": [1, [4, ""10""]]}",8,15,"mgy9E@Oj-8@=zD3fJ+,j"
+17,control_wait,,"{""DURATION"": [1, [5, ""0""]]}",9,16,k3cLbb`CkbDq.H5yV1iU
+18,looks_nextcostume,,{},10,17,;5zy{c)P|RT{_/*K^Wba
+19,motion_changexby,,"{""DX"": [1, [4, ""10""]]}",11,15,"mgy9E@Oj-8@=zD3fJ+,j"
+20,control_wait,,"{""DURATION"": [1, [5, ""0""]]}",12,16,k3cLbb`CkbDq.H5yV1iU
+21,looks_nextcostume,,{},13,17,;5zy{c)P|RT{_/*K^Wba
+22,looks_switchcostumeto,,"{""COSTUME"": [1, ""^;i%:=lDN4[0Jd43C4G6""]}",14,13,"a@;P;7,SdhkojbB.~N6v"
+23,control_repeat,,,15,14,#VA;dmHbGLzTMUo0[yr+
+24,motion_changexby,,"{""DX"": [1, [4, ""10""]]}",16,15,"mgy9E@Oj-8@=zD3fJ+,j"
+25,control_wait,,"{""DURATION"": [1, [5, ""0""]]}",17,16,k3cLbb`CkbDq.H5yV1iU
+26,looks_nextcostume,,{},18,17,;5zy{c)P|RT{_/*K^Wba
+27,motion_changexby,,"{""DX"": [1, [4, ""10""]]}",19,15,"mgy9E@Oj-8@=zD3fJ+,j"
+28,control_wait,,"{""DURATION"": [1, [5, ""0""]]}",20,16,k3cLbb`CkbDq.H5yV1iU
+29,looks_nextcostume,,{},21,17,;5zy{c)P|RT{_/*K^Wba
+30,looks_switchcostumeto,,"{""COSTUME"": [1, ""6ewwEo+,?_PWoXXU/[#p""]}",22,13,]HCo8ey7eJL0wQWBHMlg
+31,control_wait,,"{""DURATION"": [1, [5, ""10""]]}",23,30,"u~kg5`O4:,!|z/^S]jWL"
+32,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""90""]]}",24,31,"e`;,7X]vhK2,s01@2L/G"

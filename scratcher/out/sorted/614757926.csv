@@ -1,0 +1,27 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,192,-105,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,ZF^+G?4xr1LZfjmaD#[:
+3,motion_gotoxy,,"{""X"": [1, [4, ""-208""]], ""Y"": [1, [4, ""-105""]]}",2,2,G5O_vnkSuIKr[0:AP5_4
+4,looks_switchcostumeto,,"{""COSTUME"": [1, ""MgSxc(qxj6}tmPQsAaq2""]}",3,3,"Xdw$)W,kN)0/%-+8z~wZ"
+5,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",4,4,}1u1}@@b$k6e(h~OOMNs
+6,control_repeat,,,5,5,"IOlWB,DN#~vMsPL,1/PA"
+7,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",6,6,"R/7:f5P:m,^/]^a*n!)$"
+8,control_wait,,"{""DURATION"": [1, [5, ""0.1""]]}",7,7,%e]3C3?7#8jX0ix`=!o5
+9,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",8,8,"rG~t8-R/EC-=.P.mT-,E"
+10,control_wait,,"{""DURATION"": [1, [5, ""0.1""]]}",9,9,"g:CyKb%iBi,918{C]syp"
+11,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",10,10,guL~wy1c[/W(/J+B5GLU
+12,control_wait,,"{""DURATION"": [1, [5, ""0.1""]]}",11,11,DpXTFD8]*Bn`6q(pV+Oo
+13,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",12,12,"v3i*ASNF`(*!K?#Ek,SR"
+14,control_wait,,"{""DURATION"": [1, [5, ""0.1""]]}",13,13,ETgopI(rPKtYwl1=Q4sd
+15,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""voy a descansar""]], ""SECS"": [1, [4, ""2""]]}",14,14,+r:UrB(+?nYWDD^b0X8H
+16,control_repeat,,,15,15,"oQK]jAdhgQ3a!o,O)otg"
+17,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Empezaré de nuevo a caminar ""]], ""SECS"": [1, [4, ""2""]]}",16,16,qZ+UDHy!!K^J;iPubiq0
+18,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",17,17,"*@Ku.ICFgmQeO,7.3kpY"
+19,control_wait,,"{""DURATION"": [1, [5, ""0.1""]]}",18,18,XOGa-/_s_vsxRZ63F35(
+20,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",19,19,c+e|G1f@o~Q:h6]k0{?#
+21,control_wait,,"{""DURATION"": [1, [5, ""0.1""]]}",20,20,{jM./6jHM_kHX8fnzngp
+22,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",21,21,H$Mlj@?tZC|sO6[.yAg#
+23,control_wait,,"{""DURATION"": [1, [5, ""0.1""]]}",22,22,Tg{Ylm`m}i8^R];hJD75
+24,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",23,23,3Q+?d8+QA/eDzGb.Ni_5
+25,control_wait,,"{""DURATION"": [1, [5, ""0.1""]]}",24,24,;b^7^m:JU=e?QHg^SjS?

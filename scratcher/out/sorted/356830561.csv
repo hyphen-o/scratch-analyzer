@@ -1,0 +1,14 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-144.00000077794923,-48.99998253451664,,,
+1,SCRIPT,,,0,0,
+2,event_whenkeypressed,space,,1,0,"i(,kdFsZu;#DYMNGkf(M"
+3,motion_movesteps,,"{""STEPS"": [1, [4, ""5""]]}",2,2,7ijdi*%4z.`20(_0jtvq
+4,looks_nextcostume,,{},3,3,"bJO1,Iw06F*hX+9+9^Ht"
+5,control_if,,,4,4,7lgHG9LnC5UPg]f]npu|
+6,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""I made it!!!""]], ""SECS"": [1, [4, ""2""]]}",5,5,:k6b~lI/cu!/xC$)kty`
+7,sound_playuntildone,,"{""SOUND_MENU"": [1, ""R(H7h#@zTz#~c0b51Mqx""]}",6,6,"djpjb_!,?o0u*|[]GV^."
+8,SCRIPT,,,0,0,
+9,event_whenflagclicked,,,1,0,5T6Hnx9oseuvo{:@5snr
+10,motion_gotoxy,,"{""X"": [1, [4, ""-200""]], ""Y"": [1, [4, ""-45""]]}",2,9,"hH7g+Oo,nWv(*:HQv5MA"
+11,control_if,,,3,10,Vv6}Sf+2;S58z88W.-VR
+12,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""I made it!!""]], ""SECS"": [1, [4, ""2""]]}",4,11,b(%t@VV#!PJG*=Fj;Q0a

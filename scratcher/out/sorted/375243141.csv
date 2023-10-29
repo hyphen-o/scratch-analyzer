@@ -1,0 +1,24 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-39,-100,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,"QE;ViTT`),EE~V}L=eb%"
+3,looks_show,,{},2,2,sJ]o(Fef?!!C1Z:q2SRw
+4,control_repeat,,,3,3,{##7l2mUF%XnNp7Z(i]4
+5,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",4,4,"HY*aHBolf,(31IiVpoS^"
+6,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",5,4,"HY*aHBolf,(31IiVpoS^"
+7,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",6,4,"HY*aHBolf,(31IiVpoS^"
+8,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",7,4,"HY*aHBolf,(31IiVpoS^"
+9,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",8,4,"HY*aHBolf,(31IiVpoS^"
+10,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",9,4,"HY*aHBolf,(31IiVpoS^"
+11,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",10,4,"HY*aHBolf,(31IiVpoS^"
+12,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",11,4,"HY*aHBolf,(31IiVpoS^"
+13,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",12,4,"HY*aHBolf,(31IiVpoS^"
+14,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",13,4,"HY*aHBolf,(31IiVpoS^"
+15,sensing_askandwait,,"{""QUESTION"": [1, [10, ""come in my cave""]]}",14,4,aX^E+MrZqEM??9;q9fu1
+16,sensing_setdragmode,,{},15,15,AyXL[=r5WfHuKtr$MEz+
+17,looks_hide,,{},16,16,Rg5Xu1.x^d|IfG@5Ch5h
+18,sensing_askandwait,,"{""QUESTION"": [1, [10, ""oh crap""]]}",17,17,".a6,%g_=m}N8P6nER-P1"
+19,looks_show,,{},18,18,drd3-piOw[m5V(6E%R%R
+20,SCRIPT,,,0,0,
+21,event_whenthisspriteclicked,,,1,0,gUb]gxAM#{88k2(w^JtG
+22,sound_play,,"{""SOUND_MENU"": [1, ""Dh-T1l$G9@1lGP;Ywlz2""]}",2,21,6Y_#b/b4WZ*m#zi:Q?GY

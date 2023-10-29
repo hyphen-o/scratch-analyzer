@@ -1,0 +1,13 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-49.99999999999994,-226.10012117400345,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,$Y#7+Ut;G7t9U%Xn0LgH
+3,pen_clear,,{},2,2,"JIZbW#k^(xh3w*GSga,)"
+4,pen_penUp,,{},3,3,d6xo67Ln^v#YWGjYX5M`
+5,motion_gotoxy,,"{""X"": [1, [4, ""-50""]], ""Y"": [1, [4, ""-100""]]}",4,4,sRmKR`V`K~wSEk{K][g#
+6,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""90""]]}",5,5,gM!5h[NY!qzF)*ie+c-}
+7,pen_penDown,,{},6,6,j85;[5McZ;|3EK+#FEF[
+8,pen_changePenSizeBy,,"{""SIZE"": [1, [4, ""3""]]}",7,7,C`$=lu}*Nabv+0u)*QJ8
+9,pen_changePenColorParamBy,,"{""COLOR_PARAM"": [1, ""4~L}z1?iBO*TCjVo*0i2""], ""VALUE"": [1, [4, ""10""]]}",8,8,y]X01t?Q9+}8$g4T=JOJ
+10,sensing_askandwait,,"{""QUESTION"": [1, [10, ""Kateri n-kotnik naj narišem. Vpiši število.""]]}",9,9,Vn)#*[O;clS5(9!NM;[z
+11,control_repeat,,,10,10,@f=Yr|C8KSz{bTGwQxg9

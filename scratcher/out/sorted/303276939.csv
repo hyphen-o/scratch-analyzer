@@ -1,0 +1,16 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-149,155,,,
+1,SCRIPT,,,0,0,
+2,event_whenthisspriteclicked,,,1,0,"K=_|W|PxFJKf^flU,1PK"
+3,control_if_else,,,2,2,YcN)kE~~hx1k8}lQM`q_
+4,looks_switchbackdropto,,"{""BACKDROP"": [1, ""AXzdOsuP2ht/aA46PTHA""]}",3,3,"jH8-qwi^xmiV,)MxI2M,"
+5,looks_switchcostumeto,,"{""COSTUME"": [1, ""505=8:|hM/$ocVX3|:kW""]}",4,4,"J]{*@KF[OPN}-v,3)X#p"
+6,motion_gotoxy,,"{""X"": [1, [4, ""188""]], ""Y"": [1, [4, ""152""]]}",5,5,q=EB1{onl:0srhHLghPl
+7,SCRIPT,,,0,0,
+8,event_whenflagclicked,,,1,0,+aKw1AYbuLjcWF0kO=$?
+9,looks_switchcostumeto,,"{""COSTUME"": [1, ""w+V)N)3v9%ZYZ#)gU3!q""]}",2,8,*#iE5rF18y];S6wxLc#S
+10,motion_gotoxy,,"{""X"": [1, [4, ""-149""]], ""Y"": [1, [4, ""155""]]}",3,9,@CSxps3$1m?fXD{V45I`
+11,SCRIPT,,,0,0,
+12,event_whenbackdropswitchesto,,,1,0,vY/}A!`SLykN|;fG2SAr
+13,looks_switchcostumeto,,"{""COSTUME"": [1, ""xon`g=?J!p/*Uoy+}A1K""]}",2,12,z/P8XMN!5MP:E8xz6LfV
+14,motion_gotoxy,,"{""X"": [1, [4, ""-123""]], ""Y"": [1, [4, ""-138""]]}",3,13,?JhI~[5WMB4%#g4z1-4c

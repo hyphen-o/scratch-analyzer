@@ -1,0 +1,37 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-157,-39.34,,,
+1,SCRIPT,,,0,0,
+2,event_whenbroadcastreceived,,,1,0,fI{YJIVU%|RRN%Genl8h
+3,looks_switchcostumeto,,"{""COSTUME"": [1, ""gd2ver-jXj_;4*0uctI9""]}",2,2,qe@N@d10Jugq0_nD#6]r
+4,control_repeat,,,3,3,aYvm1X3uNNy6vyMa/4P!
+5,control_wait,,"{""DURATION"": [1, [5, ""0.1""]]}",4,4,"JxSqQ75DS:(.,TkRXpJS"
+6,looks_nextcostume,,{},5,5,@]ClAD*_2[]b{tO]_U`;
+7,control_wait,,"{""DURATION"": [1, [5, ""0.1""]]}",6,4,"JxSqQ75DS:(.,TkRXpJS"
+8,looks_nextcostume,,{},7,5,@]ClAD*_2[]b{tO]_U`;
+9,control_wait,,"{""DURATION"": [1, [5, ""0.1""]]}",8,4,"JxSqQ75DS:(.,TkRXpJS"
+10,looks_nextcostume,,{},9,5,@]ClAD*_2[]b{tO]_U`;
+11,control_wait,,"{""DURATION"": [1, [5, ""0.1""]]}",10,4,"JxSqQ75DS:(.,TkRXpJS"
+12,looks_nextcostume,,{},11,5,@]ClAD*_2[]b{tO]_U`;
+13,SCRIPT,,,0,4,
+14,event_broadcastandwait,,,1,4,",cBrR@nn=wUZPs^n5Rk;"
+15,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-157""]], ""Y"": [1, [4, ""5""]]}",2,14,:j!Vn.|74^ar?CGcs^h%
+16,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",3,15,6[M$jn%0r`)Vk45+Rw`g
+17,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""10""]], ""X"": [1, [4, ""-1570""]], ""Y"": [1, [4, ""5""]]}",4,16,)vSgg7}kYT-+LfP}M%z-
+18,SCRIPT,,,0,17,
+19,event_broadcast,,,1,17,DE?bY6/nHdz/Iv#T9bZ:
+20,looks_hide,,{},2,19,XNI#Ya[uR/OSMM.$]imv
+21,SCRIPT,,,0,4,
+22,event_broadcastandwait,,,1,4,",cBrR@nn=wUZPs^n5Rk;"
+23,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-157""]], ""Y"": [1, [4, ""5""]]}",2,14,:j!Vn.|74^ar?CGcs^h%
+24,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",3,15,6[M$jn%0r`)Vk45+Rw`g
+25,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""10""]], ""X"": [1, [4, ""-1570""]], ""Y"": [1, [4, ""5""]]}",4,16,)vSgg7}kYT-+LfP}M%z-
+26,SCRIPT,,,0,17,
+27,event_broadcast,,,1,17,DE?bY6/nHdz/Iv#T9bZ:
+28,looks_hide,,{},2,19,XNI#Ya[uR/OSMM.$]imv
+29,SCRIPT,,,0,17,
+30,event_broadcast,,,1,17,DE?bY6/nHdz/Iv#T9bZ:
+31,looks_hide,,{},2,19,XNI#Ya[uR/OSMM.$]imv
+32,SCRIPT,,,0,0,
+33,event_whenflagclicked,,,1,0,"W2r5w*r^bS,]AbWzj;-Q"
+34,looks_switchcostumeto,,"{""COSTUME"": [1, ""A$Z6lf6h[A?@t%[]mg1R""]}",2,33,4x{3IuU(=Pg]?1m1sh.u
+35,motion_gotoxy,,"{""X"": [1, [4, ""-157""]], ""Y"": [1, [4, ""-55""]]}",3,34,iw1pI8jZ0DL5W|htN!qF

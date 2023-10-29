@@ -10,6 +10,7 @@ EVENT_BLOCKS = ["event_whenflagclicked", "event_whenkeypressed", "event_whenthis
 CONTROL_BLOCKS = ["control_repeat", "control_forever", "control_if", "control_if_else", "control_repeat_until", "control_all_at_once", "control_while", "control_for_each"]
 IF_BLOCKS = ["control_if", "control_if_else"]
 REPEAT_BLOCKS =  ["control_forever", "control_repeat"]
+COORDINATE_BLOCKS = ["motion_movesteps", "motion_turnright", "motion_turnleft", "motion_goto", "motion_gotoxy", "motion_glideto", "motion_glidesecstoxy", "motion_pointindirection", "motion_pointtowards", "motion_changexby", "motion_setx", "motion_changeyby", "motion_sety", "motion_ifonedgebounce", "motion_setrotationstyle"]
 COORDINATE_FIELDS = ["STEPS", "X", "Y", "DX", "DY", "DURATION", "SECS"]
 MOVE_FIELDS = ["DX", "DY"]
 SET_FIELDS =  ["X", "Y"]
@@ -20,6 +21,11 @@ WAIT_FIELDS = ["DURATION", "SECS"]
 REPEAT_BLOCK = "control_repeat"
 FOREVER_BLOCK = "control_forever"
 EVENT_KEY_BLOCK = "event_whenkeypressed"
+PROCEDURES_DEFINE = "procedures_definition"
+PROCEDURES_CALL = ["procedures_call"]
+VARIABLE_BLOCKS = ["data_setvariableto", "data_changevariableby"]
+SET_VARIABLE = "data_setvariableto"
+CHANGE_VARIABLE = "data_changevariableby"
 
 #パス
 COORDINATE_PATH = sys.path[-1] + "/out/coorfinate_final/"

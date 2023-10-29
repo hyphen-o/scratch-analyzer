@@ -1,0 +1,17 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,-90,0,0,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,hK+mm1jKuR2z/P#eDUN%
+3,data_setvariableto,,,2,2,+802DQl`A4X0.3RXl.?:
+4,data_setvariableto,,,3,3,VjQeG0.X$_AK.xCtvBq/
+5,data_setvariableto,,,4,4,"9G)d,lJ:GKUE,YfU{[@Z"
+6,sensing_askandwait,,"{""QUESTION"": [1, [10, ""Podaj pierwszą liczbę""]]}",5,5,XWVI#tC(GPG:n7po/2~|
+7,data_setvariableto,,,6,6,822-5*}BP@%%u#PK[CFg
+8,sensing_askandwait,,"{""QUESTION"": [1, [10, ""Podaj drugą liczbę""]]}",7,7,@v1EQ6)Z=#-!-Tpbn%7i
+9,data_setvariableto,,,8,8,RI3XUIe7XFPRu6~~$N2f
+10,data_setvariableto,,,9,9,9cQn/;nrSK[JpJ(c0MMf
+11,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Iloczyn wynosi""]], ""SECS"": [1, [4, ""2""]]}",10,10,"J]99a[Z=TH9|cmZK,gr$"
+12,looks_sayforsecs,,"{""MESSAGE"": [3, [12, ""0"", ""%O6[p/+szx[ziihhmdx)""], [10, ""Cześć!""]], ""SECS"": [1, [4, ""2""]]}",11,11,"8YmhBa7db2;~U?-)dI;,"
+13,motion_turnright,,"{""DEGREES"": [1, [4, ""180""]]}",12,12,qfT2u#t)F-`GSf=Q@b)m
+14,sound_play,,"{""SOUND_MENU"": [1, "":x9-flvF{RP4eE2)(){g""]}",13,13,"f/v(),Ws%07HKwz|cp2x"
+15,control_stop,,{},14,14,"}L)s~lt[ILX%=,2lYxV7"

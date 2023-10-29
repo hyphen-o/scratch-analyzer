@@ -1,0 +1,11 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,-68.40468955103233,197,9,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,",WQC^Qp0;zp=cxPRa-H%"
+3,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",2,2,g{9x*t/sx_n-XrICdg`W
+4,motion_goto,,"{""TO"": [1, ""m_A(XYcP2UdO:)jx6[qY""]}",3,3,R]/@?K.OLh+Qzg0?gSIb
+5,motion_pointtowards,,"{""TOWARDS"": [1, ""IsBq3e$yiTZt]k!giAlP""]}",4,4,htp)C#oX89`nse2X):=b
+6,sound_playuntildone,,"{""SOUND_MENU"": [1, ""{gxj%SAk4Os+_Ip-m0;v""]}",5,5,L*Hq5a_ScI%/!6h#Hbqs
+7,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Hello!""]], ""SECS"": [1, [4, ""2""]]}",6,6,"S:rD2uti,e7GC*j1V=cq"
+8,sensing_askandwait,,"{""QUESTION"": [1, [10, ""hi my name is Darius what it yours""]]}",7,7,Wen(gW9)nucD0lS0+TJC
+9,looks_thinkforsecs,,"{""MESSAGE"": [1, [10, ""his name is nice why is my name not nice :(""]], ""SECS"": [1, [4, ""5""]]}",8,8,0nqkKrD8[t+|bK2G+l_~

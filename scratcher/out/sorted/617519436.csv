@@ -1,0 +1,9 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-104,-34,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,"Ra1*!QR,v07fZM@]Qmx0"
+3,motion_gotoxy,,"{""X"": [1, [4, ""-154""]], ""Y"": [1, [4, ""-34""]]}",2,2,Vl!EyaYk}Z%isKP2f%FP
+4,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Hey Payton""]], ""SECS"": [1, [4, ""3""]]}",3,3,FnX{8^}5kz4[SIyz2ZN*
+5,control_wait,,"{""DURATION"": [1, [5, ""4""]]}",4,4,.$]!=GhnPS8!R9*oX~7[
+6,looks_say,,"{""MESSAGE"": [1, [10, ""do  you want to go to the park?""]]}",5,5,?+Wn8PpRa~h46Y$S5A*B
+7,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",6,6,I0]GLO2oQ(2kD|I_b46}

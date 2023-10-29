@@ -1,0 +1,16 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-45,23,,,
+1,SCRIPT,,,0,0,
+2,event_whenthisspriteclicked,,,1,0,"1i,Ajc+3AO){;`9PgV.V"
+3,data_changevariableby,,,2,2,!X66;^Ma1[rM.NWh96=8
+4,data_changevariableby,,,3,3,Q`.}.{G~KrcSFtcqL2$a
+5,motion_glideto,,"{""SECS"": [1, [4, ""1""]], ""TO"": [1, ""hhgJVD)3J+I$j9tNDiLb""]}",4,4,sIg`}lUuL#]U3R-m3gYQ
+6,SCRIPT,,,0,0,
+7,event_whenflagclicked,,,1,0,DGNiv9T6H3zbct!oTG%`
+8,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""OOOF""]], ""SECS"": [1, [4, ""2""]]}",2,7,"T3$k.y%(,x;DH-.g*Ltx"
+9,data_setvariableto,,,3,8,"D%pZ-LPd5R8?Vu,u30Ed"
+10,data_setvariableto,,,4,9,"ls!^ArTrBo1M@0k%b|,("
+11,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""now i am dumb""]], ""SECS"": [1, [4, ""1""]]}",5,10,m:V=l$J}6:)eHDsF[f54
+12,looks_switchcostumeto,,"{""COSTUME"": [1, ""okyg3-wOhron_@Y]!a/u""]}",6,11,.*]jgQMM1F]^aD}GX_6?
+13,control_wait,,"{""DURATION"": [1, [5, ""2""]]}",7,12,"aIuWwQ6MJ$|,a*Jz|L6@"
+14,looks_switchcostumeto,,"{""COSTUME"": [1, "":KuK+[`zbN3.DqjhU~g^""]}",8,13,wzRR}fW_h8)4t7nQ$(yp

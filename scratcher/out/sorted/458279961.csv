@@ -1,0 +1,14 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,-89.55068319355945,10.00307487765649,-33.21580227211237,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,$0ST`h]23:[sj[B+h?.|
+3,motion_gotoxy,,"{""X"": [1, [4, ""110""]], ""Y"": [1, [4, ""-34""]]}",2,2,"q5hEc=:A.~#8b+,iCeIz"
+4,looks_switchcostumeto,,"{""COSTUME"": [1, ""*zOszY@Qbm[,!ctMWcO8""]}",3,3,rSKFmT[YP}W3HKcOoX+l
+5,control_wait,,"{""DURATION"": [1, [5, ""2""]]}",4,4,Y@u[Yfb}X(%]W!$Z2z/a
+6,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Много искам да отида на бала,""]], ""SECS"": [1, [4, ""2""]]}",5,5,/=;TO`_hR6aPMZgESCHh
+7,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""но нямам подходяща рокля.""]], ""SECS"": [1, [4, ""2""]]}",6,6,LqK$yOb?Z6?-j%I-{ips
+8,control_if,,,7,7,amQ_2xQ93t-r/j[+9-Da
+9,looks_switchcostumeto,,"{""COSTUME"": [1, ""-qD(^_lF83j:;2C,[%Wv""]}",8,8,fW-EXv=[-b^Js)5SMm;u
+10,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Роклята е прекрасна!.""]], ""SECS"": [1, [4, ""2""]]}",9,9,gD@hpta70}F7Mq}M/ZYd
+11,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Благодаря, дядо!""]], ""SECS"": [1, [4, ""2""]]}",10,10,/-(=#|fNZ}K?z8:0[SZz
+12,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""сега вече мога да отида на бала!""]], ""SECS"": [1, [4, ""2""]]}",11,11,z{9DmhF*s|uDC~Iv{=7O

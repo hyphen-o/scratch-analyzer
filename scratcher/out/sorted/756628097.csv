@@ -1,0 +1,31 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-201,-110,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,"HcpXa}`l,k}@:I;6|l(x"
+3,motion_gotoxy,,"{""X"": [1, [4, ""-201""]], ""Y"": [1, [4, ""-130""]]}",2,2,MXS}n/w^w.N%H7Os:H9z
+4,data_setvariableto,,,3,3,J22+*5kH5B!hF8U$XNKS
+5,SCRIPT,,,0,0,
+6,event_whenkeypressed,space,,1,0,"-w?h)%QygWz5,.V?C%(F"
+7,control_repeat,,,2,6,GwK0::JE!OyAds9LKcm:
+8,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",3,7,!}s^=j%@1tbc_+Ig2M}_
+9,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",4,7,!}s^=j%@1tbc_+Ig2M}_
+10,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",5,7,!}s^=j%@1tbc_+Ig2M}_
+11,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",6,7,!}s^=j%@1tbc_+Ig2M}_
+12,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",7,7,!}s^=j%@1tbc_+Ig2M}_
+13,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",8,7,!}s^=j%@1tbc_+Ig2M}_
+14,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",9,7,!}s^=j%@1tbc_+Ig2M}_
+15,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",10,7,!}s^=j%@1tbc_+Ig2M}_
+16,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",11,7,!}s^=j%@1tbc_+Ig2M}_
+17,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",12,7,!}s^=j%@1tbc_+Ig2M}_
+18,control_repeat,,,13,7,~fXH~Flnw@ptn^t8}1^^
+19,motion_changeyby,,"{""DY"": [1, [4, ""-10""]]}",14,18,"@YcK|XlGs4^F,@,oP:Yq"
+20,motion_changeyby,,"{""DY"": [1, [4, ""-10""]]}",15,18,"@YcK|XlGs4^F,@,oP:Yq"
+21,motion_changeyby,,"{""DY"": [1, [4, ""-10""]]}",16,18,"@YcK|XlGs4^F,@,oP:Yq"
+22,motion_changeyby,,"{""DY"": [1, [4, ""-10""]]}",17,18,"@YcK|XlGs4^F,@,oP:Yq"
+23,motion_changeyby,,"{""DY"": [1, [4, ""-10""]]}",18,18,"@YcK|XlGs4^F,@,oP:Yq"
+24,motion_changeyby,,"{""DY"": [1, [4, ""-10""]]}",19,18,"@YcK|XlGs4^F,@,oP:Yq"
+25,motion_changeyby,,"{""DY"": [1, [4, ""-10""]]}",20,18,"@YcK|XlGs4^F,@,oP:Yq"
+26,motion_changeyby,,"{""DY"": [1, [4, ""-10""]]}",21,18,"@YcK|XlGs4^F,@,oP:Yq"
+27,motion_changeyby,,"{""DY"": [1, [4, ""-10""]]}",22,18,"@YcK|XlGs4^F,@,oP:Yq"
+28,motion_changeyby,,"{""DY"": [1, [4, ""-10""]]}",23,18,"@YcK|XlGs4^F,@,oP:Yq"
+29,data_changevariableby,,,24,18,A{}ar.dTngP?zcd`PX+J

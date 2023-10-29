@@ -1,0 +1,11 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,0,0,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,U[mX|ft=G?CZ?;a}};@j
+3,sensing_askandwait,,"{""QUESTION"": [1, [10, ""1+1""]]}",2,2,z(k~VS]T?vHlQ2%|_ndj
+4,control_if_else,,,3,3,(`?pv`4G2zW@|avUJ6I|
+5,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",4,4,F:6_6h3SH{9A=ovPQbW-
+6,control_wait,,"{""DURATION"": [1, [5, ""0.3""]]}",5,5,kbvTn4q@(.OnD5t|]uw@
+7,motion_changeyby,,"{""DY"": [1, [4, ""-10""]]}",6,6,{Tq^Fi3mG1;J^$*.Wpgh
+8,looks_switchcostumeto,,"{""COSTUME"": [1, ""sZcAeV;5_?Qh:m(x,kqA""]}",7,7,"OWJ,baX6J0Es?X+/-zCV"
+9,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Estoy feliz""]], ""SECS"": [1, [4, ""2""]]}",8,8,+9Y!Q3M.x:L)n-/#rvB2

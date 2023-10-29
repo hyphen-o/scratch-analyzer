@@ -1,0 +1,21 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,89.99999999999952,2.4780177909633494e-13,1.0658141036401503e-12,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,2ebQ(O82gZM*Y@-|ZClf
+3,procedures_call,,,2,2,7pneeg![Kc}u620[bd|2
+4,procedures_definition,,,2,0,?A+qhT97:b5``gA3xyC%
+5,looks_hide,,{},3,4,"(xt):R1PW`,7kDtmN$zY"
+6,motion_gotoxy,,"{""X"": [1, [4, ""0""]], ""Y"": [1, [4, ""0""]]}",4,5,uz2(V}-A00xT=mStawjz
+7,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""90""]]}",5,6,?9N.3z!qJ{j|a[nhEHj_
+8,pen_clear,,{},6,7,TEQ0k*PGV+)~/2b+q:#w
+9,data_setvariableto,,,7,8,|fqtKtz0nofGa`0SK^CA
+10,data_setvariableto,,,8,9,"gBV^GBPRTUe0,?bv1GwZ"
+11,pen_setPenColorToColor,,"{""COLOR"": [1, [9, ""#0080e2""]]}",9,10,u/n!jLQENv1{YFglORwz
+12,pen_setPenSizeTo,,"{""SIZE"": [1, [4, ""3""]]}",10,11,J.`.MG)nQ8-I!q+8KFr/
+13,pen_penDown,,{},11,3,Q;(/0Kqu0O?HK8KP8`I`
+14,sensing_askandwait,,"{""QUESTION"": [1, [10, ""要畫正幾邊形？""]]}",12,13,FR17J9]R[s-GIT@c5wH+
+15,data_setvariableto,,,13,14,"(]W0Bu^c,_U0E(gbLEq}"
+16,sensing_askandwait,,"{""QUESTION"": [1, [10, ""要畫幾個圖形?""]]}",14,15,FvYukdPE/CVU1{3d:chZ
+17,data_setvariableto,,,15,16,m4kti=u+TUH^1hydB]~R
+18,control_repeat,,,16,17,}j!EaIj$xUOme|-lxLH.
+19,pen_penUp,,{},17,18,e`JLWeGMR1R;vDI43;)V

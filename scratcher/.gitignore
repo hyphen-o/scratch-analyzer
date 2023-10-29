@@ -1,9 +1,12 @@
 app/*
 !app/sample
+!app/collector
 edit/*
 sources
 dataset
 out/*
+!out/ids
+!out/sorted
 relics
 ImageRecognition/*
 __pycache__

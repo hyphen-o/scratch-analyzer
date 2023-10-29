@@ -1,0 +1,9 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-20,29,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,u*I8rL?*b#/v^mo=hVBB
+3,motion_gotoxy,,"{""X"": [1, [4, ""-20""]], ""Y"": [1, [4, ""29""]]}",2,2,duI?ENmTs}:gq7eMRbH:
+4,looks_show,,{},3,3,iw;WYW`Bs}Iaai;BK}3t
+5,SCRIPT,,,0,0,
+6,event_whenbackdropswitchesto,,,1,0,`FE`A5pg46`zi[LIW4`C
+7,looks_hide,,{},2,6,J$7c5b3^$e`{w2dtwQmj

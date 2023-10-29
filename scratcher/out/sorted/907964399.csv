@@ -1,0 +1,12 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,0,-100,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,NpPwX!#[T7rG15~|S?WR
+3,motion_gotoxy,,"{""X"": [1, [4, ""0""]], ""Y"": [1, [4, ""-80""]]}",2,2,D@W4j3@x7E)FK=46Z{=(
+4,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""クイズです""]], ""SECS"": [1, [4, ""3""]]}",3,3,SuKC(hoM0%)wp0BSI+v}
+5,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""文字は文字でもお米をすくう文字はなーんだ""]], ""SECS"": [1, [4, ""5""]]}",4,4,+UZS7;m;XM]$JTKY*YdO
+6,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""制限時間は2分だよ""]], ""SECS"": [1, [4, ""2""]]}",5,5,xjP^zRyMD`~YI8;Ne_8Y
+7,sensing_askandwait,,"{""QUESTION"": [1, [10, ""よ～いスタート""]]}",6,6,pPSHvR];|YmDSbiU~@:4
+8,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""4""]], ""X"": [1, [4, ""0""]], ""Y"": [1, [4, ""-100""]]}",7,7,2CI99p:3$e4Xu};+xSk2
+9,control_if_else,,,8,8,PSSCF?1xlGzlR@aGRaQa
+10,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""正解だよ""]], ""SECS"": [1, [4, ""2""]]}",9,9,B33a@k%I*xIX4R|34%[:

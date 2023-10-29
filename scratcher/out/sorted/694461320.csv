@@ -1,0 +1,18 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-24,-25,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,krpPF0~2${!+y*RdJpCi
+3,motion_gotoxy,,"{""X"": [1, [4, ""-24""]], ""Y"": [1, [4, ""-25""]]}",2,2,URU=*9TeIT}%+e/Uii{g
+4,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Hello! my name is  victor ""]], ""SECS"": [1, [4, ""2""]]}",3,3,bA5Eqm!AQ@(Jend`fKS6
+5,sound_play,,"{""SOUND_MENU"": [1, ""X:5WJ@Ll%PMJ-XtPj%9R""]}",4,4,GQK#9mP$z~W~5|V@]%s=
+6,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""I live in space""]], ""SECS"": [1, [4, ""2""]]}",5,5,cU(/QDE$}Vsx_~(sAtS7
+7,sound_play,,"{""SOUND_MENU"": [1, ""ob4TG,xh?:uXzj/n]dQC""]}",6,6,"(d|sf1m,-r[+ie$u~6M7"
+8,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""but the space is to hot""]], ""SECS"": [1, [4, ""2""]]}",7,7,$hZl4KZui$x9I?YWDnl(
+9,sound_play,,"{""SOUND_MENU"": [1, ""rq|#u^2y=}Gq=J4Ax+l+""]}",8,8,"j,##$_|WvtQHqn{u^fCz"
+10,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""can you help me to find a home""]], ""SECS"": [1, [4, ""2""]]}",9,9,Zm?ML/q|dZ?)0a$O)`D$
+11,sound_play,,"{""SOUND_MENU"": [1, ""w+s{utg@3fN3@K*|eDg{""]}",10,10,"^a|?D[#X!%M?B@8@J:,h"
+12,sensing_askandwait,,"{""QUESTION"": [1, [10, ""which is the closest planet""]]}",11,11,Mk_~mpkgmFi~5/U;9`AQ
+13,data_setvariableto,,,12,12,`n_#:[c}]q#-i2TPoV6G
+14,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-18""]], ""Y"": [1, [4, ""168""]]}",13,13,)mnc{5=^|R?U:8%yDWN.
+15,motion_gotoxy,,"{""X"": [1, [4, ""-18""]], ""Y"": [1, [4, ""-108""]]}",14,14,L[I~n{}X?RiEYxznbbAW
+16,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-19""]], ""Y"": [1, [4, ""-2""]]}",15,15,OXB`ijY=vYU0{79.@RY~

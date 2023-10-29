@@ -1,0 +1,12 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,142,143,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,FC/m-d8geu:BM#ke$r:X
+3,motion_gotoxy,,"{""X"": [1, [4, ""142""]], ""Y"": [1, [4, ""143""]]}",2,2,_Dug$p8pA+aP%w1gsc73
+4,SCRIPT,,,0,0,
+5,event_whenthisspriteclicked,,,1,0,60-%=T#eCz5kyh;oz;)q
+6,data_setvariableto,,,2,5,v8^{uf#GH}||q5h/o$vR
+7,SCRIPT,,,0,6,
+8,event_broadcast,,,1,6,|nMbI}/^J[J9mUe6o`SM
+9,SCRIPT,,,0,6,
+10,event_broadcast,,,1,6,|nMbI}/^J[J9mUe6o`SM

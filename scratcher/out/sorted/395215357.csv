@@ -1,0 +1,146 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,127,115.99999999999994,98.00000000000003,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,zRn2ohc*Ik?-Sbz~!tah
+3,pen_penDown,,{},2,2,BZ2H(a:Q3*mo%$w#%X@k
+4,control_repeat,,,3,3,^i6H@tOO{3qq`GJP;jI!
+5,control_repeat,,,4,4,V[~Bw?Rl{-@xw!KDEwo-
+6,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",5,5,l3}!D{:vf=$O;|oc{-.r
+7,motion_turnleft,,"{""DEGREES"": [1, [4, ""120""]]}",6,6,K/!s*|D^C6[i%2gD|;*/
+8,pen_changePenColorParamBy,,"{""COLOR_PARAM"": [1, ""mmRh87.PVBxR(}q@mJ_o""], ""VALUE"": [1, [4, ""10""]]}",7,7,Q9:lGymf^X9FGnndAS6}
+9,control_wait,,"{""DURATION"": [1, [5, ""0.3""]]}",8,8,FHDKg(Z7!bs44G@l~5yQ
+10,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",9,5,l3}!D{:vf=$O;|oc{-.r
+11,motion_turnleft,,"{""DEGREES"": [1, [4, ""120""]]}",10,6,K/!s*|D^C6[i%2gD|;*/
+12,pen_changePenColorParamBy,,"{""COLOR_PARAM"": [1, ""mmRh87.PVBxR(}q@mJ_o""], ""VALUE"": [1, [4, ""10""]]}",11,7,Q9:lGymf^X9FGnndAS6}
+13,control_wait,,"{""DURATION"": [1, [5, ""0.3""]]}",12,8,FHDKg(Z7!bs44G@l~5yQ
+14,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",13,5,l3}!D{:vf=$O;|oc{-.r
+15,motion_turnleft,,"{""DEGREES"": [1, [4, ""120""]]}",14,6,K/!s*|D^C6[i%2gD|;*/
+16,pen_changePenColorParamBy,,"{""COLOR_PARAM"": [1, ""mmRh87.PVBxR(}q@mJ_o""], ""VALUE"": [1, [4, ""10""]]}",15,7,Q9:lGymf^X9FGnndAS6}
+17,control_wait,,"{""DURATION"": [1, [5, ""0.3""]]}",16,8,FHDKg(Z7!bs44G@l~5yQ
+18,motion_turnright,,"{""DEGREES"": [1, [4, ""36""]]}",17,5,=GR$`q/bL/.S/kxLd}1[
+19,control_repeat,,,18,4,V[~Bw?Rl{-@xw!KDEwo-
+20,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",19,5,l3}!D{:vf=$O;|oc{-.r
+21,motion_turnleft,,"{""DEGREES"": [1, [4, ""120""]]}",20,6,K/!s*|D^C6[i%2gD|;*/
+22,pen_changePenColorParamBy,,"{""COLOR_PARAM"": [1, ""mmRh87.PVBxR(}q@mJ_o""], ""VALUE"": [1, [4, ""10""]]}",21,7,Q9:lGymf^X9FGnndAS6}
+23,control_wait,,"{""DURATION"": [1, [5, ""0.3""]]}",22,8,FHDKg(Z7!bs44G@l~5yQ
+24,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",23,5,l3}!D{:vf=$O;|oc{-.r
+25,motion_turnleft,,"{""DEGREES"": [1, [4, ""120""]]}",24,6,K/!s*|D^C6[i%2gD|;*/
+26,pen_changePenColorParamBy,,"{""COLOR_PARAM"": [1, ""mmRh87.PVBxR(}q@mJ_o""], ""VALUE"": [1, [4, ""10""]]}",25,7,Q9:lGymf^X9FGnndAS6}
+27,control_wait,,"{""DURATION"": [1, [5, ""0.3""]]}",26,8,FHDKg(Z7!bs44G@l~5yQ
+28,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",27,5,l3}!D{:vf=$O;|oc{-.r
+29,motion_turnleft,,"{""DEGREES"": [1, [4, ""120""]]}",28,6,K/!s*|D^C6[i%2gD|;*/
+30,pen_changePenColorParamBy,,"{""COLOR_PARAM"": [1, ""mmRh87.PVBxR(}q@mJ_o""], ""VALUE"": [1, [4, ""10""]]}",29,7,Q9:lGymf^X9FGnndAS6}
+31,control_wait,,"{""DURATION"": [1, [5, ""0.3""]]}",30,8,FHDKg(Z7!bs44G@l~5yQ
+32,motion_turnright,,"{""DEGREES"": [1, [4, ""36""]]}",31,5,=GR$`q/bL/.S/kxLd}1[
+33,control_repeat,,,32,4,V[~Bw?Rl{-@xw!KDEwo-
+34,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",33,5,l3}!D{:vf=$O;|oc{-.r
+35,motion_turnleft,,"{""DEGREES"": [1, [4, ""120""]]}",34,6,K/!s*|D^C6[i%2gD|;*/
+36,pen_changePenColorParamBy,,"{""COLOR_PARAM"": [1, ""mmRh87.PVBxR(}q@mJ_o""], ""VALUE"": [1, [4, ""10""]]}",35,7,Q9:lGymf^X9FGnndAS6}
+37,control_wait,,"{""DURATION"": [1, [5, ""0.3""]]}",36,8,FHDKg(Z7!bs44G@l~5yQ
+38,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",37,5,l3}!D{:vf=$O;|oc{-.r
+39,motion_turnleft,,"{""DEGREES"": [1, [4, ""120""]]}",38,6,K/!s*|D^C6[i%2gD|;*/
+40,pen_changePenColorParamBy,,"{""COLOR_PARAM"": [1, ""mmRh87.PVBxR(}q@mJ_o""], ""VALUE"": [1, [4, ""10""]]}",39,7,Q9:lGymf^X9FGnndAS6}
+41,control_wait,,"{""DURATION"": [1, [5, ""0.3""]]}",40,8,FHDKg(Z7!bs44G@l~5yQ
+42,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",41,5,l3}!D{:vf=$O;|oc{-.r
+43,motion_turnleft,,"{""DEGREES"": [1, [4, ""120""]]}",42,6,K/!s*|D^C6[i%2gD|;*/
+44,pen_changePenColorParamBy,,"{""COLOR_PARAM"": [1, ""mmRh87.PVBxR(}q@mJ_o""], ""VALUE"": [1, [4, ""10""]]}",43,7,Q9:lGymf^X9FGnndAS6}
+45,control_wait,,"{""DURATION"": [1, [5, ""0.3""]]}",44,8,FHDKg(Z7!bs44G@l~5yQ
+46,motion_turnright,,"{""DEGREES"": [1, [4, ""36""]]}",45,5,=GR$`q/bL/.S/kxLd}1[
+47,control_repeat,,,46,4,V[~Bw?Rl{-@xw!KDEwo-
+48,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",47,5,l3}!D{:vf=$O;|oc{-.r
+49,motion_turnleft,,"{""DEGREES"": [1, [4, ""120""]]}",48,6,K/!s*|D^C6[i%2gD|;*/
+50,pen_changePenColorParamBy,,"{""COLOR_PARAM"": [1, ""mmRh87.PVBxR(}q@mJ_o""], ""VALUE"": [1, [4, ""10""]]}",49,7,Q9:lGymf^X9FGnndAS6}
+51,control_wait,,"{""DURATION"": [1, [5, ""0.3""]]}",50,8,FHDKg(Z7!bs44G@l~5yQ
+52,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",51,5,l3}!D{:vf=$O;|oc{-.r
+53,motion_turnleft,,"{""DEGREES"": [1, [4, ""120""]]}",52,6,K/!s*|D^C6[i%2gD|;*/
+54,pen_changePenColorParamBy,,"{""COLOR_PARAM"": [1, ""mmRh87.PVBxR(}q@mJ_o""], ""VALUE"": [1, [4, ""10""]]}",53,7,Q9:lGymf^X9FGnndAS6}
+55,control_wait,,"{""DURATION"": [1, [5, ""0.3""]]}",54,8,FHDKg(Z7!bs44G@l~5yQ
+56,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",55,5,l3}!D{:vf=$O;|oc{-.r
+57,motion_turnleft,,"{""DEGREES"": [1, [4, ""120""]]}",56,6,K/!s*|D^C6[i%2gD|;*/
+58,pen_changePenColorParamBy,,"{""COLOR_PARAM"": [1, ""mmRh87.PVBxR(}q@mJ_o""], ""VALUE"": [1, [4, ""10""]]}",57,7,Q9:lGymf^X9FGnndAS6}
+59,control_wait,,"{""DURATION"": [1, [5, ""0.3""]]}",58,8,FHDKg(Z7!bs44G@l~5yQ
+60,motion_turnright,,"{""DEGREES"": [1, [4, ""36""]]}",59,5,=GR$`q/bL/.S/kxLd}1[
+61,control_repeat,,,60,4,V[~Bw?Rl{-@xw!KDEwo-
+62,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",61,5,l3}!D{:vf=$O;|oc{-.r
+63,motion_turnleft,,"{""DEGREES"": [1, [4, ""120""]]}",62,6,K/!s*|D^C6[i%2gD|;*/
+64,pen_changePenColorParamBy,,"{""COLOR_PARAM"": [1, ""mmRh87.PVBxR(}q@mJ_o""], ""VALUE"": [1, [4, ""10""]]}",63,7,Q9:lGymf^X9FGnndAS6}
+65,control_wait,,"{""DURATION"": [1, [5, ""0.3""]]}",64,8,FHDKg(Z7!bs44G@l~5yQ
+66,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",65,5,l3}!D{:vf=$O;|oc{-.r
+67,motion_turnleft,,"{""DEGREES"": [1, [4, ""120""]]}",66,6,K/!s*|D^C6[i%2gD|;*/
+68,pen_changePenColorParamBy,,"{""COLOR_PARAM"": [1, ""mmRh87.PVBxR(}q@mJ_o""], ""VALUE"": [1, [4, ""10""]]}",67,7,Q9:lGymf^X9FGnndAS6}
+69,control_wait,,"{""DURATION"": [1, [5, ""0.3""]]}",68,8,FHDKg(Z7!bs44G@l~5yQ
+70,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",69,5,l3}!D{:vf=$O;|oc{-.r
+71,motion_turnleft,,"{""DEGREES"": [1, [4, ""120""]]}",70,6,K/!s*|D^C6[i%2gD|;*/
+72,pen_changePenColorParamBy,,"{""COLOR_PARAM"": [1, ""mmRh87.PVBxR(}q@mJ_o""], ""VALUE"": [1, [4, ""10""]]}",71,7,Q9:lGymf^X9FGnndAS6}
+73,control_wait,,"{""DURATION"": [1, [5, ""0.3""]]}",72,8,FHDKg(Z7!bs44G@l~5yQ
+74,motion_turnright,,"{""DEGREES"": [1, [4, ""36""]]}",73,5,=GR$`q/bL/.S/kxLd}1[
+75,control_repeat,,,74,4,V[~Bw?Rl{-@xw!KDEwo-
+76,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",75,5,l3}!D{:vf=$O;|oc{-.r
+77,motion_turnleft,,"{""DEGREES"": [1, [4, ""120""]]}",76,6,K/!s*|D^C6[i%2gD|;*/
+78,pen_changePenColorParamBy,,"{""COLOR_PARAM"": [1, ""mmRh87.PVBxR(}q@mJ_o""], ""VALUE"": [1, [4, ""10""]]}",77,7,Q9:lGymf^X9FGnndAS6}
+79,control_wait,,"{""DURATION"": [1, [5, ""0.3""]]}",78,8,FHDKg(Z7!bs44G@l~5yQ
+80,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",79,5,l3}!D{:vf=$O;|oc{-.r
+81,motion_turnleft,,"{""DEGREES"": [1, [4, ""120""]]}",80,6,K/!s*|D^C6[i%2gD|;*/
+82,pen_changePenColorParamBy,,"{""COLOR_PARAM"": [1, ""mmRh87.PVBxR(}q@mJ_o""], ""VALUE"": [1, [4, ""10""]]}",81,7,Q9:lGymf^X9FGnndAS6}
+83,control_wait,,"{""DURATION"": [1, [5, ""0.3""]]}",82,8,FHDKg(Z7!bs44G@l~5yQ
+84,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",83,5,l3}!D{:vf=$O;|oc{-.r
+85,motion_turnleft,,"{""DEGREES"": [1, [4, ""120""]]}",84,6,K/!s*|D^C6[i%2gD|;*/
+86,pen_changePenColorParamBy,,"{""COLOR_PARAM"": [1, ""mmRh87.PVBxR(}q@mJ_o""], ""VALUE"": [1, [4, ""10""]]}",85,7,Q9:lGymf^X9FGnndAS6}
+87,control_wait,,"{""DURATION"": [1, [5, ""0.3""]]}",86,8,FHDKg(Z7!bs44G@l~5yQ
+88,motion_turnright,,"{""DEGREES"": [1, [4, ""36""]]}",87,5,=GR$`q/bL/.S/kxLd}1[
+89,control_repeat,,,88,4,V[~Bw?Rl{-@xw!KDEwo-
+90,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",89,5,l3}!D{:vf=$O;|oc{-.r
+91,motion_turnleft,,"{""DEGREES"": [1, [4, ""120""]]}",90,6,K/!s*|D^C6[i%2gD|;*/
+92,pen_changePenColorParamBy,,"{""COLOR_PARAM"": [1, ""mmRh87.PVBxR(}q@mJ_o""], ""VALUE"": [1, [4, ""10""]]}",91,7,Q9:lGymf^X9FGnndAS6}
+93,control_wait,,"{""DURATION"": [1, [5, ""0.3""]]}",92,8,FHDKg(Z7!bs44G@l~5yQ
+94,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",93,5,l3}!D{:vf=$O;|oc{-.r
+95,motion_turnleft,,"{""DEGREES"": [1, [4, ""120""]]}",94,6,K/!s*|D^C6[i%2gD|;*/
+96,pen_changePenColorParamBy,,"{""COLOR_PARAM"": [1, ""mmRh87.PVBxR(}q@mJ_o""], ""VALUE"": [1, [4, ""10""]]}",95,7,Q9:lGymf^X9FGnndAS6}
+97,control_wait,,"{""DURATION"": [1, [5, ""0.3""]]}",96,8,FHDKg(Z7!bs44G@l~5yQ
+98,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",97,5,l3}!D{:vf=$O;|oc{-.r
+99,motion_turnleft,,"{""DEGREES"": [1, [4, ""120""]]}",98,6,K/!s*|D^C6[i%2gD|;*/
+100,pen_changePenColorParamBy,,"{""COLOR_PARAM"": [1, ""mmRh87.PVBxR(}q@mJ_o""], ""VALUE"": [1, [4, ""10""]]}",99,7,Q9:lGymf^X9FGnndAS6}
+101,control_wait,,"{""DURATION"": [1, [5, ""0.3""]]}",100,8,FHDKg(Z7!bs44G@l~5yQ
+102,motion_turnright,,"{""DEGREES"": [1, [4, ""36""]]}",101,5,=GR$`q/bL/.S/kxLd}1[
+103,control_repeat,,,102,4,V[~Bw?Rl{-@xw!KDEwo-
+104,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",103,5,l3}!D{:vf=$O;|oc{-.r
+105,motion_turnleft,,"{""DEGREES"": [1, [4, ""120""]]}",104,6,K/!s*|D^C6[i%2gD|;*/
+106,pen_changePenColorParamBy,,"{""COLOR_PARAM"": [1, ""mmRh87.PVBxR(}q@mJ_o""], ""VALUE"": [1, [4, ""10""]]}",105,7,Q9:lGymf^X9FGnndAS6}
+107,control_wait,,"{""DURATION"": [1, [5, ""0.3""]]}",106,8,FHDKg(Z7!bs44G@l~5yQ
+108,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",107,5,l3}!D{:vf=$O;|oc{-.r
+109,motion_turnleft,,"{""DEGREES"": [1, [4, ""120""]]}",108,6,K/!s*|D^C6[i%2gD|;*/
+110,pen_changePenColorParamBy,,"{""COLOR_PARAM"": [1, ""mmRh87.PVBxR(}q@mJ_o""], ""VALUE"": [1, [4, ""10""]]}",109,7,Q9:lGymf^X9FGnndAS6}
+111,control_wait,,"{""DURATION"": [1, [5, ""0.3""]]}",110,8,FHDKg(Z7!bs44G@l~5yQ
+112,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",111,5,l3}!D{:vf=$O;|oc{-.r
+113,motion_turnleft,,"{""DEGREES"": [1, [4, ""120""]]}",112,6,K/!s*|D^C6[i%2gD|;*/
+114,pen_changePenColorParamBy,,"{""COLOR_PARAM"": [1, ""mmRh87.PVBxR(}q@mJ_o""], ""VALUE"": [1, [4, ""10""]]}",113,7,Q9:lGymf^X9FGnndAS6}
+115,control_wait,,"{""DURATION"": [1, [5, ""0.3""]]}",114,8,FHDKg(Z7!bs44G@l~5yQ
+116,motion_turnright,,"{""DEGREES"": [1, [4, ""36""]]}",115,5,=GR$`q/bL/.S/kxLd}1[
+117,control_repeat,,,116,4,V[~Bw?Rl{-@xw!KDEwo-
+118,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",117,5,l3}!D{:vf=$O;|oc{-.r
+119,motion_turnleft,,"{""DEGREES"": [1, [4, ""120""]]}",118,6,K/!s*|D^C6[i%2gD|;*/
+120,pen_changePenColorParamBy,,"{""COLOR_PARAM"": [1, ""mmRh87.PVBxR(}q@mJ_o""], ""VALUE"": [1, [4, ""10""]]}",119,7,Q9:lGymf^X9FGnndAS6}
+121,control_wait,,"{""DURATION"": [1, [5, ""0.3""]]}",120,8,FHDKg(Z7!bs44G@l~5yQ
+122,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",121,5,l3}!D{:vf=$O;|oc{-.r
+123,motion_turnleft,,"{""DEGREES"": [1, [4, ""120""]]}",122,6,K/!s*|D^C6[i%2gD|;*/
+124,pen_changePenColorParamBy,,"{""COLOR_PARAM"": [1, ""mmRh87.PVBxR(}q@mJ_o""], ""VALUE"": [1, [4, ""10""]]}",123,7,Q9:lGymf^X9FGnndAS6}
+125,control_wait,,"{""DURATION"": [1, [5, ""0.3""]]}",124,8,FHDKg(Z7!bs44G@l~5yQ
+126,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",125,5,l3}!D{:vf=$O;|oc{-.r
+127,motion_turnleft,,"{""DEGREES"": [1, [4, ""120""]]}",126,6,K/!s*|D^C6[i%2gD|;*/
+128,pen_changePenColorParamBy,,"{""COLOR_PARAM"": [1, ""mmRh87.PVBxR(}q@mJ_o""], ""VALUE"": [1, [4, ""10""]]}",127,7,Q9:lGymf^X9FGnndAS6}
+129,control_wait,,"{""DURATION"": [1, [5, ""0.3""]]}",128,8,FHDKg(Z7!bs44G@l~5yQ
+130,motion_turnright,,"{""DEGREES"": [1, [4, ""36""]]}",129,5,=GR$`q/bL/.S/kxLd}1[
+131,control_repeat,,,130,4,V[~Bw?Rl{-@xw!KDEwo-
+132,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",131,5,l3}!D{:vf=$O;|oc{-.r
+133,motion_turnleft,,"{""DEGREES"": [1, [4, ""120""]]}",132,6,K/!s*|D^C6[i%2gD|;*/
+134,pen_changePenColorParamBy,,"{""COLOR_PARAM"": [1, ""mmRh87.PVBxR(}q@mJ_o""], ""VALUE"": [1, [4, ""10""]]}",133,7,Q9:lGymf^X9FGnndAS6}
+135,control_wait,,"{""DURATION"": [1, [5, ""0.3""]]}",134,8,FHDKg(Z7!bs44G@l~5yQ
+136,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",135,5,l3}!D{:vf=$O;|oc{-.r
+137,motion_turnleft,,"{""DEGREES"": [1, [4, ""120""]]}",136,6,K/!s*|D^C6[i%2gD|;*/
+138,pen_changePenColorParamBy,,"{""COLOR_PARAM"": [1, ""mmRh87.PVBxR(}q@mJ_o""], ""VALUE"": [1, [4, ""10""]]}",137,7,Q9:lGymf^X9FGnndAS6}
+139,control_wait,,"{""DURATION"": [1, [5, ""0.3""]]}",138,8,FHDKg(Z7!bs44G@l~5yQ
+140,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",139,5,l3}!D{:vf=$O;|oc{-.r
+141,motion_turnleft,,"{""DEGREES"": [1, [4, ""120""]]}",140,6,K/!s*|D^C6[i%2gD|;*/
+142,pen_changePenColorParamBy,,"{""COLOR_PARAM"": [1, ""mmRh87.PVBxR(}q@mJ_o""], ""VALUE"": [1, [4, ""10""]]}",141,7,Q9:lGymf^X9FGnndAS6}
+143,control_wait,,"{""DURATION"": [1, [5, ""0.3""]]}",142,8,FHDKg(Z7!bs44G@l~5yQ
+144,motion_turnright,,"{""DEGREES"": [1, [4, ""36""]]}",143,5,=GR$`q/bL/.S/kxLd}1[

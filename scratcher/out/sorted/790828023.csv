@@ -1,0 +1,15 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-111,-126,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,otWuX9@2z!l?@}EDIXuC
+3,motion_gotoxy,,"{""X"": [1, [4, ""1""]], ""Y"": [1, [4, ""-87""]]}",2,2,F8srCGZXxI6B$PPbCB8m
+4,looks_show,,{},3,3,SpS4{:5qQc:Q$a#(kYmj
+5,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",4,4,qgew93qv]Nr~;9?3XX8|
+6,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Yo Amigo!""]], ""SECS"": [1, [4, ""2""]]}",5,5,UV6].M-SFDvALQ*)S4+4
+7,SCRIPT,,,0,6,
+8,event_broadcast,,,1,6,M_{@*elT|PS^N|U5dg-T
+9,SCRIPT,,,0,6,
+10,event_broadcast,,,1,6,M_{@*elT|PS^N|U5dg-T
+11,SCRIPT,,,0,0,
+12,event_whenbroadcastreceived,,,1,0,I2rAXb5|.~.OJ*(cWZ^+
+13,motion_goto,,"{""TO"": [1, ""~^7~ce0.+7(%:A4Y+9:4""]}",2,12,tkFz])~!En9c:pjc?.;n
