@@ -17,12 +17,15 @@ class DTW:
         self.__data2 = self.__load_coordinate(data2)
 
     def get_dtw(self, keys=[]): 
-        if self.__windowSize:
-            result = self.__calculate_partial_dtw(keys[0], keys[1])
-            return result
-        else:
-            dtwVal = self.__calculate_dtw(self.__data1, self.__data2)[1]
-            return dtwVal
+        try:
+            if self.__windowSize:
+                result = self.__calculate_partial_dtw(keys[0], keys[1])
+                return result
+            else:
+                dtwVal = self.__calculate_dtw(self.__data1, self.__data2)[1]
+                return dtwVal
+        except Exception:
+            return "error"
                     
 
     def __calculate_partial_dtw(self, key1, key2):
@@ -73,60 +76,65 @@ class DTW:
             to_time_series_dataset([data])).flatten().reshape(-1, 2)
 
     def __calculate_dtw(self, x, y):
-        # xのデータ数，yのデータ数をそれぞれTx,Tyに代入
-        Tx = len(x)
-        Ty = len(y)
+        try:
 
-        # C:各マスの累積コスト，　B：最小コストの行/列番号
-        C = np.zeros((Tx, Ty))
-        B = np.zeros((Tx, Ty, 2), int)
+            # xのデータ数，yのデータ数をそれぞれTx,Tyに代入
+            Tx = len(x)
+            Ty = len(y)
 
-        # 一番初めのマスのコストを，xとyのそれぞれ一番初めの値にする
-        C[0, 0] = self.__calculateDist(x[0], y[0])
+            # C:各マスの累積コスト，　B：最小コストの行/列番号
+            C = np.zeros((Tx, Ty))
+            B = np.zeros((Tx, Ty, 2), int)
 
-        # 動的計画法を用いる
-        # 左下のマスからスタートし，各マスに到達するため最小の累積コストを1マスずつ求める
+            # 一番初めのマスのコストを，xとyのそれぞれ一番初めの値にする
+            C[0, 0] = self.__calculateDist(x[0], y[0])
 
-        # 境界条件：両端が左下と右上にあること
-        # 単調性：左下から始まり，右，上，右上のいずれかにしか進まないこと
-        # 連続性：繋がっていること
+            # 動的計画法を用いる
+            # 左下のマスからスタートし，各マスに到達するため最小の累積コストを1マスずつ求める
 
-        # 一番下の行は，真っ直ぐ右にコストが累積される
-        for i in range(Tx):
-            C[i, 0] = C[i - 1, 0] + self.__calculateDist(x[i], y[0])
-            B[i, 0] = [i - 1, 0]
+            # 境界条件：両端が左下と右上にあること
+            # 単調性：左下から始まり，右，上，右上のいずれかにしか進まないこと
+            # 連続性：繋がっていること
 
-        # 同様に一番左の列は，真っ直ぐ上にコストが累積される
-        for j in range(1, Ty):
-            C[0, j] = C[0, j - 1] + self.__calculateDist(x[0], y[j])
-            B[0, j] = [0, j - 1]
+            # 一番下の行は，真っ直ぐ右にコストが累積される
+            for i in range(Tx):
+                C[i, 0] = C[i - 1, 0] + self.__calculateDist(x[i], y[0])
+                B[i, 0] = [i - 1, 0]
 
-        # その他のマスの累積コストを求める
-        for i in range(1, Tx):
+            # 同様に一番左の列は，真っ直ぐ上にコストが累積される
             for j in range(1, Ty):
-                pi, pj, m = self.__getMin(C[i - 1, j],
-                                          C[i, j - 1],
-                                          C[i - 1, j - 1],
-                                          i, j)
-                # get_minで返ってきた最小コストを累積コストに足す
-                C[i, j] = self.__calculateDist(x[i], y[j]) + m
-                # get_minで返ってきた最小コストの行/列番号を保持
-                B[i, j] = [pi, pj]
-        # 最終的な右上（最終の到達点）のコスト
-        cost = C[-1, -1]
+                C[0, j] = C[0, j - 1] + self.__calculateDist(x[0], y[j])
+                B[0, j] = [0, j - 1]
 
-        path = [[Tx - 1, Ty - 1]]
+            # その他のマスの累積コストを求める
+            for i in range(1, Tx):
+                for j in range(1, Ty):
+                    pi, pj, m = self.__getMin(C[i - 1, j],
+                                            C[i, j - 1],
+                                            C[i - 1, j - 1],
+                                            i, j)
+                    # get_minで返ってきた最小コストを累積コストに足す
+                    C[i, j] = self.__calculateDist(x[i], y[j]) + m
+                    # get_minで返ってきた最小コストの行/列番号を保持
+                    B[i, j] = [pi, pj]
+            # 最終的な右上（最終の到達点）のコスト
+            cost = C[-1, -1]
 
-        # 逆順にたどることでパスを求める
-        i = Tx - 1
-        j = Ty - 1
+            path = [[Tx - 1, Ty - 1]]
 
-        while ((B[i, j][0] != 0) or (B[i, j][1] != 0)):
-            path.append(B[i, j])
-            i, j = B[i, j].astype(int)
-        path.append([0, 0])
-        return np.array(path), cost, C
+            # 逆順にたどることでパスを求める
+            i = Tx - 1
+            j = Ty - 1
 
+            while ((B[i, j][0] != 0) or (B[i, j][1] != 0)):
+                path.append(B[i, j])
+                i, j = B[i, j].astype(int)
+            path.append([0, 0])
+            return np.array(path), cost, C
+
+        except Exception:
+            return (0, 0, 0)
+        
     # 距離算出
     def __calculateDist(self, a, b):
         return ((a[0] - b[0]) ** 2 + (a[1] - b[1]) ** 2) ** 0.5

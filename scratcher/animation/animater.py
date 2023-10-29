@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
+from matplotlib.offsetbox import OffsetImage, AnnotationBbox 
 from PIL import Image
 
 class Animater:
@@ -57,6 +58,8 @@ class Animater:
             trajectory_data.append([x, y])  # 現在の座標を軌跡データに追加
             point.set_data(x, y)
             trajectory.set_data(*zip(*trajectory_data))  # 軌跡を更新
+            ab = AnnotationBbox(im, (x, y), xycoords='data', frameon=False) 
+            ax.add_artist(ab)
             
             # ループしたら軌跡データをクリア
             if frame == len(self.__data) - 1:
@@ -64,7 +67,9 @@ class Animater:
             
             return point, trajectory
         
-        fig, ax = plt.subplots(figsize=(8, 4))
+
+        fig, ax = plt.subplots(figsize=(8, 8))
+
         ax.set_xlabel("X")
         ax.set_ylabel("Y")
         ax.set_xlim(0, 1)
@@ -73,6 +78,8 @@ class Animater:
         # プロットを初期化
         point, = ax.plot([], [], 'ro') 
         trajectory, = ax.plot([], [], 'b-') 
+        image = plt.imread("../../animation/cat1.png")
+        im = OffsetImage(image)
 
         # 点の軌跡を保存するリスト
         trajectory_data = []
