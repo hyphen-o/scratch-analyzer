@@ -18,33 +18,6 @@ with open(CSV_PATH, 'w') as f:
     writer.writerow(["id"])
 # dfM = DfManager(["id"])
 count = 0
-
-# for id in random_ids:
-#     try:
-#         pm = ProjectManager(id)
-#         blocks = pm.get_blocks()
-#         dupli_blocks = []
-#         has_dupli = False
-#         has_coordinate = False
-#         for block_hash, block in blocks.items():
-#             block_name = block["opcode"]
-#             if block_name in constants.EVENT_BLOCKS:
-#                 if block_name in dupli_blocks:
-#                     has_dupli = True
-#                     break
-#                 else:
-#                     dupli_blocks.append(block_name)
-#             if block_name in constants.COORDINATE_BLOCKS:
-#                 has_coordinate = True
-#         if not has_dupli and has_coordinate:
-#             count += 1
-#             print(count)
-#             print(id)
-#             dfM.add_row([id])
-#         if count == 4000:
-#             break
-#     except Exception:
-#         continue
     
 def callback(start_index, end_index):
     with open(CSV_PATH, 'a') as f:

@@ -41,21 +41,21 @@ class Tracker:
         return (dx, dy)
     
     def get_coordinate(self):
-        self.__degree = self.__sorted_df.iloc[0][0]
-        self.__x = self.__sorted_df.iloc[0][1]
-        self.__y = self.__sorted_df.iloc[0][2]
+        self.__degree = self.__sorted_df.iloc[0]["BlockName"]
+        self.__x = self.__sorted_df.iloc[0]["Key"]
+        self.__y = self.__sorted_df.iloc[0]["Field"]
         self.__df_length = len(self.__sorted_df.index)
-
+        print(self.__degree)
         try:
             for i in range(1, self.__df_length):
-                block_name = self.__sorted_df.iloc[i][0]
+                block_name = self.__sorted_df.iloc[i]["BlockName"]
                 if (block_name == 'event_whenflagclicked'):
                     self.__dfM.add_row([None, self.__x, self.__y, 0, i])
                     self.__calculate_coordinate(i)
                     break
             for i in range(1, self.__df_length):
-                block_name = self.__sorted_df.iloc[i][0]
-                if ('event' in block_name):
+                block_name = self.__sorted_df.iloc[i]["BlockName"]
+                if ('event' in str(block_name)):
                     if (block_name != 'event_whenflagclicked'):
                         self.__dfM.add_row([None, self.__x, self.__y, 0, i])
                         self.__calculate_coordinate(i)
@@ -71,8 +71,8 @@ class Tracker:
             try:
                 if (self.__sorted_df["BlockName"].iloc[i] == 'SCRIPT'):
                     return
-                if (not pd.isna(self.__sorted_df.iloc[i][2])):
-                    dic = ast.literal_eval(self.__sorted_df.iloc[i][2])
+                if (not pd.isna(self.__sorted_df.iloc[i]["Field"])):
+                    dic = ast.literal_eval(self.__sorted_df.iloc[i]["Field"])
                     for key in dic.keys():
                         if key in self.__MOVE:
                             if key == 'DX':
@@ -86,9 +86,9 @@ class Tracker:
                                 self.__y = float(dic[key][1][1])
                         elif key in self.__DEGREE:
                             if key == 'DEGREES':
-                                if (self.__sorted_df.iloc[i][0] == 'motion_turnleft'):
+                                if (self.__sorted_df.iloc[i]["BlockName"] == 'motion_turnleft'):
                                     self.__degree = float(self.__degree) + float(dic[key][1][1])
-                                elif (self.__sorted_df.iloc[i][0] == 'motion_turnright'):
+                                elif (self.__sorted_df.iloc[i]["BlockName"] == 'motion_turnright'):
                                     self.__degree = float(self.__degree) - float(dic[key][1][1])
                             if key == 'DIRECTION':
                                 self.__degree = float(dic[key][1][1])
