@@ -1,0 +1,34 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,0,0,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,=y|YW]}3qJlMX:53Lq#H
+3,looks_show,,{},2,2,m{22K3i*9u}I#r[_m6[/
+4,motion_gotoxy,,"{""X"": [1, [4, ""0""]], ""Y"": [1, [4, ""0""]]}",3,3,RyPJ3X1Ksb^L-|SMZJ;X
+5,SCRIPT,,,0,0,
+6,event_whenthisspriteclicked,,,1,0,V8;/rE2D?tCYFth4h=IU
+7,control_repeat,,,2,6,5_}}6rIi2be[rkEMt(.3
+8,looks_changeeffectby,,"{""CHANGE"": [1, [4, ""25""]]}",3,7,.}aI)5pr!(nS9Ovv+6M^
+9,control_wait,,"{""DURATION"": [1, [5, ""0.05""]]}",4,8,`jX8L/U~`_*r9(%?kjlo
+10,looks_changeeffectby,,"{""CHANGE"": [1, [4, ""25""]]}",5,7,.}aI)5pr!(nS9Ovv+6M^
+11,control_wait,,"{""DURATION"": [1, [5, ""0.05""]]}",6,8,`jX8L/U~`_*r9(%?kjlo
+12,looks_changeeffectby,,"{""CHANGE"": [1, [4, ""25""]]}",7,7,.}aI)5pr!(nS9Ovv+6M^
+13,control_wait,,"{""DURATION"": [1, [5, ""0.05""]]}",8,8,`jX8L/U~`_*r9(%?kjlo
+14,looks_changeeffectby,,"{""CHANGE"": [1, [4, ""25""]]}",9,7,.}aI)5pr!(nS9Ovv+6M^
+15,control_wait,,"{""DURATION"": [1, [5, ""0.05""]]}",10,8,`jX8L/U~`_*r9(%?kjlo
+16,looks_changeeffectby,,"{""CHANGE"": [1, [4, ""25""]]}",11,7,.}aI)5pr!(nS9Ovv+6M^
+17,control_wait,,"{""DURATION"": [1, [5, ""0.05""]]}",12,8,`jX8L/U~`_*r9(%?kjlo
+18,looks_changeeffectby,,"{""CHANGE"": [1, [4, ""25""]]}",13,7,.}aI)5pr!(nS9Ovv+6M^
+19,control_wait,,"{""DURATION"": [1, [5, ""0.05""]]}",14,8,`jX8L/U~`_*r9(%?kjlo
+20,looks_changeeffectby,,"{""CHANGE"": [1, [4, ""25""]]}",15,7,.}aI)5pr!(nS9Ovv+6M^
+21,control_wait,,"{""DURATION"": [1, [5, ""0.05""]]}",16,8,`jX8L/U~`_*r9(%?kjlo
+22,looks_changeeffectby,,"{""CHANGE"": [1, [4, ""25""]]}",17,7,.}aI)5pr!(nS9Ovv+6M^
+23,control_wait,,"{""DURATION"": [1, [5, ""0.05""]]}",18,8,`jX8L/U~`_*r9(%?kjlo
+24,looks_changeeffectby,,"{""CHANGE"": [1, [4, ""25""]]}",19,7,.}aI)5pr!(nS9Ovv+6M^
+25,control_wait,,"{""DURATION"": [1, [5, ""0.05""]]}",20,8,`jX8L/U~`_*r9(%?kjlo
+26,looks_changeeffectby,,"{""CHANGE"": [1, [4, ""25""]]}",21,7,.}aI)5pr!(nS9Ovv+6M^
+27,control_wait,,"{""DURATION"": [1, [5, ""0.05""]]}",22,8,`jX8L/U~`_*r9(%?kjlo
+28,looks_hide,,{},23,7,W}luaUrqF^W~o7/8tcYu
+29,SCRIPT,,,0,28,
+30,event_broadcast,,,1,28,J@lG8IX1V{eeKXvyQ:WO
+31,SCRIPT,,,0,28,
+32,event_broadcast,,,1,28,J@lG8IX1V{eeKXvyQ:WO

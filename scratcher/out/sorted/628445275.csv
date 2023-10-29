@@ -1,0 +1,109 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,-45,-99.26986821085856,18.08942782996195,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,"6X#C[i0ajsWN8,O)_F6:"
+3,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""45""]]}",2,2,@wVHy(^t[]mvK%QhBL[C
+4,control_forever,,,3,3,KKtB4$pBE|DAF%$+EP)$
+5,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",4,4,4Jch.}@PVdYd:#@6u_un
+6,motion_ifonedgebounce,,{},5,5,XfWIRF56|a~[.G4Z~l.a
+7,motion_setrotationstyle,,{},6,6,{XlWR[1+{G;}o.Y@=Sdh
+8,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",7,4,4Jch.}@PVdYd:#@6u_un
+9,motion_ifonedgebounce,,{},8,5,XfWIRF56|a~[.G4Z~l.a
+10,motion_setrotationstyle,,{},9,6,{XlWR[1+{G;}o.Y@=Sdh
+11,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",10,4,4Jch.}@PVdYd:#@6u_un
+12,motion_ifonedgebounce,,{},11,5,XfWIRF56|a~[.G4Z~l.a
+13,motion_setrotationstyle,,{},12,6,{XlWR[1+{G;}o.Y@=Sdh
+14,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",13,4,4Jch.}@PVdYd:#@6u_un
+15,motion_ifonedgebounce,,{},14,5,XfWIRF56|a~[.G4Z~l.a
+16,motion_setrotationstyle,,{},15,6,{XlWR[1+{G;}o.Y@=Sdh
+17,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",16,4,4Jch.}@PVdYd:#@6u_un
+18,motion_ifonedgebounce,,{},17,5,XfWIRF56|a~[.G4Z~l.a
+19,motion_setrotationstyle,,{},18,6,{XlWR[1+{G;}o.Y@=Sdh
+20,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",19,4,4Jch.}@PVdYd:#@6u_un
+21,motion_ifonedgebounce,,{},20,5,XfWIRF56|a~[.G4Z~l.a
+22,motion_setrotationstyle,,{},21,6,{XlWR[1+{G;}o.Y@=Sdh
+23,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",22,4,4Jch.}@PVdYd:#@6u_un
+24,motion_ifonedgebounce,,{},23,5,XfWIRF56|a~[.G4Z~l.a
+25,motion_setrotationstyle,,{},24,6,{XlWR[1+{G;}o.Y@=Sdh
+26,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",25,4,4Jch.}@PVdYd:#@6u_un
+27,motion_ifonedgebounce,,{},26,5,XfWIRF56|a~[.G4Z~l.a
+28,motion_setrotationstyle,,{},27,6,{XlWR[1+{G;}o.Y@=Sdh
+29,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",28,4,4Jch.}@PVdYd:#@6u_un
+30,motion_ifonedgebounce,,{},29,5,XfWIRF56|a~[.G4Z~l.a
+31,motion_setrotationstyle,,{},30,6,{XlWR[1+{G;}o.Y@=Sdh
+32,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",31,4,4Jch.}@PVdYd:#@6u_un
+33,motion_ifonedgebounce,,{},32,5,XfWIRF56|a~[.G4Z~l.a
+34,motion_setrotationstyle,,{},33,6,{XlWR[1+{G;}o.Y@=Sdh
+35,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",34,4,4Jch.}@PVdYd:#@6u_un
+36,motion_ifonedgebounce,,{},35,5,XfWIRF56|a~[.G4Z~l.a
+37,motion_setrotationstyle,,{},36,6,{XlWR[1+{G;}o.Y@=Sdh
+38,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",37,4,4Jch.}@PVdYd:#@6u_un
+39,motion_ifonedgebounce,,{},38,5,XfWIRF56|a~[.G4Z~l.a
+40,motion_setrotationstyle,,{},39,6,{XlWR[1+{G;}o.Y@=Sdh
+41,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",40,4,4Jch.}@PVdYd:#@6u_un
+42,motion_ifonedgebounce,,{},41,5,XfWIRF56|a~[.G4Z~l.a
+43,motion_setrotationstyle,,{},42,6,{XlWR[1+{G;}o.Y@=Sdh
+44,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",43,4,4Jch.}@PVdYd:#@6u_un
+45,motion_ifonedgebounce,,{},44,5,XfWIRF56|a~[.G4Z~l.a
+46,motion_setrotationstyle,,{},45,6,{XlWR[1+{G;}o.Y@=Sdh
+47,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",46,4,4Jch.}@PVdYd:#@6u_un
+48,motion_ifonedgebounce,,{},47,5,XfWIRF56|a~[.G4Z~l.a
+49,motion_setrotationstyle,,{},48,6,{XlWR[1+{G;}o.Y@=Sdh
+50,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",49,4,4Jch.}@PVdYd:#@6u_un
+51,motion_ifonedgebounce,,{},50,5,XfWIRF56|a~[.G4Z~l.a
+52,motion_setrotationstyle,,{},51,6,{XlWR[1+{G;}o.Y@=Sdh
+53,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",52,4,4Jch.}@PVdYd:#@6u_un
+54,motion_ifonedgebounce,,{},53,5,XfWIRF56|a~[.G4Z~l.a
+55,motion_setrotationstyle,,{},54,6,{XlWR[1+{G;}o.Y@=Sdh
+56,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",55,4,4Jch.}@PVdYd:#@6u_un
+57,motion_ifonedgebounce,,{},56,5,XfWIRF56|a~[.G4Z~l.a
+58,motion_setrotationstyle,,{},57,6,{XlWR[1+{G;}o.Y@=Sdh
+59,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",58,4,4Jch.}@PVdYd:#@6u_un
+60,motion_ifonedgebounce,,{},59,5,XfWIRF56|a~[.G4Z~l.a
+61,motion_setrotationstyle,,{},60,6,{XlWR[1+{G;}o.Y@=Sdh
+62,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",61,4,4Jch.}@PVdYd:#@6u_un
+63,motion_ifonedgebounce,,{},62,5,XfWIRF56|a~[.G4Z~l.a
+64,motion_setrotationstyle,,{},63,6,{XlWR[1+{G;}o.Y@=Sdh
+65,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",64,4,4Jch.}@PVdYd:#@6u_un
+66,motion_ifonedgebounce,,{},65,5,XfWIRF56|a~[.G4Z~l.a
+67,motion_setrotationstyle,,{},66,6,{XlWR[1+{G;}o.Y@=Sdh
+68,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",67,4,4Jch.}@PVdYd:#@6u_un
+69,motion_ifonedgebounce,,{},68,5,XfWIRF56|a~[.G4Z~l.a
+70,motion_setrotationstyle,,{},69,6,{XlWR[1+{G;}o.Y@=Sdh
+71,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",70,4,4Jch.}@PVdYd:#@6u_un
+72,motion_ifonedgebounce,,{},71,5,XfWIRF56|a~[.G4Z~l.a
+73,motion_setrotationstyle,,{},72,6,{XlWR[1+{G;}o.Y@=Sdh
+74,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",73,4,4Jch.}@PVdYd:#@6u_un
+75,motion_ifonedgebounce,,{},74,5,XfWIRF56|a~[.G4Z~l.a
+76,motion_setrotationstyle,,{},75,6,{XlWR[1+{G;}o.Y@=Sdh
+77,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",76,4,4Jch.}@PVdYd:#@6u_un
+78,motion_ifonedgebounce,,{},77,5,XfWIRF56|a~[.G4Z~l.a
+79,motion_setrotationstyle,,{},78,6,{XlWR[1+{G;}o.Y@=Sdh
+80,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",79,4,4Jch.}@PVdYd:#@6u_un
+81,motion_ifonedgebounce,,{},80,5,XfWIRF56|a~[.G4Z~l.a
+82,motion_setrotationstyle,,{},81,6,{XlWR[1+{G;}o.Y@=Sdh
+83,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",82,4,4Jch.}@PVdYd:#@6u_un
+84,motion_ifonedgebounce,,{},83,5,XfWIRF56|a~[.G4Z~l.a
+85,motion_setrotationstyle,,{},84,6,{XlWR[1+{G;}o.Y@=Sdh
+86,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",85,4,4Jch.}@PVdYd:#@6u_un
+87,motion_ifonedgebounce,,{},86,5,XfWIRF56|a~[.G4Z~l.a
+88,motion_setrotationstyle,,{},87,6,{XlWR[1+{G;}o.Y@=Sdh
+89,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",88,4,4Jch.}@PVdYd:#@6u_un
+90,motion_ifonedgebounce,,{},89,5,XfWIRF56|a~[.G4Z~l.a
+91,motion_setrotationstyle,,{},90,6,{XlWR[1+{G;}o.Y@=Sdh
+92,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",91,4,4Jch.}@PVdYd:#@6u_un
+93,motion_ifonedgebounce,,{},92,5,XfWIRF56|a~[.G4Z~l.a
+94,motion_setrotationstyle,,{},93,6,{XlWR[1+{G;}o.Y@=Sdh
+95,SCRIPT,,,0,0,
+96,event_whenthisspriteclicked,,,1,0,9:Xog8dO`[U=7au9I](}
+97,sound_play,,"{""SOUND_MENU"": [1, ""V};pCN~|/|qJc5Kf*US6""]}",2,96,"b,As})63/`2`o3!|IA}N"
+98,data_changevariableby,,,3,97,vN9FCD-}.4Qi*JKtu={j
+99,looks_hide,,{},4,98,mQ1q=?qZ{~3d4yOo?6R}
+100,control_wait,,"{""DURATION"": [1, [5, "".5""]]}",5,99,#aY;cJrnAlqrlQo`M.T4
+101,looks_show,,{},6,100,"P6{DISGmwTe,#i`=jd[9"
+102,looks_nextcostume,,{},7,101,e(K3ZsXbLr2/byL*g{lO
+103,looks_changeeffectby,,"{""CHANGE"": [1, [4, ""25""]]}",8,102,%h|+9*[~*$*m4G%s`+MQ
+104,SCRIPT,,,0,0,
+105,event_whenkeypressed,space,,1,0,"V%Jz+J6u-nZbXxO61,gB"
+106,data_setvariableto,,,2,105,Y*.lmMIk@+yn87VAH?6F
+107,control_stop,,{},3,106,#BGNDfMS^`0ADe5m7XKS

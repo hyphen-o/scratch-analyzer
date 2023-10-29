@@ -1,0 +1,126 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,12.000016218428755,-5,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,K*er[f9FuqwWInq|Dzq7
+3,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""GUYS I HAVE A SERIOUS PROBLEM I NEED TO GO OUT BUT I CAN""T FIND MY KEYS. CAN YOU HELP ME?""]], ""SECS"": [1, [4, ""5""]]}",2,2,Y!sp0Nfgw^fJ=;3lUx?;
+4,control_forever,,,3,3,e-PX2Mo}|E-/8~(i{u_y
+5,motion_goto,,"{""TO"": [1, ""IyiGOmJJp_SH~8w=qqnn""]}",4,4,OOn)/?B.S*YZLqO/Cx29
+6,looks_nextcostume,,{},5,5,ZaxaeyQlJ[x~4Ay*{f?:
+7,control_if,,,6,6,Qpb@lTQ3SRWH4C2X]Xcx
+8,looks_say,,"{""MESSAGE"": [1, [10, ""Thanks guys you""re the best!""]]}",7,7,g=~]xKADuUw5V4#$x7Ko
+9,motion_goto,,"{""TO"": [1, ""IyiGOmJJp_SH~8w=qqnn""]}",8,4,OOn)/?B.S*YZLqO/Cx29
+10,looks_nextcostume,,{},9,5,ZaxaeyQlJ[x~4Ay*{f?:
+11,control_if,,,10,6,Qpb@lTQ3SRWH4C2X]Xcx
+12,looks_say,,"{""MESSAGE"": [1, [10, ""Thanks guys you""re the best!""]]}",11,7,g=~]xKADuUw5V4#$x7Ko
+13,motion_goto,,"{""TO"": [1, ""IyiGOmJJp_SH~8w=qqnn""]}",12,4,OOn)/?B.S*YZLqO/Cx29
+14,looks_nextcostume,,{},13,5,ZaxaeyQlJ[x~4Ay*{f?:
+15,control_if,,,14,6,Qpb@lTQ3SRWH4C2X]Xcx
+16,looks_say,,"{""MESSAGE"": [1, [10, ""Thanks guys you""re the best!""]]}",15,7,g=~]xKADuUw5V4#$x7Ko
+17,motion_goto,,"{""TO"": [1, ""IyiGOmJJp_SH~8w=qqnn""]}",16,4,OOn)/?B.S*YZLqO/Cx29
+18,looks_nextcostume,,{},17,5,ZaxaeyQlJ[x~4Ay*{f?:
+19,control_if,,,18,6,Qpb@lTQ3SRWH4C2X]Xcx
+20,looks_say,,"{""MESSAGE"": [1, [10, ""Thanks guys you""re the best!""]]}",19,7,g=~]xKADuUw5V4#$x7Ko
+21,motion_goto,,"{""TO"": [1, ""IyiGOmJJp_SH~8w=qqnn""]}",20,4,OOn)/?B.S*YZLqO/Cx29
+22,looks_nextcostume,,{},21,5,ZaxaeyQlJ[x~4Ay*{f?:
+23,control_if,,,22,6,Qpb@lTQ3SRWH4C2X]Xcx
+24,looks_say,,"{""MESSAGE"": [1, [10, ""Thanks guys you""re the best!""]]}",23,7,g=~]xKADuUw5V4#$x7Ko
+25,motion_goto,,"{""TO"": [1, ""IyiGOmJJp_SH~8w=qqnn""]}",24,4,OOn)/?B.S*YZLqO/Cx29
+26,looks_nextcostume,,{},25,5,ZaxaeyQlJ[x~4Ay*{f?:
+27,control_if,,,26,6,Qpb@lTQ3SRWH4C2X]Xcx
+28,looks_say,,"{""MESSAGE"": [1, [10, ""Thanks guys you""re the best!""]]}",27,7,g=~]xKADuUw5V4#$x7Ko
+29,motion_goto,,"{""TO"": [1, ""IyiGOmJJp_SH~8w=qqnn""]}",28,4,OOn)/?B.S*YZLqO/Cx29
+30,looks_nextcostume,,{},29,5,ZaxaeyQlJ[x~4Ay*{f?:
+31,control_if,,,30,6,Qpb@lTQ3SRWH4C2X]Xcx
+32,looks_say,,"{""MESSAGE"": [1, [10, ""Thanks guys you""re the best!""]]}",31,7,g=~]xKADuUw5V4#$x7Ko
+33,motion_goto,,"{""TO"": [1, ""IyiGOmJJp_SH~8w=qqnn""]}",32,4,OOn)/?B.S*YZLqO/Cx29
+34,looks_nextcostume,,{},33,5,ZaxaeyQlJ[x~4Ay*{f?:
+35,control_if,,,34,6,Qpb@lTQ3SRWH4C2X]Xcx
+36,looks_say,,"{""MESSAGE"": [1, [10, ""Thanks guys you""re the best!""]]}",35,7,g=~]xKADuUw5V4#$x7Ko
+37,motion_goto,,"{""TO"": [1, ""IyiGOmJJp_SH~8w=qqnn""]}",36,4,OOn)/?B.S*YZLqO/Cx29
+38,looks_nextcostume,,{},37,5,ZaxaeyQlJ[x~4Ay*{f?:
+39,control_if,,,38,6,Qpb@lTQ3SRWH4C2X]Xcx
+40,looks_say,,"{""MESSAGE"": [1, [10, ""Thanks guys you""re the best!""]]}",39,7,g=~]xKADuUw5V4#$x7Ko
+41,motion_goto,,"{""TO"": [1, ""IyiGOmJJp_SH~8w=qqnn""]}",40,4,OOn)/?B.S*YZLqO/Cx29
+42,looks_nextcostume,,{},41,5,ZaxaeyQlJ[x~4Ay*{f?:
+43,control_if,,,42,6,Qpb@lTQ3SRWH4C2X]Xcx
+44,looks_say,,"{""MESSAGE"": [1, [10, ""Thanks guys you""re the best!""]]}",43,7,g=~]xKADuUw5V4#$x7Ko
+45,motion_goto,,"{""TO"": [1, ""IyiGOmJJp_SH~8w=qqnn""]}",44,4,OOn)/?B.S*YZLqO/Cx29
+46,looks_nextcostume,,{},45,5,ZaxaeyQlJ[x~4Ay*{f?:
+47,control_if,,,46,6,Qpb@lTQ3SRWH4C2X]Xcx
+48,looks_say,,"{""MESSAGE"": [1, [10, ""Thanks guys you""re the best!""]]}",47,7,g=~]xKADuUw5V4#$x7Ko
+49,motion_goto,,"{""TO"": [1, ""IyiGOmJJp_SH~8w=qqnn""]}",48,4,OOn)/?B.S*YZLqO/Cx29
+50,looks_nextcostume,,{},49,5,ZaxaeyQlJ[x~4Ay*{f?:
+51,control_if,,,50,6,Qpb@lTQ3SRWH4C2X]Xcx
+52,looks_say,,"{""MESSAGE"": [1, [10, ""Thanks guys you""re the best!""]]}",51,7,g=~]xKADuUw5V4#$x7Ko
+53,motion_goto,,"{""TO"": [1, ""IyiGOmJJp_SH~8w=qqnn""]}",52,4,OOn)/?B.S*YZLqO/Cx29
+54,looks_nextcostume,,{},53,5,ZaxaeyQlJ[x~4Ay*{f?:
+55,control_if,,,54,6,Qpb@lTQ3SRWH4C2X]Xcx
+56,looks_say,,"{""MESSAGE"": [1, [10, ""Thanks guys you""re the best!""]]}",55,7,g=~]xKADuUw5V4#$x7Ko
+57,motion_goto,,"{""TO"": [1, ""IyiGOmJJp_SH~8w=qqnn""]}",56,4,OOn)/?B.S*YZLqO/Cx29
+58,looks_nextcostume,,{},57,5,ZaxaeyQlJ[x~4Ay*{f?:
+59,control_if,,,58,6,Qpb@lTQ3SRWH4C2X]Xcx
+60,looks_say,,"{""MESSAGE"": [1, [10, ""Thanks guys you""re the best!""]]}",59,7,g=~]xKADuUw5V4#$x7Ko
+61,motion_goto,,"{""TO"": [1, ""IyiGOmJJp_SH~8w=qqnn""]}",60,4,OOn)/?B.S*YZLqO/Cx29
+62,looks_nextcostume,,{},61,5,ZaxaeyQlJ[x~4Ay*{f?:
+63,control_if,,,62,6,Qpb@lTQ3SRWH4C2X]Xcx
+64,looks_say,,"{""MESSAGE"": [1, [10, ""Thanks guys you""re the best!""]]}",63,7,g=~]xKADuUw5V4#$x7Ko
+65,motion_goto,,"{""TO"": [1, ""IyiGOmJJp_SH~8w=qqnn""]}",64,4,OOn)/?B.S*YZLqO/Cx29
+66,looks_nextcostume,,{},65,5,ZaxaeyQlJ[x~4Ay*{f?:
+67,control_if,,,66,6,Qpb@lTQ3SRWH4C2X]Xcx
+68,looks_say,,"{""MESSAGE"": [1, [10, ""Thanks guys you""re the best!""]]}",67,7,g=~]xKADuUw5V4#$x7Ko
+69,motion_goto,,"{""TO"": [1, ""IyiGOmJJp_SH~8w=qqnn""]}",68,4,OOn)/?B.S*YZLqO/Cx29
+70,looks_nextcostume,,{},69,5,ZaxaeyQlJ[x~4Ay*{f?:
+71,control_if,,,70,6,Qpb@lTQ3SRWH4C2X]Xcx
+72,looks_say,,"{""MESSAGE"": [1, [10, ""Thanks guys you""re the best!""]]}",71,7,g=~]xKADuUw5V4#$x7Ko
+73,motion_goto,,"{""TO"": [1, ""IyiGOmJJp_SH~8w=qqnn""]}",72,4,OOn)/?B.S*YZLqO/Cx29
+74,looks_nextcostume,,{},73,5,ZaxaeyQlJ[x~4Ay*{f?:
+75,control_if,,,74,6,Qpb@lTQ3SRWH4C2X]Xcx
+76,looks_say,,"{""MESSAGE"": [1, [10, ""Thanks guys you""re the best!""]]}",75,7,g=~]xKADuUw5V4#$x7Ko
+77,motion_goto,,"{""TO"": [1, ""IyiGOmJJp_SH~8w=qqnn""]}",76,4,OOn)/?B.S*YZLqO/Cx29
+78,looks_nextcostume,,{},77,5,ZaxaeyQlJ[x~4Ay*{f?:
+79,control_if,,,78,6,Qpb@lTQ3SRWH4C2X]Xcx
+80,looks_say,,"{""MESSAGE"": [1, [10, ""Thanks guys you""re the best!""]]}",79,7,g=~]xKADuUw5V4#$x7Ko
+81,motion_goto,,"{""TO"": [1, ""IyiGOmJJp_SH~8w=qqnn""]}",80,4,OOn)/?B.S*YZLqO/Cx29
+82,looks_nextcostume,,{},81,5,ZaxaeyQlJ[x~4Ay*{f?:
+83,control_if,,,82,6,Qpb@lTQ3SRWH4C2X]Xcx
+84,looks_say,,"{""MESSAGE"": [1, [10, ""Thanks guys you""re the best!""]]}",83,7,g=~]xKADuUw5V4#$x7Ko
+85,motion_goto,,"{""TO"": [1, ""IyiGOmJJp_SH~8w=qqnn""]}",84,4,OOn)/?B.S*YZLqO/Cx29
+86,looks_nextcostume,,{},85,5,ZaxaeyQlJ[x~4Ay*{f?:
+87,control_if,,,86,6,Qpb@lTQ3SRWH4C2X]Xcx
+88,looks_say,,"{""MESSAGE"": [1, [10, ""Thanks guys you""re the best!""]]}",87,7,g=~]xKADuUw5V4#$x7Ko
+89,motion_goto,,"{""TO"": [1, ""IyiGOmJJp_SH~8w=qqnn""]}",88,4,OOn)/?B.S*YZLqO/Cx29
+90,looks_nextcostume,,{},89,5,ZaxaeyQlJ[x~4Ay*{f?:
+91,control_if,,,90,6,Qpb@lTQ3SRWH4C2X]Xcx
+92,looks_say,,"{""MESSAGE"": [1, [10, ""Thanks guys you""re the best!""]]}",91,7,g=~]xKADuUw5V4#$x7Ko
+93,motion_goto,,"{""TO"": [1, ""IyiGOmJJp_SH~8w=qqnn""]}",92,4,OOn)/?B.S*YZLqO/Cx29
+94,looks_nextcostume,,{},93,5,ZaxaeyQlJ[x~4Ay*{f?:
+95,control_if,,,94,6,Qpb@lTQ3SRWH4C2X]Xcx
+96,looks_say,,"{""MESSAGE"": [1, [10, ""Thanks guys you""re the best!""]]}",95,7,g=~]xKADuUw5V4#$x7Ko
+97,motion_goto,,"{""TO"": [1, ""IyiGOmJJp_SH~8w=qqnn""]}",96,4,OOn)/?B.S*YZLqO/Cx29
+98,looks_nextcostume,,{},97,5,ZaxaeyQlJ[x~4Ay*{f?:
+99,control_if,,,98,6,Qpb@lTQ3SRWH4C2X]Xcx
+100,looks_say,,"{""MESSAGE"": [1, [10, ""Thanks guys you""re the best!""]]}",99,7,g=~]xKADuUw5V4#$x7Ko
+101,motion_goto,,"{""TO"": [1, ""IyiGOmJJp_SH~8w=qqnn""]}",100,4,OOn)/?B.S*YZLqO/Cx29
+102,looks_nextcostume,,{},101,5,ZaxaeyQlJ[x~4Ay*{f?:
+103,control_if,,,102,6,Qpb@lTQ3SRWH4C2X]Xcx
+104,looks_say,,"{""MESSAGE"": [1, [10, ""Thanks guys you""re the best!""]]}",103,7,g=~]xKADuUw5V4#$x7Ko
+105,motion_goto,,"{""TO"": [1, ""IyiGOmJJp_SH~8w=qqnn""]}",104,4,OOn)/?B.S*YZLqO/Cx29
+106,looks_nextcostume,,{},105,5,ZaxaeyQlJ[x~4Ay*{f?:
+107,control_if,,,106,6,Qpb@lTQ3SRWH4C2X]Xcx
+108,looks_say,,"{""MESSAGE"": [1, [10, ""Thanks guys you""re the best!""]]}",107,7,g=~]xKADuUw5V4#$x7Ko
+109,motion_goto,,"{""TO"": [1, ""IyiGOmJJp_SH~8w=qqnn""]}",108,4,OOn)/?B.S*YZLqO/Cx29
+110,looks_nextcostume,,{},109,5,ZaxaeyQlJ[x~4Ay*{f?:
+111,control_if,,,110,6,Qpb@lTQ3SRWH4C2X]Xcx
+112,looks_say,,"{""MESSAGE"": [1, [10, ""Thanks guys you""re the best!""]]}",111,7,g=~]xKADuUw5V4#$x7Ko
+113,motion_goto,,"{""TO"": [1, ""IyiGOmJJp_SH~8w=qqnn""]}",112,4,OOn)/?B.S*YZLqO/Cx29
+114,looks_nextcostume,,{},113,5,ZaxaeyQlJ[x~4Ay*{f?:
+115,control_if,,,114,6,Qpb@lTQ3SRWH4C2X]Xcx
+116,looks_say,,"{""MESSAGE"": [1, [10, ""Thanks guys you""re the best!""]]}",115,7,g=~]xKADuUw5V4#$x7Ko
+117,motion_goto,,"{""TO"": [1, ""IyiGOmJJp_SH~8w=qqnn""]}",116,4,OOn)/?B.S*YZLqO/Cx29
+118,looks_nextcostume,,{},117,5,ZaxaeyQlJ[x~4Ay*{f?:
+119,control_if,,,118,6,Qpb@lTQ3SRWH4C2X]Xcx
+120,looks_say,,"{""MESSAGE"": [1, [10, ""Thanks guys you""re the best!""]]}",119,7,g=~]xKADuUw5V4#$x7Ko
+121,motion_goto,,"{""TO"": [1, ""IyiGOmJJp_SH~8w=qqnn""]}",120,4,OOn)/?B.S*YZLqO/Cx29
+122,looks_nextcostume,,{},121,5,ZaxaeyQlJ[x~4Ay*{f?:
+123,control_if,,,122,6,Qpb@lTQ3SRWH4C2X]Xcx
+124,looks_say,,"{""MESSAGE"": [1, [10, ""Thanks guys you""re the best!""]]}",123,7,g=~]xKADuUw5V4#$x7Ko

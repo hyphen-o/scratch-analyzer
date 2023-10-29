@@ -1,0 +1,44 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,-78.46304096718453,92.22245131754013,-28.00000000000003,,,
+1,SCRIPT,,,0,0,
+2,event_whenkeypressed,space,,1,0,9b~HRJpep.YS+x[Vj=Rn
+3,SCRIPT,,,0,0,
+4,event_whenflagclicked,,,1,0,#M`uBiij0}K;`e9wfU7!
+5,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",2,4,rplt|Zs2A5P26p)R$/V/
+6,sound_play,,"{""SOUND_MENU"": [1, ""1lZ19R]G-h]kpf1[6=3a""]}",3,5,b]_(+=sEpl[OPt{*Ywd6
+7,looks_say,,"{""MESSAGE"": [1, [10, ""Hello!""]]}",4,6,=u@tqaTAv%Tw*!z8R~kG
+8,control_repeat,,,5,7,w)/+}9*$mj0EnuJaa`l7
+9,motion_ifonedgebounce,,{},6,8,/uK7dF25u5dCB]QSok:5
+10,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",7,9,Ol==Il-mrgn=/$6sFs}l
+11,looks_nextcostume,,{},8,10,92Fo@rOe/)Yekaj13ekT
+12,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",9,11,3`WzP+Sg4nN]`tuPUZI=
+13,motion_ifonedgebounce,,{},10,8,/uK7dF25u5dCB]QSok:5
+14,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",11,9,Ol==Il-mrgn=/$6sFs}l
+15,looks_nextcostume,,{},12,10,92Fo@rOe/)Yekaj13ekT
+16,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",13,11,3`WzP+Sg4nN]`tuPUZI=
+17,motion_ifonedgebounce,,{},14,8,/uK7dF25u5dCB]QSok:5
+18,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",15,9,Ol==Il-mrgn=/$6sFs}l
+19,looks_nextcostume,,{},16,10,92Fo@rOe/)Yekaj13ekT
+20,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",17,11,3`WzP+Sg4nN]`tuPUZI=
+21,motion_ifonedgebounce,,{},18,8,/uK7dF25u5dCB]QSok:5
+22,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",19,9,Ol==Il-mrgn=/$6sFs}l
+23,looks_nextcostume,,{},20,10,92Fo@rOe/)Yekaj13ekT
+24,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",21,11,3`WzP+Sg4nN]`tuPUZI=
+25,motion_ifonedgebounce,,{},22,8,/uK7dF25u5dCB]QSok:5
+26,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",23,9,Ol==Il-mrgn=/$6sFs}l
+27,looks_nextcostume,,{},24,10,92Fo@rOe/)Yekaj13ekT
+28,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",25,11,3`WzP+Sg4nN]`tuPUZI=
+29,motion_ifonedgebounce,,{},26,8,/uK7dF25u5dCB]QSok:5
+30,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",27,9,Ol==Il-mrgn=/$6sFs}l
+31,looks_nextcostume,,{},28,10,92Fo@rOe/)Yekaj13ekT
+32,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",29,11,3`WzP+Sg4nN]`tuPUZI=
+33,motion_ifonedgebounce,,{},30,8,/uK7dF25u5dCB]QSok:5
+34,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",31,9,Ol==Il-mrgn=/$6sFs}l
+35,looks_nextcostume,,{},32,10,92Fo@rOe/)Yekaj13ekT
+36,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",33,11,3`WzP+Sg4nN]`tuPUZI=
+37,motion_ifonedgebounce,,{},34,8,/uK7dF25u5dCB]QSok:5
+38,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",35,9,Ol==Il-mrgn=/$6sFs}l
+39,looks_nextcostume,,{},36,10,92Fo@rOe/)Yekaj13ekT
+40,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",37,11,3`WzP+Sg4nN]`tuPUZI=
+41,motion_gotoxy,,"{""X"": [1, [4, ""200""]], ""Y"": [1, [4, ""-50""]]}",38,8,vCESEtV5zK;NknF5H#3F
+42,motion_setrotationstyle,,{},39,41,9EV$D~q|aBG:LQ[~w^N5

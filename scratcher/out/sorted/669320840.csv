@@ -1,0 +1,12 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,22,-31,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,Rs5zxqg/18t[K%7fDwZ`
+3,motion_gotoxy,,"{""X"": [1, [4, ""-146""]], ""Y"": [1, [4, ""-31""]]}",2,2,@lE*9X6~z^.vyFjb(PgT
+4,control_repeat_until,,"{""CONDITION"": [2, ""CSTlgmgu33T@8Dcv{|Jt""], ""SUBSTACK"": [2, "";BdE;vcFh2vNLPS`oL%/""]}",3,3,.v{p+N5^UB1x|_zC{kr6
+5,SCRIPT,,,0,4,
+6,event_broadcast,,,1,4,ld6@1H~ZpQNQ=|6@oNPx
+7,sound_playuntildone,,"{""SOUND_MENU"": [1, ""VEBs:dqT3Iqce/}g++QO""]}",2,6,oB{k;g*6q{M0[xR457#2
+8,SCRIPT,,,0,4,
+9,event_broadcast,,,1,4,ld6@1H~ZpQNQ=|6@oNPx
+10,sound_playuntildone,,"{""SOUND_MENU"": [1, ""VEBs:dqT3Iqce/}g++QO""]}",2,6,oB{k;g*6q{M0[xR457#2

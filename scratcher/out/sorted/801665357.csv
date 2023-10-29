@@ -1,0 +1,18 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-143,5,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,q+s.]8;+;~k_mO#Pp!Fq
+3,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""90""]]}",2,2,aEH/qt_#;)#s^`Y!p#Oc
+4,SCRIPT,,,0,0,
+5,event_whenthisspriteclicked,,,1,0,M|c+$?V]Ro7G8~g_coaQ
+6,control_repeat,,,2,5,^5(dpQc~1JvWQ;)XFQ:U
+7,motion_turnright,,"{""DEGREES"": [1, [4, ""36""]]}",3,6,jg7oaUOa*m)PHV/+j-4N
+8,motion_turnright,,"{""DEGREES"": [1, [4, ""36""]]}",4,6,jg7oaUOa*m)PHV/+j-4N
+9,motion_turnright,,"{""DEGREES"": [1, [4, ""36""]]}",5,6,jg7oaUOa*m)PHV/+j-4N
+10,motion_turnright,,"{""DEGREES"": [1, [4, ""36""]]}",6,6,jg7oaUOa*m)PHV/+j-4N
+11,motion_turnright,,"{""DEGREES"": [1, [4, ""36""]]}",7,6,jg7oaUOa*m)PHV/+j-4N
+12,motion_turnright,,"{""DEGREES"": [1, [4, ""36""]]}",8,6,jg7oaUOa*m)PHV/+j-4N
+13,motion_turnright,,"{""DEGREES"": [1, [4, ""36""]]}",9,6,jg7oaUOa*m)PHV/+j-4N
+14,motion_turnright,,"{""DEGREES"": [1, [4, ""36""]]}",10,6,jg7oaUOa*m)PHV/+j-4N
+15,motion_turnright,,"{""DEGREES"": [1, [4, ""36""]]}",11,6,jg7oaUOa*m)PHV/+j-4N
+16,motion_turnright,,"{""DEGREES"": [1, [4, ""36""]]}",12,6,jg7oaUOa*m)PHV/+j-4N

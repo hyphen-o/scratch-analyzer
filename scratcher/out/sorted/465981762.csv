@@ -1,0 +1,15 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,23,-47,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,"~WjxURlkE69@)8bRRk.,"
+3,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",2,2,"TH1:,0;drd#.=[!*wa(i"
+4,control_wait,,"{""DURATION"": [1, [5, ""5""]]}",3,3,Jpuj*G+|x$yPSs2e[v;F
+5,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""السلام عليكم!""]], ""SECS"": [1, [4, ""4""]]}",4,4,h*cWz~fXL0BIz4qN10Ef
+6,control_wait,,"{""DURATION"": [1, [5, ""4""]]}",5,5,(Jy$9)G$u%b?+3kurWVu
+7,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""كيف حالك""]], ""SECS"": [1, [4, ""4""]]}",6,6,toQiVb;BsI}9sla]]GEW
+8,control_wait,,"{""DURATION"": [1, [5, ""6""]]}",7,7,AAc:!TCYQ@U4O)Yca80h
+9,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""ما رايك بالطقس ؟""]], ""SECS"": [1, [4, ""4""]]}",8,8,"an[EyZXm[uE]c5(B^,Mc"
+10,control_wait,,"{""DURATION"": [1, [5, ""6""]]}",9,9,;L+:fZJ6F?3:#|`T|i2X
+11,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""ما هي اخر صيحات الموضة ""]], ""SECS"": [1, [4, ""7""]]}",10,10,bHiidywA9pG=l.yV@ZSk
+12,control_wait,,"{""DURATION"": [1, [5, ""6""]]}",11,11,",M?r~@Qo)K:YIX/Xe2ra"
+13,sound_playuntildone,,"{""SOUND_MENU"": [1, ""h*:nhLpBK,w-uzVsm1=U""]}",12,12,"gob@Jg,s@c3t:RF+@z.S"

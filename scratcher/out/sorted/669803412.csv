@@ -1,0 +1,16 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,96,14,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,`n^wfvY|J9.G^Eznc;hu
+3,looks_show,,{},2,2,3[s:!?1T!#J?C67d.Cy+
+4,looks_setsizeto,,"{""SIZE"": [1, [4, ""50""]]}",3,3,_}k.LvD$xXnNa/d?0q7w
+5,control_repeat,,,4,4,U7tTU82BL0c55-9wzp%M
+6,control_create_clone_of,,"{""CLONE_OPTION"": [1, ""pd!d^hV[e=KIGpj:*/Wk""]}",5,5,"_27IvI?9$Aq(B`,CAz;w"
+7,control_create_clone_of,,"{""CLONE_OPTION"": [1, ""pd!d^hV[e=KIGpj:*/Wk""]}",6,5,"_27IvI?9$Aq(B`,CAz;w"
+8,control_create_clone_of,,"{""CLONE_OPTION"": [1, ""pd!d^hV[e=KIGpj:*/Wk""]}",7,5,"_27IvI?9$Aq(B`,CAz;w"
+9,control_create_clone_of,,"{""CLONE_OPTION"": [1, ""pd!d^hV[e=KIGpj:*/Wk""]}",8,5,"_27IvI?9$Aq(B`,CAz;w"
+10,control_create_clone_of,,"{""CLONE_OPTION"": [1, ""pd!d^hV[e=KIGpj:*/Wk""]}",9,5,"_27IvI?9$Aq(B`,CAz;w"
+11,looks_hide,,{},10,5,:K)5l;mN)[lSp2}WtYkr
+12,SCRIPT,,,0,0,
+13,event_whenbroadcastreceived,,,1,0,uk`|/DYM;UwbB=IhY?0%
+14,control_stop,,{},2,13,hO`#P#mUC0lm.JL;/qsc

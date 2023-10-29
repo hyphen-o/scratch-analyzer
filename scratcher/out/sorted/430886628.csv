@@ -1,0 +1,25 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,60.34800000000001,-41.92400000000001,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,ZGPR/YsfZXMy/nRzS:-B
+3,control_repeat,,,2,2,ZC{yh5{pN#|3#Ph%jTU)
+4,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",3,3,xZ@nUhK{v=d4e4tFt_0r
+5,motion_glideto,,"{""SECS"": [1, [4, ""1""]], ""TO"": [1, ""Q5X!GKhh;(Hw_QPFLN(#""]}",4,4,zOQU-yz+Fo*LAu[^!wMp
+6,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",5,3,xZ@nUhK{v=d4e4tFt_0r
+7,motion_glideto,,"{""SECS"": [1, [4, ""1""]], ""TO"": [1, ""Q5X!GKhh;(Hw_QPFLN(#""]}",6,4,zOQU-yz+Fo*LAu[^!wMp
+8,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",7,3,xZ@nUhK{v=d4e4tFt_0r
+9,motion_glideto,,"{""SECS"": [1, [4, ""1""]], ""TO"": [1, ""Q5X!GKhh;(Hw_QPFLN(#""]}",8,4,zOQU-yz+Fo*LAu[^!wMp
+10,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",9,3,xZ@nUhK{v=d4e4tFt_0r
+11,motion_glideto,,"{""SECS"": [1, [4, ""1""]], ""TO"": [1, ""Q5X!GKhh;(Hw_QPFLN(#""]}",10,4,zOQU-yz+Fo*LAu[^!wMp
+12,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",11,3,xZ@nUhK{v=d4e4tFt_0r
+13,motion_glideto,,"{""SECS"": [1, [4, ""1""]], ""TO"": [1, ""Q5X!GKhh;(Hw_QPFLN(#""]}",12,4,zOQU-yz+Fo*LAu[^!wMp
+14,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",13,3,xZ@nUhK{v=d4e4tFt_0r
+15,motion_glideto,,"{""SECS"": [1, [4, ""1""]], ""TO"": [1, ""Q5X!GKhh;(Hw_QPFLN(#""]}",14,4,zOQU-yz+Fo*LAu[^!wMp
+16,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",15,3,xZ@nUhK{v=d4e4tFt_0r
+17,motion_glideto,,"{""SECS"": [1, [4, ""1""]], ""TO"": [1, ""Q5X!GKhh;(Hw_QPFLN(#""]}",16,4,zOQU-yz+Fo*LAu[^!wMp
+18,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",17,3,xZ@nUhK{v=d4e4tFt_0r
+19,motion_glideto,,"{""SECS"": [1, [4, ""1""]], ""TO"": [1, ""Q5X!GKhh;(Hw_QPFLN(#""]}",18,4,zOQU-yz+Fo*LAu[^!wMp
+20,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",19,3,xZ@nUhK{v=d4e4tFt_0r
+21,motion_glideto,,"{""SECS"": [1, [4, ""1""]], ""TO"": [1, ""Q5X!GKhh;(Hw_QPFLN(#""]}",20,4,zOQU-yz+Fo*LAu[^!wMp
+22,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",21,3,xZ@nUhK{v=d4e4tFt_0r
+23,motion_glideto,,"{""SECS"": [1, [4, ""1""]], ""TO"": [1, ""Q5X!GKhh;(Hw_QPFLN(#""]}",22,4,zOQU-yz+Fo*LAu[^!wMp

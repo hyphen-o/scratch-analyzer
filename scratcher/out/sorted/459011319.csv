@@ -1,0 +1,94 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,73.10647583007812,-82.99990844726562,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,.gD+fQvu)gw9n}ugn:cz
+3,control_if_else,,,2,2,axOz-[67*+[2NeX$Y}kT
+4,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",3,3,"r~eASNtepuQ,N(kh/OY1"
+5,SCRIPT,,,0,0,
+6,event_whenkeypressed,space,,1,0,3s]O}tiwOltIQI[.K=yD
+7,motion_setrotationstyle,,{},2,6,+{=rwIs=BZ=qi]C/90bh
+8,control_repeat,,,3,7,%vld#s`U*O]L3bHa|Pl@
+9,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",4,8,!6O(24XSLBG1XwVm5V|b
+10,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",5,9,@B#eLN_[!_Mby8!)3+Xo
+11,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",6,8,!6O(24XSLBG1XwVm5V|b
+12,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",7,9,@B#eLN_[!_Mby8!)3+Xo
+13,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",8,8,!6O(24XSLBG1XwVm5V|b
+14,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",9,9,@B#eLN_[!_Mby8!)3+Xo
+15,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",10,8,!6O(24XSLBG1XwVm5V|b
+16,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",11,9,@B#eLN_[!_Mby8!)3+Xo
+17,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",12,8,!6O(24XSLBG1XwVm5V|b
+18,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",13,9,@B#eLN_[!_Mby8!)3+Xo
+19,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",14,8,!6O(24XSLBG1XwVm5V|b
+20,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",15,9,@B#eLN_[!_Mby8!)3+Xo
+21,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",16,8,!6O(24XSLBG1XwVm5V|b
+22,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",17,9,@B#eLN_[!_Mby8!)3+Xo
+23,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",18,8,!6O(24XSLBG1XwVm5V|b
+24,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",19,9,@B#eLN_[!_Mby8!)3+Xo
+25,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",20,8,!6O(24XSLBG1XwVm5V|b
+26,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",21,9,@B#eLN_[!_Mby8!)3+Xo
+27,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",22,8,!6O(24XSLBG1XwVm5V|b
+28,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",23,9,@B#eLN_[!_Mby8!)3+Xo
+29,control_forever,,,24,8,u]nJJs!x.)8kp/hAE?13
+30,motion_ifonedgebounce,,{},25,29,d`L[^wKldxXVH86Sy68-
+31,motion_ifonedgebounce,,{},26,29,d`L[^wKldxXVH86Sy68-
+32,motion_ifonedgebounce,,{},27,29,d`L[^wKldxXVH86Sy68-
+33,motion_ifonedgebounce,,{},28,29,d`L[^wKldxXVH86Sy68-
+34,motion_ifonedgebounce,,{},29,29,d`L[^wKldxXVH86Sy68-
+35,motion_ifonedgebounce,,{},30,29,d`L[^wKldxXVH86Sy68-
+36,motion_ifonedgebounce,,{},31,29,d`L[^wKldxXVH86Sy68-
+37,motion_ifonedgebounce,,{},32,29,d`L[^wKldxXVH86Sy68-
+38,motion_ifonedgebounce,,{},33,29,d`L[^wKldxXVH86Sy68-
+39,motion_ifonedgebounce,,{},34,29,d`L[^wKldxXVH86Sy68-
+40,motion_ifonedgebounce,,{},35,29,d`L[^wKldxXVH86Sy68-
+41,motion_ifonedgebounce,,{},36,29,d`L[^wKldxXVH86Sy68-
+42,motion_ifonedgebounce,,{},37,29,d`L[^wKldxXVH86Sy68-
+43,motion_ifonedgebounce,,{},38,29,d`L[^wKldxXVH86Sy68-
+44,motion_ifonedgebounce,,{},39,29,d`L[^wKldxXVH86Sy68-
+45,motion_ifonedgebounce,,{},40,29,d`L[^wKldxXVH86Sy68-
+46,motion_ifonedgebounce,,{},41,29,d`L[^wKldxXVH86Sy68-
+47,motion_ifonedgebounce,,{},42,29,d`L[^wKldxXVH86Sy68-
+48,motion_ifonedgebounce,,{},43,29,d`L[^wKldxXVH86Sy68-
+49,motion_ifonedgebounce,,{},44,29,d`L[^wKldxXVH86Sy68-
+50,motion_ifonedgebounce,,{},45,29,d`L[^wKldxXVH86Sy68-
+51,motion_ifonedgebounce,,{},46,29,d`L[^wKldxXVH86Sy68-
+52,motion_ifonedgebounce,,{},47,29,d`L[^wKldxXVH86Sy68-
+53,motion_ifonedgebounce,,{},48,29,d`L[^wKldxXVH86Sy68-
+54,motion_ifonedgebounce,,{},49,29,d`L[^wKldxXVH86Sy68-
+55,motion_ifonedgebounce,,{},50,29,d`L[^wKldxXVH86Sy68-
+56,motion_ifonedgebounce,,{},51,29,d`L[^wKldxXVH86Sy68-
+57,motion_ifonedgebounce,,{},52,29,d`L[^wKldxXVH86Sy68-
+58,motion_ifonedgebounce,,{},53,29,d`L[^wKldxXVH86Sy68-
+59,motion_ifonedgebounce,,{},54,29,d`L[^wKldxXVH86Sy68-
+60,SCRIPT,,,0,0,
+61,event_whenbackdropswitchesto,,,1,0,J%h2PtIapp9]dV@CMn7[
+62,control_forever,,,2,61,Cqzs^j40.Ow_hNPy(.LO
+63,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",3,62,"O(2G$Y.+Z4ti.R[2y6),"
+64,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",4,62,"O(2G$Y.+Z4ti.R[2y6),"
+65,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",5,62,"O(2G$Y.+Z4ti.R[2y6),"
+66,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",6,62,"O(2G$Y.+Z4ti.R[2y6),"
+67,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",7,62,"O(2G$Y.+Z4ti.R[2y6),"
+68,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",8,62,"O(2G$Y.+Z4ti.R[2y6),"
+69,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",9,62,"O(2G$Y.+Z4ti.R[2y6),"
+70,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",10,62,"O(2G$Y.+Z4ti.R[2y6),"
+71,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",11,62,"O(2G$Y.+Z4ti.R[2y6),"
+72,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",12,62,"O(2G$Y.+Z4ti.R[2y6),"
+73,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",13,62,"O(2G$Y.+Z4ti.R[2y6),"
+74,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",14,62,"O(2G$Y.+Z4ti.R[2y6),"
+75,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",15,62,"O(2G$Y.+Z4ti.R[2y6),"
+76,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",16,62,"O(2G$Y.+Z4ti.R[2y6),"
+77,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",17,62,"O(2G$Y.+Z4ti.R[2y6),"
+78,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",18,62,"O(2G$Y.+Z4ti.R[2y6),"
+79,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",19,62,"O(2G$Y.+Z4ti.R[2y6),"
+80,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",20,62,"O(2G$Y.+Z4ti.R[2y6),"
+81,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",21,62,"O(2G$Y.+Z4ti.R[2y6),"
+82,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",22,62,"O(2G$Y.+Z4ti.R[2y6),"
+83,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",23,62,"O(2G$Y.+Z4ti.R[2y6),"
+84,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",24,62,"O(2G$Y.+Z4ti.R[2y6),"
+85,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",25,62,"O(2G$Y.+Z4ti.R[2y6),"
+86,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",26,62,"O(2G$Y.+Z4ti.R[2y6),"
+87,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",27,62,"O(2G$Y.+Z4ti.R[2y6),"
+88,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",28,62,"O(2G$Y.+Z4ti.R[2y6),"
+89,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",29,62,"O(2G$Y.+Z4ti.R[2y6),"
+90,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",30,62,"O(2G$Y.+Z4ti.R[2y6),"
+91,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",31,62,"O(2G$Y.+Z4ti.R[2y6),"
+92,looks_say,,"{""MESSAGE"": [1, [10, ""oof""]]}",32,62,"O(2G$Y.+Z4ti.R[2y6),"

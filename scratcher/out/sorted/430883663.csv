@@ -1,0 +1,11 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-177.31048583984375,-95.11788940429688,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,S!^3^v@lvf]7}oDJ+kh.
+3,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Hello!""]], ""SECS"": [1, [4, ""2""]]}",2,2,"=kI.had3e,_i!_7!nv=!"
+4,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",3,3,eiQo%d^=0RrWkYX`j1cA
+5,motion_movesteps,,"{""STEPS"": [1, [4, ""1""]]}",4,4,uQ]6.X]8*5Wo-2OYSd4_
+6,sensing_askandwait,,"{""QUESTION"": [1, [10, ""What""s your name?""]]}",5,5,+#@G[U#sv5~^So;~r+%A
+7,control_wait,,"{""DURATION"": [1, [5, ""3""]]}",6,6,Zh}Q_IA5]A`2;!G@$i)B
+8,looks_think,,"{""MESSAGE"": [1, [10, ""Hmm...""]]}",7,7,5/7(97ghS)GCJg=M_K9v
+9,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Hello""]], ""SECS"": [1, [4, ""2""]]}",8,8,a`+jWm+k?oK=|.k5v8h?

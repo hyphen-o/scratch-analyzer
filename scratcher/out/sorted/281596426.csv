@@ -1,0 +1,14 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-16,-15.999999999999993,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,{Kh%UkV_eO$ySK=]ZCoC
+3,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",2,2,l$_#;T_5e_cLH{37gT!^
+4,motion_goto,,"{""TO"": [1, ""#cHb-M0bdUtxhac~56z~""]}",3,3,eur49bWPLNGo8Lo.BSIT
+5,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Hello my name is Chip""]], ""SECS"": [1, [4, ""3""]]}",4,4,$yeUr*a?U=!ZI-oP*+50
+6,sensing_askandwait,,"{""QUESTION"": [1, [10, ""What""s your name?""]]}",5,5,!wZDTLmz;)z?VQ_[2ffe
+7,looks_sayforsecs,,"{""MESSAGE"": [3, "",+TCOde$*^7,8CA8[v[M"", [10, ""Hello!""]], ""SECS"": [1, [4, ""4""]]}",6,6,!8}q){SvJh@-wP=CTG|m
+8,motion_goto,,"{""TO"": [1, "")=?{k4i?S=Ikb_9zk]X!""]}",7,7,0L8zCJe#v.5plx~bGqOZ
+9,sensing_askandwait,,"{""QUESTION"": [1, [10, ""I am looking for planets, do you know any names of planets?""]]}",8,8,6mn$%-C%c/%5l;ojiU6~
+10,control_if_else,,,9,9,W#hdw(8;FKEufpctpb=?
+11,sensing_askandwait,,"{""QUESTION"": [1, [10, ""can you tell me the name of a planet?""]]}",10,10,!tzS!B*Yu.vzGM16]%$2
+12,looks_say,,"{""MESSAGE"": [1, [10, ""cool, lets see if we can find a planet on my screen""]]}",11,11,s}swq/?{z2j._XsL:X5Y

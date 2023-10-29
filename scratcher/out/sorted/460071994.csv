@@ -1,0 +1,13 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,36,28,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,LNi`5r{ellmt4dSQ:#d(
+3,motion_gotoxy,,"{""X"": [1, [4, ""36""]], ""Y"": [1, [4, ""28""]]}",2,2,l|=p[sE}+;$.lpbpak$x
+4,looks_show,,{},3,3,6tk;(.l*q/#Ki*B*tN=i
+5,SCRIPT,,,0,0,
+6,event_whenthisspriteclicked,,,1,0,0KWlz==G}+[m/DGK!ih%
+7,looks_switchbackdropto,,"{""BACKDROP"": [1, ""R;+7Z9Y:|]d])zEG1bK0""]}",2,6,g?CvP(uLebpVk17G1$EO
+8,looks_hide,,{},3,7,]kUL[Swyhz;I-Sm0~Yr)
+9,SCRIPT,,,0,0,
+10,event_whenbackdropswitchesto,,,1,0,"2F#5rt3O3aDNT],i:5Z-"
+11,looks_hide,,{},2,10,G$E}DnK?P]gBjVXy]fKe

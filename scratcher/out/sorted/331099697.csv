@@ -1,0 +1,43 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-119,-90,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,NV$^!MKI5Pk@e:Aj[~{B
+3,motion_gotoxy,,"{""X"": [1, [4, ""-289""]], ""Y"": [1, [4, ""-90""]]}",2,2,Y2w2vU=}Sr%(=@X~ZhFr
+4,control_repeat,,,3,3,2Ww[OW3ELeF*t|~hK};h
+5,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",4,4,Ac$7i.$9o#TM$a{uKy^K
+6,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",5,5,;B+bbxC%e.@CL1_hlvTU
+7,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",6,4,Ac$7i.$9o#TM$a{uKy^K
+8,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",7,5,;B+bbxC%e.@CL1_hlvTU
+9,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",8,4,Ac$7i.$9o#TM$a{uKy^K
+10,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",9,5,;B+bbxC%e.@CL1_hlvTU
+11,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",10,4,Ac$7i.$9o#TM$a{uKy^K
+12,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",11,5,;B+bbxC%e.@CL1_hlvTU
+13,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",12,4,Ac$7i.$9o#TM$a{uKy^K
+14,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",13,5,;B+bbxC%e.@CL1_hlvTU
+15,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",14,4,Ac$7i.$9o#TM$a{uKy^K
+16,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",15,5,;B+bbxC%e.@CL1_hlvTU
+17,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",16,4,Ac$7i.$9o#TM$a{uKy^K
+18,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",17,5,;B+bbxC%e.@CL1_hlvTU
+19,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",18,4,Ac$7i.$9o#TM$a{uKy^K
+20,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",19,5,;B+bbxC%e.@CL1_hlvTU
+21,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",20,4,Ac$7i.$9o#TM$a{uKy^K
+22,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",21,5,;B+bbxC%e.@CL1_hlvTU
+23,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",22,4,Ac$7i.$9o#TM$a{uKy^K
+24,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",23,5,;B+bbxC%e.@CL1_hlvTU
+25,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",24,4,Ac$7i.$9o#TM$a{uKy^K
+26,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",25,5,;B+bbxC%e.@CL1_hlvTU
+27,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",26,4,Ac$7i.$9o#TM$a{uKy^K
+28,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",27,5,;B+bbxC%e.@CL1_hlvTU
+29,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",28,4,Ac$7i.$9o#TM$a{uKy^K
+30,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",29,5,;B+bbxC%e.@CL1_hlvTU
+31,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",30,4,Ac$7i.$9o#TM$a{uKy^K
+32,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",31,5,;B+bbxC%e.@CL1_hlvTU
+33,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",32,4,Ac$7i.$9o#TM$a{uKy^K
+34,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",33,5,;B+bbxC%e.@CL1_hlvTU
+35,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",34,4,Ac$7i.$9o#TM$a{uKy^K
+36,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",35,5,;B+bbxC%e.@CL1_hlvTU
+37,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",36,4,Ac$7i.$9o#TM$a{uKy^K
+38,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",37,5,;B+bbxC%e.@CL1_hlvTU
+39,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""tak""]], ""SECS"": [1, [4, ""2""]]}",38,4,M6IyO5BrvOmC0Qvx5l2K
+40,control_wait,,"{""DURATION"": [1, [5, ""3""]]}",39,39,r#edQo_Kg%V/x1(+WhTZ
+41,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""nie bo jestem z policji""]], ""SECS"": [1, [4, ""2""]]}",40,40,dA~hR9-fIeFySR/rZe9)

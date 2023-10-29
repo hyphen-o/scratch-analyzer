@@ -1,0 +1,62 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,35,-122,,,
+1,SCRIPT,,,0,0,
+2,event_whenthisspriteclicked,,,1,0,+)HOMZ!r]p=)h33ha|:_
+3,looks_show,,{},2,2,d)0PVJS:znEBjS_xiq8N
+4,motion_glideto,,"{""SECS"": [1, [4, ""1""]], ""TO"": [1, ""d(VGFS$B@_WB~$N^gnTa""]}",3,3,hqd|:I-U]Jk?div*HvKT
+5,motion_gotoxy,,"{""X"": [1, [4, ""35""]], ""Y"": [1, [4, ""-122""]]}",4,4,mKI8)xAKNPT+G6fov~q0
+6,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Hello!""]], ""SECS"": [1, [4, ""2""]]}",5,5,yi(}O;HadMu9N:#yC]WW
+7,looks_setsizeto,,"{""SIZE"": [1, [4, ""30""]]}",6,6,aSSJx%?8xxQS6CA)c3a9
+8,motion_gotoxy,,"{""X"": [1, [4, ""35""]], ""Y"": [1, [4, ""-150""]]}",7,7,"xjb1G(Ike*JL(g,O6]^?"
+9,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",8,8,J~`*nPwbkr5I7XhtOhXH
+10,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Wait WHAT HELP!!! PLEASE DON""T DELETE ME :(""]], ""SECS"": [1, [4, ""4""]]}",9,9,iG-9hmPATxQb`fyz]}Ox
+11,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""AHHHHHH""]], ""SECS"": [1, [4, ""2""]]}",10,10,@w]_8Iv?kHASKN5-rfCQ
+12,looks_hide,,{},11,11,[F-PH/_{6q(D#~`Uz|Rt
+13,control_wait,,"{""DURATION"": [1, [5, ""4""]]}",12,12,ix{n^t_!$_4T=ROn_fA=
+14,looks_setsizeto,,"{""SIZE"": [1, [4, ""100""]]}",13,13,[QNSrw)Q+~-iZPR+QkQr
+15,motion_gotoxy,,"{""X"": [1, [4, ""35""]], ""Y"": [1, [4, ""-122""]]}",14,14,"cv6qRSRl3cBBn9x@#,{A"
+16,looks_show,,{},15,15,=V:N`/xPj7-%@#)Zb%P{
+17,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""I""M BACK!!!!!!!!""]], ""SECS"": [1, [4, ""2.5""]]}",16,16,+vCM!=W(ePg)?kZS8-t7
+18,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""And you tried to get rid of me...""]], ""SECS"": [1, [4, ""2""]]}",17,17,aR!chN~!Dv5wY1=gpQ^p
+19,control_wait,,"{""DURATION"": [1, [5, ""2""]]}",18,18,".dT,!Kq?j76:TylrIJwQ"
+20,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""TIME TO ANNOY THE CRAP OUT OF YOU!!!!!! ""]], ""SECS"": [1, [4, ""2""]]}",19,19,eJ37ezihm)w{7Kd%BMN+
+21,control_repeat,,,20,20,(-!2rNgEDh09n~5KrfrW
+22,sound_playuntildone,,"{""SOUND_MENU"": [1, ""?qo/_~u+8oR;qkx$!UUr""]}",21,21,R]Vc+/tZ{}E1xO0(3%^c
+23,sound_playuntildone,,"{""SOUND_MENU"": [1, ""?qo/_~u+8oR;qkx$!UUr""]}",22,21,R]Vc+/tZ{}E1xO0(3%^c
+24,sound_playuntildone,,"{""SOUND_MENU"": [1, ""?qo/_~u+8oR;qkx$!UUr""]}",23,21,R]Vc+/tZ{}E1xO0(3%^c
+25,sound_playuntildone,,"{""SOUND_MENU"": [1, ""?qo/_~u+8oR;qkx$!UUr""]}",24,21,R]Vc+/tZ{}E1xO0(3%^c
+26,sound_playuntildone,,"{""SOUND_MENU"": [1, ""?qo/_~u+8oR;qkx$!UUr""]}",25,21,R]Vc+/tZ{}E1xO0(3%^c
+27,sound_playuntildone,,"{""SOUND_MENU"": [1, ""?qo/_~u+8oR;qkx$!UUr""]}",26,21,R]Vc+/tZ{}E1xO0(3%^c
+28,sound_playuntildone,,"{""SOUND_MENU"": [1, ""?qo/_~u+8oR;qkx$!UUr""]}",27,21,R]Vc+/tZ{}E1xO0(3%^c
+29,sound_playuntildone,,"{""SOUND_MENU"": [1, ""?qo/_~u+8oR;qkx$!UUr""]}",28,21,R]Vc+/tZ{}E1xO0(3%^c
+30,sound_playuntildone,,"{""SOUND_MENU"": [1, ""?qo/_~u+8oR;qkx$!UUr""]}",29,21,R]Vc+/tZ{}E1xO0(3%^c
+31,sound_playuntildone,,"{""SOUND_MENU"": [1, ""?qo/_~u+8oR;qkx$!UUr""]}",30,21,R]Vc+/tZ{}E1xO0(3%^c
+32,sound_playuntildone,,"{""SOUND_MENU"": [1, ""?qo/_~u+8oR;qkx$!UUr""]}",31,21,R]Vc+/tZ{}E1xO0(3%^c
+33,sound_playuntildone,,"{""SOUND_MENU"": [1, ""?qo/_~u+8oR;qkx$!UUr""]}",32,21,R]Vc+/tZ{}E1xO0(3%^c
+34,sound_playuntildone,,"{""SOUND_MENU"": [1, ""?qo/_~u+8oR;qkx$!UUr""]}",33,21,R]Vc+/tZ{}E1xO0(3%^c
+35,sound_playuntildone,,"{""SOUND_MENU"": [1, ""?qo/_~u+8oR;qkx$!UUr""]}",34,21,R]Vc+/tZ{}E1xO0(3%^c
+36,sound_playuntildone,,"{""SOUND_MENU"": [1, ""?qo/_~u+8oR;qkx$!UUr""]}",35,21,R]Vc+/tZ{}E1xO0(3%^c
+37,sound_playuntildone,,"{""SOUND_MENU"": [1, ""?qo/_~u+8oR;qkx$!UUr""]}",36,21,R]Vc+/tZ{}E1xO0(3%^c
+38,sound_playuntildone,,"{""SOUND_MENU"": [1, ""?qo/_~u+8oR;qkx$!UUr""]}",37,21,R]Vc+/tZ{}E1xO0(3%^c
+39,sound_playuntildone,,"{""SOUND_MENU"": [1, ""?qo/_~u+8oR;qkx$!UUr""]}",38,21,R]Vc+/tZ{}E1xO0(3%^c
+40,sound_playuntildone,,"{""SOUND_MENU"": [1, ""?qo/_~u+8oR;qkx$!UUr""]}",39,21,R]Vc+/tZ{}E1xO0(3%^c
+41,sound_playuntildone,,"{""SOUND_MENU"": [1, ""?qo/_~u+8oR;qkx$!UUr""]}",40,21,R]Vc+/tZ{}E1xO0(3%^c
+42,sound_playuntildone,,"{""SOUND_MENU"": [1, ""?qo/_~u+8oR;qkx$!UUr""]}",41,21,R]Vc+/tZ{}E1xO0(3%^c
+43,sound_playuntildone,,"{""SOUND_MENU"": [1, ""?qo/_~u+8oR;qkx$!UUr""]}",42,21,R]Vc+/tZ{}E1xO0(3%^c
+44,sound_playuntildone,,"{""SOUND_MENU"": [1, ""?qo/_~u+8oR;qkx$!UUr""]}",43,21,R]Vc+/tZ{}E1xO0(3%^c
+45,sound_playuntildone,,"{""SOUND_MENU"": [1, ""?qo/_~u+8oR;qkx$!UUr""]}",44,21,R]Vc+/tZ{}E1xO0(3%^c
+46,sound_playuntildone,,"{""SOUND_MENU"": [1, ""?qo/_~u+8oR;qkx$!UUr""]}",45,21,R]Vc+/tZ{}E1xO0(3%^c
+47,sound_playuntildone,,"{""SOUND_MENU"": [1, ""?qo/_~u+8oR;qkx$!UUr""]}",46,21,R]Vc+/tZ{}E1xO0(3%^c
+48,sound_playuntildone,,"{""SOUND_MENU"": [1, ""?qo/_~u+8oR;qkx$!UUr""]}",47,21,R]Vc+/tZ{}E1xO0(3%^c
+49,sound_playuntildone,,"{""SOUND_MENU"": [1, ""?qo/_~u+8oR;qkx$!UUr""]}",48,21,R]Vc+/tZ{}E1xO0(3%^c
+50,sound_playuntildone,,"{""SOUND_MENU"": [1, ""?qo/_~u+8oR;qkx$!UUr""]}",49,21,R]Vc+/tZ{}E1xO0(3%^c
+51,sound_playuntildone,,"{""SOUND_MENU"": [1, ""?qo/_~u+8oR;qkx$!UUr""]}",50,21,R]Vc+/tZ{}E1xO0(3%^c
+52,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Are you sorry now?????""]], ""SECS"": [1, [4, ""2""]]}",51,21,1uds4KNHfg`0EApVb0HS
+53,control_wait,,"{""DURATION"": [1, [5, ""2""]]}",52,52,J5y0IMj+a/LF0lqZPde+
+54,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Good,Anyway I""m off My people need me.""]], ""SECS"": [1, [4, ""2""]]}",53,53,TJ|l?zg-E8(bF3I{dXNK
+55,motion_glideto,,"{""SECS"": [1, [4, ""0.1""]], ""TO"": [1, ""]HVIIV[RGt|a3Ckat352""]}",54,54,PXr-#KC%.O*%cR!K3gxL
+56,looks_hide,,{},55,55,"`HmLPx,b0slPJQNw?k?4"
+57,control_wait,,"{""DURATION"": [1, [5, ""5""]]}",56,56,B$^MOr8kU3Ei!.rnFbE:
+58,motion_gotoxy,,"{""X"": [1, [4, ""35""]], ""Y"": [1, [4, ""-122""]]}",57,57,Sf5FIfMl]R){].)]en50
+59,looks_show,,{},58,58,#+4.)`|LFM+vAn0]nR38
+60,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Thank you for watching.""]], ""SECS"": [1, [4, ""2""]]}",59,59,"^^HA:yDHo)2,A*cgl|n1"

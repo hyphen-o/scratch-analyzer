@@ -1,0 +1,13 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-201,-122,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,"L`WN;Bz:H7pFQ.q-Gq,("
+3,motion_gotoxy,,"{""X"": [1, [4, ""-201""]], ""Y"": [1, [4, ""-122""]]}",2,2,"$-1LD`893z,F7oiSv2]/"
+4,looks_switchcostumeto,,"{""COSTUME"": [1, ""j!vIN}iS3PbcWcK|;~FC""]}",3,3,FQ2Dl)z?+EU.]Nl7KlZ#
+5,SCRIPT,,,0,0,
+6,event_whenkeypressed,space,,1,0,"l-F~0G,vMGjd}^cda8;5"
+7,control_if,,,2,6,hzha@Xw3:RArUWV0)c+6
+8,looks_switchcostumeto,,"{""COSTUME"": [1, ""%gts;a.0P001UrT,v#x0""]}",3,7,"/_S_og:`,8.t}5{y3M]6"
+9,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",4,8,"[Z?vB/O|~pzw-*Gof,~3"
+10,looks_switchcostumeto,,"{""COSTUME"": [1, ""^h@%uDVS{bQ2-l;gdt=*""]}",5,9,PS!UaXXiUAmkxI8r2?C9
+11,data_setvariableto,,,6,10,8+?;oHSR^#dZ8vZEGW@k

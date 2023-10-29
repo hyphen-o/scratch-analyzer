@@ -1,0 +1,14 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-77,-14,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,"E6{divDl,F)L*:O#n+Ih"
+3,motion_gotoxy,,"{""X"": [1, [4, ""-213""]], ""Y"": [1, [4, ""149""]]}",2,2,yJ`3-GShmu[Rk8RD?iAw
+4,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""0""]], ""Y"": [1, [4, ""0""]]}",3,3,yv-lxHi.vzGDdb:16@$6
+5,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",4,4,w33L(^[Gq2YmiNEpeS~!
+6,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""glu glu""]], ""SECS"": [1, [4, ""2""]]}",5,5,"p8EYuxW9E,F16(%:x;NE"
+7,control_wait,,"{""DURATION"": [1, [5, ""2""]]}",6,6,@_Gk*Mri#BdGKZ9rCw!x
+8,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""glu glu""]], ""SECS"": [1, [4, ""2""]]}",7,7,"!RxSMJiTG+S,RMi`885:"
+9,SCRIPT,,,0,8,
+10,event_broadcastandwait,,,1,8,A=.F=v%:unTO3P{ZQq_X
+11,SCRIPT,,,0,8,
+12,event_broadcastandwait,,,1,8,A=.F=v%:unTO3P{ZQq_X

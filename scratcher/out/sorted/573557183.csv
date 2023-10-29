@@ -1,0 +1,32 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-48,85,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,"]bFF}[H4^_[dx,/rX_bO"
+3,looks_switchbackdropto,,"{""BACKDROP"": [1, ""Jvp.E+=hy_Ba7);g!!6E""]}",2,2,5eVge{sT0(n$[ZXWfPKJ
+4,motion_gotoxy,,"{""X"": [1, [4, ""0""]], ""Y"": [1, [4, ""0""]]}",3,3,4/?@fRn#I)b#9Qt$WgQ7
+5,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Olá! Eu sou o Messi.""]], ""SECS"": [1, [4, ""2""]]}",4,4,"v+n`Y{u,Vkk|LJy-Wshs"
+6,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""204""]], ""Y"": [1, [4, ""-74""]]}",5,5,"B)|C@,r?i;-!!Aw}kG1u"
+7,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",6,6,u:G2k_PXt4k*~C)-Zbys
+8,looks_switchbackdropto,,"{""BACKDROP"": [1, ""4+X@].a[y=%lum:07/}]""]}",7,7,"T1:af3Ck$b,AiDKu{@}%"
+9,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Sou o melhor jogador do mundo""]], ""SECS"": [1, [4, ""2""]]}",8,8,"WFQ$xP+[,z{$nKCu^;Gr"
+10,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",9,9,6?19e2flW77_(f8pnwjM
+11,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Golaço.""]], ""SECS"": [1, [4, ""2""]]}",10,10,"}jbDn[qjNb!w5Js{A+,]"
+12,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",11,11,"tAGxp9JK,=)ND=Hd;n.Q"
+13,looks_switchbackdropto,,"{""BACKDROP"": [1, "".,uN_wpQOyX7P{X5Lt$g""]}",12,12,@zHo;w#I{k=pbBwJz?OT
+14,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",13,13,90A8;e)RB^409{R{WIi7
+15,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Que frio, acho que prefiro futebol mesmo""]], ""SECS"": [1, [4, ""3""]]}",14,14,p$RKui(ko[`w~R?:Vejv
+16,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",15,15,bRXi##)l9Z:HR~[0p2Q@
+17,motion_glideto,,"{""SECS"": [1, [4, ""1""]], ""TO"": [1, ""[Lyxrx9UFX!Ri`!W5X56""]}",16,16,"9X,~CckLg5bfi%h$!f5#"
+18,looks_switchbackdropto,,"{""BACKDROP"": [1, ""rKWRJ~f]uey8,X]%e}_l""]}",17,17,n2#*U~X4:O!ZG=?pv6no
+19,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Esse estádio não, prefiro desenho.""]], ""SECS"": [1, [4, ""3""]]}",18,18,"QdLH,m;GsdU4c35Zz+gB"
+20,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""0""]], ""Y"": [1, [4, ""0""]]}",19,19,".z;h[KNIbvW,P32NK-1v"
+21,control_wait,,"{""DURATION"": [1, [5, ""2""]]}",20,20,"}P%*I[,E}=[Oct=^UeWA"
+22,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Vamos me mude para outro estádio!""]], ""SECS"": [1, [4, ""2""]]}",21,21,$faobYD%a$H|}B!d3mqs
+23,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",22,22,U!l:!]jM}6+8QwK/V`nZ
+24,looks_switchbackdropto,,"{""BACKDROP"": [1, ""ITWaNMisA_`7i6cYwQb5""]}",23,23,AK/91rU^4M#o5sQ|Ta[C
+25,motion_glideto,,"{""SECS"": [1, [4, ""1""]], ""TO"": [1, ""QD|)(|/!s2/6HF?2[pzc""]}",24,24,[Q9H;r+rz4?6(q*x(c6;
+26,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Aí sim!""]], ""SECS"": [1, [4, ""2""]]}",25,25,zsN|ti9c]Pg)-ovI2iKN
+27,motion_movesteps,,"{""STEPS"": [1, [4, ""100""]]}",26,26,)QI0L7f*:Uo@Dg1xu+-h
+28,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Tchau!""]], ""SECS"": [1, [4, ""2""]]}",27,27,R8LG2q)+^S;DgLjopt*Y
+29,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",28,28,FbgHN%XWdgl`=CPP+_JY
+30,looks_hide,,{},29,29,"tgjr#zV@J,ALbCcZZT(B"

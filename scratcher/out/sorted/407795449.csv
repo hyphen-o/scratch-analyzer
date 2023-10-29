@@ -1,0 +1,18 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,0,0,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,"]@,lXB$_l*u*]TPkp12+"
+3,pen_clear,,{},2,2,C[`dy!wKG=P?ZbmD8O`}
+4,motion_gotoxy,,"{""X"": [1, [4, ""0""]], ""Y"": [1, [4, ""0""]]}",3,3,"O`~IW-./u,6yJNLhf6w5"
+5,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""90""]]}",4,4,D1);F?wmx!}iU%H6W.L]
+6,sensing_askandwait,,"{""QUESTION"": [1, [10, ""몇각형 그릴가요??""]]}",5,5,S(jh9?plv2wTzi82w7gx
+7,data_setvariableto,,,6,6,"|/TLdcS|1kkoz81vC,ek"
+8,pen_penDown,,{},7,7,"s?7mDh^Cn@I(U8M,Hal?"
+9,SCRIPT,,,0,8,
+10,event_broadcast,,,1,8,Giih4/n;I(d`l-V6`79Z
+11,SCRIPT,,,0,8,
+12,event_broadcast,,,1,8,Giih4/n;I(d`l-V6`79Z
+13,SCRIPT,,,0,0,
+14,event_whenbroadcastreceived,,,1,0,MwPCU]Byc/q*P{]PC{g%
+15,control_repeat,,,2,14,afmMRWNWZltq_-+.66hs
+16,pen_penUp,,{},3,15,"cq1-Vt,fP^OkE?o`zK(L"

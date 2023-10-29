@@ -1,0 +1,13 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-182.46669209347664,-35.32171227104705,,,
+1,SCRIPT,,,0,0,
+2,event_whenkeypressed,d,,1,0,4ufWSU=VkKrL:PFWN(pb
+3,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""0""]]}",2,2,"Lde8nQoS_WK#P,5@9MQN"
+4,motion_movesteps,,"{""STEPS"": [1, [4, ""8""]]}",3,3,WaEx+59dx+/lEu?DXLq_
+5,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",4,4,",IIryb1WuT|=?2;FK;`1"
+6,motion_movesteps,,"{""STEPS"": [1, [4, ""-8""]]}",5,5,|d%Cl?U0hTPav!!$Nzis
+7,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""90""]]}",6,6,V5%^x${$GpgC?z}dS2|!
+8,looks_switchcostumeto,,"{""COSTUME"": [1, ""FH`gT)-MBFym*FGk![VU""]}",7,7,"M):^2p@2q(c_5#!/0wf,"
+9,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",8,8,3y9xE$8r`/n6csL65h2i
+10,looks_switchcostumeto,,"{""COSTUME"": [1, ""l+coadK5fBX8X{NuqI:~""]}",9,9,B8i!gv-vW=_O5J_mt5zt
+11,data_changevariableby,,,10,10,u5+@ef4?$qZ`S/!OOC^E

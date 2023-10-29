@@ -1,0 +1,19 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-44,-57.99999999999998,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,yfF~HrBe:xPT@W(tQZXW
+3,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""I wish I had someone to play with!""]], ""SECS"": [1, [4, ""2""]]}",2,2,",/Sp1e?gV|S[DtL6)JwO"
+4,control_wait,,"{""DURATION"": [1, [5, ""2""]]}",3,3,lmDkOoIzO23tctZSAH3w
+5,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Ok!""]], ""SECS"": [1, [4, ""2""]]}",4,4,8ke+%+59+e=!n1GN*Fl:
+6,motion_movesteps,,"{""STEPS"": [1, [4, ""100""]]}",5,5,0Z+:eq/3j4V^aRrUMevd
+7,control_repeat,,,6,6,}[6.rnjT5l}OW8vEdL;L
+8,motion_turnright,,"{""DEGREES"": [1, [4, ""36""]]}",7,7,"Ac`%,rt6[Q%$Du1;d8,v"
+9,motion_turnright,,"{""DEGREES"": [1, [4, ""36""]]}",8,7,"Ac`%,rt6[Q%$Du1;d8,v"
+10,motion_turnright,,"{""DEGREES"": [1, [4, ""36""]]}",9,7,"Ac`%,rt6[Q%$Du1;d8,v"
+11,motion_turnright,,"{""DEGREES"": [1, [4, ""36""]]}",10,7,"Ac`%,rt6[Q%$Du1;d8,v"
+12,motion_turnright,,"{""DEGREES"": [1, [4, ""36""]]}",11,7,"Ac`%,rt6[Q%$Du1;d8,v"
+13,motion_turnright,,"{""DEGREES"": [1, [4, ""36""]]}",12,7,"Ac`%,rt6[Q%$Du1;d8,v"
+14,motion_turnright,,"{""DEGREES"": [1, [4, ""36""]]}",13,7,"Ac`%,rt6[Q%$Du1;d8,v"
+15,motion_turnright,,"{""DEGREES"": [1, [4, ""36""]]}",14,7,"Ac`%,rt6[Q%$Du1;d8,v"
+16,motion_turnright,,"{""DEGREES"": [1, [4, ""36""]]}",15,7,"Ac`%,rt6[Q%$Du1;d8,v"
+17,motion_turnright,,"{""DEGREES"": [1, [4, ""36""]]}",16,7,"Ac`%,rt6[Q%$Du1;d8,v"

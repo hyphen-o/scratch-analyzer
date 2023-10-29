@@ -1,0 +1,16 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,0,0,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,gpz=0P{yPr_duuv?Biao
+3,motion_gotoxy,,"{""X"": [1, [4, ""-150""]], ""Y"": [1, [4, ""0""]]}",2,2,Bx?Z=F6=Hk+XV+OZ?@;A
+4,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""3""]], ""X"": [1, [4, ""0""]], ""Y"": [1, [4, ""0""]]}",3,3,Qp|i5lTQ^[yNPx:ke?Ut
+5,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""¡Bienvenido!""]], ""SECS"": [1, [4, ""2""]]}",4,4,CLg-1c`afQBQE22nusLm
+6,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Te ayudare a resolver ecuaciones de segundo grado""]], ""SECS"": [1, [4, ""2""]]}",5,5,KsA0B8PQJAd{_N}`kujO
+7,sensing_askandwait,,"{""QUESTION"": [1, [10, ""Dime el valor de x^2""]]}",6,6,!p^{$j0j~To[j=i*^q7q
+8,data_setvariableto,,,7,7,GVyf(w!fd4a*X0)j)_|N
+9,sensing_askandwait,,"{""QUESTION"": [1, [10, ""Dime el valor de x""]]}",8,8,[DLCXeSY6$VIOUY.o?ZE
+10,data_setvariableto,,,9,9,_7A)r#CHeJY@LgSJ|0-w
+11,sensing_askandwait,,"{""QUESTION"": [1, [10, ""Dime el valor independiente""]]}",10,10,+e5gQVRK$!nWjx].TvGa
+12,data_setvariableto,,,11,11,"O,hdWUf84iU^9L3@Kh/]"
+13,control_if_else,,,12,12,UhdG2?Zxnq8OP?~W1VLw
+14,looks_say,,"{""MESSAGE"": [1, [10, ""La ecuación no tiene solución""]]}",13,13,3{N*z3aF}R@%W!fgEO.?

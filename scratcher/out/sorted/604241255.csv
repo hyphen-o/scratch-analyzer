@@ -1,0 +1,16 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-10,-99.99999999999996,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,"TdXWs_4%bl5?tB6X,7[N"
+3,motion_setx,,"{""X"": [1, [4, ""-10""]]}",2,2,L+v(C*~cj_TQ7SUO!p_y
+4,motion_sety,,"{""Y"": [1, [4, ""-100""]]}",3,3,",IZ;)?@sGA$**A(ZwNeY"
+5,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""90""]]}",4,4,x`fj(6/ETW+4lPyLR4PY
+6,looks_show,,{},5,5,A+!k8-@]%dg9teDpnv#0
+7,pen_clear,,{},6,6,=1o-k1BIw971I)BeNA:H
+8,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Hello! Today we will be making a polygon based of how many sides you chose the shape to have.""]], ""SECS"": [1, [4, ""4""]]}",7,7,u2zVcsJN[v_I#7-TH6R[
+9,sensing_askandwait,,"{""QUESTION"": [1, [10, ""How many sides do you want the shape to have?""]]}",8,8,7G+{jPKMVO`mK-}INZg/
+10,data_setvariableto,,,9,9,=yRG_`1fLXV}/hg;+6;Q
+11,pen_setPenSizeTo,,"{""SIZE"": [1, [4, ""7""]]}",10,10,m|6~Fc1[$)ZCR+YB:j}-
+12,pen_setPenColorToColor,,"{""COLOR"": [1, [9, ""#000000""]]}",11,11,aV:lGlm1Ux42)C0S#iQw
+13,pen_penDown,,{},12,12,{C]z3TtzE^?U{$ZY-pHP
+14,control_repeat,,,13,13,hH~P0As(tj!S(Qx^4:Vh

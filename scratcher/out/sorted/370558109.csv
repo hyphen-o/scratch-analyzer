@@ -1,0 +1,30 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,0,0,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,+S2=;CY3Y{Q({%$_Wj18
+3,pen_penUp,,{},2,2,##?ez_FOs$=FU!U:2-!t
+4,motion_gotoxy,,"{""X"": [1, [4, ""0""]], ""Y"": [1, [4, ""0""]]}",3,3,-s=Y==c-WB_$mkdK)-At
+5,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""90""]]}",4,4,jv]?~9HO@PL:IW{bX!.f
+6,pen_clear,,{},5,5,"mBL4*V*,:T813jziNc7."
+7,data_setvariableto,,,6,6,JUeOHVen]%IcFcSP[6RE
+8,data_setvariableto,,,7,7,Pa9W3ZP96HQi#IPQ=sBw
+9,pen_setPenColorToColor,,"{""COLOR"": [1, [9, ""#e52c2c""]]}",8,8,dTzt;gigLRxKv8*aJy.u
+10,pen_setPenSizeTo,,"{""SIZE"": [1, [4, ""9""]]}",9,9,Xb$$cD[#KpTVrx..L4+x
+11,sensing_askandwait,,"{""QUESTION"": [1, [10, ""Combien de côtés?""]]}",10,10,]?0iV@3-K[3^`4sLd:?g
+12,data_setvariableto,,,11,11,N*?p@jWu|m(av0Ndk!iI
+13,control_if,,,12,12,E#/s:rZRd{7WtU$hXgY.
+14,pen_penUp,,{},13,13,"F+R_Cx,YTe.V}*F,qOz?"
+15,motion_gotoxy,,"{""X"": [1, [4, ""0""]], ""Y"": [1, [4, ""-40""]]}",14,14,*;u`bQnv)vGTdTYdm*90
+16,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Le minimum de côtés est 3 et le maximum est 360. Recommencer et choisissez un nombre supérieur à 2 et inférieur à 361.""]], ""SECS"": [1, [4, ""3""]]}",15,15,"(dYBTAg}|,TZab~b3b.*"
+17,data_setvariableto,,,16,16,v8N[O=EV?uo/Ncec+D0e
+18,motion_gotoxy,,"{""X"": [1, [4, ""0""]], ""Y"": [1, [4, ""0""]]}",17,17,YpXxx7)7^VAPdKC-.!xl
+19,control_stop,,{},18,18,)tKDhO+acHXhi3Ip|sWu
+20,SCRIPT,,,0,0,
+21,event_whenkeypressed,space,,1,0,/Sq?LOQmKMdyqREEK1R?
+22,pen_penUp,,{},2,21,Ti$fQG/M9:h;pp~BLUAM
+23,motion_gotoxy,,"{""X"": [1, [4, ""0""]], ""Y"": [1, [4, ""0""]]}",3,22,I0%|#|w!8ZKO5(yF[_~p
+24,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""90""]]}",4,23,cfq)e5kBA)Q_+nPGF0Z7
+25,pen_clear,,{},5,24,]xWj~_s@6hn|Xk-@BbaU
+26,data_setvariableto,,,6,25,3]+S@rLM*cC:P2npj#8+
+27,data_setvariableto,,,7,26,O(BQRGW:4cxUa@P.)!~}
+28,control_stop,,{},8,27,l$2l)na_89i]gTr^CoUa

@@ -1,0 +1,30 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-20,-25,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,C@@mUfJ:Y17:`0jXZB~j
+3,pen_clear,,{},2,2,hRrFM8jrIAdQ.!=KRbjj
+4,motion_gotoxy,,"{""X"": [1, [4, ""-140""]], ""Y"": [1, [4, ""-25""]]}",3,3,"/=!u,97sWz4D@FTV(+u#"
+5,control_repeat,,,4,4,~yHytc6uUkEVdzOyS|ZS
+6,motion_movesteps,,"{""STEPS"": [1, [4, ""12""]]}",5,5,V%.yXNK[8)X8OiQiNGN^
+7,pen_stamp,,{},6,6,#S?gC!tGxqp!v^]v;Sws
+8,motion_movesteps,,"{""STEPS"": [1, [4, ""12""]]}",7,5,V%.yXNK[8)X8OiQiNGN^
+9,pen_stamp,,{},8,6,#S?gC!tGxqp!v^]v;Sws
+10,motion_movesteps,,"{""STEPS"": [1, [4, ""12""]]}",9,5,V%.yXNK[8)X8OiQiNGN^
+11,pen_stamp,,{},10,6,#S?gC!tGxqp!v^]v;Sws
+12,motion_movesteps,,"{""STEPS"": [1, [4, ""12""]]}",11,5,V%.yXNK[8)X8OiQiNGN^
+13,pen_stamp,,{},12,6,#S?gC!tGxqp!v^]v;Sws
+14,motion_movesteps,,"{""STEPS"": [1, [4, ""12""]]}",13,5,V%.yXNK[8)X8OiQiNGN^
+15,pen_stamp,,{},14,6,#S?gC!tGxqp!v^]v;Sws
+16,motion_movesteps,,"{""STEPS"": [1, [4, ""12""]]}",15,5,V%.yXNK[8)X8OiQiNGN^
+17,pen_stamp,,{},16,6,#S?gC!tGxqp!v^]v;Sws
+18,motion_movesteps,,"{""STEPS"": [1, [4, ""12""]]}",17,5,V%.yXNK[8)X8OiQiNGN^
+19,pen_stamp,,{},18,6,#S?gC!tGxqp!v^]v;Sws
+20,motion_movesteps,,"{""STEPS"": [1, [4, ""12""]]}",19,5,V%.yXNK[8)X8OiQiNGN^
+21,pen_stamp,,{},20,6,#S?gC!tGxqp!v^]v;Sws
+22,motion_movesteps,,"{""STEPS"": [1, [4, ""12""]]}",21,5,V%.yXNK[8)X8OiQiNGN^
+23,pen_stamp,,{},22,6,#S?gC!tGxqp!v^]v;Sws
+24,motion_movesteps,,"{""STEPS"": [1, [4, ""12""]]}",23,5,V%.yXNK[8)X8OiQiNGN^
+25,pen_stamp,,{},24,6,#S?gC!tGxqp!v^]v;Sws
+26,pen_clear,,{},25,5,SQ=h~U3=9#^lbv+wKy/-
+27,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",26,26,i#V0!ezL-+m]r@1oYcs+
+28,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Hello, Stillman Valley!""]], ""SECS"": [1, [4, ""2""]]}",27,27,"w%iAx!wDc%(!g|@;E2{,"

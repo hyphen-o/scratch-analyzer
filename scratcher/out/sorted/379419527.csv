@@ -1,0 +1,14 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,38,-36.99999999999999,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,F%g_LSmnckQ3Y`L7GYz?
+3,sensing_askandwait,,"{""QUESTION"": [1, [10, ""What""s your name?""]]}",2,2,OBrQ2FN5IG8#@JgKXTp-
+4,sensing_askandwait,,"{""QUESTION"": [1, [10, "" do you like my bow?""]]}",3,3,qfp[F%H;.]8ad~J9.44(
+5,text2speech_speakAndWait,,"{""WORDS"": [1, [10, "" i bought this one specially on ebay for  a date""]]}",4,4,Tj:b9x6euYd1]W|![Fjb
+6,sensing_askandwait,,"{""QUESTION"": [1, [10, "" will you help me on my date ?""]]}",5,5,}Z|ud|m4bwqc@}EgAS*.
+7,text2speech_speakAndWait,,"{""WORDS"": [1, [10, ""thank you ""]]}",6,6,"Hw6!vuQl)3T[,Z-R|Ry:"
+8,looks_switchbackdropto,,"{""BACKDROP"": [1, ""e%}AIlnS-|MWNS33Qyj?""]}",7,7,"c2.mgK,SzGyvzf6PID|;"
+9,text2speech_speakAndWait,,"{""WORDS"": [1, [10, ""oh its date time just watch me use your advice!""]]}",8,8,A/~/qhB?~X}J(=%AnNi)
+10,text2speech_setVoice,,"{""VOICE"": [1, ""Q}b]]Bk]`jkTNhedt4hw""]}",9,9,"fO!NB!P0r,.5Zg%`g|p."
+11,text2speech_speakAndWait,,"{""WORDS"": [1, [10, "" oh im a cat watch me sing ""]]}",10,10,qFC7FdlBj;06ef+0dgU(
+12,text2speech_speakAndWait,,"{""WORDS"": [1, [10, "" la la la la la la la la la la la la la la ""]]}",11,11,KsVOiuA3K)(GY0T!;OI9

@@ -1,0 +1,18 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,105,-148,-168,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,"0^$a-S(}b|(=}{5|$dT,"
+3,looks_switchbackdropto,,"{""BACKDROP"": [1, ""$p#jQ!H]VbZa3QumiR8@""]}",2,2,Tg4NT+m/B[36V%A~mH$p
+4,motion_gotoxy,,"{""X"": [1, [4, ""-148""]], ""Y"": [1, [4, ""-168""]]}",3,3,aGVCeogpY`Uo;l0-kBs=
+5,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-148""]], ""Y"": [1, [4, ""-168""]]}",4,4,"QeRd,B2V63F$$C:yZUJ("
+6,sound_playuntildone,,"{""SOUND_MENU"": [1, "":toFG4q%o~-Jy(lWwvlY""]}",5,5,!{J=@Sp0qOu~BUmZgTx`
+7,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-18""]], ""Y"": [1, [4, ""59""]]}",6,6,"gl{$r1e,~gM2L6L[u[iH"
+8,control_wait,,"{""DURATION"": [1, [5, ""3""]]}",7,7,@ySJ?`BH^~=B%=$+9B;F
+9,looks_switchcostumeto,,"{""COSTUME"": [1, ""(]2]aTDN!HO1MyKV,*z3""]}",8,8,`yLR*bWbI_v+B*1q^eI^
+10,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""What was that?""]], ""SECS"": [1, [4, ""2""]]}",9,9,$5s!tV.ps;a3SY;^=s11
+11,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""I do not know what""s going on but i am leaving!""]], ""SECS"": [1, [4, ""2""]]}",10,10,xrbi|b~mU6j2c~H06gwi
+12,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-107""]], ""Y"": [1, [4, ""-164""]]}",11,11,gxw?fhMM9kw/_5d0D@C;
+13,looks_switchbackdropto,,"{""BACKDROP"": [1, ""n!LkNi(G;hj!,Y#/$]z}""]}",12,12,P}FhM^Y=Zv}UZ6I%-UGE
+14,motion_gotoxy,,"{""X"": [1, [4, ""-107""]], ""Y"": [1, [4, ""-164""]]}",13,13,|m)IL:XQu)+/I$bE3~E?
+15,control_wait,,"{""DURATION"": [1, [5, ""2""]]}",14,14,-Qcb*Ib1fN=o9~1?A]s0
+16,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""I heard a loud boom sound! It was really creepy!""]], ""SECS"": [1, [4, ""2""]]}",15,15,[P**;HS9XF-X$KF/x!+/

@@ -1,0 +1,14 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-213,234,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,/IZsVwO!]^%Oo;++0O)r
+3,looks_show,,{},2,2,3e]CM.+/x.aaZrnebR2Y
+4,motion_gotoxy,,"{""X"": [1, [4, ""0""]], ""Y"": [1, [4, ""0""]]}",3,3,"@x(])Nt,rK:YjRJv}o$2"
+5,looks_switchcostumeto,,"{""COSTUME"": [1, ""TfUz)9sik;s;!RSkpu@$""]}",4,4,"in^DE9t^^w,TGF8uLB-f"
+6,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",5,5,cO@dXz[2R}e[#:]D4Yr#
+7,looks_switchcostumeto,,"{""COSTUME"": [1, ""+sR-oyl!dG-@N8u{{Z]5""]}",6,6,:$Tb@*yZAFm73s59l*:b
+8,SCRIPT,,,0,0,
+9,event_whenbroadcastreceived,,,1,0,B6qJ/v;r.2v-;*@|TQQ@
+10,looks_switchcostumeto,,"{""COSTUME"": [1, ""A6}LY%@9}ha4,]MZ*mcX""]}",2,9,2]QFoU}V)4I+GW7SUs~y
+11,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""0.1""]], ""X"": [1, [4, ""-213""]], ""Y"": [1, [4, ""234""]]}",3,10,";z*(KYi,y#Clm)!EMhc-"
+12,looks_hide,,{},4,11,"wJW,E-cQpl.OpD+~R^z)"

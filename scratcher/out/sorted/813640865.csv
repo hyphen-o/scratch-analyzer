@@ -1,0 +1,11 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,199.00001614888612,120,,,
+1,SCRIPT,,,0,0,
+2,event_whenthisspriteclicked,,,1,0,:nAOE;Ku]$PRC]`JQ-)h
+3,sound_stopallsounds,,{},2,2,2e1c$AEI6ng`X|S1m-%7
+4,control_wait,,"{""DURATION"": [1, [5, "".5""]]}",3,3,RT8cchkyL[-C$/oTpDz1
+5,sound_playuntildone,,"{""SOUND_MENU"": [1, ""`OgO!_j2_O6;|p~S$lO)""]}",4,4,?)+v.h_t#c(:+peGZ$Rr
+6,SCRIPT,,,0,0,
+7,event_whenflagclicked,,,1,0,",=R+Q-(|4J4WD3ehX{Ao"
+8,looks_switchcostumeto,,"{""COSTUME"": [1, ""vs{qKcFv6Fw9q{BzaXIj""]}",2,7,QD]XP[}ztEd=KJ?uWVXQ
+9,motion_gotoxy,,"{""X"": [1, [4, ""-55""]], ""Y"": [1, [4, ""104""]]}",3,8,8^MXD2w!+P`SB3`MUF?{

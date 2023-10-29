@@ -1,0 +1,13 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,126,-123,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,@NfdP?I=/WCg#M=S9$g$
+3,looks_show,,{},2,2,"2s6uuc?MChqxyJN,+!!]"
+4,motion_gotoxy,,"{""X"": [1, [4, ""126""]], ""Y"": [1, [4, ""-123""]]}",3,3,HSwC}NIQWiJ=1{1]#-bl
+5,SCRIPT,,,0,0,
+6,event_whenthisspriteclicked,,,1,0,|3oH|j@/7)g5#Jy}A@R;
+7,SCRIPT,,,0,6,
+8,event_broadcast,,,1,6,0G3R]%vAZ6*=dFyrU$Em
+9,SCRIPT,,,0,0,
+10,event_whenbackdropswitchesto,,,1,0,GZxa.jRoOvGRIIkBw[]{
+11,looks_hide,,{},2,10,"3Q3A]4FcJVZCK,b9e_2~"

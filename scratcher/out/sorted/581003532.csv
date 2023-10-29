@@ -1,0 +1,15 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-170,-110,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,UBug0{m@?+2A8h}T8D5C
+3,looks_switchcostumeto,,"{""COSTUME"": [1, ""/j/eyH8=xPevdk$j`*3*""]}",2,2,[E3H+qypdJHc}Mu/G%-I
+4,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",3,3,xH40#cRD)7ZaJ6C/65tH
+5,motion_gotoxy,,"{""X"": [1, [4, ""-170""]], ""Y"": [1, [4, ""-110""]]}",4,4,7qf]ms`^3{g87%`qE;(4
+6,looks_switchcostumeto,,"{""COSTUME"": [1, ""LGVY(dp;4{rsZe`TfX{,""]}",5,5,n2l}p}OP!OnB@%?o29jc
+7,procedures_call,,,6,6,"?.fv,ZY4XswmqoJZq:sb"
+8,procedures_definition,,,6,0,*.JFo+^hkKe[67ay~}|S
+9,looks_say,,"{""MESSAGE"": [3, ""zQ~bMw[gHUa!YcWbJ@T*"", [10, """"]]}",7,8,7SYgd7D:l`N70`{v.Z+L
+10,data_setvariableto,,,8,9,=Bt_V)rt|a+OI}(S;76S
+11,control_repeat,,,9,10,"lu!pp,32-+GWVtkzKsnH"
+12,control_wait,,"{""DURATION"": [3, ""hZS70Ex4k_uH]:1NNz-B"", [5, ""10""]]}",10,11,Q=~m#ooHm5U|=kNkOzxH
+13,looks_say,,"{""MESSAGE"": [1, [10, """"]]}",11,12,OCxvl_YhOV{p)uUSh/J*

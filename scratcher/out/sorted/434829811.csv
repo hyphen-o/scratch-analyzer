@@ -1,0 +1,11 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,173,-97,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,FU[ilPwsjYo_*P@a^@34
+3,motion_gotoxy,,"{""X"": [1, [4, ""-40""]], ""Y"": [1, [4, ""82""]]}",2,2,T]-!88V!Kv@hE_cpt3n3
+4,sound_playuntildone,,"{""SOUND_MENU"": [1, ""@ES.eqf5tiXWyD3oK=%t""]}",3,3,DhtS=9w=#y~?cAO5PZ2M
+5,sound_playuntildone,,"{""SOUND_MENU"": [1, "".||2L.*S,E1*;0yE.j=7""]}",4,4,NZwIZ.ssqliwOI.TW?^Y
+6,sensing_askandwait,,"{""QUESTION"": [1, [10, ""are you my owner""]]}",5,5,",:ub$UY%I?O(zFDGrI;z"
+7,control_if,,,6,6,"8}hu,w)MJgf|6;*;sW-A"
+8,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""yay!""]], ""SECS"": [1, [4, ""2""]]}",7,7,L00$Q@)7+$T0~`Gk9pp*
+9,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""let""s play!""]], ""SECS"": [1, [4, ""2""]]}",8,8,"7S3z8Pv,=ck-9W7EVLNL"

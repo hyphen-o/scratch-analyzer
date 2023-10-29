@@ -1,0 +1,12 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,105,-14,-35,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,j#hg.C3G%OY$/(^yX:8^
+3,motion_turnright,,"{""DEGREES"": [1, [4, ""90""]]}",2,2,"CBe^l2?[@,jOr=Y/1x7a"
+4,control_wait,,"{""DURATION"": [1, [5, ""0.2""]]}",3,3,lonc2?%*jOFs4-v/Rc.`
+5,motion_turnright,,"{""DEGREES"": [1, [4, ""90""]]}",4,4,"24$u,w=ElDQP3*hpwJoj"
+6,control_wait,,"{""DURATION"": [1, [5, ""0.2""]]}",5,5,_Nez?bPTxssYu_Yl_A0F
+7,motion_turnright,,"{""DEGREES"": [1, [4, ""90""]]}",6,6,%|oTD2|ZL2405`?7i5$J
+8,control_wait,,"{""DURATION"": [1, [5, ""0.2""]]}",7,7,:D+7yC86Cs:jKVVj!1cS
+9,motion_turnright,,"{""DEGREES"": [1, [4, ""90""]]}",8,8,"*,KxPOY.DUm0/7{sa,YL"
+10,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Felicidades amigo !!!!!!!!""]], ""SECS"": [1, [4, ""2""]]}",9,9,"Y%z]Jog99vnO_).B,t@O"

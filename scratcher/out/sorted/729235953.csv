@@ -1,0 +1,14 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,61,-48,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,:ByriH)2GmHp6xmGJlT/
+3,motion_gotoxy,,"{""X"": [1, [4, ""61""]], ""Y"": [1, [4, ""-48""]]}",2,2,"l0i8,HT87ZOD[rIz0EYD"
+4,motion_setrotationstyle,,{},3,3,9roVm0I{}(ywT{^mW]t;
+5,looks_show,,{},4,4,aK=jK`IYBN`.7ZUiNm`t
+6,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""yo wus da deal""]], ""SECS"": [1, [4, ""2""]]}",5,5,VMqype_+u4b5P5]m(?Y+
+7,SCRIPT,,,0,6,
+8,event_broadcast,,,1,6,b-%Z:Eu$/8PgMkIQFxL9
+9,sound_playuntildone,,"{""SOUND_MENU"": [1, ""~Xz4x4x@2g{P!~diiq/T""]}",2,8,"y[aw7yMC.BGl8o#%Y,Ho"
+10,SCRIPT,,,0,6,
+11,event_broadcast,,,1,6,b-%Z:Eu$/8PgMkIQFxL9
+12,sound_playuntildone,,"{""SOUND_MENU"": [1, ""~Xz4x4x@2g{P!~diiq/T""]}",2,8,"y[aw7yMC.BGl8o#%Y,Ho"

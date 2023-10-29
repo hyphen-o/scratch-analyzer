@@ -1,0 +1,32 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,180,5.000000000000025,-109.99999999999996,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,"FxGDG/8$Li,,GW5^_~wX"
+3,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""90""]]}",2,2,Ru%VCRp`@|IKlhacQL7p
+4,pen_clear,,{},3,3,~UT+_+d6G!=96.nyG#u(
+5,pen_setPenColorToColor,,"{""COLOR"": [1, [9, ""#c5f1be""]]}",4,4,A6DUit)E{v*;W0pO5x=s
+6,pen_setPenSizeTo,,"{""SIZE"": [1, [4, ""20""]]}",5,5,";n4CjqrgLVZ{,Gfil5mX"
+7,pen_penDown,,{},6,6,((^/Y0n2Eqljz`Y*w`q7
+8,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",7,7,"eaa~M,D`bmkXTk|`bf54"
+9,motion_movesteps,,"{""STEPS"": [1, [4, ""80""]]}",8,8,s.FM8G%qVw7Ms0@Xl1*_
+10,motion_turnright,,"{""DEGREES"": [1, [4, ""90""]]}",9,9,FwDq8F%[^3pEdmF1U{Xd
+11,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",10,10,Ns@XC~#*_}7ibX4rjY3W
+12,motion_movesteps,,"{""STEPS"": [1, [4, ""80""]]}",11,11,:wKu8}KI^GQ82D`Ok:6/
+13,motion_turnright,,"{""DEGREES"": [1, [4, ""90""]]}",12,12,05B!c!Nwts/KC.rN[tG6
+14,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",13,13,lr$MuvZP#V+O[TI2%zS6
+15,motion_movesteps,,"{""STEPS"": [1, [4, ""80""]]}",14,14,CdvWltNn!HS?_{$v|.SJ
+16,motion_turnright,,"{""DEGREES"": [1, [4, ""90""]]}",15,15,TioIn;+YzJwl-a737L(*
+17,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",16,16,",^BI:8gncUQ=B|R.L4`("
+18,motion_movesteps,,"{""STEPS"": [1, [4, ""160""]]}",17,17,JQyES.=F?PI^mwdz%GO]
+19,motion_turnright,,"{""DEGREES"": [1, [4, ""90""]]}",18,18,p]H#%AJ/IjIHo=}@Hjoq
+20,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",19,19,7jJCq#aD1osD_IDH%]H3
+21,motion_movesteps,,"{""STEPS"": [1, [4, ""80""]]}",20,20,CjHN$@I42ld!.4#ija89
+22,motion_turnright,,"{""DEGREES"": [1, [4, ""90""]]}",21,21,"6K@?,KQ^}*OA_26y3ShN"
+23,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""90""]]}",22,22,EXT+6^3;.M)Ys?mW7oXe
+24,pen_penUp,,{},23,23,An=`(K+wGpqK%~_z+u=B
+25,motion_movesteps,,"{""STEPS"": [1, [4, ""40""]]}",24,24,}7%_K2qRK/i-|a-[nTT[
+26,motion_turnright,,"{""DEGREES"": [1, [4, ""90""]]}",25,25,tB8;5zo``@T$s/Oz@c$[
+27,pen_penDown,,{},26,26,9]VG6TTBRFBdC#]A%8/t
+28,motion_movesteps,,"{""STEPS"": [1, [4, ""40""]]}",27,27,"0Yu+lfCEm5!j,COiv^tP"
+29,pen_penDown,,{},28,28,"hW*Ge?,!V].EMmvWNg=x"
+30,motion_movesteps,,"{""STEPS"": [1, [4, ""110""]]}",29,29,g=6vAC}^9Eob/;-+*iXY

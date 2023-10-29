@@ -1,0 +1,84 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,97,0,0,,,
+1,SCRIPT,,,0,0,
+2,event_whenkeypressed,space,,1,0,)f1oavimC[e3_)GMl(qv
+3,data_setvariableto,,,2,2,JA#(fl#WzUV!p;;BiEK7
+4,data_setvariableto,,,3,3,"sZh2seJ7LQN,_FDy_Vf3"
+5,data_setvariableto,,,4,4,?rWUOrQ-2fnbnLHEK*h!
+6,data_setvariableto,,,5,5,8y:`hzt^:XHX^Ksq;d!S
+7,data_setvariableto,,,6,6,)kSu[O-WG@t)RSTctP:x
+8,data_setvariableto,,,7,7,cAC{8gS0?76h`gG27[;9
+9,pen_setPenColorToColor,,"{""COLOR"": [1, [9, ""#ffffff""]]}",8,8,CBS}m59fQp8ZfPJ:AS?u
+10,pen_setPenSizeTo,,"{""SIZE"": [1, [4, ""3""]]}",9,9,{|:`5;yd2i@AEq/MiDgT
+11,pen_clear,,{},10,10,iUSL0QU/(Z@m)$lwgFf/
+12,pen_penUp,,{},11,11,*WOM@:g4ZZ!0QmgC[`Me
+13,motion_gotoxy,,"{""X"": [1, [4, ""0""]], ""Y"": [1, [4, ""-200""]]}",12,12,"x78(Ju2,c!3p9+*)A@Lp"
+14,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""0""]]}",13,13,em3OFdm~DYA/{;m4_Z+k
+15,control_repeat,,,14,14,rQ_7rDS4aIl@I(%t34d@
+16,pen_penDown,,{},15,15,",^39~mE4Nw68pqhM$sM("
+17,motion_movesteps,,"{""STEPS"": [1, [4, ""20""]]}",16,16,"_+t2)0,Gs9s!]0{J+_Id"
+18,control_wait,,"{""DURATION"": [1, [5, ""0.15""]]}",17,17,3-HDAXdMx#PJV6x}Pz=-
+19,pen_penUp,,{},18,18,"?x66ttP:2wj,oR35}I~H"
+20,motion_movesteps,,"{""STEPS"": [1, [4, ""20""]]}",19,19,"{5Y3kvkszT2,}X!trHCT"
+21,pen_penDown,,{},20,15,",^39~mE4Nw68pqhM$sM("
+22,motion_movesteps,,"{""STEPS"": [1, [4, ""20""]]}",21,16,"_+t2)0,Gs9s!]0{J+_Id"
+23,control_wait,,"{""DURATION"": [1, [5, ""0.15""]]}",22,17,3-HDAXdMx#PJV6x}Pz=-
+24,pen_penUp,,{},23,18,"?x66ttP:2wj,oR35}I~H"
+25,motion_movesteps,,"{""STEPS"": [1, [4, ""20""]]}",24,19,"{5Y3kvkszT2,}X!trHCT"
+26,pen_penDown,,{},25,15,",^39~mE4Nw68pqhM$sM("
+27,motion_movesteps,,"{""STEPS"": [1, [4, ""20""]]}",26,16,"_+t2)0,Gs9s!]0{J+_Id"
+28,control_wait,,"{""DURATION"": [1, [5, ""0.15""]]}",27,17,3-HDAXdMx#PJV6x}Pz=-
+29,pen_penUp,,{},28,18,"?x66ttP:2wj,oR35}I~H"
+30,motion_movesteps,,"{""STEPS"": [1, [4, ""20""]]}",29,19,"{5Y3kvkszT2,}X!trHCT"
+31,pen_penDown,,{},30,15,",^39~mE4Nw68pqhM$sM("
+32,motion_movesteps,,"{""STEPS"": [1, [4, ""20""]]}",31,16,"_+t2)0,Gs9s!]0{J+_Id"
+33,control_wait,,"{""DURATION"": [1, [5, ""0.15""]]}",32,17,3-HDAXdMx#PJV6x}Pz=-
+34,pen_penUp,,{},33,18,"?x66ttP:2wj,oR35}I~H"
+35,motion_movesteps,,"{""STEPS"": [1, [4, ""20""]]}",34,19,"{5Y3kvkszT2,}X!trHCT"
+36,pen_penDown,,{},35,15,",^39~mE4Nw68pqhM$sM("
+37,motion_movesteps,,"{""STEPS"": [1, [4, ""20""]]}",36,16,"_+t2)0,Gs9s!]0{J+_Id"
+38,control_wait,,"{""DURATION"": [1, [5, ""0.15""]]}",37,17,3-HDAXdMx#PJV6x}Pz=-
+39,pen_penUp,,{},38,18,"?x66ttP:2wj,oR35}I~H"
+40,motion_movesteps,,"{""STEPS"": [1, [4, ""20""]]}",39,19,"{5Y3kvkszT2,}X!trHCT"
+41,pen_penDown,,{},40,15,",^39~mE4Nw68pqhM$sM("
+42,motion_movesteps,,"{""STEPS"": [1, [4, ""20""]]}",41,16,"_+t2)0,Gs9s!]0{J+_Id"
+43,control_wait,,"{""DURATION"": [1, [5, ""0.15""]]}",42,17,3-HDAXdMx#PJV6x}Pz=-
+44,pen_penUp,,{},43,18,"?x66ttP:2wj,oR35}I~H"
+45,motion_movesteps,,"{""STEPS"": [1, [4, ""20""]]}",44,19,"{5Y3kvkszT2,}X!trHCT"
+46,pen_penDown,,{},45,15,",^39~mE4Nw68pqhM$sM("
+47,motion_movesteps,,"{""STEPS"": [1, [4, ""20""]]}",46,16,"_+t2)0,Gs9s!]0{J+_Id"
+48,control_wait,,"{""DURATION"": [1, [5, ""0.15""]]}",47,17,3-HDAXdMx#PJV6x}Pz=-
+49,pen_penUp,,{},48,18,"?x66ttP:2wj,oR35}I~H"
+50,motion_movesteps,,"{""STEPS"": [1, [4, ""20""]]}",49,19,"{5Y3kvkszT2,}X!trHCT"
+51,pen_penDown,,{},50,15,",^39~mE4Nw68pqhM$sM("
+52,motion_movesteps,,"{""STEPS"": [1, [4, ""20""]]}",51,16,"_+t2)0,Gs9s!]0{J+_Id"
+53,control_wait,,"{""DURATION"": [1, [5, ""0.15""]]}",52,17,3-HDAXdMx#PJV6x}Pz=-
+54,pen_penUp,,{},53,18,"?x66ttP:2wj,oR35}I~H"
+55,motion_movesteps,,"{""STEPS"": [1, [4, ""20""]]}",54,19,"{5Y3kvkszT2,}X!trHCT"
+56,pen_penDown,,{},55,15,",^39~mE4Nw68pqhM$sM("
+57,motion_movesteps,,"{""STEPS"": [1, [4, ""20""]]}",56,16,"_+t2)0,Gs9s!]0{J+_Id"
+58,control_wait,,"{""DURATION"": [1, [5, ""0.15""]]}",57,17,3-HDAXdMx#PJV6x}Pz=-
+59,pen_penUp,,{},58,18,"?x66ttP:2wj,oR35}I~H"
+60,motion_movesteps,,"{""STEPS"": [1, [4, ""20""]]}",59,19,"{5Y3kvkszT2,}X!trHCT"
+61,pen_penDown,,{},60,15,",^39~mE4Nw68pqhM$sM("
+62,motion_movesteps,,"{""STEPS"": [1, [4, ""20""]]}",61,16,"_+t2)0,Gs9s!]0{J+_Id"
+63,control_wait,,"{""DURATION"": [1, [5, ""0.15""]]}",62,17,3-HDAXdMx#PJV6x}Pz=-
+64,pen_penUp,,{},63,18,"?x66ttP:2wj,oR35}I~H"
+65,motion_movesteps,,"{""STEPS"": [1, [4, ""20""]]}",64,19,"{5Y3kvkszT2,}X!trHCT"
+66,pen_penUp,,{},65,15,"x2E4f2o~4l9@M],-E+|*"
+67,control_repeat_until,,"{""CONDITION"": [2, ""aaedrKeM0/1k|YGlEQ/k""], ""SUBSTACK"": [2, "")~2R,?pGxW[c]A!ZWTeh""]}",66,66,"T`|Z.x,eUR5QQpd1=@oG"
+68,motion_gotoxy,,"{""X"": [1, [4, ""0""]], ""Y"": [1, [4, ""0""]]}",67,67,-L}}xw;t#wg(k?Q/a.3!
+69,control_if_else,,,68,68,/v;L`3T-BBt:b5tsPwt^
+70,looks_sayforsecs,,"{""MESSAGE"": [3, ""D+1`87)}13G.!kAoq{vp"", [10, ""Joueur 1 à gagné !""]], ""SECS"": [1, [4, ""5""]]}",69,69,`uuUsIXv3Y0sO]|`*sKb
+71,SCRIPT,,,0,0,
+72,event_whenflagclicked,,,1,0,-uf1UVlB?aVt7:4Gu8-2
+73,data_setvariableto,,,2,72,",6QX@%Nonk6MHe5DJ/X+"
+74,data_setvariableto,,,3,73,":,8a{o18rOd7QU[2b)Gz"
+75,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Utilisez les touches z et s pour bouger le joueur bleu et flèches haut/bas pour le joueur orange !""]], ""SECS"": [1, [4, ""5""]]}",4,74,0m/U9CZm$O%SYtfC(%zV
+76,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Appuyez sur espace pour démarrer la partie ! Premier à 5 !""]], ""SECS"": [1, [4, ""3""]]}",5,75,"xvKg?ZZb8EZ_!N#F,/lz"
+77,sensing_askandwait,,"{""QUESTION"": [1, [10, ""Quel est le nom du premier joueur ? (Bleu)""]]}",6,76,N7r_lR[![Fg]t`d-??Ej
+78,data_setvariableto,,,7,77,syrysaMilv+Gou=m$uT7
+79,sensing_askandwait,,"{""QUESTION"": [1, [10, ""Quel est le prénom du second joueur ? (Orange)""]]}",8,78,4`z:55rB$16a^Q*osq1a
+80,data_setvariableto,,,9,79,CAOymZTY!@3FBKm_]Dd=
+81,data_setvariableto,,,10,80,hR^^}+jg#QC9-yU.mv@z
+82,data_setvariableto,,,11,81,q$Q;4-jqQ2;=.b/KN]9H

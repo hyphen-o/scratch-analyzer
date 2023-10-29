@@ -1,0 +1,16 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,0,148,-3,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,L0{KPybCqnat0XN@S@v9
+3,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""I have many different powers!""]], ""SECS"": [1, [4, ""3""]]}",2,2,Vg=yUzRk9yc+ovGXnk+y
+4,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Watch me make a difference in the world""]], ""SECS"": [1, [4, ""2""]]}",3,3,Brq/Xih^vx2F=i=#m~%L
+5,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""I can fly really high up in the air!""]], ""SECS"": [1, [4, ""5""]]}",4,4,m1B;H_Wrw|v/e!qbgZbb
+6,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""I love to fly so much!""]], ""SECS"": [1, [4, ""3""]]}",5,5,/4g*!#CCytuq{exZj:Gh
+7,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",6,6,"MHW4_#):pB!sJv,A_Mi?"
+8,sound_playuntildone,,"{""SOUND_MENU"": [1, ""{N-)VcODOFLT}L(y)6x*""]}",7,7,ipf7Z$?VYIKmgxtJ|1z0
+9,sound_setvolumeto,,"{""VOLUME"": [1, [4, ""80""]]}",8,8,jtM-CR/PKus(~Mxe@m~x
+10,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",9,9,)o=}X]tXV]l(5`[5jR5t
+11,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",10,10,*vo_rG~0vCa1wLsvJg|U
+12,data_setvariableto,,,11,11,ow7b^`hgyzo|c7t261cC
+13,sensing_setdragmode,,{},12,12,-ic`d|G]@^BV`4s7[t:d
+14,motion_glideto,,"{""SECS"": [3, ""QOS,O^.]jXSHN3uXEQ`N"", [4, ""1""]], ""TO"": [1, ""|}O{-iS=|Oc=f%=SL}rz""]}",13,13,zu$NjiEuO?sEH%nG~2;_

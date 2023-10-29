@@ -1,0 +1,67 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,18,-59.66931755764565,54.22366354014339,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,Pc_Ab0OQK@AX!EJo11Xe
+3,motion_gotoxy,,"{""X"": [1, [4, -53]], ""Y"": [1, [4, 76]]}",2,2,"as#I3P@@].r,kS]XeJsi"
+4,motion_pointindirection,,"{""DIRECTION"": [1, [8, 90]]}",3,3,oA12[:[`QcTMbcl;*-7B
+5,control_forever,,,4,4,"q,D3)4:=/|yX5c7uMLF="
+6,control_if,,,5,5,NcxH0a|[JlO0[hUX-~Sf
+7,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",6,6,":Wk~,P^;t;nf~RPJJa)i"
+8,control_if,,,7,5,NcxH0a|[JlO0[hUX-~Sf
+9,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",8,6,":Wk~,P^;t;nf~RPJJa)i"
+10,control_if,,,9,5,NcxH0a|[JlO0[hUX-~Sf
+11,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",10,6,":Wk~,P^;t;nf~RPJJa)i"
+12,control_if,,,11,5,NcxH0a|[JlO0[hUX-~Sf
+13,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",12,6,":Wk~,P^;t;nf~RPJJa)i"
+14,control_if,,,13,5,NcxH0a|[JlO0[hUX-~Sf
+15,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",14,6,":Wk~,P^;t;nf~RPJJa)i"
+16,control_if,,,15,5,NcxH0a|[JlO0[hUX-~Sf
+17,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",16,6,":Wk~,P^;t;nf~RPJJa)i"
+18,control_if,,,17,5,NcxH0a|[JlO0[hUX-~Sf
+19,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",18,6,":Wk~,P^;t;nf~RPJJa)i"
+20,control_if,,,19,5,NcxH0a|[JlO0[hUX-~Sf
+21,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",20,6,":Wk~,P^;t;nf~RPJJa)i"
+22,control_if,,,21,5,NcxH0a|[JlO0[hUX-~Sf
+23,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",22,6,":Wk~,P^;t;nf~RPJJa)i"
+24,control_if,,,23,5,NcxH0a|[JlO0[hUX-~Sf
+25,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",24,6,":Wk~,P^;t;nf~RPJJa)i"
+26,control_if,,,25,5,NcxH0a|[JlO0[hUX-~Sf
+27,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",26,6,":Wk~,P^;t;nf~RPJJa)i"
+28,control_if,,,27,5,NcxH0a|[JlO0[hUX-~Sf
+29,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",28,6,":Wk~,P^;t;nf~RPJJa)i"
+30,control_if,,,29,5,NcxH0a|[JlO0[hUX-~Sf
+31,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",30,6,":Wk~,P^;t;nf~RPJJa)i"
+32,control_if,,,31,5,NcxH0a|[JlO0[hUX-~Sf
+33,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",32,6,":Wk~,P^;t;nf~RPJJa)i"
+34,control_if,,,33,5,NcxH0a|[JlO0[hUX-~Sf
+35,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",34,6,":Wk~,P^;t;nf~RPJJa)i"
+36,control_if,,,35,5,NcxH0a|[JlO0[hUX-~Sf
+37,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",36,6,":Wk~,P^;t;nf~RPJJa)i"
+38,control_if,,,37,5,NcxH0a|[JlO0[hUX-~Sf
+39,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",38,6,":Wk~,P^;t;nf~RPJJa)i"
+40,control_if,,,39,5,NcxH0a|[JlO0[hUX-~Sf
+41,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",40,6,":Wk~,P^;t;nf~RPJJa)i"
+42,control_if,,,41,5,NcxH0a|[JlO0[hUX-~Sf
+43,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",42,6,":Wk~,P^;t;nf~RPJJa)i"
+44,control_if,,,43,5,NcxH0a|[JlO0[hUX-~Sf
+45,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",44,6,":Wk~,P^;t;nf~RPJJa)i"
+46,control_if,,,45,5,NcxH0a|[JlO0[hUX-~Sf
+47,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",46,6,":Wk~,P^;t;nf~RPJJa)i"
+48,control_if,,,47,5,NcxH0a|[JlO0[hUX-~Sf
+49,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",48,6,":Wk~,P^;t;nf~RPJJa)i"
+50,control_if,,,49,5,NcxH0a|[JlO0[hUX-~Sf
+51,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",50,6,":Wk~,P^;t;nf~RPJJa)i"
+52,control_if,,,51,5,NcxH0a|[JlO0[hUX-~Sf
+53,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",52,6,":Wk~,P^;t;nf~RPJJa)i"
+54,control_if,,,53,5,NcxH0a|[JlO0[hUX-~Sf
+55,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",54,6,":Wk~,P^;t;nf~RPJJa)i"
+56,control_if,,,55,5,NcxH0a|[JlO0[hUX-~Sf
+57,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",56,6,":Wk~,P^;t;nf~RPJJa)i"
+58,control_if,,,57,5,NcxH0a|[JlO0[hUX-~Sf
+59,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",58,6,":Wk~,P^;t;nf~RPJJa)i"
+60,control_if,,,59,5,NcxH0a|[JlO0[hUX-~Sf
+61,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",60,6,":Wk~,P^;t;nf~RPJJa)i"
+62,control_if,,,61,5,NcxH0a|[JlO0[hUX-~Sf
+63,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",62,6,":Wk~,P^;t;nf~RPJJa)i"
+64,control_if,,,63,5,NcxH0a|[JlO0[hUX-~Sf
+65,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",64,6,":Wk~,P^;t;nf~RPJJa)i"

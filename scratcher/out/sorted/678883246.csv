@@ -1,0 +1,13 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-180,-100,,,
+1,SCRIPT,,,0,0,
+2,event_whenkeypressed,space,,1,0,5vMI@`_t#?BFO%.)D;(.
+3,control_if_else,,,2,2,Z2NN*MrZf@2L[JqKO-%Y
+4,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Ouch!""]], ""SECS"": [1, [4, ""0.5""]]}",3,3,WcR3m~;}12$M#GgPEY|J
+5,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""-90""]]}",4,4,"$2xuy?l)1A~C:%0,HW0D"
+6,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",5,5,Nmwr+h0Ih3]bKxmxpVye
+7,SCRIPT,,,0,0,
+8,event_whenflagclicked,,,1,0,RUS]Wg+{?bl.x|@~_t2@
+9,motion_gotoxy,,"{""X"": [1, [4, ""-180""]], ""Y"": [1, [4, ""-100""]]}",2,8,PanU[+cWa:fU{C3CX+B1
+10,looks_switchcostumeto,,"{""COSTUME"": [1, ""Gn#KI5x9spt@Ff7D;f36""]}",3,9,L(9(q!0Qtzm;lbrEbr5n
+11,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""90""]]}",4,10,LZ`+E#:R;tM`0J0Y^J{j

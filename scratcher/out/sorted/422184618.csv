@@ -1,0 +1,29 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,24.117647058823536,-18.823529411764707,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,zmcny491d+msl#u8iE=t
+3,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""I did it!""]], ""SECS"": [1, [4, ""2""]]}",2,2,"nzgw)ll[Dl2%6,apPHU,"
+4,control_repeat,,,3,3,n#|lG}G1c^I#XKP:1xf~
+5,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",4,4,.OYdOp/hSb3Zl|ctHq=-
+6,sound_playuntildone,,"{""SOUND_MENU"": [1, ""Sb+]OLO^R,f=vso]V_Y`""]}",5,5,(l+jjMRALRotc/Gy-h8u
+7,motion_movesteps,,"{""STEPS"": [1, [4, ""-10""]]}",6,6,K@1.Mm}0.EW(~3bR0au`
+8,sound_playuntildone,,"{""SOUND_MENU"": [1, ""xAR@)i~_ndJxVgVG|dqc""]}",7,7,M]P%v]CQ/_|[uf{yNJ5F
+9,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",8,4,.OYdOp/hSb3Zl|ctHq=-
+10,sound_playuntildone,,"{""SOUND_MENU"": [1, ""Sb+]OLO^R,f=vso]V_Y`""]}",9,5,(l+jjMRALRotc/Gy-h8u
+11,motion_movesteps,,"{""STEPS"": [1, [4, ""-10""]]}",10,6,K@1.Mm}0.EW(~3bR0au`
+12,sound_playuntildone,,"{""SOUND_MENU"": [1, ""xAR@)i~_ndJxVgVG|dqc""]}",11,7,M]P%v]CQ/_|[uf{yNJ5F
+13,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",12,4,.OYdOp/hSb3Zl|ctHq=-
+14,sound_playuntildone,,"{""SOUND_MENU"": [1, ""Sb+]OLO^R,f=vso]V_Y`""]}",13,5,(l+jjMRALRotc/Gy-h8u
+15,motion_movesteps,,"{""STEPS"": [1, [4, ""-10""]]}",14,6,K@1.Mm}0.EW(~3bR0au`
+16,sound_playuntildone,,"{""SOUND_MENU"": [1, ""xAR@)i~_ndJxVgVG|dqc""]}",15,7,M]P%v]CQ/_|[uf{yNJ5F
+17,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",16,4,.OYdOp/hSb3Zl|ctHq=-
+18,sound_playuntildone,,"{""SOUND_MENU"": [1, ""Sb+]OLO^R,f=vso]V_Y`""]}",17,5,(l+jjMRALRotc/Gy-h8u
+19,motion_movesteps,,"{""STEPS"": [1, [4, ""-10""]]}",18,6,K@1.Mm}0.EW(~3bR0au`
+20,sound_playuntildone,,"{""SOUND_MENU"": [1, ""xAR@)i~_ndJxVgVG|dqc""]}",19,7,M]P%v]CQ/_|[uf{yNJ5F
+21,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",20,4,.OYdOp/hSb3Zl|ctHq=-
+22,sound_playuntildone,,"{""SOUND_MENU"": [1, ""Sb+]OLO^R,f=vso]V_Y`""]}",21,5,(l+jjMRALRotc/Gy-h8u
+23,motion_movesteps,,"{""STEPS"": [1, [4, ""-10""]]}",22,6,K@1.Mm}0.EW(~3bR0au`
+24,sound_playuntildone,,"{""SOUND_MENU"": [1, ""xAR@)i~_ndJxVgVG|dqc""]}",23,7,M]P%v]CQ/_|[uf{yNJ5F
+25,SCRIPT,,,0,0,
+26,event_whenkeypressed,any,,1,0,HbD;IX]`cB6#:VKz|Jg9
+27,looks_changeeffectby,,"{""CHANGE"": [1, [4, ""-25""]]}",2,26,"Z7kNl9by#.P9,cRP8G{1"

@@ -1,0 +1,14 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-49.99999999999999,-49.99999999999998,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,Xcy|7uoqk[gU*3j]740%
+3,pen_clear,,{},2,2,vO)y1z+h+/3#*{F+E^=5
+4,pen_setPenColorToColor,,"{""COLOR"": [1, [9, ""#ef7cef""]]}",3,3,Y+$h%Ci`ylAOo$HSv[XI
+5,pen_changePenSizeBy,,"{""SIZE"": [1, [4, ""3""]]}",4,4,1bO=b;S-UK@143hf2BCe
+6,pen_penUp,,{},5,5,"b0$Cb[APt)+$w1[,kGxC"
+7,motion_gotoxy,,"{""X"": [1, [4, ""-50""]], ""Y"": [1, [4, ""-50""]]}",6,6,RtlM75)aP6b#UM*yw-(g
+8,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""90""]]}",7,7,@!7]M`j@*kcEhxk;t3;X
+9,pen_penDown,,{},8,8,x+!k^0PET%$xqnQy`YY{
+10,sensing_askandwait,,"{""QUESTION"": [1, [10, ""Lados para el poligono""]]}",9,9,xp5AHwYl1*`8Fysf)HS$
+11,control_repeat,,,10,10,~2h1-kHq4mU9wB%khJG+
+12,control_stop,,{},11,11,"a%xW@30_!fg)8[M,{A[7"

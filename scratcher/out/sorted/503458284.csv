@@ -1,0 +1,30 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-70,-99.99999999999997,,,
+1,SCRIPT,,,0,0,
+2,event_whenkeypressed,1,,1,0,1{K9GC+eB?H]49ZNvkVQ
+3,pen_clear,,{},2,2,}Hz|E:2b4A:#GF9W3[n$
+4,motion_gotoxy,,"{""X"": [1, [4, ""-70""]], ""Y"": [1, [4, ""-100""]]}",3,3,hcK^Fn2KC|D;jz5kmdGV
+5,pen_penDown,,{},4,4,|_G?-wr_oHi.lUC{G$Lq
+6,control_repeat,,,5,5,"ptpZKhX,p.zw@@/L$7QZ"
+7,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""0""]]}",6,6,_k|Br0ixC(4QN#1cdz[I
+8,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",7,7,4d7zC@sPYPZ[tJ~*!Af%
+9,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""90""]]}",8,8,1n]~=3:5iVgoW^tvyp|1
+10,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",9,9,Pj[(~{8vMqDf1#QUp0/:
+11,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""0""]]}",10,6,_k|Br0ixC(4QN#1cdz[I
+12,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",11,7,4d7zC@sPYPZ[tJ~*!Af%
+13,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""90""]]}",12,8,1n]~=3:5iVgoW^tvyp|1
+14,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",13,9,Pj[(~{8vMqDf1#QUp0/:
+15,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""0""]]}",14,6,_k|Br0ixC(4QN#1cdz[I
+16,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",15,7,4d7zC@sPYPZ[tJ~*!Af%
+17,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""90""]]}",16,8,1n]~=3:5iVgoW^tvyp|1
+18,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",17,9,Pj[(~{8vMqDf1#QUp0/:
+19,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""0""]]}",18,6,_k|Br0ixC(4QN#1cdz[I
+20,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",19,7,4d7zC@sPYPZ[tJ~*!Af%
+21,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""90""]]}",20,8,1n]~=3:5iVgoW^tvyp|1
+22,motion_movesteps,,"{""STEPS"": [1, [4, ""50""]]}",21,9,Pj[(~{8vMqDf1#QUp0/:
+23,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""180""]]}",22,6,"#b^*Aeg8,MTB?Q|M30=s"
+24,motion_movesteps,,"{""STEPS"": [1, [4, ""200""]]}",23,23,B?)f6[9pPHh+$VbA}338
+25,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""-90""]]}",24,24,?G:/qD}kh6wX6yg+e]W7
+26,motion_movesteps,,"{""STEPS"": [1, [4, ""200""]]}",25,25,!;XBU:#hUYbiw]e_92l}
+27,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""90""]]}",26,26,"rm+I{#mvb|-k,|3obB2F"
+28,pen_penUp,,{},27,27,"{W60L82J;bOoB0Z_f,xv"

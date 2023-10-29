@@ -1,0 +1,32 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-205,-125,,,
+1,SCRIPT,,,0,0,
+2,event_whenkeypressed,space,,1,0,0yGDJh0/d_NV(:PWhW.N
+3,sound_play,,"{""SOUND_MENU"": [1, ""=#C*^W*T}#.w$`MO`JYN""]}",2,2,`v2vamTKU%=*O!GHFCP1
+4,control_repeat,,,3,3,Zt?4a;*(tgMchU-;73ng
+5,motion_changeyby,,"{""DY"": [1, [4, ""15""]]}",4,4,_Hbg[a9/(EY3u3q2C6NS
+6,motion_changeyby,,"{""DY"": [1, [4, ""15""]]}",5,4,_Hbg[a9/(EY3u3q2C6NS
+7,motion_changeyby,,"{""DY"": [1, [4, ""15""]]}",6,4,_Hbg[a9/(EY3u3q2C6NS
+8,motion_changeyby,,"{""DY"": [1, [4, ""15""]]}",7,4,_Hbg[a9/(EY3u3q2C6NS
+9,motion_changeyby,,"{""DY"": [1, [4, ""15""]]}",8,4,_Hbg[a9/(EY3u3q2C6NS
+10,motion_changeyby,,"{""DY"": [1, [4, ""15""]]}",9,4,_Hbg[a9/(EY3u3q2C6NS
+11,motion_changeyby,,"{""DY"": [1, [4, ""15""]]}",10,4,_Hbg[a9/(EY3u3q2C6NS
+12,motion_changeyby,,"{""DY"": [1, [4, ""15""]]}",11,4,_Hbg[a9/(EY3u3q2C6NS
+13,motion_changeyby,,"{""DY"": [1, [4, ""15""]]}",12,4,_Hbg[a9/(EY3u3q2C6NS
+14,motion_changeyby,,"{""DY"": [1, [4, ""15""]]}",13,4,_Hbg[a9/(EY3u3q2C6NS
+15,control_repeat,,,14,4,N;Yw(FS!svb*Hg-_~Ghr
+16,motion_changeyby,,"{""DY"": [1, [4, ""-15""]]}",15,15,"T@i|jUT|XaRB+t;,Wpf$"
+17,motion_changeyby,,"{""DY"": [1, [4, ""-15""]]}",16,15,"T@i|jUT|XaRB+t;,Wpf$"
+18,motion_changeyby,,"{""DY"": [1, [4, ""-15""]]}",17,15,"T@i|jUT|XaRB+t;,Wpf$"
+19,motion_changeyby,,"{""DY"": [1, [4, ""-15""]]}",18,15,"T@i|jUT|XaRB+t;,Wpf$"
+20,motion_changeyby,,"{""DY"": [1, [4, ""-15""]]}",19,15,"T@i|jUT|XaRB+t;,Wpf$"
+21,motion_changeyby,,"{""DY"": [1, [4, ""-15""]]}",20,15,"T@i|jUT|XaRB+t;,Wpf$"
+22,motion_changeyby,,"{""DY"": [1, [4, ""-15""]]}",21,15,"T@i|jUT|XaRB+t;,Wpf$"
+23,motion_changeyby,,"{""DY"": [1, [4, ""-15""]]}",22,15,"T@i|jUT|XaRB+t;,Wpf$"
+24,motion_changeyby,,"{""DY"": [1, [4, ""-15""]]}",23,15,"T@i|jUT|XaRB+t;,Wpf$"
+25,motion_changeyby,,"{""DY"": [1, [4, ""-15""]]}",24,15,"T@i|jUT|XaRB+t;,Wpf$"
+26,data_changevariableby,,,25,15,{o;@|=8J.]Cm1Z@Df^):
+27,SCRIPT,,,0,0,
+28,event_whenflagclicked,,,1,0,LbYEe=uwEhrn5ul^[14h
+29,motion_gotoxy,,"{""X"": [1, [4, ""-205""]], ""Y"": [1, [4, ""-125""]]}",2,28,-.M=@`%cH*toj8|[QfC}
+30,data_setvariableto,,,3,29,xt+ls@I4U^BVOley[ZsI

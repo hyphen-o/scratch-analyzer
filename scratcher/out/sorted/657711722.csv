@@ -1,0 +1,12 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,0,0,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,/KjGB*l37?PrQ:)Nn=9u
+3,motion_gotoxy,,"{""X"": [1, [4, ""0""]], ""Y"": [1, [4, ""0""]]}",2,2,19~NYFa)PzAGk4mBd!_#
+4,looks_setsizeto,,"{""SIZE"": [1, [4, ""100""]]}",3,3,H{l1Af:3D`berL[gcpdP
+5,looks_switchcostumeto,,"{""COSTUME"": [1, ""(XcS!a|cD}8~Hf*`KaV!""]}",4,4,Vt4F/iFe7`1LI8U74-J7
+6,text2speech_setVoice,,"{""VOICE"": [1, ""d.UAN9VXI/=$k~~fLliF""]}",5,5,qQKz[6(*JK2ic4WF4Mpu
+7,text2speech_speakAndWait,,"{""WORDS"": [1, [10, ""Just one more slight tweak.""]]}",6,6,G8?0bs6pbE*!Yo9C{i;R
+8,looks_nextcostume,,{},7,7,"{Z-@v,?tV:pyr[:byLet"
+9,sound_play,,"{""SOUND_MENU"": [1, ""o{o.n!HAO0f_vDXqFILn""]}",8,8,*kp?eMZO1Sh2=OFkjVqw
+10,text2speech_speakAndWait,,"{""WORDS"": [1, [10, ""How""s that?""]]}",9,9,!JlV?SVy8#GD%Lio[YUJ

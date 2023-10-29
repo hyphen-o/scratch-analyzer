@@ -1,0 +1,30 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-85,-25,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,u?4D=lEyV/MpGS7dH{*1
+3,text2speech_setVoice,,"{""VOICE"": [1, ""v}DNGwrYk-BsaaOE!x-F""]}",2,2,"5L6Q(,ecwLhRvr`fe$W$"
+4,motion_gotoxy,,"{""X"": [1, [4, ""-185""]], ""Y"": [1, [4, ""-25""]]}",3,3,7gHFkyHvt5E^^prkx`8p
+5,control_repeat,,,4,4,?T@~=#h9|fu[{*lTVZGI
+6,motion_movesteps,,"{""STEPS"": [1, [4, ""20""]]}",5,5,pD[r+f/lw_{_qEqKI;#:
+7,looks_nextcostume,,{},6,6,AWw=g`c(1fybfwdlJ-il
+8,text2speech_speakAndWait,,"{""WORDS"": [1, [10, ""안녕?""]]}",7,7,pz]zU;Vk#E2JnFI@+wM+
+9,control_wait,,"{""DURATION"": [1, [5, ""2""]]}",8,8,CMBw1-Y-suTDgm.m6[ky
+10,motion_movesteps,,"{""STEPS"": [1, [4, ""20""]]}",9,5,pD[r+f/lw_{_qEqKI;#:
+11,looks_nextcostume,,{},10,6,AWw=g`c(1fybfwdlJ-il
+12,text2speech_speakAndWait,,"{""WORDS"": [1, [10, ""안녕?""]]}",11,7,pz]zU;Vk#E2JnFI@+wM+
+13,control_wait,,"{""DURATION"": [1, [5, ""2""]]}",12,8,CMBw1-Y-suTDgm.m6[ky
+14,motion_movesteps,,"{""STEPS"": [1, [4, ""20""]]}",13,5,pD[r+f/lw_{_qEqKI;#:
+15,looks_nextcostume,,{},14,6,AWw=g`c(1fybfwdlJ-il
+16,text2speech_speakAndWait,,"{""WORDS"": [1, [10, ""안녕?""]]}",15,7,pz]zU;Vk#E2JnFI@+wM+
+17,control_wait,,"{""DURATION"": [1, [5, ""2""]]}",16,8,CMBw1-Y-suTDgm.m6[ky
+18,motion_movesteps,,"{""STEPS"": [1, [4, ""20""]]}",17,5,pD[r+f/lw_{_qEqKI;#:
+19,looks_nextcostume,,{},18,6,AWw=g`c(1fybfwdlJ-il
+20,text2speech_speakAndWait,,"{""WORDS"": [1, [10, ""안녕?""]]}",19,7,pz]zU;Vk#E2JnFI@+wM+
+21,control_wait,,"{""DURATION"": [1, [5, ""2""]]}",20,8,CMBw1-Y-suTDgm.m6[ky
+22,motion_movesteps,,"{""STEPS"": [1, [4, ""20""]]}",21,5,pD[r+f/lw_{_qEqKI;#:
+23,looks_nextcostume,,{},22,6,AWw=g`c(1fybfwdlJ-il
+24,text2speech_speakAndWait,,"{""WORDS"": [1, [10, ""안녕?""]]}",23,7,pz]zU;Vk#E2JnFI@+wM+
+25,control_wait,,"{""DURATION"": [1, [5, ""2""]]}",24,8,CMBw1-Y-suTDgm.m6[ky
+26,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""안녕!""]], ""SECS"": [1, [4, ""2""]]}",25,5,p{a1PXX|zAeYymWhsJSZ
+27,text2speech_speakAndWait,,"{""WORDS"": [1, [10, ""너 진짜 못생겼다""]]}",26,26,rQl[p6@nB^X=ybwX{m/h
+28,text2speech_speakAndWait,,"{""WORDS"": [1, [10, ""안녕 ""]]}",27,27,~(]aNW-ZlyQGHNH6+8yX

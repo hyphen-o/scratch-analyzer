@@ -1,0 +1,30 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,1,2,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,|O(F=^G:);wObs+`eEuZ
+3,motion_gotoxy,,"{""X"": [1, [4, ""1""]], ""Y"": [1, [4, ""2""]]}",2,2,IzoRq8lLEph)O_6pAj.X
+4,procedures_call,,,3,3,aNhjfzqk;I/M[NcVEh-t
+5,procedures_definition,,,3,0,"mPJG8tM4xx,);!$Fh-Ci"
+6,looks_thinkforsecs,,"{""MESSAGE"": [1, [10, ""Nikada nemoj pričati o sebi na internetu.""]], ""SECS"": [1, [4, ""1.9""]]}",4,5,~Zd/7Q-=H|E:fI_M=C=X
+7,control_wait,,"{""DURATION"": [1, [5, ""2.6""]]}",5,6,N!X;bvvZoUZ+4=t:UC=P
+8,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Internet je besplatan.""]], ""SECS"": [1, [4, ""1.9""]]}",6,7,A($$R!`hYgRNbQzmtIih
+9,control_wait,,"{""DURATION"": [1, [5, ""2.6""]]}",7,8,5k=rgQeyCQ9t]qLVzBmp
+10,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Na internetu postoje i zlonamerne osobe.""]], ""SECS"": [1, [4, ""1.9""]]}",8,9,"lr^.hh/+V,,$*U`6f)R;"
+11,control_wait,,"{""DURATION"": [1, [5, ""1.5""]]}",9,10,i_RdTl)2vN@Vr?]RB-CB
+12,procedures_call,,,10,11,?/|h`zsufkuKO7p^A;{1
+13,procedures_definition,,,10,0,$s~f#4*9WaKnl1w/xMBW
+14,control_wait,,"{""DURATION"": [1, [5, ""1.5""]]}",11,13,x}D;B$lgCtZqZDGv]0?]
+15,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Ako je sajber maltretiranje ozbiljno, pozovi policiju.""]], ""SECS"": [1, [4, ""1.9""]]}",12,14,P[j%0zVgjVKP:_zpZ.VJ
+16,control_wait,,"{""DURATION"": [1, [5, ""2.6""]]}",13,15,!pR|3yq4xIt%RPs|30bE
+17,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Pazi se osoba koje ti kažu da ne veruješ članovima porodice.""]], ""SECS"": [1, [4, ""1.9""]]}",14,16,6Pc?s^DfVK[$M~#v*$hx
+18,control_wait,,"{""DURATION"": [1, [5, ""2.6""]]}",15,17,O^?eP8^_F5qrk3~gDUWz
+19,looks_thinkforsecs,,"{""MESSAGE"": [1, [10, ""Internet može da ti pomogne oko domaćeg.""]], ""SECS"": [1, [4, ""1.9""]]}",16,18,Y3B%5TjW/VkRVH*es8[%
+20,SCRIPT,,,0,19,
+21,event_broadcastandwait,,,1,19,!T_W#xo1Xl2}@=+B}97S
+22,SCRIPT,,,0,19,
+23,event_broadcastandwait,,,1,19,!T_W#xo1Xl2}@=+B}97S
+24,SCRIPT,,,0,0,
+25,event_whenbroadcastreceived,,,1,0,BszcHd5I+]@8u%y#FMK7
+26,looks_thinkforsecs,,"{""MESSAGE"": [1, [10, ""To je to!""]], ""SECS"": [1, [4, ""1.6""]]}",2,25,sVZ9RzTa{7:DLl(k@%s[
+27,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""To je to!""]], ""SECS"": [1, [4, ""1.5""]]}",3,26,RSyQHB/paT4bEDe[Q%nT
+28,control_stop,,{},4,27,)0|B=XYTW/?mpJxP{bG1

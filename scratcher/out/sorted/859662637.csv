@@ -1,0 +1,17 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,98,155,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,"X,5{d5aKbA^DL@7m5;VL"
+3,motion_gotoxy,,"{""X"": [1, [4, ""-76""]], ""Y"": [1, [4, ""-94""]]}",2,2,P2?G*Xi$r9!so268iFg#
+4,looks_show,,{},3,3,PX8E@Q[yTTwal-_|yw[3
+5,control_wait,,"{""DURATION"": [1, [5, ""2""]]}",4,4,zG;$_NECo/m+l!hUzOFH
+6,looks_switchcostumeto,,"{""COSTUME"": [1, ""nx:7Dtm@:$(}WXsAdPq1""]}",5,5,?Q]X+!x4JGxx$eJx]:|P
+7,SCRIPT,,,0,6,
+8,event_broadcast,,,1,6,NY0;)*bh4*R+_[dGZ(5N
+9,SCRIPT,,,0,6,
+10,event_broadcast,,,1,6,NY0;)*bh4*R+_[dGZ(5N
+11,SCRIPT,,,0,0,
+12,event_whenbroadcastreceived,,,1,0,rHF14i|yyZq^j!7}!7zQ
+13,looks_switchcostumeto,,"{""COSTUME"": [1, ""wC}+Ij?D#h56FanM:$e(""]}",2,12,t?gEan/SyelZ-IcdH5Vd
+14,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""2""]], ""X"": [1, [4, ""98""]], ""Y"": [1, [4, ""155""]]}",3,13,"PSvB.RLZ1_-N,?hnotA7"
+15,looks_hide,,{},4,14,gw[E_/yi`zL`ng!pcztZ

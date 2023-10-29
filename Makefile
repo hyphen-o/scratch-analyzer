@@ -11,8 +11,8 @@ down:
 exec:
 	@docker compose exec scratcher bash
 
-cp:
-	@docker cp research-python:/works ./scratcher
+cp-out:
+	@docker cp scratcher:/works/out ./scratcher
 
 install:
 	@pip install -r requirements.txt

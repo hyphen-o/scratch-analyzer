@@ -1,0 +1,15 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,0,0,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,QQj1PI)l5jm4qNf~~fzD
+3,looks_show,,{},2,2,wZ4N0__X+;S}RmC]I5}E
+4,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""90""]]}",3,3,:caiFJvSNZfnYyI}4D|`
+5,motion_gotoxy,,"{""X"": [1, [4, ""0""]], ""Y"": [1, [4, ""0""]]}",4,4,/mux7gq@oD1LCxlj*g%_
+6,pen_clear,,{},5,5,|6vLQP!i2+`}l{9qF!F_
+7,pen_setPenColorToColor,,"{""COLOR"": [1, [9, ""#000000""]]}",6,6,latV.J#7e!uqHl5X0V_m
+8,pen_setPenSizeTo,,"{""SIZE"": [1, [4, ""1""]]}",7,7,"3KEolBTG8,)Bh1tK|D7v"
+9,pen_penDown,,{},8,8,"HOnfB)8?c,mCAGfdKE79"
+10,sensing_askandwait,,"{""QUESTION"": [1, [10, ""要畫幾邊形？""]]}",9,9,2dw-z`)@D.1{@JG0EU=)
+11,data_setvariableto,,,10,10,"Pvkcw*xVfK6rK,-]N.tO"
+12,control_repeat,,,11,11,%EdeUF3{i6oiI3RtslA;
+13,pen_penUp,,{},12,12,3gN%(U3Js]`m~XKaW*_v

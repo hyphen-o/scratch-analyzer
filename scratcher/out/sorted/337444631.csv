@@ -1,0 +1,1145 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-47.94,-45,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,=@/_eTn[|.9ST_*jQ:L%
+3,control_forever,,,2,2,"%*YZ=.Q5TKBxy@=o,f.v"
+4,procedures_call,,,3,3,".Zc!%k9,`O/^eUHqyRl;"
+5,procedures_definition,,,3,0,;sjQ4fGArf*5ne@ahC!@
+6,looks_show,,{},4,5,GDvdc8rRaZ_:Z:Q6Q3q%
+7,motion_gotoxy,,"{""X"": [1, [4, ""-274""]], ""Y"": [1, [4, ""-45""]]}",5,6,xU3{FO7Q8{^g]WFD%LKk
+8,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-20""]], ""Y"": [1, [4, ""-45""]]}",6,7,F);pJH4nchmXXKXFMl0-
+9,control_repeat,,,7,8,QX|[km9cXmWYBTo{xa0/
+10,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",8,9,~*2VS`=uO[fx8S^s*1io
+11,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",9,10,uW%nz#JJN/x94s;TL2km
+12,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",10,11,"uZi(Vt%5m08ROI,2Q#T!"
+13,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",11,9,~*2VS`=uO[fx8S^s*1io
+14,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",12,10,uW%nz#JJN/x94s;TL2km
+15,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",13,11,"uZi(Vt%5m08ROI,2Q#T!"
+16,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",14,9,~*2VS`=uO[fx8S^s*1io
+17,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",15,10,uW%nz#JJN/x94s;TL2km
+18,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",16,11,"uZi(Vt%5m08ROI,2Q#T!"
+19,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",17,9,~*2VS`=uO[fx8S^s*1io
+20,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",18,10,uW%nz#JJN/x94s;TL2km
+21,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",19,11,"uZi(Vt%5m08ROI,2Q#T!"
+22,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",20,9,~*2VS`=uO[fx8S^s*1io
+23,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",21,10,uW%nz#JJN/x94s;TL2km
+24,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",22,11,"uZi(Vt%5m08ROI,2Q#T!"
+25,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",23,9,~*2VS`=uO[fx8S^s*1io
+26,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",24,10,uW%nz#JJN/x94s;TL2km
+27,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",25,11,"uZi(Vt%5m08ROI,2Q#T!"
+28,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",26,9,~*2VS`=uO[fx8S^s*1io
+29,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",27,10,uW%nz#JJN/x94s;TL2km
+30,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",28,11,"uZi(Vt%5m08ROI,2Q#T!"
+31,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",29,9,~*2VS`=uO[fx8S^s*1io
+32,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",30,10,uW%nz#JJN/x94s;TL2km
+33,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",31,11,"uZi(Vt%5m08ROI,2Q#T!"
+34,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",32,9,~*2VS`=uO[fx8S^s*1io
+35,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",33,10,uW%nz#JJN/x94s;TL2km
+36,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",34,11,"uZi(Vt%5m08ROI,2Q#T!"
+37,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",35,9,~*2VS`=uO[fx8S^s*1io
+38,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",36,10,uW%nz#JJN/x94s;TL2km
+39,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",37,11,"uZi(Vt%5m08ROI,2Q#T!"
+40,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""251""]], ""Y"": [1, [4, ""-48""]]}",38,9,qq[4$LVC_MT?mHoA4BAn
+41,looks_hide,,{},39,40,VHcxlGXDLo1:rNR[R:Fr
+42,procedures_call,,,40,3,".Zc!%k9,`O/^eUHqyRl;"
+43,procedures_definition,,,40,0,;sjQ4fGArf*5ne@ahC!@
+44,looks_show,,{},41,5,GDvdc8rRaZ_:Z:Q6Q3q%
+45,motion_gotoxy,,"{""X"": [1, [4, ""-274""]], ""Y"": [1, [4, ""-45""]]}",42,6,xU3{FO7Q8{^g]WFD%LKk
+46,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-20""]], ""Y"": [1, [4, ""-45""]]}",43,7,F);pJH4nchmXXKXFMl0-
+47,control_repeat,,,44,8,QX|[km9cXmWYBTo{xa0/
+48,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",45,9,~*2VS`=uO[fx8S^s*1io
+49,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",46,10,uW%nz#JJN/x94s;TL2km
+50,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",47,11,"uZi(Vt%5m08ROI,2Q#T!"
+51,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",48,9,~*2VS`=uO[fx8S^s*1io
+52,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",49,10,uW%nz#JJN/x94s;TL2km
+53,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",50,11,"uZi(Vt%5m08ROI,2Q#T!"
+54,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",51,9,~*2VS`=uO[fx8S^s*1io
+55,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",52,10,uW%nz#JJN/x94s;TL2km
+56,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",53,11,"uZi(Vt%5m08ROI,2Q#T!"
+57,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",54,9,~*2VS`=uO[fx8S^s*1io
+58,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",55,10,uW%nz#JJN/x94s;TL2km
+59,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",56,11,"uZi(Vt%5m08ROI,2Q#T!"
+60,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",57,9,~*2VS`=uO[fx8S^s*1io
+61,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",58,10,uW%nz#JJN/x94s;TL2km
+62,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",59,11,"uZi(Vt%5m08ROI,2Q#T!"
+63,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",60,9,~*2VS`=uO[fx8S^s*1io
+64,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",61,10,uW%nz#JJN/x94s;TL2km
+65,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",62,11,"uZi(Vt%5m08ROI,2Q#T!"
+66,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",63,9,~*2VS`=uO[fx8S^s*1io
+67,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",64,10,uW%nz#JJN/x94s;TL2km
+68,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",65,11,"uZi(Vt%5m08ROI,2Q#T!"
+69,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",66,9,~*2VS`=uO[fx8S^s*1io
+70,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",67,10,uW%nz#JJN/x94s;TL2km
+71,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",68,11,"uZi(Vt%5m08ROI,2Q#T!"
+72,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",69,9,~*2VS`=uO[fx8S^s*1io
+73,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",70,10,uW%nz#JJN/x94s;TL2km
+74,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",71,11,"uZi(Vt%5m08ROI,2Q#T!"
+75,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",72,9,~*2VS`=uO[fx8S^s*1io
+76,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",73,10,uW%nz#JJN/x94s;TL2km
+77,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",74,11,"uZi(Vt%5m08ROI,2Q#T!"
+78,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""251""]], ""Y"": [1, [4, ""-48""]]}",75,9,qq[4$LVC_MT?mHoA4BAn
+79,looks_hide,,{},76,40,VHcxlGXDLo1:rNR[R:Fr
+80,procedures_call,,,77,3,".Zc!%k9,`O/^eUHqyRl;"
+81,procedures_definition,,,77,0,;sjQ4fGArf*5ne@ahC!@
+82,looks_show,,{},78,5,GDvdc8rRaZ_:Z:Q6Q3q%
+83,motion_gotoxy,,"{""X"": [1, [4, ""-274""]], ""Y"": [1, [4, ""-45""]]}",79,6,xU3{FO7Q8{^g]WFD%LKk
+84,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-20""]], ""Y"": [1, [4, ""-45""]]}",80,7,F);pJH4nchmXXKXFMl0-
+85,control_repeat,,,81,8,QX|[km9cXmWYBTo{xa0/
+86,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",82,9,~*2VS`=uO[fx8S^s*1io
+87,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",83,10,uW%nz#JJN/x94s;TL2km
+88,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",84,11,"uZi(Vt%5m08ROI,2Q#T!"
+89,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",85,9,~*2VS`=uO[fx8S^s*1io
+90,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",86,10,uW%nz#JJN/x94s;TL2km
+91,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",87,11,"uZi(Vt%5m08ROI,2Q#T!"
+92,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",88,9,~*2VS`=uO[fx8S^s*1io
+93,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",89,10,uW%nz#JJN/x94s;TL2km
+94,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",90,11,"uZi(Vt%5m08ROI,2Q#T!"
+95,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",91,9,~*2VS`=uO[fx8S^s*1io
+96,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",92,10,uW%nz#JJN/x94s;TL2km
+97,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",93,11,"uZi(Vt%5m08ROI,2Q#T!"
+98,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",94,9,~*2VS`=uO[fx8S^s*1io
+99,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",95,10,uW%nz#JJN/x94s;TL2km
+100,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",96,11,"uZi(Vt%5m08ROI,2Q#T!"
+101,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",97,9,~*2VS`=uO[fx8S^s*1io
+102,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",98,10,uW%nz#JJN/x94s;TL2km
+103,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",99,11,"uZi(Vt%5m08ROI,2Q#T!"
+104,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",100,9,~*2VS`=uO[fx8S^s*1io
+105,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",101,10,uW%nz#JJN/x94s;TL2km
+106,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",102,11,"uZi(Vt%5m08ROI,2Q#T!"
+107,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",103,9,~*2VS`=uO[fx8S^s*1io
+108,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",104,10,uW%nz#JJN/x94s;TL2km
+109,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",105,11,"uZi(Vt%5m08ROI,2Q#T!"
+110,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",106,9,~*2VS`=uO[fx8S^s*1io
+111,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",107,10,uW%nz#JJN/x94s;TL2km
+112,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",108,11,"uZi(Vt%5m08ROI,2Q#T!"
+113,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",109,9,~*2VS`=uO[fx8S^s*1io
+114,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",110,10,uW%nz#JJN/x94s;TL2km
+115,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",111,11,"uZi(Vt%5m08ROI,2Q#T!"
+116,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""251""]], ""Y"": [1, [4, ""-48""]]}",112,9,qq[4$LVC_MT?mHoA4BAn
+117,looks_hide,,{},113,40,VHcxlGXDLo1:rNR[R:Fr
+118,procedures_call,,,114,3,".Zc!%k9,`O/^eUHqyRl;"
+119,procedures_definition,,,114,0,;sjQ4fGArf*5ne@ahC!@
+120,looks_show,,{},115,5,GDvdc8rRaZ_:Z:Q6Q3q%
+121,motion_gotoxy,,"{""X"": [1, [4, ""-274""]], ""Y"": [1, [4, ""-45""]]}",116,6,xU3{FO7Q8{^g]WFD%LKk
+122,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-20""]], ""Y"": [1, [4, ""-45""]]}",117,7,F);pJH4nchmXXKXFMl0-
+123,control_repeat,,,118,8,QX|[km9cXmWYBTo{xa0/
+124,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",119,9,~*2VS`=uO[fx8S^s*1io
+125,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",120,10,uW%nz#JJN/x94s;TL2km
+126,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",121,11,"uZi(Vt%5m08ROI,2Q#T!"
+127,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",122,9,~*2VS`=uO[fx8S^s*1io
+128,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",123,10,uW%nz#JJN/x94s;TL2km
+129,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",124,11,"uZi(Vt%5m08ROI,2Q#T!"
+130,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",125,9,~*2VS`=uO[fx8S^s*1io
+131,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",126,10,uW%nz#JJN/x94s;TL2km
+132,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",127,11,"uZi(Vt%5m08ROI,2Q#T!"
+133,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",128,9,~*2VS`=uO[fx8S^s*1io
+134,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",129,10,uW%nz#JJN/x94s;TL2km
+135,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",130,11,"uZi(Vt%5m08ROI,2Q#T!"
+136,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",131,9,~*2VS`=uO[fx8S^s*1io
+137,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",132,10,uW%nz#JJN/x94s;TL2km
+138,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",133,11,"uZi(Vt%5m08ROI,2Q#T!"
+139,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",134,9,~*2VS`=uO[fx8S^s*1io
+140,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",135,10,uW%nz#JJN/x94s;TL2km
+141,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",136,11,"uZi(Vt%5m08ROI,2Q#T!"
+142,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",137,9,~*2VS`=uO[fx8S^s*1io
+143,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",138,10,uW%nz#JJN/x94s;TL2km
+144,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",139,11,"uZi(Vt%5m08ROI,2Q#T!"
+145,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",140,9,~*2VS`=uO[fx8S^s*1io
+146,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",141,10,uW%nz#JJN/x94s;TL2km
+147,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",142,11,"uZi(Vt%5m08ROI,2Q#T!"
+148,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",143,9,~*2VS`=uO[fx8S^s*1io
+149,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",144,10,uW%nz#JJN/x94s;TL2km
+150,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",145,11,"uZi(Vt%5m08ROI,2Q#T!"
+151,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",146,9,~*2VS`=uO[fx8S^s*1io
+152,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",147,10,uW%nz#JJN/x94s;TL2km
+153,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",148,11,"uZi(Vt%5m08ROI,2Q#T!"
+154,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""251""]], ""Y"": [1, [4, ""-48""]]}",149,9,qq[4$LVC_MT?mHoA4BAn
+155,looks_hide,,{},150,40,VHcxlGXDLo1:rNR[R:Fr
+156,procedures_call,,,151,3,".Zc!%k9,`O/^eUHqyRl;"
+157,procedures_definition,,,151,0,;sjQ4fGArf*5ne@ahC!@
+158,looks_show,,{},152,5,GDvdc8rRaZ_:Z:Q6Q3q%
+159,motion_gotoxy,,"{""X"": [1, [4, ""-274""]], ""Y"": [1, [4, ""-45""]]}",153,6,xU3{FO7Q8{^g]WFD%LKk
+160,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-20""]], ""Y"": [1, [4, ""-45""]]}",154,7,F);pJH4nchmXXKXFMl0-
+161,control_repeat,,,155,8,QX|[km9cXmWYBTo{xa0/
+162,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",156,9,~*2VS`=uO[fx8S^s*1io
+163,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",157,10,uW%nz#JJN/x94s;TL2km
+164,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",158,11,"uZi(Vt%5m08ROI,2Q#T!"
+165,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",159,9,~*2VS`=uO[fx8S^s*1io
+166,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",160,10,uW%nz#JJN/x94s;TL2km
+167,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",161,11,"uZi(Vt%5m08ROI,2Q#T!"
+168,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",162,9,~*2VS`=uO[fx8S^s*1io
+169,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",163,10,uW%nz#JJN/x94s;TL2km
+170,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",164,11,"uZi(Vt%5m08ROI,2Q#T!"
+171,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",165,9,~*2VS`=uO[fx8S^s*1io
+172,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",166,10,uW%nz#JJN/x94s;TL2km
+173,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",167,11,"uZi(Vt%5m08ROI,2Q#T!"
+174,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",168,9,~*2VS`=uO[fx8S^s*1io
+175,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",169,10,uW%nz#JJN/x94s;TL2km
+176,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",170,11,"uZi(Vt%5m08ROI,2Q#T!"
+177,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",171,9,~*2VS`=uO[fx8S^s*1io
+178,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",172,10,uW%nz#JJN/x94s;TL2km
+179,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",173,11,"uZi(Vt%5m08ROI,2Q#T!"
+180,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",174,9,~*2VS`=uO[fx8S^s*1io
+181,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",175,10,uW%nz#JJN/x94s;TL2km
+182,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",176,11,"uZi(Vt%5m08ROI,2Q#T!"
+183,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",177,9,~*2VS`=uO[fx8S^s*1io
+184,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",178,10,uW%nz#JJN/x94s;TL2km
+185,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",179,11,"uZi(Vt%5m08ROI,2Q#T!"
+186,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",180,9,~*2VS`=uO[fx8S^s*1io
+187,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",181,10,uW%nz#JJN/x94s;TL2km
+188,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",182,11,"uZi(Vt%5m08ROI,2Q#T!"
+189,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",183,9,~*2VS`=uO[fx8S^s*1io
+190,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",184,10,uW%nz#JJN/x94s;TL2km
+191,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",185,11,"uZi(Vt%5m08ROI,2Q#T!"
+192,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""251""]], ""Y"": [1, [4, ""-48""]]}",186,9,qq[4$LVC_MT?mHoA4BAn
+193,looks_hide,,{},187,40,VHcxlGXDLo1:rNR[R:Fr
+194,procedures_call,,,188,3,".Zc!%k9,`O/^eUHqyRl;"
+195,procedures_definition,,,188,0,;sjQ4fGArf*5ne@ahC!@
+196,looks_show,,{},189,5,GDvdc8rRaZ_:Z:Q6Q3q%
+197,motion_gotoxy,,"{""X"": [1, [4, ""-274""]], ""Y"": [1, [4, ""-45""]]}",190,6,xU3{FO7Q8{^g]WFD%LKk
+198,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-20""]], ""Y"": [1, [4, ""-45""]]}",191,7,F);pJH4nchmXXKXFMl0-
+199,control_repeat,,,192,8,QX|[km9cXmWYBTo{xa0/
+200,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",193,9,~*2VS`=uO[fx8S^s*1io
+201,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",194,10,uW%nz#JJN/x94s;TL2km
+202,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",195,11,"uZi(Vt%5m08ROI,2Q#T!"
+203,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",196,9,~*2VS`=uO[fx8S^s*1io
+204,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",197,10,uW%nz#JJN/x94s;TL2km
+205,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",198,11,"uZi(Vt%5m08ROI,2Q#T!"
+206,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",199,9,~*2VS`=uO[fx8S^s*1io
+207,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",200,10,uW%nz#JJN/x94s;TL2km
+208,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",201,11,"uZi(Vt%5m08ROI,2Q#T!"
+209,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",202,9,~*2VS`=uO[fx8S^s*1io
+210,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",203,10,uW%nz#JJN/x94s;TL2km
+211,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",204,11,"uZi(Vt%5m08ROI,2Q#T!"
+212,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",205,9,~*2VS`=uO[fx8S^s*1io
+213,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",206,10,uW%nz#JJN/x94s;TL2km
+214,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",207,11,"uZi(Vt%5m08ROI,2Q#T!"
+215,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",208,9,~*2VS`=uO[fx8S^s*1io
+216,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",209,10,uW%nz#JJN/x94s;TL2km
+217,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",210,11,"uZi(Vt%5m08ROI,2Q#T!"
+218,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",211,9,~*2VS`=uO[fx8S^s*1io
+219,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",212,10,uW%nz#JJN/x94s;TL2km
+220,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",213,11,"uZi(Vt%5m08ROI,2Q#T!"
+221,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",214,9,~*2VS`=uO[fx8S^s*1io
+222,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",215,10,uW%nz#JJN/x94s;TL2km
+223,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",216,11,"uZi(Vt%5m08ROI,2Q#T!"
+224,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",217,9,~*2VS`=uO[fx8S^s*1io
+225,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",218,10,uW%nz#JJN/x94s;TL2km
+226,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",219,11,"uZi(Vt%5m08ROI,2Q#T!"
+227,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",220,9,~*2VS`=uO[fx8S^s*1io
+228,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",221,10,uW%nz#JJN/x94s;TL2km
+229,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",222,11,"uZi(Vt%5m08ROI,2Q#T!"
+230,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""251""]], ""Y"": [1, [4, ""-48""]]}",223,9,qq[4$LVC_MT?mHoA4BAn
+231,looks_hide,,{},224,40,VHcxlGXDLo1:rNR[R:Fr
+232,procedures_call,,,225,3,".Zc!%k9,`O/^eUHqyRl;"
+233,procedures_definition,,,225,0,;sjQ4fGArf*5ne@ahC!@
+234,looks_show,,{},226,5,GDvdc8rRaZ_:Z:Q6Q3q%
+235,motion_gotoxy,,"{""X"": [1, [4, ""-274""]], ""Y"": [1, [4, ""-45""]]}",227,6,xU3{FO7Q8{^g]WFD%LKk
+236,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-20""]], ""Y"": [1, [4, ""-45""]]}",228,7,F);pJH4nchmXXKXFMl0-
+237,control_repeat,,,229,8,QX|[km9cXmWYBTo{xa0/
+238,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",230,9,~*2VS`=uO[fx8S^s*1io
+239,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",231,10,uW%nz#JJN/x94s;TL2km
+240,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",232,11,"uZi(Vt%5m08ROI,2Q#T!"
+241,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",233,9,~*2VS`=uO[fx8S^s*1io
+242,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",234,10,uW%nz#JJN/x94s;TL2km
+243,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",235,11,"uZi(Vt%5m08ROI,2Q#T!"
+244,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",236,9,~*2VS`=uO[fx8S^s*1io
+245,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",237,10,uW%nz#JJN/x94s;TL2km
+246,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",238,11,"uZi(Vt%5m08ROI,2Q#T!"
+247,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",239,9,~*2VS`=uO[fx8S^s*1io
+248,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",240,10,uW%nz#JJN/x94s;TL2km
+249,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",241,11,"uZi(Vt%5m08ROI,2Q#T!"
+250,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",242,9,~*2VS`=uO[fx8S^s*1io
+251,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",243,10,uW%nz#JJN/x94s;TL2km
+252,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",244,11,"uZi(Vt%5m08ROI,2Q#T!"
+253,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",245,9,~*2VS`=uO[fx8S^s*1io
+254,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",246,10,uW%nz#JJN/x94s;TL2km
+255,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",247,11,"uZi(Vt%5m08ROI,2Q#T!"
+256,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",248,9,~*2VS`=uO[fx8S^s*1io
+257,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",249,10,uW%nz#JJN/x94s;TL2km
+258,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",250,11,"uZi(Vt%5m08ROI,2Q#T!"
+259,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",251,9,~*2VS`=uO[fx8S^s*1io
+260,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",252,10,uW%nz#JJN/x94s;TL2km
+261,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",253,11,"uZi(Vt%5m08ROI,2Q#T!"
+262,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",254,9,~*2VS`=uO[fx8S^s*1io
+263,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",255,10,uW%nz#JJN/x94s;TL2km
+264,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",256,11,"uZi(Vt%5m08ROI,2Q#T!"
+265,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",257,9,~*2VS`=uO[fx8S^s*1io
+266,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",258,10,uW%nz#JJN/x94s;TL2km
+267,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",259,11,"uZi(Vt%5m08ROI,2Q#T!"
+268,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""251""]], ""Y"": [1, [4, ""-48""]]}",260,9,qq[4$LVC_MT?mHoA4BAn
+269,looks_hide,,{},261,40,VHcxlGXDLo1:rNR[R:Fr
+270,procedures_call,,,262,3,".Zc!%k9,`O/^eUHqyRl;"
+271,procedures_definition,,,262,0,;sjQ4fGArf*5ne@ahC!@
+272,looks_show,,{},263,5,GDvdc8rRaZ_:Z:Q6Q3q%
+273,motion_gotoxy,,"{""X"": [1, [4, ""-274""]], ""Y"": [1, [4, ""-45""]]}",264,6,xU3{FO7Q8{^g]WFD%LKk
+274,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-20""]], ""Y"": [1, [4, ""-45""]]}",265,7,F);pJH4nchmXXKXFMl0-
+275,control_repeat,,,266,8,QX|[km9cXmWYBTo{xa0/
+276,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",267,9,~*2VS`=uO[fx8S^s*1io
+277,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",268,10,uW%nz#JJN/x94s;TL2km
+278,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",269,11,"uZi(Vt%5m08ROI,2Q#T!"
+279,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",270,9,~*2VS`=uO[fx8S^s*1io
+280,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",271,10,uW%nz#JJN/x94s;TL2km
+281,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",272,11,"uZi(Vt%5m08ROI,2Q#T!"
+282,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",273,9,~*2VS`=uO[fx8S^s*1io
+283,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",274,10,uW%nz#JJN/x94s;TL2km
+284,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",275,11,"uZi(Vt%5m08ROI,2Q#T!"
+285,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",276,9,~*2VS`=uO[fx8S^s*1io
+286,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",277,10,uW%nz#JJN/x94s;TL2km
+287,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",278,11,"uZi(Vt%5m08ROI,2Q#T!"
+288,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",279,9,~*2VS`=uO[fx8S^s*1io
+289,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",280,10,uW%nz#JJN/x94s;TL2km
+290,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",281,11,"uZi(Vt%5m08ROI,2Q#T!"
+291,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",282,9,~*2VS`=uO[fx8S^s*1io
+292,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",283,10,uW%nz#JJN/x94s;TL2km
+293,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",284,11,"uZi(Vt%5m08ROI,2Q#T!"
+294,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",285,9,~*2VS`=uO[fx8S^s*1io
+295,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",286,10,uW%nz#JJN/x94s;TL2km
+296,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",287,11,"uZi(Vt%5m08ROI,2Q#T!"
+297,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",288,9,~*2VS`=uO[fx8S^s*1io
+298,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",289,10,uW%nz#JJN/x94s;TL2km
+299,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",290,11,"uZi(Vt%5m08ROI,2Q#T!"
+300,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",291,9,~*2VS`=uO[fx8S^s*1io
+301,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",292,10,uW%nz#JJN/x94s;TL2km
+302,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",293,11,"uZi(Vt%5m08ROI,2Q#T!"
+303,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",294,9,~*2VS`=uO[fx8S^s*1io
+304,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",295,10,uW%nz#JJN/x94s;TL2km
+305,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",296,11,"uZi(Vt%5m08ROI,2Q#T!"
+306,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""251""]], ""Y"": [1, [4, ""-48""]]}",297,9,qq[4$LVC_MT?mHoA4BAn
+307,looks_hide,,{},298,40,VHcxlGXDLo1:rNR[R:Fr
+308,procedures_call,,,299,3,".Zc!%k9,`O/^eUHqyRl;"
+309,procedures_definition,,,299,0,;sjQ4fGArf*5ne@ahC!@
+310,looks_show,,{},300,5,GDvdc8rRaZ_:Z:Q6Q3q%
+311,motion_gotoxy,,"{""X"": [1, [4, ""-274""]], ""Y"": [1, [4, ""-45""]]}",301,6,xU3{FO7Q8{^g]WFD%LKk
+312,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-20""]], ""Y"": [1, [4, ""-45""]]}",302,7,F);pJH4nchmXXKXFMl0-
+313,control_repeat,,,303,8,QX|[km9cXmWYBTo{xa0/
+314,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",304,9,~*2VS`=uO[fx8S^s*1io
+315,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",305,10,uW%nz#JJN/x94s;TL2km
+316,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",306,11,"uZi(Vt%5m08ROI,2Q#T!"
+317,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",307,9,~*2VS`=uO[fx8S^s*1io
+318,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",308,10,uW%nz#JJN/x94s;TL2km
+319,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",309,11,"uZi(Vt%5m08ROI,2Q#T!"
+320,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",310,9,~*2VS`=uO[fx8S^s*1io
+321,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",311,10,uW%nz#JJN/x94s;TL2km
+322,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",312,11,"uZi(Vt%5m08ROI,2Q#T!"
+323,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",313,9,~*2VS`=uO[fx8S^s*1io
+324,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",314,10,uW%nz#JJN/x94s;TL2km
+325,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",315,11,"uZi(Vt%5m08ROI,2Q#T!"
+326,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",316,9,~*2VS`=uO[fx8S^s*1io
+327,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",317,10,uW%nz#JJN/x94s;TL2km
+328,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",318,11,"uZi(Vt%5m08ROI,2Q#T!"
+329,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",319,9,~*2VS`=uO[fx8S^s*1io
+330,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",320,10,uW%nz#JJN/x94s;TL2km
+331,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",321,11,"uZi(Vt%5m08ROI,2Q#T!"
+332,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",322,9,~*2VS`=uO[fx8S^s*1io
+333,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",323,10,uW%nz#JJN/x94s;TL2km
+334,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",324,11,"uZi(Vt%5m08ROI,2Q#T!"
+335,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",325,9,~*2VS`=uO[fx8S^s*1io
+336,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",326,10,uW%nz#JJN/x94s;TL2km
+337,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",327,11,"uZi(Vt%5m08ROI,2Q#T!"
+338,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",328,9,~*2VS`=uO[fx8S^s*1io
+339,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",329,10,uW%nz#JJN/x94s;TL2km
+340,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",330,11,"uZi(Vt%5m08ROI,2Q#T!"
+341,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",331,9,~*2VS`=uO[fx8S^s*1io
+342,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",332,10,uW%nz#JJN/x94s;TL2km
+343,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",333,11,"uZi(Vt%5m08ROI,2Q#T!"
+344,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""251""]], ""Y"": [1, [4, ""-48""]]}",334,9,qq[4$LVC_MT?mHoA4BAn
+345,looks_hide,,{},335,40,VHcxlGXDLo1:rNR[R:Fr
+346,procedures_call,,,336,3,".Zc!%k9,`O/^eUHqyRl;"
+347,procedures_definition,,,336,0,;sjQ4fGArf*5ne@ahC!@
+348,looks_show,,{},337,5,GDvdc8rRaZ_:Z:Q6Q3q%
+349,motion_gotoxy,,"{""X"": [1, [4, ""-274""]], ""Y"": [1, [4, ""-45""]]}",338,6,xU3{FO7Q8{^g]WFD%LKk
+350,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-20""]], ""Y"": [1, [4, ""-45""]]}",339,7,F);pJH4nchmXXKXFMl0-
+351,control_repeat,,,340,8,QX|[km9cXmWYBTo{xa0/
+352,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",341,9,~*2VS`=uO[fx8S^s*1io
+353,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",342,10,uW%nz#JJN/x94s;TL2km
+354,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",343,11,"uZi(Vt%5m08ROI,2Q#T!"
+355,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",344,9,~*2VS`=uO[fx8S^s*1io
+356,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",345,10,uW%nz#JJN/x94s;TL2km
+357,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",346,11,"uZi(Vt%5m08ROI,2Q#T!"
+358,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",347,9,~*2VS`=uO[fx8S^s*1io
+359,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",348,10,uW%nz#JJN/x94s;TL2km
+360,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",349,11,"uZi(Vt%5m08ROI,2Q#T!"
+361,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",350,9,~*2VS`=uO[fx8S^s*1io
+362,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",351,10,uW%nz#JJN/x94s;TL2km
+363,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",352,11,"uZi(Vt%5m08ROI,2Q#T!"
+364,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",353,9,~*2VS`=uO[fx8S^s*1io
+365,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",354,10,uW%nz#JJN/x94s;TL2km
+366,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",355,11,"uZi(Vt%5m08ROI,2Q#T!"
+367,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",356,9,~*2VS`=uO[fx8S^s*1io
+368,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",357,10,uW%nz#JJN/x94s;TL2km
+369,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",358,11,"uZi(Vt%5m08ROI,2Q#T!"
+370,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",359,9,~*2VS`=uO[fx8S^s*1io
+371,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",360,10,uW%nz#JJN/x94s;TL2km
+372,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",361,11,"uZi(Vt%5m08ROI,2Q#T!"
+373,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",362,9,~*2VS`=uO[fx8S^s*1io
+374,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",363,10,uW%nz#JJN/x94s;TL2km
+375,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",364,11,"uZi(Vt%5m08ROI,2Q#T!"
+376,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",365,9,~*2VS`=uO[fx8S^s*1io
+377,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",366,10,uW%nz#JJN/x94s;TL2km
+378,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",367,11,"uZi(Vt%5m08ROI,2Q#T!"
+379,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",368,9,~*2VS`=uO[fx8S^s*1io
+380,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",369,10,uW%nz#JJN/x94s;TL2km
+381,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",370,11,"uZi(Vt%5m08ROI,2Q#T!"
+382,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""251""]], ""Y"": [1, [4, ""-48""]]}",371,9,qq[4$LVC_MT?mHoA4BAn
+383,looks_hide,,{},372,40,VHcxlGXDLo1:rNR[R:Fr
+384,procedures_call,,,373,3,".Zc!%k9,`O/^eUHqyRl;"
+385,procedures_definition,,,373,0,;sjQ4fGArf*5ne@ahC!@
+386,looks_show,,{},374,5,GDvdc8rRaZ_:Z:Q6Q3q%
+387,motion_gotoxy,,"{""X"": [1, [4, ""-274""]], ""Y"": [1, [4, ""-45""]]}",375,6,xU3{FO7Q8{^g]WFD%LKk
+388,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-20""]], ""Y"": [1, [4, ""-45""]]}",376,7,F);pJH4nchmXXKXFMl0-
+389,control_repeat,,,377,8,QX|[km9cXmWYBTo{xa0/
+390,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",378,9,~*2VS`=uO[fx8S^s*1io
+391,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",379,10,uW%nz#JJN/x94s;TL2km
+392,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",380,11,"uZi(Vt%5m08ROI,2Q#T!"
+393,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",381,9,~*2VS`=uO[fx8S^s*1io
+394,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",382,10,uW%nz#JJN/x94s;TL2km
+395,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",383,11,"uZi(Vt%5m08ROI,2Q#T!"
+396,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",384,9,~*2VS`=uO[fx8S^s*1io
+397,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",385,10,uW%nz#JJN/x94s;TL2km
+398,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",386,11,"uZi(Vt%5m08ROI,2Q#T!"
+399,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",387,9,~*2VS`=uO[fx8S^s*1io
+400,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",388,10,uW%nz#JJN/x94s;TL2km
+401,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",389,11,"uZi(Vt%5m08ROI,2Q#T!"
+402,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",390,9,~*2VS`=uO[fx8S^s*1io
+403,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",391,10,uW%nz#JJN/x94s;TL2km
+404,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",392,11,"uZi(Vt%5m08ROI,2Q#T!"
+405,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",393,9,~*2VS`=uO[fx8S^s*1io
+406,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",394,10,uW%nz#JJN/x94s;TL2km
+407,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",395,11,"uZi(Vt%5m08ROI,2Q#T!"
+408,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",396,9,~*2VS`=uO[fx8S^s*1io
+409,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",397,10,uW%nz#JJN/x94s;TL2km
+410,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",398,11,"uZi(Vt%5m08ROI,2Q#T!"
+411,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",399,9,~*2VS`=uO[fx8S^s*1io
+412,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",400,10,uW%nz#JJN/x94s;TL2km
+413,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",401,11,"uZi(Vt%5m08ROI,2Q#T!"
+414,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",402,9,~*2VS`=uO[fx8S^s*1io
+415,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",403,10,uW%nz#JJN/x94s;TL2km
+416,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",404,11,"uZi(Vt%5m08ROI,2Q#T!"
+417,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",405,9,~*2VS`=uO[fx8S^s*1io
+418,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",406,10,uW%nz#JJN/x94s;TL2km
+419,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",407,11,"uZi(Vt%5m08ROI,2Q#T!"
+420,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""251""]], ""Y"": [1, [4, ""-48""]]}",408,9,qq[4$LVC_MT?mHoA4BAn
+421,looks_hide,,{},409,40,VHcxlGXDLo1:rNR[R:Fr
+422,procedures_call,,,410,3,".Zc!%k9,`O/^eUHqyRl;"
+423,procedures_definition,,,410,0,;sjQ4fGArf*5ne@ahC!@
+424,looks_show,,{},411,5,GDvdc8rRaZ_:Z:Q6Q3q%
+425,motion_gotoxy,,"{""X"": [1, [4, ""-274""]], ""Y"": [1, [4, ""-45""]]}",412,6,xU3{FO7Q8{^g]WFD%LKk
+426,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-20""]], ""Y"": [1, [4, ""-45""]]}",413,7,F);pJH4nchmXXKXFMl0-
+427,control_repeat,,,414,8,QX|[km9cXmWYBTo{xa0/
+428,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",415,9,~*2VS`=uO[fx8S^s*1io
+429,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",416,10,uW%nz#JJN/x94s;TL2km
+430,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",417,11,"uZi(Vt%5m08ROI,2Q#T!"
+431,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",418,9,~*2VS`=uO[fx8S^s*1io
+432,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",419,10,uW%nz#JJN/x94s;TL2km
+433,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",420,11,"uZi(Vt%5m08ROI,2Q#T!"
+434,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",421,9,~*2VS`=uO[fx8S^s*1io
+435,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",422,10,uW%nz#JJN/x94s;TL2km
+436,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",423,11,"uZi(Vt%5m08ROI,2Q#T!"
+437,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",424,9,~*2VS`=uO[fx8S^s*1io
+438,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",425,10,uW%nz#JJN/x94s;TL2km
+439,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",426,11,"uZi(Vt%5m08ROI,2Q#T!"
+440,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",427,9,~*2VS`=uO[fx8S^s*1io
+441,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",428,10,uW%nz#JJN/x94s;TL2km
+442,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",429,11,"uZi(Vt%5m08ROI,2Q#T!"
+443,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",430,9,~*2VS`=uO[fx8S^s*1io
+444,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",431,10,uW%nz#JJN/x94s;TL2km
+445,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",432,11,"uZi(Vt%5m08ROI,2Q#T!"
+446,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",433,9,~*2VS`=uO[fx8S^s*1io
+447,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",434,10,uW%nz#JJN/x94s;TL2km
+448,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",435,11,"uZi(Vt%5m08ROI,2Q#T!"
+449,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",436,9,~*2VS`=uO[fx8S^s*1io
+450,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",437,10,uW%nz#JJN/x94s;TL2km
+451,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",438,11,"uZi(Vt%5m08ROI,2Q#T!"
+452,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",439,9,~*2VS`=uO[fx8S^s*1io
+453,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",440,10,uW%nz#JJN/x94s;TL2km
+454,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",441,11,"uZi(Vt%5m08ROI,2Q#T!"
+455,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",442,9,~*2VS`=uO[fx8S^s*1io
+456,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",443,10,uW%nz#JJN/x94s;TL2km
+457,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",444,11,"uZi(Vt%5m08ROI,2Q#T!"
+458,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""251""]], ""Y"": [1, [4, ""-48""]]}",445,9,qq[4$LVC_MT?mHoA4BAn
+459,looks_hide,,{},446,40,VHcxlGXDLo1:rNR[R:Fr
+460,procedures_call,,,447,3,".Zc!%k9,`O/^eUHqyRl;"
+461,procedures_definition,,,447,0,;sjQ4fGArf*5ne@ahC!@
+462,looks_show,,{},448,5,GDvdc8rRaZ_:Z:Q6Q3q%
+463,motion_gotoxy,,"{""X"": [1, [4, ""-274""]], ""Y"": [1, [4, ""-45""]]}",449,6,xU3{FO7Q8{^g]WFD%LKk
+464,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-20""]], ""Y"": [1, [4, ""-45""]]}",450,7,F);pJH4nchmXXKXFMl0-
+465,control_repeat,,,451,8,QX|[km9cXmWYBTo{xa0/
+466,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",452,9,~*2VS`=uO[fx8S^s*1io
+467,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",453,10,uW%nz#JJN/x94s;TL2km
+468,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",454,11,"uZi(Vt%5m08ROI,2Q#T!"
+469,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",455,9,~*2VS`=uO[fx8S^s*1io
+470,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",456,10,uW%nz#JJN/x94s;TL2km
+471,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",457,11,"uZi(Vt%5m08ROI,2Q#T!"
+472,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",458,9,~*2VS`=uO[fx8S^s*1io
+473,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",459,10,uW%nz#JJN/x94s;TL2km
+474,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",460,11,"uZi(Vt%5m08ROI,2Q#T!"
+475,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",461,9,~*2VS`=uO[fx8S^s*1io
+476,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",462,10,uW%nz#JJN/x94s;TL2km
+477,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",463,11,"uZi(Vt%5m08ROI,2Q#T!"
+478,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",464,9,~*2VS`=uO[fx8S^s*1io
+479,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",465,10,uW%nz#JJN/x94s;TL2km
+480,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",466,11,"uZi(Vt%5m08ROI,2Q#T!"
+481,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",467,9,~*2VS`=uO[fx8S^s*1io
+482,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",468,10,uW%nz#JJN/x94s;TL2km
+483,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",469,11,"uZi(Vt%5m08ROI,2Q#T!"
+484,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",470,9,~*2VS`=uO[fx8S^s*1io
+485,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",471,10,uW%nz#JJN/x94s;TL2km
+486,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",472,11,"uZi(Vt%5m08ROI,2Q#T!"
+487,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",473,9,~*2VS`=uO[fx8S^s*1io
+488,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",474,10,uW%nz#JJN/x94s;TL2km
+489,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",475,11,"uZi(Vt%5m08ROI,2Q#T!"
+490,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",476,9,~*2VS`=uO[fx8S^s*1io
+491,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",477,10,uW%nz#JJN/x94s;TL2km
+492,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",478,11,"uZi(Vt%5m08ROI,2Q#T!"
+493,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",479,9,~*2VS`=uO[fx8S^s*1io
+494,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",480,10,uW%nz#JJN/x94s;TL2km
+495,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",481,11,"uZi(Vt%5m08ROI,2Q#T!"
+496,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""251""]], ""Y"": [1, [4, ""-48""]]}",482,9,qq[4$LVC_MT?mHoA4BAn
+497,looks_hide,,{},483,40,VHcxlGXDLo1:rNR[R:Fr
+498,procedures_call,,,484,3,".Zc!%k9,`O/^eUHqyRl;"
+499,procedures_definition,,,484,0,;sjQ4fGArf*5ne@ahC!@
+500,looks_show,,{},485,5,GDvdc8rRaZ_:Z:Q6Q3q%
+501,motion_gotoxy,,"{""X"": [1, [4, ""-274""]], ""Y"": [1, [4, ""-45""]]}",486,6,xU3{FO7Q8{^g]WFD%LKk
+502,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-20""]], ""Y"": [1, [4, ""-45""]]}",487,7,F);pJH4nchmXXKXFMl0-
+503,control_repeat,,,488,8,QX|[km9cXmWYBTo{xa0/
+504,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",489,9,~*2VS`=uO[fx8S^s*1io
+505,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",490,10,uW%nz#JJN/x94s;TL2km
+506,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",491,11,"uZi(Vt%5m08ROI,2Q#T!"
+507,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",492,9,~*2VS`=uO[fx8S^s*1io
+508,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",493,10,uW%nz#JJN/x94s;TL2km
+509,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",494,11,"uZi(Vt%5m08ROI,2Q#T!"
+510,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",495,9,~*2VS`=uO[fx8S^s*1io
+511,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",496,10,uW%nz#JJN/x94s;TL2km
+512,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",497,11,"uZi(Vt%5m08ROI,2Q#T!"
+513,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",498,9,~*2VS`=uO[fx8S^s*1io
+514,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",499,10,uW%nz#JJN/x94s;TL2km
+515,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",500,11,"uZi(Vt%5m08ROI,2Q#T!"
+516,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",501,9,~*2VS`=uO[fx8S^s*1io
+517,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",502,10,uW%nz#JJN/x94s;TL2km
+518,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",503,11,"uZi(Vt%5m08ROI,2Q#T!"
+519,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",504,9,~*2VS`=uO[fx8S^s*1io
+520,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",505,10,uW%nz#JJN/x94s;TL2km
+521,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",506,11,"uZi(Vt%5m08ROI,2Q#T!"
+522,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",507,9,~*2VS`=uO[fx8S^s*1io
+523,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",508,10,uW%nz#JJN/x94s;TL2km
+524,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",509,11,"uZi(Vt%5m08ROI,2Q#T!"
+525,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",510,9,~*2VS`=uO[fx8S^s*1io
+526,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",511,10,uW%nz#JJN/x94s;TL2km
+527,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",512,11,"uZi(Vt%5m08ROI,2Q#T!"
+528,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",513,9,~*2VS`=uO[fx8S^s*1io
+529,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",514,10,uW%nz#JJN/x94s;TL2km
+530,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",515,11,"uZi(Vt%5m08ROI,2Q#T!"
+531,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",516,9,~*2VS`=uO[fx8S^s*1io
+532,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",517,10,uW%nz#JJN/x94s;TL2km
+533,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",518,11,"uZi(Vt%5m08ROI,2Q#T!"
+534,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""251""]], ""Y"": [1, [4, ""-48""]]}",519,9,qq[4$LVC_MT?mHoA4BAn
+535,looks_hide,,{},520,40,VHcxlGXDLo1:rNR[R:Fr
+536,procedures_call,,,521,3,".Zc!%k9,`O/^eUHqyRl;"
+537,procedures_definition,,,521,0,;sjQ4fGArf*5ne@ahC!@
+538,looks_show,,{},522,5,GDvdc8rRaZ_:Z:Q6Q3q%
+539,motion_gotoxy,,"{""X"": [1, [4, ""-274""]], ""Y"": [1, [4, ""-45""]]}",523,6,xU3{FO7Q8{^g]WFD%LKk
+540,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-20""]], ""Y"": [1, [4, ""-45""]]}",524,7,F);pJH4nchmXXKXFMl0-
+541,control_repeat,,,525,8,QX|[km9cXmWYBTo{xa0/
+542,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",526,9,~*2VS`=uO[fx8S^s*1io
+543,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",527,10,uW%nz#JJN/x94s;TL2km
+544,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",528,11,"uZi(Vt%5m08ROI,2Q#T!"
+545,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",529,9,~*2VS`=uO[fx8S^s*1io
+546,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",530,10,uW%nz#JJN/x94s;TL2km
+547,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",531,11,"uZi(Vt%5m08ROI,2Q#T!"
+548,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",532,9,~*2VS`=uO[fx8S^s*1io
+549,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",533,10,uW%nz#JJN/x94s;TL2km
+550,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",534,11,"uZi(Vt%5m08ROI,2Q#T!"
+551,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",535,9,~*2VS`=uO[fx8S^s*1io
+552,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",536,10,uW%nz#JJN/x94s;TL2km
+553,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",537,11,"uZi(Vt%5m08ROI,2Q#T!"
+554,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",538,9,~*2VS`=uO[fx8S^s*1io
+555,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",539,10,uW%nz#JJN/x94s;TL2km
+556,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",540,11,"uZi(Vt%5m08ROI,2Q#T!"
+557,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",541,9,~*2VS`=uO[fx8S^s*1io
+558,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",542,10,uW%nz#JJN/x94s;TL2km
+559,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",543,11,"uZi(Vt%5m08ROI,2Q#T!"
+560,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",544,9,~*2VS`=uO[fx8S^s*1io
+561,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",545,10,uW%nz#JJN/x94s;TL2km
+562,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",546,11,"uZi(Vt%5m08ROI,2Q#T!"
+563,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",547,9,~*2VS`=uO[fx8S^s*1io
+564,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",548,10,uW%nz#JJN/x94s;TL2km
+565,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",549,11,"uZi(Vt%5m08ROI,2Q#T!"
+566,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",550,9,~*2VS`=uO[fx8S^s*1io
+567,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",551,10,uW%nz#JJN/x94s;TL2km
+568,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",552,11,"uZi(Vt%5m08ROI,2Q#T!"
+569,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",553,9,~*2VS`=uO[fx8S^s*1io
+570,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",554,10,uW%nz#JJN/x94s;TL2km
+571,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",555,11,"uZi(Vt%5m08ROI,2Q#T!"
+572,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""251""]], ""Y"": [1, [4, ""-48""]]}",556,9,qq[4$LVC_MT?mHoA4BAn
+573,looks_hide,,{},557,40,VHcxlGXDLo1:rNR[R:Fr
+574,procedures_call,,,558,3,".Zc!%k9,`O/^eUHqyRl;"
+575,procedures_definition,,,558,0,;sjQ4fGArf*5ne@ahC!@
+576,looks_show,,{},559,5,GDvdc8rRaZ_:Z:Q6Q3q%
+577,motion_gotoxy,,"{""X"": [1, [4, ""-274""]], ""Y"": [1, [4, ""-45""]]}",560,6,xU3{FO7Q8{^g]WFD%LKk
+578,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-20""]], ""Y"": [1, [4, ""-45""]]}",561,7,F);pJH4nchmXXKXFMl0-
+579,control_repeat,,,562,8,QX|[km9cXmWYBTo{xa0/
+580,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",563,9,~*2VS`=uO[fx8S^s*1io
+581,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",564,10,uW%nz#JJN/x94s;TL2km
+582,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",565,11,"uZi(Vt%5m08ROI,2Q#T!"
+583,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",566,9,~*2VS`=uO[fx8S^s*1io
+584,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",567,10,uW%nz#JJN/x94s;TL2km
+585,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",568,11,"uZi(Vt%5m08ROI,2Q#T!"
+586,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",569,9,~*2VS`=uO[fx8S^s*1io
+587,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",570,10,uW%nz#JJN/x94s;TL2km
+588,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",571,11,"uZi(Vt%5m08ROI,2Q#T!"
+589,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",572,9,~*2VS`=uO[fx8S^s*1io
+590,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",573,10,uW%nz#JJN/x94s;TL2km
+591,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",574,11,"uZi(Vt%5m08ROI,2Q#T!"
+592,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",575,9,~*2VS`=uO[fx8S^s*1io
+593,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",576,10,uW%nz#JJN/x94s;TL2km
+594,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",577,11,"uZi(Vt%5m08ROI,2Q#T!"
+595,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",578,9,~*2VS`=uO[fx8S^s*1io
+596,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",579,10,uW%nz#JJN/x94s;TL2km
+597,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",580,11,"uZi(Vt%5m08ROI,2Q#T!"
+598,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",581,9,~*2VS`=uO[fx8S^s*1io
+599,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",582,10,uW%nz#JJN/x94s;TL2km
+600,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",583,11,"uZi(Vt%5m08ROI,2Q#T!"
+601,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",584,9,~*2VS`=uO[fx8S^s*1io
+602,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",585,10,uW%nz#JJN/x94s;TL2km
+603,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",586,11,"uZi(Vt%5m08ROI,2Q#T!"
+604,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",587,9,~*2VS`=uO[fx8S^s*1io
+605,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",588,10,uW%nz#JJN/x94s;TL2km
+606,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",589,11,"uZi(Vt%5m08ROI,2Q#T!"
+607,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",590,9,~*2VS`=uO[fx8S^s*1io
+608,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",591,10,uW%nz#JJN/x94s;TL2km
+609,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",592,11,"uZi(Vt%5m08ROI,2Q#T!"
+610,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""251""]], ""Y"": [1, [4, ""-48""]]}",593,9,qq[4$LVC_MT?mHoA4BAn
+611,looks_hide,,{},594,40,VHcxlGXDLo1:rNR[R:Fr
+612,procedures_call,,,595,3,".Zc!%k9,`O/^eUHqyRl;"
+613,procedures_definition,,,595,0,;sjQ4fGArf*5ne@ahC!@
+614,looks_show,,{},596,5,GDvdc8rRaZ_:Z:Q6Q3q%
+615,motion_gotoxy,,"{""X"": [1, [4, ""-274""]], ""Y"": [1, [4, ""-45""]]}",597,6,xU3{FO7Q8{^g]WFD%LKk
+616,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-20""]], ""Y"": [1, [4, ""-45""]]}",598,7,F);pJH4nchmXXKXFMl0-
+617,control_repeat,,,599,8,QX|[km9cXmWYBTo{xa0/
+618,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",600,9,~*2VS`=uO[fx8S^s*1io
+619,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",601,10,uW%nz#JJN/x94s;TL2km
+620,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",602,11,"uZi(Vt%5m08ROI,2Q#T!"
+621,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",603,9,~*2VS`=uO[fx8S^s*1io
+622,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",604,10,uW%nz#JJN/x94s;TL2km
+623,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",605,11,"uZi(Vt%5m08ROI,2Q#T!"
+624,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",606,9,~*2VS`=uO[fx8S^s*1io
+625,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",607,10,uW%nz#JJN/x94s;TL2km
+626,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",608,11,"uZi(Vt%5m08ROI,2Q#T!"
+627,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",609,9,~*2VS`=uO[fx8S^s*1io
+628,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",610,10,uW%nz#JJN/x94s;TL2km
+629,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",611,11,"uZi(Vt%5m08ROI,2Q#T!"
+630,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",612,9,~*2VS`=uO[fx8S^s*1io
+631,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",613,10,uW%nz#JJN/x94s;TL2km
+632,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",614,11,"uZi(Vt%5m08ROI,2Q#T!"
+633,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",615,9,~*2VS`=uO[fx8S^s*1io
+634,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",616,10,uW%nz#JJN/x94s;TL2km
+635,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",617,11,"uZi(Vt%5m08ROI,2Q#T!"
+636,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",618,9,~*2VS`=uO[fx8S^s*1io
+637,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",619,10,uW%nz#JJN/x94s;TL2km
+638,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",620,11,"uZi(Vt%5m08ROI,2Q#T!"
+639,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",621,9,~*2VS`=uO[fx8S^s*1io
+640,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",622,10,uW%nz#JJN/x94s;TL2km
+641,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",623,11,"uZi(Vt%5m08ROI,2Q#T!"
+642,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",624,9,~*2VS`=uO[fx8S^s*1io
+643,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",625,10,uW%nz#JJN/x94s;TL2km
+644,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",626,11,"uZi(Vt%5m08ROI,2Q#T!"
+645,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",627,9,~*2VS`=uO[fx8S^s*1io
+646,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",628,10,uW%nz#JJN/x94s;TL2km
+647,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",629,11,"uZi(Vt%5m08ROI,2Q#T!"
+648,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""251""]], ""Y"": [1, [4, ""-48""]]}",630,9,qq[4$LVC_MT?mHoA4BAn
+649,looks_hide,,{},631,40,VHcxlGXDLo1:rNR[R:Fr
+650,procedures_call,,,632,3,".Zc!%k9,`O/^eUHqyRl;"
+651,procedures_definition,,,632,0,;sjQ4fGArf*5ne@ahC!@
+652,looks_show,,{},633,5,GDvdc8rRaZ_:Z:Q6Q3q%
+653,motion_gotoxy,,"{""X"": [1, [4, ""-274""]], ""Y"": [1, [4, ""-45""]]}",634,6,xU3{FO7Q8{^g]WFD%LKk
+654,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-20""]], ""Y"": [1, [4, ""-45""]]}",635,7,F);pJH4nchmXXKXFMl0-
+655,control_repeat,,,636,8,QX|[km9cXmWYBTo{xa0/
+656,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",637,9,~*2VS`=uO[fx8S^s*1io
+657,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",638,10,uW%nz#JJN/x94s;TL2km
+658,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",639,11,"uZi(Vt%5m08ROI,2Q#T!"
+659,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",640,9,~*2VS`=uO[fx8S^s*1io
+660,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",641,10,uW%nz#JJN/x94s;TL2km
+661,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",642,11,"uZi(Vt%5m08ROI,2Q#T!"
+662,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",643,9,~*2VS`=uO[fx8S^s*1io
+663,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",644,10,uW%nz#JJN/x94s;TL2km
+664,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",645,11,"uZi(Vt%5m08ROI,2Q#T!"
+665,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",646,9,~*2VS`=uO[fx8S^s*1io
+666,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",647,10,uW%nz#JJN/x94s;TL2km
+667,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",648,11,"uZi(Vt%5m08ROI,2Q#T!"
+668,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",649,9,~*2VS`=uO[fx8S^s*1io
+669,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",650,10,uW%nz#JJN/x94s;TL2km
+670,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",651,11,"uZi(Vt%5m08ROI,2Q#T!"
+671,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",652,9,~*2VS`=uO[fx8S^s*1io
+672,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",653,10,uW%nz#JJN/x94s;TL2km
+673,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",654,11,"uZi(Vt%5m08ROI,2Q#T!"
+674,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",655,9,~*2VS`=uO[fx8S^s*1io
+675,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",656,10,uW%nz#JJN/x94s;TL2km
+676,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",657,11,"uZi(Vt%5m08ROI,2Q#T!"
+677,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",658,9,~*2VS`=uO[fx8S^s*1io
+678,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",659,10,uW%nz#JJN/x94s;TL2km
+679,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",660,11,"uZi(Vt%5m08ROI,2Q#T!"
+680,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",661,9,~*2VS`=uO[fx8S^s*1io
+681,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",662,10,uW%nz#JJN/x94s;TL2km
+682,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",663,11,"uZi(Vt%5m08ROI,2Q#T!"
+683,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",664,9,~*2VS`=uO[fx8S^s*1io
+684,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",665,10,uW%nz#JJN/x94s;TL2km
+685,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",666,11,"uZi(Vt%5m08ROI,2Q#T!"
+686,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""251""]], ""Y"": [1, [4, ""-48""]]}",667,9,qq[4$LVC_MT?mHoA4BAn
+687,looks_hide,,{},668,40,VHcxlGXDLo1:rNR[R:Fr
+688,procedures_call,,,669,3,".Zc!%k9,`O/^eUHqyRl;"
+689,procedures_definition,,,669,0,;sjQ4fGArf*5ne@ahC!@
+690,looks_show,,{},670,5,GDvdc8rRaZ_:Z:Q6Q3q%
+691,motion_gotoxy,,"{""X"": [1, [4, ""-274""]], ""Y"": [1, [4, ""-45""]]}",671,6,xU3{FO7Q8{^g]WFD%LKk
+692,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-20""]], ""Y"": [1, [4, ""-45""]]}",672,7,F);pJH4nchmXXKXFMl0-
+693,control_repeat,,,673,8,QX|[km9cXmWYBTo{xa0/
+694,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",674,9,~*2VS`=uO[fx8S^s*1io
+695,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",675,10,uW%nz#JJN/x94s;TL2km
+696,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",676,11,"uZi(Vt%5m08ROI,2Q#T!"
+697,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",677,9,~*2VS`=uO[fx8S^s*1io
+698,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",678,10,uW%nz#JJN/x94s;TL2km
+699,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",679,11,"uZi(Vt%5m08ROI,2Q#T!"
+700,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",680,9,~*2VS`=uO[fx8S^s*1io
+701,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",681,10,uW%nz#JJN/x94s;TL2km
+702,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",682,11,"uZi(Vt%5m08ROI,2Q#T!"
+703,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",683,9,~*2VS`=uO[fx8S^s*1io
+704,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",684,10,uW%nz#JJN/x94s;TL2km
+705,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",685,11,"uZi(Vt%5m08ROI,2Q#T!"
+706,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",686,9,~*2VS`=uO[fx8S^s*1io
+707,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",687,10,uW%nz#JJN/x94s;TL2km
+708,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",688,11,"uZi(Vt%5m08ROI,2Q#T!"
+709,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",689,9,~*2VS`=uO[fx8S^s*1io
+710,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",690,10,uW%nz#JJN/x94s;TL2km
+711,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",691,11,"uZi(Vt%5m08ROI,2Q#T!"
+712,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",692,9,~*2VS`=uO[fx8S^s*1io
+713,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",693,10,uW%nz#JJN/x94s;TL2km
+714,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",694,11,"uZi(Vt%5m08ROI,2Q#T!"
+715,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",695,9,~*2VS`=uO[fx8S^s*1io
+716,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",696,10,uW%nz#JJN/x94s;TL2km
+717,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",697,11,"uZi(Vt%5m08ROI,2Q#T!"
+718,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",698,9,~*2VS`=uO[fx8S^s*1io
+719,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",699,10,uW%nz#JJN/x94s;TL2km
+720,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",700,11,"uZi(Vt%5m08ROI,2Q#T!"
+721,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",701,9,~*2VS`=uO[fx8S^s*1io
+722,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",702,10,uW%nz#JJN/x94s;TL2km
+723,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",703,11,"uZi(Vt%5m08ROI,2Q#T!"
+724,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""251""]], ""Y"": [1, [4, ""-48""]]}",704,9,qq[4$LVC_MT?mHoA4BAn
+725,looks_hide,,{},705,40,VHcxlGXDLo1:rNR[R:Fr
+726,procedures_call,,,706,3,".Zc!%k9,`O/^eUHqyRl;"
+727,procedures_definition,,,706,0,;sjQ4fGArf*5ne@ahC!@
+728,looks_show,,{},707,5,GDvdc8rRaZ_:Z:Q6Q3q%
+729,motion_gotoxy,,"{""X"": [1, [4, ""-274""]], ""Y"": [1, [4, ""-45""]]}",708,6,xU3{FO7Q8{^g]WFD%LKk
+730,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-20""]], ""Y"": [1, [4, ""-45""]]}",709,7,F);pJH4nchmXXKXFMl0-
+731,control_repeat,,,710,8,QX|[km9cXmWYBTo{xa0/
+732,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",711,9,~*2VS`=uO[fx8S^s*1io
+733,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",712,10,uW%nz#JJN/x94s;TL2km
+734,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",713,11,"uZi(Vt%5m08ROI,2Q#T!"
+735,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",714,9,~*2VS`=uO[fx8S^s*1io
+736,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",715,10,uW%nz#JJN/x94s;TL2km
+737,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",716,11,"uZi(Vt%5m08ROI,2Q#T!"
+738,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",717,9,~*2VS`=uO[fx8S^s*1io
+739,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",718,10,uW%nz#JJN/x94s;TL2km
+740,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",719,11,"uZi(Vt%5m08ROI,2Q#T!"
+741,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",720,9,~*2VS`=uO[fx8S^s*1io
+742,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",721,10,uW%nz#JJN/x94s;TL2km
+743,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",722,11,"uZi(Vt%5m08ROI,2Q#T!"
+744,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",723,9,~*2VS`=uO[fx8S^s*1io
+745,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",724,10,uW%nz#JJN/x94s;TL2km
+746,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",725,11,"uZi(Vt%5m08ROI,2Q#T!"
+747,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",726,9,~*2VS`=uO[fx8S^s*1io
+748,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",727,10,uW%nz#JJN/x94s;TL2km
+749,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",728,11,"uZi(Vt%5m08ROI,2Q#T!"
+750,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",729,9,~*2VS`=uO[fx8S^s*1io
+751,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",730,10,uW%nz#JJN/x94s;TL2km
+752,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",731,11,"uZi(Vt%5m08ROI,2Q#T!"
+753,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",732,9,~*2VS`=uO[fx8S^s*1io
+754,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",733,10,uW%nz#JJN/x94s;TL2km
+755,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",734,11,"uZi(Vt%5m08ROI,2Q#T!"
+756,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",735,9,~*2VS`=uO[fx8S^s*1io
+757,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",736,10,uW%nz#JJN/x94s;TL2km
+758,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",737,11,"uZi(Vt%5m08ROI,2Q#T!"
+759,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",738,9,~*2VS`=uO[fx8S^s*1io
+760,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",739,10,uW%nz#JJN/x94s;TL2km
+761,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",740,11,"uZi(Vt%5m08ROI,2Q#T!"
+762,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""251""]], ""Y"": [1, [4, ""-48""]]}",741,9,qq[4$LVC_MT?mHoA4BAn
+763,looks_hide,,{},742,40,VHcxlGXDLo1:rNR[R:Fr
+764,procedures_call,,,743,3,".Zc!%k9,`O/^eUHqyRl;"
+765,procedures_definition,,,743,0,;sjQ4fGArf*5ne@ahC!@
+766,looks_show,,{},744,5,GDvdc8rRaZ_:Z:Q6Q3q%
+767,motion_gotoxy,,"{""X"": [1, [4, ""-274""]], ""Y"": [1, [4, ""-45""]]}",745,6,xU3{FO7Q8{^g]WFD%LKk
+768,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-20""]], ""Y"": [1, [4, ""-45""]]}",746,7,F);pJH4nchmXXKXFMl0-
+769,control_repeat,,,747,8,QX|[km9cXmWYBTo{xa0/
+770,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",748,9,~*2VS`=uO[fx8S^s*1io
+771,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",749,10,uW%nz#JJN/x94s;TL2km
+772,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",750,11,"uZi(Vt%5m08ROI,2Q#T!"
+773,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",751,9,~*2VS`=uO[fx8S^s*1io
+774,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",752,10,uW%nz#JJN/x94s;TL2km
+775,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",753,11,"uZi(Vt%5m08ROI,2Q#T!"
+776,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",754,9,~*2VS`=uO[fx8S^s*1io
+777,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",755,10,uW%nz#JJN/x94s;TL2km
+778,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",756,11,"uZi(Vt%5m08ROI,2Q#T!"
+779,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",757,9,~*2VS`=uO[fx8S^s*1io
+780,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",758,10,uW%nz#JJN/x94s;TL2km
+781,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",759,11,"uZi(Vt%5m08ROI,2Q#T!"
+782,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",760,9,~*2VS`=uO[fx8S^s*1io
+783,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",761,10,uW%nz#JJN/x94s;TL2km
+784,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",762,11,"uZi(Vt%5m08ROI,2Q#T!"
+785,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",763,9,~*2VS`=uO[fx8S^s*1io
+786,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",764,10,uW%nz#JJN/x94s;TL2km
+787,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",765,11,"uZi(Vt%5m08ROI,2Q#T!"
+788,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",766,9,~*2VS`=uO[fx8S^s*1io
+789,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",767,10,uW%nz#JJN/x94s;TL2km
+790,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",768,11,"uZi(Vt%5m08ROI,2Q#T!"
+791,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",769,9,~*2VS`=uO[fx8S^s*1io
+792,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",770,10,uW%nz#JJN/x94s;TL2km
+793,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",771,11,"uZi(Vt%5m08ROI,2Q#T!"
+794,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",772,9,~*2VS`=uO[fx8S^s*1io
+795,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",773,10,uW%nz#JJN/x94s;TL2km
+796,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",774,11,"uZi(Vt%5m08ROI,2Q#T!"
+797,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",775,9,~*2VS`=uO[fx8S^s*1io
+798,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",776,10,uW%nz#JJN/x94s;TL2km
+799,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",777,11,"uZi(Vt%5m08ROI,2Q#T!"
+800,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""251""]], ""Y"": [1, [4, ""-48""]]}",778,9,qq[4$LVC_MT?mHoA4BAn
+801,looks_hide,,{},779,40,VHcxlGXDLo1:rNR[R:Fr
+802,procedures_call,,,780,3,".Zc!%k9,`O/^eUHqyRl;"
+803,procedures_definition,,,780,0,;sjQ4fGArf*5ne@ahC!@
+804,looks_show,,{},781,5,GDvdc8rRaZ_:Z:Q6Q3q%
+805,motion_gotoxy,,"{""X"": [1, [4, ""-274""]], ""Y"": [1, [4, ""-45""]]}",782,6,xU3{FO7Q8{^g]WFD%LKk
+806,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-20""]], ""Y"": [1, [4, ""-45""]]}",783,7,F);pJH4nchmXXKXFMl0-
+807,control_repeat,,,784,8,QX|[km9cXmWYBTo{xa0/
+808,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",785,9,~*2VS`=uO[fx8S^s*1io
+809,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",786,10,uW%nz#JJN/x94s;TL2km
+810,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",787,11,"uZi(Vt%5m08ROI,2Q#T!"
+811,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",788,9,~*2VS`=uO[fx8S^s*1io
+812,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",789,10,uW%nz#JJN/x94s;TL2km
+813,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",790,11,"uZi(Vt%5m08ROI,2Q#T!"
+814,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",791,9,~*2VS`=uO[fx8S^s*1io
+815,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",792,10,uW%nz#JJN/x94s;TL2km
+816,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",793,11,"uZi(Vt%5m08ROI,2Q#T!"
+817,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",794,9,~*2VS`=uO[fx8S^s*1io
+818,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",795,10,uW%nz#JJN/x94s;TL2km
+819,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",796,11,"uZi(Vt%5m08ROI,2Q#T!"
+820,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",797,9,~*2VS`=uO[fx8S^s*1io
+821,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",798,10,uW%nz#JJN/x94s;TL2km
+822,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",799,11,"uZi(Vt%5m08ROI,2Q#T!"
+823,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",800,9,~*2VS`=uO[fx8S^s*1io
+824,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",801,10,uW%nz#JJN/x94s;TL2km
+825,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",802,11,"uZi(Vt%5m08ROI,2Q#T!"
+826,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",803,9,~*2VS`=uO[fx8S^s*1io
+827,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",804,10,uW%nz#JJN/x94s;TL2km
+828,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",805,11,"uZi(Vt%5m08ROI,2Q#T!"
+829,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",806,9,~*2VS`=uO[fx8S^s*1io
+830,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",807,10,uW%nz#JJN/x94s;TL2km
+831,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",808,11,"uZi(Vt%5m08ROI,2Q#T!"
+832,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",809,9,~*2VS`=uO[fx8S^s*1io
+833,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",810,10,uW%nz#JJN/x94s;TL2km
+834,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",811,11,"uZi(Vt%5m08ROI,2Q#T!"
+835,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",812,9,~*2VS`=uO[fx8S^s*1io
+836,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",813,10,uW%nz#JJN/x94s;TL2km
+837,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",814,11,"uZi(Vt%5m08ROI,2Q#T!"
+838,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""251""]], ""Y"": [1, [4, ""-48""]]}",815,9,qq[4$LVC_MT?mHoA4BAn
+839,looks_hide,,{},816,40,VHcxlGXDLo1:rNR[R:Fr
+840,procedures_call,,,817,3,".Zc!%k9,`O/^eUHqyRl;"
+841,procedures_definition,,,817,0,;sjQ4fGArf*5ne@ahC!@
+842,looks_show,,{},818,5,GDvdc8rRaZ_:Z:Q6Q3q%
+843,motion_gotoxy,,"{""X"": [1, [4, ""-274""]], ""Y"": [1, [4, ""-45""]]}",819,6,xU3{FO7Q8{^g]WFD%LKk
+844,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-20""]], ""Y"": [1, [4, ""-45""]]}",820,7,F);pJH4nchmXXKXFMl0-
+845,control_repeat,,,821,8,QX|[km9cXmWYBTo{xa0/
+846,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",822,9,~*2VS`=uO[fx8S^s*1io
+847,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",823,10,uW%nz#JJN/x94s;TL2km
+848,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",824,11,"uZi(Vt%5m08ROI,2Q#T!"
+849,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",825,9,~*2VS`=uO[fx8S^s*1io
+850,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",826,10,uW%nz#JJN/x94s;TL2km
+851,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",827,11,"uZi(Vt%5m08ROI,2Q#T!"
+852,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",828,9,~*2VS`=uO[fx8S^s*1io
+853,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",829,10,uW%nz#JJN/x94s;TL2km
+854,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",830,11,"uZi(Vt%5m08ROI,2Q#T!"
+855,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",831,9,~*2VS`=uO[fx8S^s*1io
+856,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",832,10,uW%nz#JJN/x94s;TL2km
+857,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",833,11,"uZi(Vt%5m08ROI,2Q#T!"
+858,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",834,9,~*2VS`=uO[fx8S^s*1io
+859,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",835,10,uW%nz#JJN/x94s;TL2km
+860,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",836,11,"uZi(Vt%5m08ROI,2Q#T!"
+861,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",837,9,~*2VS`=uO[fx8S^s*1io
+862,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",838,10,uW%nz#JJN/x94s;TL2km
+863,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",839,11,"uZi(Vt%5m08ROI,2Q#T!"
+864,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",840,9,~*2VS`=uO[fx8S^s*1io
+865,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",841,10,uW%nz#JJN/x94s;TL2km
+866,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",842,11,"uZi(Vt%5m08ROI,2Q#T!"
+867,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",843,9,~*2VS`=uO[fx8S^s*1io
+868,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",844,10,uW%nz#JJN/x94s;TL2km
+869,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",845,11,"uZi(Vt%5m08ROI,2Q#T!"
+870,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",846,9,~*2VS`=uO[fx8S^s*1io
+871,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",847,10,uW%nz#JJN/x94s;TL2km
+872,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",848,11,"uZi(Vt%5m08ROI,2Q#T!"
+873,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",849,9,~*2VS`=uO[fx8S^s*1io
+874,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",850,10,uW%nz#JJN/x94s;TL2km
+875,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",851,11,"uZi(Vt%5m08ROI,2Q#T!"
+876,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""251""]], ""Y"": [1, [4, ""-48""]]}",852,9,qq[4$LVC_MT?mHoA4BAn
+877,looks_hide,,{},853,40,VHcxlGXDLo1:rNR[R:Fr
+878,procedures_call,,,854,3,".Zc!%k9,`O/^eUHqyRl;"
+879,procedures_definition,,,854,0,;sjQ4fGArf*5ne@ahC!@
+880,looks_show,,{},855,5,GDvdc8rRaZ_:Z:Q6Q3q%
+881,motion_gotoxy,,"{""X"": [1, [4, ""-274""]], ""Y"": [1, [4, ""-45""]]}",856,6,xU3{FO7Q8{^g]WFD%LKk
+882,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-20""]], ""Y"": [1, [4, ""-45""]]}",857,7,F);pJH4nchmXXKXFMl0-
+883,control_repeat,,,858,8,QX|[km9cXmWYBTo{xa0/
+884,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",859,9,~*2VS`=uO[fx8S^s*1io
+885,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",860,10,uW%nz#JJN/x94s;TL2km
+886,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",861,11,"uZi(Vt%5m08ROI,2Q#T!"
+887,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",862,9,~*2VS`=uO[fx8S^s*1io
+888,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",863,10,uW%nz#JJN/x94s;TL2km
+889,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",864,11,"uZi(Vt%5m08ROI,2Q#T!"
+890,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",865,9,~*2VS`=uO[fx8S^s*1io
+891,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",866,10,uW%nz#JJN/x94s;TL2km
+892,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",867,11,"uZi(Vt%5m08ROI,2Q#T!"
+893,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",868,9,~*2VS`=uO[fx8S^s*1io
+894,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",869,10,uW%nz#JJN/x94s;TL2km
+895,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",870,11,"uZi(Vt%5m08ROI,2Q#T!"
+896,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",871,9,~*2VS`=uO[fx8S^s*1io
+897,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",872,10,uW%nz#JJN/x94s;TL2km
+898,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",873,11,"uZi(Vt%5m08ROI,2Q#T!"
+899,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",874,9,~*2VS`=uO[fx8S^s*1io
+900,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",875,10,uW%nz#JJN/x94s;TL2km
+901,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",876,11,"uZi(Vt%5m08ROI,2Q#T!"
+902,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",877,9,~*2VS`=uO[fx8S^s*1io
+903,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",878,10,uW%nz#JJN/x94s;TL2km
+904,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",879,11,"uZi(Vt%5m08ROI,2Q#T!"
+905,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",880,9,~*2VS`=uO[fx8S^s*1io
+906,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",881,10,uW%nz#JJN/x94s;TL2km
+907,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",882,11,"uZi(Vt%5m08ROI,2Q#T!"
+908,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",883,9,~*2VS`=uO[fx8S^s*1io
+909,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",884,10,uW%nz#JJN/x94s;TL2km
+910,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",885,11,"uZi(Vt%5m08ROI,2Q#T!"
+911,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",886,9,~*2VS`=uO[fx8S^s*1io
+912,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",887,10,uW%nz#JJN/x94s;TL2km
+913,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",888,11,"uZi(Vt%5m08ROI,2Q#T!"
+914,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""251""]], ""Y"": [1, [4, ""-48""]]}",889,9,qq[4$LVC_MT?mHoA4BAn
+915,looks_hide,,{},890,40,VHcxlGXDLo1:rNR[R:Fr
+916,procedures_call,,,891,3,".Zc!%k9,`O/^eUHqyRl;"
+917,procedures_definition,,,891,0,;sjQ4fGArf*5ne@ahC!@
+918,looks_show,,{},892,5,GDvdc8rRaZ_:Z:Q6Q3q%
+919,motion_gotoxy,,"{""X"": [1, [4, ""-274""]], ""Y"": [1, [4, ""-45""]]}",893,6,xU3{FO7Q8{^g]WFD%LKk
+920,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-20""]], ""Y"": [1, [4, ""-45""]]}",894,7,F);pJH4nchmXXKXFMl0-
+921,control_repeat,,,895,8,QX|[km9cXmWYBTo{xa0/
+922,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",896,9,~*2VS`=uO[fx8S^s*1io
+923,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",897,10,uW%nz#JJN/x94s;TL2km
+924,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",898,11,"uZi(Vt%5m08ROI,2Q#T!"
+925,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",899,9,~*2VS`=uO[fx8S^s*1io
+926,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",900,10,uW%nz#JJN/x94s;TL2km
+927,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",901,11,"uZi(Vt%5m08ROI,2Q#T!"
+928,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",902,9,~*2VS`=uO[fx8S^s*1io
+929,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",903,10,uW%nz#JJN/x94s;TL2km
+930,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",904,11,"uZi(Vt%5m08ROI,2Q#T!"
+931,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",905,9,~*2VS`=uO[fx8S^s*1io
+932,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",906,10,uW%nz#JJN/x94s;TL2km
+933,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",907,11,"uZi(Vt%5m08ROI,2Q#T!"
+934,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",908,9,~*2VS`=uO[fx8S^s*1io
+935,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",909,10,uW%nz#JJN/x94s;TL2km
+936,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",910,11,"uZi(Vt%5m08ROI,2Q#T!"
+937,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",911,9,~*2VS`=uO[fx8S^s*1io
+938,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",912,10,uW%nz#JJN/x94s;TL2km
+939,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",913,11,"uZi(Vt%5m08ROI,2Q#T!"
+940,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",914,9,~*2VS`=uO[fx8S^s*1io
+941,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",915,10,uW%nz#JJN/x94s;TL2km
+942,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",916,11,"uZi(Vt%5m08ROI,2Q#T!"
+943,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",917,9,~*2VS`=uO[fx8S^s*1io
+944,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",918,10,uW%nz#JJN/x94s;TL2km
+945,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",919,11,"uZi(Vt%5m08ROI,2Q#T!"
+946,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",920,9,~*2VS`=uO[fx8S^s*1io
+947,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",921,10,uW%nz#JJN/x94s;TL2km
+948,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",922,11,"uZi(Vt%5m08ROI,2Q#T!"
+949,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",923,9,~*2VS`=uO[fx8S^s*1io
+950,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",924,10,uW%nz#JJN/x94s;TL2km
+951,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",925,11,"uZi(Vt%5m08ROI,2Q#T!"
+952,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""251""]], ""Y"": [1, [4, ""-48""]]}",926,9,qq[4$LVC_MT?mHoA4BAn
+953,looks_hide,,{},927,40,VHcxlGXDLo1:rNR[R:Fr
+954,procedures_call,,,928,3,".Zc!%k9,`O/^eUHqyRl;"
+955,procedures_definition,,,928,0,;sjQ4fGArf*5ne@ahC!@
+956,looks_show,,{},929,5,GDvdc8rRaZ_:Z:Q6Q3q%
+957,motion_gotoxy,,"{""X"": [1, [4, ""-274""]], ""Y"": [1, [4, ""-45""]]}",930,6,xU3{FO7Q8{^g]WFD%LKk
+958,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-20""]], ""Y"": [1, [4, ""-45""]]}",931,7,F);pJH4nchmXXKXFMl0-
+959,control_repeat,,,932,8,QX|[km9cXmWYBTo{xa0/
+960,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",933,9,~*2VS`=uO[fx8S^s*1io
+961,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",934,10,uW%nz#JJN/x94s;TL2km
+962,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",935,11,"uZi(Vt%5m08ROI,2Q#T!"
+963,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",936,9,~*2VS`=uO[fx8S^s*1io
+964,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",937,10,uW%nz#JJN/x94s;TL2km
+965,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",938,11,"uZi(Vt%5m08ROI,2Q#T!"
+966,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",939,9,~*2VS`=uO[fx8S^s*1io
+967,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",940,10,uW%nz#JJN/x94s;TL2km
+968,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",941,11,"uZi(Vt%5m08ROI,2Q#T!"
+969,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",942,9,~*2VS`=uO[fx8S^s*1io
+970,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",943,10,uW%nz#JJN/x94s;TL2km
+971,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",944,11,"uZi(Vt%5m08ROI,2Q#T!"
+972,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",945,9,~*2VS`=uO[fx8S^s*1io
+973,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",946,10,uW%nz#JJN/x94s;TL2km
+974,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",947,11,"uZi(Vt%5m08ROI,2Q#T!"
+975,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",948,9,~*2VS`=uO[fx8S^s*1io
+976,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",949,10,uW%nz#JJN/x94s;TL2km
+977,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",950,11,"uZi(Vt%5m08ROI,2Q#T!"
+978,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",951,9,~*2VS`=uO[fx8S^s*1io
+979,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",952,10,uW%nz#JJN/x94s;TL2km
+980,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",953,11,"uZi(Vt%5m08ROI,2Q#T!"
+981,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",954,9,~*2VS`=uO[fx8S^s*1io
+982,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",955,10,uW%nz#JJN/x94s;TL2km
+983,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",956,11,"uZi(Vt%5m08ROI,2Q#T!"
+984,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",957,9,~*2VS`=uO[fx8S^s*1io
+985,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",958,10,uW%nz#JJN/x94s;TL2km
+986,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",959,11,"uZi(Vt%5m08ROI,2Q#T!"
+987,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",960,9,~*2VS`=uO[fx8S^s*1io
+988,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",961,10,uW%nz#JJN/x94s;TL2km
+989,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",962,11,"uZi(Vt%5m08ROI,2Q#T!"
+990,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""251""]], ""Y"": [1, [4, ""-48""]]}",963,9,qq[4$LVC_MT?mHoA4BAn
+991,looks_hide,,{},964,40,VHcxlGXDLo1:rNR[R:Fr
+992,procedures_call,,,965,3,".Zc!%k9,`O/^eUHqyRl;"
+993,procedures_definition,,,965,0,;sjQ4fGArf*5ne@ahC!@
+994,looks_show,,{},966,5,GDvdc8rRaZ_:Z:Q6Q3q%
+995,motion_gotoxy,,"{""X"": [1, [4, ""-274""]], ""Y"": [1, [4, ""-45""]]}",967,6,xU3{FO7Q8{^g]WFD%LKk
+996,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-20""]], ""Y"": [1, [4, ""-45""]]}",968,7,F);pJH4nchmXXKXFMl0-
+997,control_repeat,,,969,8,QX|[km9cXmWYBTo{xa0/
+998,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",970,9,~*2VS`=uO[fx8S^s*1io
+999,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",971,10,uW%nz#JJN/x94s;TL2km
+1000,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",972,11,"uZi(Vt%5m08ROI,2Q#T!"
+1001,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",973,9,~*2VS`=uO[fx8S^s*1io
+1002,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",974,10,uW%nz#JJN/x94s;TL2km
+1003,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",975,11,"uZi(Vt%5m08ROI,2Q#T!"
+1004,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",976,9,~*2VS`=uO[fx8S^s*1io
+1005,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",977,10,uW%nz#JJN/x94s;TL2km
+1006,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",978,11,"uZi(Vt%5m08ROI,2Q#T!"
+1007,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",979,9,~*2VS`=uO[fx8S^s*1io
+1008,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",980,10,uW%nz#JJN/x94s;TL2km
+1009,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",981,11,"uZi(Vt%5m08ROI,2Q#T!"
+1010,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",982,9,~*2VS`=uO[fx8S^s*1io
+1011,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",983,10,uW%nz#JJN/x94s;TL2km
+1012,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",984,11,"uZi(Vt%5m08ROI,2Q#T!"
+1013,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",985,9,~*2VS`=uO[fx8S^s*1io
+1014,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",986,10,uW%nz#JJN/x94s;TL2km
+1015,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",987,11,"uZi(Vt%5m08ROI,2Q#T!"
+1016,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",988,9,~*2VS`=uO[fx8S^s*1io
+1017,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",989,10,uW%nz#JJN/x94s;TL2km
+1018,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",990,11,"uZi(Vt%5m08ROI,2Q#T!"
+1019,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",991,9,~*2VS`=uO[fx8S^s*1io
+1020,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",992,10,uW%nz#JJN/x94s;TL2km
+1021,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",993,11,"uZi(Vt%5m08ROI,2Q#T!"
+1022,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",994,9,~*2VS`=uO[fx8S^s*1io
+1023,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",995,10,uW%nz#JJN/x94s;TL2km
+1024,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",996,11,"uZi(Vt%5m08ROI,2Q#T!"
+1025,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",997,9,~*2VS`=uO[fx8S^s*1io
+1026,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",998,10,uW%nz#JJN/x94s;TL2km
+1027,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",999,11,"uZi(Vt%5m08ROI,2Q#T!"
+1028,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""251""]], ""Y"": [1, [4, ""-48""]]}",1000,9,qq[4$LVC_MT?mHoA4BAn
+1029,looks_hide,,{},1001,40,VHcxlGXDLo1:rNR[R:Fr
+1030,procedures_call,,,1002,3,".Zc!%k9,`O/^eUHqyRl;"
+1031,procedures_definition,,,1002,0,;sjQ4fGArf*5ne@ahC!@
+1032,looks_show,,{},1003,5,GDvdc8rRaZ_:Z:Q6Q3q%
+1033,motion_gotoxy,,"{""X"": [1, [4, ""-274""]], ""Y"": [1, [4, ""-45""]]}",1004,6,xU3{FO7Q8{^g]WFD%LKk
+1034,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-20""]], ""Y"": [1, [4, ""-45""]]}",1005,7,F);pJH4nchmXXKXFMl0-
+1035,control_repeat,,,1006,8,QX|[km9cXmWYBTo{xa0/
+1036,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",1007,9,~*2VS`=uO[fx8S^s*1io
+1037,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",1008,10,uW%nz#JJN/x94s;TL2km
+1038,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",1009,11,"uZi(Vt%5m08ROI,2Q#T!"
+1039,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",1010,9,~*2VS`=uO[fx8S^s*1io
+1040,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",1011,10,uW%nz#JJN/x94s;TL2km
+1041,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",1012,11,"uZi(Vt%5m08ROI,2Q#T!"
+1042,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",1013,9,~*2VS`=uO[fx8S^s*1io
+1043,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",1014,10,uW%nz#JJN/x94s;TL2km
+1044,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",1015,11,"uZi(Vt%5m08ROI,2Q#T!"
+1045,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",1016,9,~*2VS`=uO[fx8S^s*1io
+1046,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",1017,10,uW%nz#JJN/x94s;TL2km
+1047,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",1018,11,"uZi(Vt%5m08ROI,2Q#T!"
+1048,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",1019,9,~*2VS`=uO[fx8S^s*1io
+1049,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",1020,10,uW%nz#JJN/x94s;TL2km
+1050,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",1021,11,"uZi(Vt%5m08ROI,2Q#T!"
+1051,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",1022,9,~*2VS`=uO[fx8S^s*1io
+1052,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",1023,10,uW%nz#JJN/x94s;TL2km
+1053,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",1024,11,"uZi(Vt%5m08ROI,2Q#T!"
+1054,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",1025,9,~*2VS`=uO[fx8S^s*1io
+1055,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",1026,10,uW%nz#JJN/x94s;TL2km
+1056,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",1027,11,"uZi(Vt%5m08ROI,2Q#T!"
+1057,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",1028,9,~*2VS`=uO[fx8S^s*1io
+1058,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",1029,10,uW%nz#JJN/x94s;TL2km
+1059,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",1030,11,"uZi(Vt%5m08ROI,2Q#T!"
+1060,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",1031,9,~*2VS`=uO[fx8S^s*1io
+1061,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",1032,10,uW%nz#JJN/x94s;TL2km
+1062,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",1033,11,"uZi(Vt%5m08ROI,2Q#T!"
+1063,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",1034,9,~*2VS`=uO[fx8S^s*1io
+1064,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",1035,10,uW%nz#JJN/x94s;TL2km
+1065,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",1036,11,"uZi(Vt%5m08ROI,2Q#T!"
+1066,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""251""]], ""Y"": [1, [4, ""-48""]]}",1037,9,qq[4$LVC_MT?mHoA4BAn
+1067,looks_hide,,{},1038,40,VHcxlGXDLo1:rNR[R:Fr
+1068,procedures_call,,,1039,3,".Zc!%k9,`O/^eUHqyRl;"
+1069,procedures_definition,,,1039,0,;sjQ4fGArf*5ne@ahC!@
+1070,looks_show,,{},1040,5,GDvdc8rRaZ_:Z:Q6Q3q%
+1071,motion_gotoxy,,"{""X"": [1, [4, ""-274""]], ""Y"": [1, [4, ""-45""]]}",1041,6,xU3{FO7Q8{^g]WFD%LKk
+1072,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-20""]], ""Y"": [1, [4, ""-45""]]}",1042,7,F);pJH4nchmXXKXFMl0-
+1073,control_repeat,,,1043,8,QX|[km9cXmWYBTo{xa0/
+1074,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",1044,9,~*2VS`=uO[fx8S^s*1io
+1075,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",1045,10,uW%nz#JJN/x94s;TL2km
+1076,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",1046,11,"uZi(Vt%5m08ROI,2Q#T!"
+1077,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",1047,9,~*2VS`=uO[fx8S^s*1io
+1078,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",1048,10,uW%nz#JJN/x94s;TL2km
+1079,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",1049,11,"uZi(Vt%5m08ROI,2Q#T!"
+1080,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",1050,9,~*2VS`=uO[fx8S^s*1io
+1081,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",1051,10,uW%nz#JJN/x94s;TL2km
+1082,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",1052,11,"uZi(Vt%5m08ROI,2Q#T!"
+1083,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",1053,9,~*2VS`=uO[fx8S^s*1io
+1084,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",1054,10,uW%nz#JJN/x94s;TL2km
+1085,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",1055,11,"uZi(Vt%5m08ROI,2Q#T!"
+1086,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",1056,9,~*2VS`=uO[fx8S^s*1io
+1087,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",1057,10,uW%nz#JJN/x94s;TL2km
+1088,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",1058,11,"uZi(Vt%5m08ROI,2Q#T!"
+1089,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",1059,9,~*2VS`=uO[fx8S^s*1io
+1090,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",1060,10,uW%nz#JJN/x94s;TL2km
+1091,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",1061,11,"uZi(Vt%5m08ROI,2Q#T!"
+1092,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",1062,9,~*2VS`=uO[fx8S^s*1io
+1093,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",1063,10,uW%nz#JJN/x94s;TL2km
+1094,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",1064,11,"uZi(Vt%5m08ROI,2Q#T!"
+1095,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",1065,9,~*2VS`=uO[fx8S^s*1io
+1096,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",1066,10,uW%nz#JJN/x94s;TL2km
+1097,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",1067,11,"uZi(Vt%5m08ROI,2Q#T!"
+1098,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",1068,9,~*2VS`=uO[fx8S^s*1io
+1099,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",1069,10,uW%nz#JJN/x94s;TL2km
+1100,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",1070,11,"uZi(Vt%5m08ROI,2Q#T!"
+1101,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",1071,9,~*2VS`=uO[fx8S^s*1io
+1102,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",1072,10,uW%nz#JJN/x94s;TL2km
+1103,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",1073,11,"uZi(Vt%5m08ROI,2Q#T!"
+1104,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""251""]], ""Y"": [1, [4, ""-48""]]}",1074,9,qq[4$LVC_MT?mHoA4BAn
+1105,looks_hide,,{},1075,40,VHcxlGXDLo1:rNR[R:Fr
+1106,procedures_call,,,1076,3,".Zc!%k9,`O/^eUHqyRl;"
+1107,procedures_definition,,,1076,0,;sjQ4fGArf*5ne@ahC!@
+1108,looks_show,,{},1077,5,GDvdc8rRaZ_:Z:Q6Q3q%
+1109,motion_gotoxy,,"{""X"": [1, [4, ""-274""]], ""Y"": [1, [4, ""-45""]]}",1078,6,xU3{FO7Q8{^g]WFD%LKk
+1110,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-20""]], ""Y"": [1, [4, ""-45""]]}",1079,7,F);pJH4nchmXXKXFMl0-
+1111,control_repeat,,,1080,8,QX|[km9cXmWYBTo{xa0/
+1112,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",1081,9,~*2VS`=uO[fx8S^s*1io
+1113,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",1082,10,uW%nz#JJN/x94s;TL2km
+1114,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",1083,11,"uZi(Vt%5m08ROI,2Q#T!"
+1115,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",1084,9,~*2VS`=uO[fx8S^s*1io
+1116,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",1085,10,uW%nz#JJN/x94s;TL2km
+1117,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",1086,11,"uZi(Vt%5m08ROI,2Q#T!"
+1118,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",1087,9,~*2VS`=uO[fx8S^s*1io
+1119,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",1088,10,uW%nz#JJN/x94s;TL2km
+1120,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",1089,11,"uZi(Vt%5m08ROI,2Q#T!"
+1121,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",1090,9,~*2VS`=uO[fx8S^s*1io
+1122,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",1091,10,uW%nz#JJN/x94s;TL2km
+1123,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",1092,11,"uZi(Vt%5m08ROI,2Q#T!"
+1124,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",1093,9,~*2VS`=uO[fx8S^s*1io
+1125,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",1094,10,uW%nz#JJN/x94s;TL2km
+1126,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",1095,11,"uZi(Vt%5m08ROI,2Q#T!"
+1127,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",1096,9,~*2VS`=uO[fx8S^s*1io
+1128,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",1097,10,uW%nz#JJN/x94s;TL2km
+1129,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",1098,11,"uZi(Vt%5m08ROI,2Q#T!"
+1130,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",1099,9,~*2VS`=uO[fx8S^s*1io
+1131,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",1100,10,uW%nz#JJN/x94s;TL2km
+1132,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",1101,11,"uZi(Vt%5m08ROI,2Q#T!"
+1133,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",1102,9,~*2VS`=uO[fx8S^s*1io
+1134,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",1103,10,uW%nz#JJN/x94s;TL2km
+1135,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",1104,11,"uZi(Vt%5m08ROI,2Q#T!"
+1136,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",1105,9,~*2VS`=uO[fx8S^s*1io
+1137,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",1106,10,uW%nz#JJN/x94s;TL2km
+1138,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",1107,11,"uZi(Vt%5m08ROI,2Q#T!"
+1139,motion_turnleft,,"{""DEGREES"": [1, [4, ""15""]]}",1108,9,~*2VS`=uO[fx8S^s*1io
+1140,control_wait,,"{""DURATION"": [1, [5, "".3""]]}",1109,10,uW%nz#JJN/x94s;TL2km
+1141,motion_turnright,,"{""DEGREES"": [1, [4, ""15""]]}",1110,11,"uZi(Vt%5m08ROI,2Q#T!"
+1142,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""251""]], ""Y"": [1, [4, ""-48""]]}",1111,9,qq[4$LVC_MT?mHoA4BAn
+1143,looks_hide,,{},1112,40,VHcxlGXDLo1:rNR[R:Fr

@@ -1,0 +1,11 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,17.999999999999986,-15,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,3Vu*oce0t8ugP@9ytbk-
+3,motion_gotoxy,,"{""X"": [1, [4, ""0""]], ""Y"": [1, [4, ""0""]]}",2,2,5n17spaR$]$~9%(*X6Na
+4,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""90""]]}",3,3,D%Ae~F-nWcyWB6fA]T8d
+5,pen_clear,,{},4,4,yJ0/-[OnWE+?|z5u(`l5
+6,pen_penDown,,{},5,5,y?i$CoK(yL;ulXnfyx()
+7,sensing_askandwait,,"{""QUESTION"": [1, [10, ""請問您想要畫出幾邊型呢?""]]}",6,6,o8/V`rl!`0FPk56l/y(#
+8,control_repeat,,,7,7,+s_)bNR;LmBjJJ9U{ghw
+9,pen_penUp,,{},8,8,6V(;iq=Jsc[g/uAsD{/G

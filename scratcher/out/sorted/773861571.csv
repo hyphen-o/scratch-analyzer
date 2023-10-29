@@ -1,0 +1,97 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,180,-200.4705882352941,-110.8235294117647,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,~WRO?5F}8tTr=^#!U^4{
+3,motion_setrotationstyle,,{},2,2,"#EgatOtW`VRqP(@?N=,{"
+4,motion_pointindirection,,"{""DIRECTION"": [1, [8, ""180""]]}",3,3,iDl:y!]Nu6emRo?G]wPv
+5,control_forever,,,4,4,s9omLC4m_@4%gxWVp6U7
+6,motion_movesteps,,"{""STEPS"": [1, [4, ""1""]]}",5,5,s@)=R1Cx(;GVw[YC7Rt7
+7,control_if,,,6,6,rY]iEfW?s~`]wKW=I%$B
+8,motion_turnleft,,"{""DEGREES"": [1, [4, ""180""]]}",7,7,]$BrFkLE(7*RM@Kw]_Vw
+9,motion_movesteps,,"{""STEPS"": [1, [4, ""1""]]}",8,5,s@)=R1Cx(;GVw[YC7Rt7
+10,control_if,,,9,6,rY]iEfW?s~`]wKW=I%$B
+11,motion_turnleft,,"{""DEGREES"": [1, [4, ""180""]]}",10,7,]$BrFkLE(7*RM@Kw]_Vw
+12,motion_movesteps,,"{""STEPS"": [1, [4, ""1""]]}",11,5,s@)=R1Cx(;GVw[YC7Rt7
+13,control_if,,,12,6,rY]iEfW?s~`]wKW=I%$B
+14,motion_turnleft,,"{""DEGREES"": [1, [4, ""180""]]}",13,7,]$BrFkLE(7*RM@Kw]_Vw
+15,motion_movesteps,,"{""STEPS"": [1, [4, ""1""]]}",14,5,s@)=R1Cx(;GVw[YC7Rt7
+16,control_if,,,15,6,rY]iEfW?s~`]wKW=I%$B
+17,motion_turnleft,,"{""DEGREES"": [1, [4, ""180""]]}",16,7,]$BrFkLE(7*RM@Kw]_Vw
+18,motion_movesteps,,"{""STEPS"": [1, [4, ""1""]]}",17,5,s@)=R1Cx(;GVw[YC7Rt7
+19,control_if,,,18,6,rY]iEfW?s~`]wKW=I%$B
+20,motion_turnleft,,"{""DEGREES"": [1, [4, ""180""]]}",19,7,]$BrFkLE(7*RM@Kw]_Vw
+21,motion_movesteps,,"{""STEPS"": [1, [4, ""1""]]}",20,5,s@)=R1Cx(;GVw[YC7Rt7
+22,control_if,,,21,6,rY]iEfW?s~`]wKW=I%$B
+23,motion_turnleft,,"{""DEGREES"": [1, [4, ""180""]]}",22,7,]$BrFkLE(7*RM@Kw]_Vw
+24,motion_movesteps,,"{""STEPS"": [1, [4, ""1""]]}",23,5,s@)=R1Cx(;GVw[YC7Rt7
+25,control_if,,,24,6,rY]iEfW?s~`]wKW=I%$B
+26,motion_turnleft,,"{""DEGREES"": [1, [4, ""180""]]}",25,7,]$BrFkLE(7*RM@Kw]_Vw
+27,motion_movesteps,,"{""STEPS"": [1, [4, ""1""]]}",26,5,s@)=R1Cx(;GVw[YC7Rt7
+28,control_if,,,27,6,rY]iEfW?s~`]wKW=I%$B
+29,motion_turnleft,,"{""DEGREES"": [1, [4, ""180""]]}",28,7,]$BrFkLE(7*RM@Kw]_Vw
+30,motion_movesteps,,"{""STEPS"": [1, [4, ""1""]]}",29,5,s@)=R1Cx(;GVw[YC7Rt7
+31,control_if,,,30,6,rY]iEfW?s~`]wKW=I%$B
+32,motion_turnleft,,"{""DEGREES"": [1, [4, ""180""]]}",31,7,]$BrFkLE(7*RM@Kw]_Vw
+33,motion_movesteps,,"{""STEPS"": [1, [4, ""1""]]}",32,5,s@)=R1Cx(;GVw[YC7Rt7
+34,control_if,,,33,6,rY]iEfW?s~`]wKW=I%$B
+35,motion_turnleft,,"{""DEGREES"": [1, [4, ""180""]]}",34,7,]$BrFkLE(7*RM@Kw]_Vw
+36,motion_movesteps,,"{""STEPS"": [1, [4, ""1""]]}",35,5,s@)=R1Cx(;GVw[YC7Rt7
+37,control_if,,,36,6,rY]iEfW?s~`]wKW=I%$B
+38,motion_turnleft,,"{""DEGREES"": [1, [4, ""180""]]}",37,7,]$BrFkLE(7*RM@Kw]_Vw
+39,motion_movesteps,,"{""STEPS"": [1, [4, ""1""]]}",38,5,s@)=R1Cx(;GVw[YC7Rt7
+40,control_if,,,39,6,rY]iEfW?s~`]wKW=I%$B
+41,motion_turnleft,,"{""DEGREES"": [1, [4, ""180""]]}",40,7,]$BrFkLE(7*RM@Kw]_Vw
+42,motion_movesteps,,"{""STEPS"": [1, [4, ""1""]]}",41,5,s@)=R1Cx(;GVw[YC7Rt7
+43,control_if,,,42,6,rY]iEfW?s~`]wKW=I%$B
+44,motion_turnleft,,"{""DEGREES"": [1, [4, ""180""]]}",43,7,]$BrFkLE(7*RM@Kw]_Vw
+45,motion_movesteps,,"{""STEPS"": [1, [4, ""1""]]}",44,5,s@)=R1Cx(;GVw[YC7Rt7
+46,control_if,,,45,6,rY]iEfW?s~`]wKW=I%$B
+47,motion_turnleft,,"{""DEGREES"": [1, [4, ""180""]]}",46,7,]$BrFkLE(7*RM@Kw]_Vw
+48,motion_movesteps,,"{""STEPS"": [1, [4, ""1""]]}",47,5,s@)=R1Cx(;GVw[YC7Rt7
+49,control_if,,,48,6,rY]iEfW?s~`]wKW=I%$B
+50,motion_turnleft,,"{""DEGREES"": [1, [4, ""180""]]}",49,7,]$BrFkLE(7*RM@Kw]_Vw
+51,motion_movesteps,,"{""STEPS"": [1, [4, ""1""]]}",50,5,s@)=R1Cx(;GVw[YC7Rt7
+52,control_if,,,51,6,rY]iEfW?s~`]wKW=I%$B
+53,motion_turnleft,,"{""DEGREES"": [1, [4, ""180""]]}",52,7,]$BrFkLE(7*RM@Kw]_Vw
+54,motion_movesteps,,"{""STEPS"": [1, [4, ""1""]]}",53,5,s@)=R1Cx(;GVw[YC7Rt7
+55,control_if,,,54,6,rY]iEfW?s~`]wKW=I%$B
+56,motion_turnleft,,"{""DEGREES"": [1, [4, ""180""]]}",55,7,]$BrFkLE(7*RM@Kw]_Vw
+57,motion_movesteps,,"{""STEPS"": [1, [4, ""1""]]}",56,5,s@)=R1Cx(;GVw[YC7Rt7
+58,control_if,,,57,6,rY]iEfW?s~`]wKW=I%$B
+59,motion_turnleft,,"{""DEGREES"": [1, [4, ""180""]]}",58,7,]$BrFkLE(7*RM@Kw]_Vw
+60,motion_movesteps,,"{""STEPS"": [1, [4, ""1""]]}",59,5,s@)=R1Cx(;GVw[YC7Rt7
+61,control_if,,,60,6,rY]iEfW?s~`]wKW=I%$B
+62,motion_turnleft,,"{""DEGREES"": [1, [4, ""180""]]}",61,7,]$BrFkLE(7*RM@Kw]_Vw
+63,motion_movesteps,,"{""STEPS"": [1, [4, ""1""]]}",62,5,s@)=R1Cx(;GVw[YC7Rt7
+64,control_if,,,63,6,rY]iEfW?s~`]wKW=I%$B
+65,motion_turnleft,,"{""DEGREES"": [1, [4, ""180""]]}",64,7,]$BrFkLE(7*RM@Kw]_Vw
+66,motion_movesteps,,"{""STEPS"": [1, [4, ""1""]]}",65,5,s@)=R1Cx(;GVw[YC7Rt7
+67,control_if,,,66,6,rY]iEfW?s~`]wKW=I%$B
+68,motion_turnleft,,"{""DEGREES"": [1, [4, ""180""]]}",67,7,]$BrFkLE(7*RM@Kw]_Vw
+69,motion_movesteps,,"{""STEPS"": [1, [4, ""1""]]}",68,5,s@)=R1Cx(;GVw[YC7Rt7
+70,control_if,,,69,6,rY]iEfW?s~`]wKW=I%$B
+71,motion_turnleft,,"{""DEGREES"": [1, [4, ""180""]]}",70,7,]$BrFkLE(7*RM@Kw]_Vw
+72,motion_movesteps,,"{""STEPS"": [1, [4, ""1""]]}",71,5,s@)=R1Cx(;GVw[YC7Rt7
+73,control_if,,,72,6,rY]iEfW?s~`]wKW=I%$B
+74,motion_turnleft,,"{""DEGREES"": [1, [4, ""180""]]}",73,7,]$BrFkLE(7*RM@Kw]_Vw
+75,motion_movesteps,,"{""STEPS"": [1, [4, ""1""]]}",74,5,s@)=R1Cx(;GVw[YC7Rt7
+76,control_if,,,75,6,rY]iEfW?s~`]wKW=I%$B
+77,motion_turnleft,,"{""DEGREES"": [1, [4, ""180""]]}",76,7,]$BrFkLE(7*RM@Kw]_Vw
+78,motion_movesteps,,"{""STEPS"": [1, [4, ""1""]]}",77,5,s@)=R1Cx(;GVw[YC7Rt7
+79,control_if,,,78,6,rY]iEfW?s~`]wKW=I%$B
+80,motion_turnleft,,"{""DEGREES"": [1, [4, ""180""]]}",79,7,]$BrFkLE(7*RM@Kw]_Vw
+81,motion_movesteps,,"{""STEPS"": [1, [4, ""1""]]}",80,5,s@)=R1Cx(;GVw[YC7Rt7
+82,control_if,,,81,6,rY]iEfW?s~`]wKW=I%$B
+83,motion_turnleft,,"{""DEGREES"": [1, [4, ""180""]]}",82,7,]$BrFkLE(7*RM@Kw]_Vw
+84,motion_movesteps,,"{""STEPS"": [1, [4, ""1""]]}",83,5,s@)=R1Cx(;GVw[YC7Rt7
+85,control_if,,,84,6,rY]iEfW?s~`]wKW=I%$B
+86,motion_turnleft,,"{""DEGREES"": [1, [4, ""180""]]}",85,7,]$BrFkLE(7*RM@Kw]_Vw
+87,motion_movesteps,,"{""STEPS"": [1, [4, ""1""]]}",86,5,s@)=R1Cx(;GVw[YC7Rt7
+88,control_if,,,87,6,rY]iEfW?s~`]wKW=I%$B
+89,motion_turnleft,,"{""DEGREES"": [1, [4, ""180""]]}",88,7,]$BrFkLE(7*RM@Kw]_Vw
+90,motion_movesteps,,"{""STEPS"": [1, [4, ""1""]]}",89,5,s@)=R1Cx(;GVw[YC7Rt7
+91,control_if,,,90,6,rY]iEfW?s~`]wKW=I%$B
+92,motion_turnleft,,"{""DEGREES"": [1, [4, ""180""]]}",91,7,]$BrFkLE(7*RM@Kw]_Vw
+93,motion_movesteps,,"{""STEPS"": [1, [4, ""1""]]}",92,5,s@)=R1Cx(;GVw[YC7Rt7
+94,control_if,,,93,6,rY]iEfW?s~`]wKW=I%$B
+95,motion_turnleft,,"{""DEGREES"": [1, [4, ""180""]]}",94,7,]$BrFkLE(7*RM@Kw]_Vw

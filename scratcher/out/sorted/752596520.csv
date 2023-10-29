@@ -1,0 +1,44 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-56,-84,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,l]cSD)n+L_gb+98jwxNI
+3,motion_gotoxy,,"{""X"": [1, [4, ""-156""]], ""Y"": [1, [4, ""-84""]]}",2,2,o4cnHN@k^QW`vAkIj6Pf
+4,control_repeat,,,3,3,;pi;?|J)rO!DyF4zedQE
+5,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",4,4,KB^g@Ch:EL*r|@O?vBlA
+6,looks_nextcostume,,{},5,5,OMdf;yKyX{5]a-buxJo{
+7,control_wait,,"{""DURATION"": [1, [5, ""0.2""]]}",6,6,?.BIUY2OxmN-o2]fCW~B
+8,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",7,4,KB^g@Ch:EL*r|@O?vBlA
+9,looks_nextcostume,,{},8,5,OMdf;yKyX{5]a-buxJo{
+10,control_wait,,"{""DURATION"": [1, [5, ""0.2""]]}",9,6,?.BIUY2OxmN-o2]fCW~B
+11,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",10,4,KB^g@Ch:EL*r|@O?vBlA
+12,looks_nextcostume,,{},11,5,OMdf;yKyX{5]a-buxJo{
+13,control_wait,,"{""DURATION"": [1, [5, ""0.2""]]}",12,6,?.BIUY2OxmN-o2]fCW~B
+14,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",13,4,KB^g@Ch:EL*r|@O?vBlA
+15,looks_nextcostume,,{},14,5,OMdf;yKyX{5]a-buxJo{
+16,control_wait,,"{""DURATION"": [1, [5, ""0.2""]]}",15,6,?.BIUY2OxmN-o2]fCW~B
+17,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",16,4,KB^g@Ch:EL*r|@O?vBlA
+18,looks_nextcostume,,{},17,5,OMdf;yKyX{5]a-buxJo{
+19,control_wait,,"{""DURATION"": [1, [5, ""0.2""]]}",18,6,?.BIUY2OxmN-o2]fCW~B
+20,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",19,4,KB^g@Ch:EL*r|@O?vBlA
+21,looks_nextcostume,,{},20,5,OMdf;yKyX{5]a-buxJo{
+22,control_wait,,"{""DURATION"": [1, [5, ""0.2""]]}",21,6,?.BIUY2OxmN-o2]fCW~B
+23,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",22,4,KB^g@Ch:EL*r|@O?vBlA
+24,looks_nextcostume,,{},23,5,OMdf;yKyX{5]a-buxJo{
+25,control_wait,,"{""DURATION"": [1, [5, ""0.2""]]}",24,6,?.BIUY2OxmN-o2]fCW~B
+26,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",25,4,KB^g@Ch:EL*r|@O?vBlA
+27,looks_nextcostume,,{},26,5,OMdf;yKyX{5]a-buxJo{
+28,control_wait,,"{""DURATION"": [1, [5, ""0.2""]]}",27,6,?.BIUY2OxmN-o2]fCW~B
+29,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",28,4,KB^g@Ch:EL*r|@O?vBlA
+30,looks_nextcostume,,{},29,5,OMdf;yKyX{5]a-buxJo{
+31,control_wait,,"{""DURATION"": [1, [5, ""0.2""]]}",30,6,?.BIUY2OxmN-o2]fCW~B
+32,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",31,4,KB^g@Ch:EL*r|@O?vBlA
+33,looks_nextcostume,,{},32,5,OMdf;yKyX{5]a-buxJo{
+34,control_wait,,"{""DURATION"": [1, [5, ""0.2""]]}",33,6,?.BIUY2OxmN-o2]fCW~B
+35,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""不要跑太遠喔!""]], ""SECS"": [1, [4, ""2""]]}",34,4,"IMLIQ!5Gt-,=S,~/5B=j"
+36,SCRIPT,,,0,35,
+37,event_broadcast,,,1,35,.RKomKg`2nwkWn)rQrGZ
+38,SCRIPT,,,0,35,
+39,event_broadcast,,,1,35,.RKomKg`2nwkWn)rQrGZ
+40,SCRIPT,,,0,0,
+41,event_whenbroadcastreceived,,,1,0,"-_FQs}|=H@JyMky7I3Z,"
+42,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""吃水餃吧!""]], ""SECS"": [1, [4, ""2""]]}",2,41,"}pyLP=h#4BPh,4tV~?fP"

@@ -1,0 +1,125 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,-89.59877807820499,-169.5202937915124,-49.18108716227704,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,~;7*E+p)0%bXtLZ`W-|$
+3,control_forever,,,2,2,"IcZckV2JK1TOF!,@dG$t"
+4,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",3,3,WCE4L|cVkSkfl{)Ql$#)
+5,motion_ifonedgebounce,,{},4,4,r:k%:QdCzVx7wD9*|dWm
+6,looks_nextcostume,,{},5,5,SiO;W%:DZ}AK-FR4aK$(
+7,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",6,6,"z,RZ:OSByC23_)]$m(C;"
+8,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",7,3,WCE4L|cVkSkfl{)Ql$#)
+9,motion_ifonedgebounce,,{},8,4,r:k%:QdCzVx7wD9*|dWm
+10,looks_nextcostume,,{},9,5,SiO;W%:DZ}AK-FR4aK$(
+11,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",10,6,"z,RZ:OSByC23_)]$m(C;"
+12,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",11,3,WCE4L|cVkSkfl{)Ql$#)
+13,motion_ifonedgebounce,,{},12,4,r:k%:QdCzVx7wD9*|dWm
+14,looks_nextcostume,,{},13,5,SiO;W%:DZ}AK-FR4aK$(
+15,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",14,6,"z,RZ:OSByC23_)]$m(C;"
+16,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",15,3,WCE4L|cVkSkfl{)Ql$#)
+17,motion_ifonedgebounce,,{},16,4,r:k%:QdCzVx7wD9*|dWm
+18,looks_nextcostume,,{},17,5,SiO;W%:DZ}AK-FR4aK$(
+19,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",18,6,"z,RZ:OSByC23_)]$m(C;"
+20,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",19,3,WCE4L|cVkSkfl{)Ql$#)
+21,motion_ifonedgebounce,,{},20,4,r:k%:QdCzVx7wD9*|dWm
+22,looks_nextcostume,,{},21,5,SiO;W%:DZ}AK-FR4aK$(
+23,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",22,6,"z,RZ:OSByC23_)]$m(C;"
+24,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",23,3,WCE4L|cVkSkfl{)Ql$#)
+25,motion_ifonedgebounce,,{},24,4,r:k%:QdCzVx7wD9*|dWm
+26,looks_nextcostume,,{},25,5,SiO;W%:DZ}AK-FR4aK$(
+27,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",26,6,"z,RZ:OSByC23_)]$m(C;"
+28,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",27,3,WCE4L|cVkSkfl{)Ql$#)
+29,motion_ifonedgebounce,,{},28,4,r:k%:QdCzVx7wD9*|dWm
+30,looks_nextcostume,,{},29,5,SiO;W%:DZ}AK-FR4aK$(
+31,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",30,6,"z,RZ:OSByC23_)]$m(C;"
+32,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",31,3,WCE4L|cVkSkfl{)Ql$#)
+33,motion_ifonedgebounce,,{},32,4,r:k%:QdCzVx7wD9*|dWm
+34,looks_nextcostume,,{},33,5,SiO;W%:DZ}AK-FR4aK$(
+35,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",34,6,"z,RZ:OSByC23_)]$m(C;"
+36,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",35,3,WCE4L|cVkSkfl{)Ql$#)
+37,motion_ifonedgebounce,,{},36,4,r:k%:QdCzVx7wD9*|dWm
+38,looks_nextcostume,,{},37,5,SiO;W%:DZ}AK-FR4aK$(
+39,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",38,6,"z,RZ:OSByC23_)]$m(C;"
+40,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",39,3,WCE4L|cVkSkfl{)Ql$#)
+41,motion_ifonedgebounce,,{},40,4,r:k%:QdCzVx7wD9*|dWm
+42,looks_nextcostume,,{},41,5,SiO;W%:DZ}AK-FR4aK$(
+43,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",42,6,"z,RZ:OSByC23_)]$m(C;"
+44,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",43,3,WCE4L|cVkSkfl{)Ql$#)
+45,motion_ifonedgebounce,,{},44,4,r:k%:QdCzVx7wD9*|dWm
+46,looks_nextcostume,,{},45,5,SiO;W%:DZ}AK-FR4aK$(
+47,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",46,6,"z,RZ:OSByC23_)]$m(C;"
+48,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",47,3,WCE4L|cVkSkfl{)Ql$#)
+49,motion_ifonedgebounce,,{},48,4,r:k%:QdCzVx7wD9*|dWm
+50,looks_nextcostume,,{},49,5,SiO;W%:DZ}AK-FR4aK$(
+51,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",50,6,"z,RZ:OSByC23_)]$m(C;"
+52,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",51,3,WCE4L|cVkSkfl{)Ql$#)
+53,motion_ifonedgebounce,,{},52,4,r:k%:QdCzVx7wD9*|dWm
+54,looks_nextcostume,,{},53,5,SiO;W%:DZ}AK-FR4aK$(
+55,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",54,6,"z,RZ:OSByC23_)]$m(C;"
+56,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",55,3,WCE4L|cVkSkfl{)Ql$#)
+57,motion_ifonedgebounce,,{},56,4,r:k%:QdCzVx7wD9*|dWm
+58,looks_nextcostume,,{},57,5,SiO;W%:DZ}AK-FR4aK$(
+59,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",58,6,"z,RZ:OSByC23_)]$m(C;"
+60,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",59,3,WCE4L|cVkSkfl{)Ql$#)
+61,motion_ifonedgebounce,,{},60,4,r:k%:QdCzVx7wD9*|dWm
+62,looks_nextcostume,,{},61,5,SiO;W%:DZ}AK-FR4aK$(
+63,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",62,6,"z,RZ:OSByC23_)]$m(C;"
+64,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",63,3,WCE4L|cVkSkfl{)Ql$#)
+65,motion_ifonedgebounce,,{},64,4,r:k%:QdCzVx7wD9*|dWm
+66,looks_nextcostume,,{},65,5,SiO;W%:DZ}AK-FR4aK$(
+67,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",66,6,"z,RZ:OSByC23_)]$m(C;"
+68,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",67,3,WCE4L|cVkSkfl{)Ql$#)
+69,motion_ifonedgebounce,,{},68,4,r:k%:QdCzVx7wD9*|dWm
+70,looks_nextcostume,,{},69,5,SiO;W%:DZ}AK-FR4aK$(
+71,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",70,6,"z,RZ:OSByC23_)]$m(C;"
+72,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",71,3,WCE4L|cVkSkfl{)Ql$#)
+73,motion_ifonedgebounce,,{},72,4,r:k%:QdCzVx7wD9*|dWm
+74,looks_nextcostume,,{},73,5,SiO;W%:DZ}AK-FR4aK$(
+75,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",74,6,"z,RZ:OSByC23_)]$m(C;"
+76,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",75,3,WCE4L|cVkSkfl{)Ql$#)
+77,motion_ifonedgebounce,,{},76,4,r:k%:QdCzVx7wD9*|dWm
+78,looks_nextcostume,,{},77,5,SiO;W%:DZ}AK-FR4aK$(
+79,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",78,6,"z,RZ:OSByC23_)]$m(C;"
+80,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",79,3,WCE4L|cVkSkfl{)Ql$#)
+81,motion_ifonedgebounce,,{},80,4,r:k%:QdCzVx7wD9*|dWm
+82,looks_nextcostume,,{},81,5,SiO;W%:DZ}AK-FR4aK$(
+83,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",82,6,"z,RZ:OSByC23_)]$m(C;"
+84,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",83,3,WCE4L|cVkSkfl{)Ql$#)
+85,motion_ifonedgebounce,,{},84,4,r:k%:QdCzVx7wD9*|dWm
+86,looks_nextcostume,,{},85,5,SiO;W%:DZ}AK-FR4aK$(
+87,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",86,6,"z,RZ:OSByC23_)]$m(C;"
+88,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",87,3,WCE4L|cVkSkfl{)Ql$#)
+89,motion_ifonedgebounce,,{},88,4,r:k%:QdCzVx7wD9*|dWm
+90,looks_nextcostume,,{},89,5,SiO;W%:DZ}AK-FR4aK$(
+91,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",90,6,"z,RZ:OSByC23_)]$m(C;"
+92,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",91,3,WCE4L|cVkSkfl{)Ql$#)
+93,motion_ifonedgebounce,,{},92,4,r:k%:QdCzVx7wD9*|dWm
+94,looks_nextcostume,,{},93,5,SiO;W%:DZ}AK-FR4aK$(
+95,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",94,6,"z,RZ:OSByC23_)]$m(C;"
+96,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",95,3,WCE4L|cVkSkfl{)Ql$#)
+97,motion_ifonedgebounce,,{},96,4,r:k%:QdCzVx7wD9*|dWm
+98,looks_nextcostume,,{},97,5,SiO;W%:DZ}AK-FR4aK$(
+99,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",98,6,"z,RZ:OSByC23_)]$m(C;"
+100,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",99,3,WCE4L|cVkSkfl{)Ql$#)
+101,motion_ifonedgebounce,,{},100,4,r:k%:QdCzVx7wD9*|dWm
+102,looks_nextcostume,,{},101,5,SiO;W%:DZ}AK-FR4aK$(
+103,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",102,6,"z,RZ:OSByC23_)]$m(C;"
+104,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",103,3,WCE4L|cVkSkfl{)Ql$#)
+105,motion_ifonedgebounce,,{},104,4,r:k%:QdCzVx7wD9*|dWm
+106,looks_nextcostume,,{},105,5,SiO;W%:DZ}AK-FR4aK$(
+107,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",106,6,"z,RZ:OSByC23_)]$m(C;"
+108,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",107,3,WCE4L|cVkSkfl{)Ql$#)
+109,motion_ifonedgebounce,,{},108,4,r:k%:QdCzVx7wD9*|dWm
+110,looks_nextcostume,,{},109,5,SiO;W%:DZ}AK-FR4aK$(
+111,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",110,6,"z,RZ:OSByC23_)]$m(C;"
+112,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",111,3,WCE4L|cVkSkfl{)Ql$#)
+113,motion_ifonedgebounce,,{},112,4,r:k%:QdCzVx7wD9*|dWm
+114,looks_nextcostume,,{},113,5,SiO;W%:DZ}AK-FR4aK$(
+115,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",114,6,"z,RZ:OSByC23_)]$m(C;"
+116,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",115,3,WCE4L|cVkSkfl{)Ql$#)
+117,motion_ifonedgebounce,,{},116,4,r:k%:QdCzVx7wD9*|dWm
+118,looks_nextcostume,,{},117,5,SiO;W%:DZ}AK-FR4aK$(
+119,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",118,6,"z,RZ:OSByC23_)]$m(C;"
+120,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",119,3,WCE4L|cVkSkfl{)Ql$#)
+121,motion_ifonedgebounce,,{},120,4,r:k%:QdCzVx7wD9*|dWm
+122,looks_nextcostume,,{},121,5,SiO;W%:DZ}AK-FR4aK$(
+123,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",122,6,"z,RZ:OSByC23_)]$m(C;"

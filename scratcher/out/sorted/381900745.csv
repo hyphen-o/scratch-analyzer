@@ -1,0 +1,399 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,58,53,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,S@6S[L};-YI$1qJ@OGDK
+3,looks_switchbackdropto,,"{""BACKDROP"": [1, "";[CKfb^,26Qn|zIt|I(d""]}",2,2,0S0PKp0P~7q;;5_LKodZ
+4,motion_gotoxy,,"{""X"": [1, [4, ""-220""]], ""Y"": [1, [4, ""50""]]}",3,3,-HI.T|OV+qOrT.j_r-)=
+5,control_wait,,"{""DURATION"": [1, [5, ""2""]]}",4,4,[eZaZU^?y8d.@N8*:y_L
+6,motion_gotoxy,,"{""X"": [1, [4, ""58""]], ""Y"": [1, [4, ""53""]]}",5,5,vlDc#Dvj;kfC?gy([Z.i
+7,control_forever,,,6,6,-rv?u*7~jt_S3v!]kd)Q
+8,control_if,,,7,7,:0(abM%BK|mQAwg}sfq;
+9,motion_gotoxy,,"{""X"": [1, [4, ""43""]], ""Y"": [1, [4, ""75""]]}",8,8,"ryvey/wy(?Ogtqs5.(@,"
+10,looks_switchbackdropto,,"{""BACKDROP"": [1, ""pENNFP{^I_nd}NGv`3Qq""]}",9,9,G5WgeTr?|mz(SNItEK!H
+11,motion_gotoxy,,"{""X"": [1, [4, ""142""]], ""Y"": [1, [4, ""-58""]]}",10,10,"c,!Q.R.E5r_i9EiL--ne"
+12,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de ética?""]]}",11,11,{Il~`ih@v)VDxNN$[Og6
+13,data_setvariableto,,,12,12,`?%^*PhU}CaNc4?Oy-XP
+14,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de deportes?""]]}",13,13,r/{$OSA`Tp9:$_OHsI-f
+15,data_setvariableto,,,14,14,"y4l,G@us-ZR`5e28$01U"
+16,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi califcación de ICS?""]]}",15,15,B6nflofJ7@-qdz[v$275
+17,data_setvariableto,,,16,16,4OlZKb86(NIkOa_/%6yl
+18,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de Francés?""]]}",17,17,~hRkJz0`{Hp53VaTISE6
+19,data_setvariableto,,,18,18,(H^GY!VM[hr$?pfbAI]7
+20,looks_sayforsecs,,"{""MESSAGE"": [3, ""kpM!fezA;gD-~Xe@%gBJ"", [10, ""¡Hola!""]], ""SECS"": [1, [4, ""2""]]}",19,19,"@k-OATUz7.,B_.~7_GBt"
+21,control_if,,,20,7,:0(abM%BK|mQAwg}sfq;
+22,motion_gotoxy,,"{""X"": [1, [4, ""43""]], ""Y"": [1, [4, ""75""]]}",21,8,"ryvey/wy(?Ogtqs5.(@,"
+23,looks_switchbackdropto,,"{""BACKDROP"": [1, ""pENNFP{^I_nd}NGv`3Qq""]}",22,9,G5WgeTr?|mz(SNItEK!H
+24,motion_gotoxy,,"{""X"": [1, [4, ""142""]], ""Y"": [1, [4, ""-58""]]}",23,10,"c,!Q.R.E5r_i9EiL--ne"
+25,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de ética?""]]}",24,11,{Il~`ih@v)VDxNN$[Og6
+26,data_setvariableto,,,25,12,`?%^*PhU}CaNc4?Oy-XP
+27,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de deportes?""]]}",26,13,r/{$OSA`Tp9:$_OHsI-f
+28,data_setvariableto,,,27,14,"y4l,G@us-ZR`5e28$01U"
+29,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi califcación de ICS?""]]}",28,15,B6nflofJ7@-qdz[v$275
+30,data_setvariableto,,,29,16,4OlZKb86(NIkOa_/%6yl
+31,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de Francés?""]]}",30,17,~hRkJz0`{Hp53VaTISE6
+32,data_setvariableto,,,31,18,(H^GY!VM[hr$?pfbAI]7
+33,looks_sayforsecs,,"{""MESSAGE"": [3, ""kpM!fezA;gD-~Xe@%gBJ"", [10, ""¡Hola!""]], ""SECS"": [1, [4, ""2""]]}",32,19,"@k-OATUz7.,B_.~7_GBt"
+34,control_if,,,33,7,:0(abM%BK|mQAwg}sfq;
+35,motion_gotoxy,,"{""X"": [1, [4, ""43""]], ""Y"": [1, [4, ""75""]]}",34,8,"ryvey/wy(?Ogtqs5.(@,"
+36,looks_switchbackdropto,,"{""BACKDROP"": [1, ""pENNFP{^I_nd}NGv`3Qq""]}",35,9,G5WgeTr?|mz(SNItEK!H
+37,motion_gotoxy,,"{""X"": [1, [4, ""142""]], ""Y"": [1, [4, ""-58""]]}",36,10,"c,!Q.R.E5r_i9EiL--ne"
+38,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de ética?""]]}",37,11,{Il~`ih@v)VDxNN$[Og6
+39,data_setvariableto,,,38,12,`?%^*PhU}CaNc4?Oy-XP
+40,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de deportes?""]]}",39,13,r/{$OSA`Tp9:$_OHsI-f
+41,data_setvariableto,,,40,14,"y4l,G@us-ZR`5e28$01U"
+42,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi califcación de ICS?""]]}",41,15,B6nflofJ7@-qdz[v$275
+43,data_setvariableto,,,42,16,4OlZKb86(NIkOa_/%6yl
+44,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de Francés?""]]}",43,17,~hRkJz0`{Hp53VaTISE6
+45,data_setvariableto,,,44,18,(H^GY!VM[hr$?pfbAI]7
+46,looks_sayforsecs,,"{""MESSAGE"": [3, ""kpM!fezA;gD-~Xe@%gBJ"", [10, ""¡Hola!""]], ""SECS"": [1, [4, ""2""]]}",45,19,"@k-OATUz7.,B_.~7_GBt"
+47,control_if,,,46,7,:0(abM%BK|mQAwg}sfq;
+48,motion_gotoxy,,"{""X"": [1, [4, ""43""]], ""Y"": [1, [4, ""75""]]}",47,8,"ryvey/wy(?Ogtqs5.(@,"
+49,looks_switchbackdropto,,"{""BACKDROP"": [1, ""pENNFP{^I_nd}NGv`3Qq""]}",48,9,G5WgeTr?|mz(SNItEK!H
+50,motion_gotoxy,,"{""X"": [1, [4, ""142""]], ""Y"": [1, [4, ""-58""]]}",49,10,"c,!Q.R.E5r_i9EiL--ne"
+51,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de ética?""]]}",50,11,{Il~`ih@v)VDxNN$[Og6
+52,data_setvariableto,,,51,12,`?%^*PhU}CaNc4?Oy-XP
+53,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de deportes?""]]}",52,13,r/{$OSA`Tp9:$_OHsI-f
+54,data_setvariableto,,,53,14,"y4l,G@us-ZR`5e28$01U"
+55,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi califcación de ICS?""]]}",54,15,B6nflofJ7@-qdz[v$275
+56,data_setvariableto,,,55,16,4OlZKb86(NIkOa_/%6yl
+57,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de Francés?""]]}",56,17,~hRkJz0`{Hp53VaTISE6
+58,data_setvariableto,,,57,18,(H^GY!VM[hr$?pfbAI]7
+59,looks_sayforsecs,,"{""MESSAGE"": [3, ""kpM!fezA;gD-~Xe@%gBJ"", [10, ""¡Hola!""]], ""SECS"": [1, [4, ""2""]]}",58,19,"@k-OATUz7.,B_.~7_GBt"
+60,control_if,,,59,7,:0(abM%BK|mQAwg}sfq;
+61,motion_gotoxy,,"{""X"": [1, [4, ""43""]], ""Y"": [1, [4, ""75""]]}",60,8,"ryvey/wy(?Ogtqs5.(@,"
+62,looks_switchbackdropto,,"{""BACKDROP"": [1, ""pENNFP{^I_nd}NGv`3Qq""]}",61,9,G5WgeTr?|mz(SNItEK!H
+63,motion_gotoxy,,"{""X"": [1, [4, ""142""]], ""Y"": [1, [4, ""-58""]]}",62,10,"c,!Q.R.E5r_i9EiL--ne"
+64,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de ética?""]]}",63,11,{Il~`ih@v)VDxNN$[Og6
+65,data_setvariableto,,,64,12,`?%^*PhU}CaNc4?Oy-XP
+66,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de deportes?""]]}",65,13,r/{$OSA`Tp9:$_OHsI-f
+67,data_setvariableto,,,66,14,"y4l,G@us-ZR`5e28$01U"
+68,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi califcación de ICS?""]]}",67,15,B6nflofJ7@-qdz[v$275
+69,data_setvariableto,,,68,16,4OlZKb86(NIkOa_/%6yl
+70,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de Francés?""]]}",69,17,~hRkJz0`{Hp53VaTISE6
+71,data_setvariableto,,,70,18,(H^GY!VM[hr$?pfbAI]7
+72,looks_sayforsecs,,"{""MESSAGE"": [3, ""kpM!fezA;gD-~Xe@%gBJ"", [10, ""¡Hola!""]], ""SECS"": [1, [4, ""2""]]}",71,19,"@k-OATUz7.,B_.~7_GBt"
+73,control_if,,,72,7,:0(abM%BK|mQAwg}sfq;
+74,motion_gotoxy,,"{""X"": [1, [4, ""43""]], ""Y"": [1, [4, ""75""]]}",73,8,"ryvey/wy(?Ogtqs5.(@,"
+75,looks_switchbackdropto,,"{""BACKDROP"": [1, ""pENNFP{^I_nd}NGv`3Qq""]}",74,9,G5WgeTr?|mz(SNItEK!H
+76,motion_gotoxy,,"{""X"": [1, [4, ""142""]], ""Y"": [1, [4, ""-58""]]}",75,10,"c,!Q.R.E5r_i9EiL--ne"
+77,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de ética?""]]}",76,11,{Il~`ih@v)VDxNN$[Og6
+78,data_setvariableto,,,77,12,`?%^*PhU}CaNc4?Oy-XP
+79,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de deportes?""]]}",78,13,r/{$OSA`Tp9:$_OHsI-f
+80,data_setvariableto,,,79,14,"y4l,G@us-ZR`5e28$01U"
+81,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi califcación de ICS?""]]}",80,15,B6nflofJ7@-qdz[v$275
+82,data_setvariableto,,,81,16,4OlZKb86(NIkOa_/%6yl
+83,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de Francés?""]]}",82,17,~hRkJz0`{Hp53VaTISE6
+84,data_setvariableto,,,83,18,(H^GY!VM[hr$?pfbAI]7
+85,looks_sayforsecs,,"{""MESSAGE"": [3, ""kpM!fezA;gD-~Xe@%gBJ"", [10, ""¡Hola!""]], ""SECS"": [1, [4, ""2""]]}",84,19,"@k-OATUz7.,B_.~7_GBt"
+86,control_if,,,85,7,:0(abM%BK|mQAwg}sfq;
+87,motion_gotoxy,,"{""X"": [1, [4, ""43""]], ""Y"": [1, [4, ""75""]]}",86,8,"ryvey/wy(?Ogtqs5.(@,"
+88,looks_switchbackdropto,,"{""BACKDROP"": [1, ""pENNFP{^I_nd}NGv`3Qq""]}",87,9,G5WgeTr?|mz(SNItEK!H
+89,motion_gotoxy,,"{""X"": [1, [4, ""142""]], ""Y"": [1, [4, ""-58""]]}",88,10,"c,!Q.R.E5r_i9EiL--ne"
+90,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de ética?""]]}",89,11,{Il~`ih@v)VDxNN$[Og6
+91,data_setvariableto,,,90,12,`?%^*PhU}CaNc4?Oy-XP
+92,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de deportes?""]]}",91,13,r/{$OSA`Tp9:$_OHsI-f
+93,data_setvariableto,,,92,14,"y4l,G@us-ZR`5e28$01U"
+94,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi califcación de ICS?""]]}",93,15,B6nflofJ7@-qdz[v$275
+95,data_setvariableto,,,94,16,4OlZKb86(NIkOa_/%6yl
+96,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de Francés?""]]}",95,17,~hRkJz0`{Hp53VaTISE6
+97,data_setvariableto,,,96,18,(H^GY!VM[hr$?pfbAI]7
+98,looks_sayforsecs,,"{""MESSAGE"": [3, ""kpM!fezA;gD-~Xe@%gBJ"", [10, ""¡Hola!""]], ""SECS"": [1, [4, ""2""]]}",97,19,"@k-OATUz7.,B_.~7_GBt"
+99,control_if,,,98,7,:0(abM%BK|mQAwg}sfq;
+100,motion_gotoxy,,"{""X"": [1, [4, ""43""]], ""Y"": [1, [4, ""75""]]}",99,8,"ryvey/wy(?Ogtqs5.(@,"
+101,looks_switchbackdropto,,"{""BACKDROP"": [1, ""pENNFP{^I_nd}NGv`3Qq""]}",100,9,G5WgeTr?|mz(SNItEK!H
+102,motion_gotoxy,,"{""X"": [1, [4, ""142""]], ""Y"": [1, [4, ""-58""]]}",101,10,"c,!Q.R.E5r_i9EiL--ne"
+103,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de ética?""]]}",102,11,{Il~`ih@v)VDxNN$[Og6
+104,data_setvariableto,,,103,12,`?%^*PhU}CaNc4?Oy-XP
+105,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de deportes?""]]}",104,13,r/{$OSA`Tp9:$_OHsI-f
+106,data_setvariableto,,,105,14,"y4l,G@us-ZR`5e28$01U"
+107,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi califcación de ICS?""]]}",106,15,B6nflofJ7@-qdz[v$275
+108,data_setvariableto,,,107,16,4OlZKb86(NIkOa_/%6yl
+109,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de Francés?""]]}",108,17,~hRkJz0`{Hp53VaTISE6
+110,data_setvariableto,,,109,18,(H^GY!VM[hr$?pfbAI]7
+111,looks_sayforsecs,,"{""MESSAGE"": [3, ""kpM!fezA;gD-~Xe@%gBJ"", [10, ""¡Hola!""]], ""SECS"": [1, [4, ""2""]]}",110,19,"@k-OATUz7.,B_.~7_GBt"
+112,control_if,,,111,7,:0(abM%BK|mQAwg}sfq;
+113,motion_gotoxy,,"{""X"": [1, [4, ""43""]], ""Y"": [1, [4, ""75""]]}",112,8,"ryvey/wy(?Ogtqs5.(@,"
+114,looks_switchbackdropto,,"{""BACKDROP"": [1, ""pENNFP{^I_nd}NGv`3Qq""]}",113,9,G5WgeTr?|mz(SNItEK!H
+115,motion_gotoxy,,"{""X"": [1, [4, ""142""]], ""Y"": [1, [4, ""-58""]]}",114,10,"c,!Q.R.E5r_i9EiL--ne"
+116,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de ética?""]]}",115,11,{Il~`ih@v)VDxNN$[Og6
+117,data_setvariableto,,,116,12,`?%^*PhU}CaNc4?Oy-XP
+118,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de deportes?""]]}",117,13,r/{$OSA`Tp9:$_OHsI-f
+119,data_setvariableto,,,118,14,"y4l,G@us-ZR`5e28$01U"
+120,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi califcación de ICS?""]]}",119,15,B6nflofJ7@-qdz[v$275
+121,data_setvariableto,,,120,16,4OlZKb86(NIkOa_/%6yl
+122,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de Francés?""]]}",121,17,~hRkJz0`{Hp53VaTISE6
+123,data_setvariableto,,,122,18,(H^GY!VM[hr$?pfbAI]7
+124,looks_sayforsecs,,"{""MESSAGE"": [3, ""kpM!fezA;gD-~Xe@%gBJ"", [10, ""¡Hola!""]], ""SECS"": [1, [4, ""2""]]}",123,19,"@k-OATUz7.,B_.~7_GBt"
+125,control_if,,,124,7,:0(abM%BK|mQAwg}sfq;
+126,motion_gotoxy,,"{""X"": [1, [4, ""43""]], ""Y"": [1, [4, ""75""]]}",125,8,"ryvey/wy(?Ogtqs5.(@,"
+127,looks_switchbackdropto,,"{""BACKDROP"": [1, ""pENNFP{^I_nd}NGv`3Qq""]}",126,9,G5WgeTr?|mz(SNItEK!H
+128,motion_gotoxy,,"{""X"": [1, [4, ""142""]], ""Y"": [1, [4, ""-58""]]}",127,10,"c,!Q.R.E5r_i9EiL--ne"
+129,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de ética?""]]}",128,11,{Il~`ih@v)VDxNN$[Og6
+130,data_setvariableto,,,129,12,`?%^*PhU}CaNc4?Oy-XP
+131,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de deportes?""]]}",130,13,r/{$OSA`Tp9:$_OHsI-f
+132,data_setvariableto,,,131,14,"y4l,G@us-ZR`5e28$01U"
+133,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi califcación de ICS?""]]}",132,15,B6nflofJ7@-qdz[v$275
+134,data_setvariableto,,,133,16,4OlZKb86(NIkOa_/%6yl
+135,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de Francés?""]]}",134,17,~hRkJz0`{Hp53VaTISE6
+136,data_setvariableto,,,135,18,(H^GY!VM[hr$?pfbAI]7
+137,looks_sayforsecs,,"{""MESSAGE"": [3, ""kpM!fezA;gD-~Xe@%gBJ"", [10, ""¡Hola!""]], ""SECS"": [1, [4, ""2""]]}",136,19,"@k-OATUz7.,B_.~7_GBt"
+138,control_if,,,137,7,:0(abM%BK|mQAwg}sfq;
+139,motion_gotoxy,,"{""X"": [1, [4, ""43""]], ""Y"": [1, [4, ""75""]]}",138,8,"ryvey/wy(?Ogtqs5.(@,"
+140,looks_switchbackdropto,,"{""BACKDROP"": [1, ""pENNFP{^I_nd}NGv`3Qq""]}",139,9,G5WgeTr?|mz(SNItEK!H
+141,motion_gotoxy,,"{""X"": [1, [4, ""142""]], ""Y"": [1, [4, ""-58""]]}",140,10,"c,!Q.R.E5r_i9EiL--ne"
+142,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de ética?""]]}",141,11,{Il~`ih@v)VDxNN$[Og6
+143,data_setvariableto,,,142,12,`?%^*PhU}CaNc4?Oy-XP
+144,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de deportes?""]]}",143,13,r/{$OSA`Tp9:$_OHsI-f
+145,data_setvariableto,,,144,14,"y4l,G@us-ZR`5e28$01U"
+146,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi califcación de ICS?""]]}",145,15,B6nflofJ7@-qdz[v$275
+147,data_setvariableto,,,146,16,4OlZKb86(NIkOa_/%6yl
+148,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de Francés?""]]}",147,17,~hRkJz0`{Hp53VaTISE6
+149,data_setvariableto,,,148,18,(H^GY!VM[hr$?pfbAI]7
+150,looks_sayforsecs,,"{""MESSAGE"": [3, ""kpM!fezA;gD-~Xe@%gBJ"", [10, ""¡Hola!""]], ""SECS"": [1, [4, ""2""]]}",149,19,"@k-OATUz7.,B_.~7_GBt"
+151,control_if,,,150,7,:0(abM%BK|mQAwg}sfq;
+152,motion_gotoxy,,"{""X"": [1, [4, ""43""]], ""Y"": [1, [4, ""75""]]}",151,8,"ryvey/wy(?Ogtqs5.(@,"
+153,looks_switchbackdropto,,"{""BACKDROP"": [1, ""pENNFP{^I_nd}NGv`3Qq""]}",152,9,G5WgeTr?|mz(SNItEK!H
+154,motion_gotoxy,,"{""X"": [1, [4, ""142""]], ""Y"": [1, [4, ""-58""]]}",153,10,"c,!Q.R.E5r_i9EiL--ne"
+155,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de ética?""]]}",154,11,{Il~`ih@v)VDxNN$[Og6
+156,data_setvariableto,,,155,12,`?%^*PhU}CaNc4?Oy-XP
+157,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de deportes?""]]}",156,13,r/{$OSA`Tp9:$_OHsI-f
+158,data_setvariableto,,,157,14,"y4l,G@us-ZR`5e28$01U"
+159,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi califcación de ICS?""]]}",158,15,B6nflofJ7@-qdz[v$275
+160,data_setvariableto,,,159,16,4OlZKb86(NIkOa_/%6yl
+161,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de Francés?""]]}",160,17,~hRkJz0`{Hp53VaTISE6
+162,data_setvariableto,,,161,18,(H^GY!VM[hr$?pfbAI]7
+163,looks_sayforsecs,,"{""MESSAGE"": [3, ""kpM!fezA;gD-~Xe@%gBJ"", [10, ""¡Hola!""]], ""SECS"": [1, [4, ""2""]]}",162,19,"@k-OATUz7.,B_.~7_GBt"
+164,control_if,,,163,7,:0(abM%BK|mQAwg}sfq;
+165,motion_gotoxy,,"{""X"": [1, [4, ""43""]], ""Y"": [1, [4, ""75""]]}",164,8,"ryvey/wy(?Ogtqs5.(@,"
+166,looks_switchbackdropto,,"{""BACKDROP"": [1, ""pENNFP{^I_nd}NGv`3Qq""]}",165,9,G5WgeTr?|mz(SNItEK!H
+167,motion_gotoxy,,"{""X"": [1, [4, ""142""]], ""Y"": [1, [4, ""-58""]]}",166,10,"c,!Q.R.E5r_i9EiL--ne"
+168,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de ética?""]]}",167,11,{Il~`ih@v)VDxNN$[Og6
+169,data_setvariableto,,,168,12,`?%^*PhU}CaNc4?Oy-XP
+170,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de deportes?""]]}",169,13,r/{$OSA`Tp9:$_OHsI-f
+171,data_setvariableto,,,170,14,"y4l,G@us-ZR`5e28$01U"
+172,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi califcación de ICS?""]]}",171,15,B6nflofJ7@-qdz[v$275
+173,data_setvariableto,,,172,16,4OlZKb86(NIkOa_/%6yl
+174,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de Francés?""]]}",173,17,~hRkJz0`{Hp53VaTISE6
+175,data_setvariableto,,,174,18,(H^GY!VM[hr$?pfbAI]7
+176,looks_sayforsecs,,"{""MESSAGE"": [3, ""kpM!fezA;gD-~Xe@%gBJ"", [10, ""¡Hola!""]], ""SECS"": [1, [4, ""2""]]}",175,19,"@k-OATUz7.,B_.~7_GBt"
+177,control_if,,,176,7,:0(abM%BK|mQAwg}sfq;
+178,motion_gotoxy,,"{""X"": [1, [4, ""43""]], ""Y"": [1, [4, ""75""]]}",177,8,"ryvey/wy(?Ogtqs5.(@,"
+179,looks_switchbackdropto,,"{""BACKDROP"": [1, ""pENNFP{^I_nd}NGv`3Qq""]}",178,9,G5WgeTr?|mz(SNItEK!H
+180,motion_gotoxy,,"{""X"": [1, [4, ""142""]], ""Y"": [1, [4, ""-58""]]}",179,10,"c,!Q.R.E5r_i9EiL--ne"
+181,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de ética?""]]}",180,11,{Il~`ih@v)VDxNN$[Og6
+182,data_setvariableto,,,181,12,`?%^*PhU}CaNc4?Oy-XP
+183,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de deportes?""]]}",182,13,r/{$OSA`Tp9:$_OHsI-f
+184,data_setvariableto,,,183,14,"y4l,G@us-ZR`5e28$01U"
+185,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi califcación de ICS?""]]}",184,15,B6nflofJ7@-qdz[v$275
+186,data_setvariableto,,,185,16,4OlZKb86(NIkOa_/%6yl
+187,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de Francés?""]]}",186,17,~hRkJz0`{Hp53VaTISE6
+188,data_setvariableto,,,187,18,(H^GY!VM[hr$?pfbAI]7
+189,looks_sayforsecs,,"{""MESSAGE"": [3, ""kpM!fezA;gD-~Xe@%gBJ"", [10, ""¡Hola!""]], ""SECS"": [1, [4, ""2""]]}",188,19,"@k-OATUz7.,B_.~7_GBt"
+190,control_if,,,189,7,:0(abM%BK|mQAwg}sfq;
+191,motion_gotoxy,,"{""X"": [1, [4, ""43""]], ""Y"": [1, [4, ""75""]]}",190,8,"ryvey/wy(?Ogtqs5.(@,"
+192,looks_switchbackdropto,,"{""BACKDROP"": [1, ""pENNFP{^I_nd}NGv`3Qq""]}",191,9,G5WgeTr?|mz(SNItEK!H
+193,motion_gotoxy,,"{""X"": [1, [4, ""142""]], ""Y"": [1, [4, ""-58""]]}",192,10,"c,!Q.R.E5r_i9EiL--ne"
+194,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de ética?""]]}",193,11,{Il~`ih@v)VDxNN$[Og6
+195,data_setvariableto,,,194,12,`?%^*PhU}CaNc4?Oy-XP
+196,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de deportes?""]]}",195,13,r/{$OSA`Tp9:$_OHsI-f
+197,data_setvariableto,,,196,14,"y4l,G@us-ZR`5e28$01U"
+198,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi califcación de ICS?""]]}",197,15,B6nflofJ7@-qdz[v$275
+199,data_setvariableto,,,198,16,4OlZKb86(NIkOa_/%6yl
+200,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de Francés?""]]}",199,17,~hRkJz0`{Hp53VaTISE6
+201,data_setvariableto,,,200,18,(H^GY!VM[hr$?pfbAI]7
+202,looks_sayforsecs,,"{""MESSAGE"": [3, ""kpM!fezA;gD-~Xe@%gBJ"", [10, ""¡Hola!""]], ""SECS"": [1, [4, ""2""]]}",201,19,"@k-OATUz7.,B_.~7_GBt"
+203,control_if,,,202,7,:0(abM%BK|mQAwg}sfq;
+204,motion_gotoxy,,"{""X"": [1, [4, ""43""]], ""Y"": [1, [4, ""75""]]}",203,8,"ryvey/wy(?Ogtqs5.(@,"
+205,looks_switchbackdropto,,"{""BACKDROP"": [1, ""pENNFP{^I_nd}NGv`3Qq""]}",204,9,G5WgeTr?|mz(SNItEK!H
+206,motion_gotoxy,,"{""X"": [1, [4, ""142""]], ""Y"": [1, [4, ""-58""]]}",205,10,"c,!Q.R.E5r_i9EiL--ne"
+207,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de ética?""]]}",206,11,{Il~`ih@v)VDxNN$[Og6
+208,data_setvariableto,,,207,12,`?%^*PhU}CaNc4?Oy-XP
+209,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de deportes?""]]}",208,13,r/{$OSA`Tp9:$_OHsI-f
+210,data_setvariableto,,,209,14,"y4l,G@us-ZR`5e28$01U"
+211,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi califcación de ICS?""]]}",210,15,B6nflofJ7@-qdz[v$275
+212,data_setvariableto,,,211,16,4OlZKb86(NIkOa_/%6yl
+213,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de Francés?""]]}",212,17,~hRkJz0`{Hp53VaTISE6
+214,data_setvariableto,,,213,18,(H^GY!VM[hr$?pfbAI]7
+215,looks_sayforsecs,,"{""MESSAGE"": [3, ""kpM!fezA;gD-~Xe@%gBJ"", [10, ""¡Hola!""]], ""SECS"": [1, [4, ""2""]]}",214,19,"@k-OATUz7.,B_.~7_GBt"
+216,control_if,,,215,7,:0(abM%BK|mQAwg}sfq;
+217,motion_gotoxy,,"{""X"": [1, [4, ""43""]], ""Y"": [1, [4, ""75""]]}",216,8,"ryvey/wy(?Ogtqs5.(@,"
+218,looks_switchbackdropto,,"{""BACKDROP"": [1, ""pENNFP{^I_nd}NGv`3Qq""]}",217,9,G5WgeTr?|mz(SNItEK!H
+219,motion_gotoxy,,"{""X"": [1, [4, ""142""]], ""Y"": [1, [4, ""-58""]]}",218,10,"c,!Q.R.E5r_i9EiL--ne"
+220,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de ética?""]]}",219,11,{Il~`ih@v)VDxNN$[Og6
+221,data_setvariableto,,,220,12,`?%^*PhU}CaNc4?Oy-XP
+222,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de deportes?""]]}",221,13,r/{$OSA`Tp9:$_OHsI-f
+223,data_setvariableto,,,222,14,"y4l,G@us-ZR`5e28$01U"
+224,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi califcación de ICS?""]]}",223,15,B6nflofJ7@-qdz[v$275
+225,data_setvariableto,,,224,16,4OlZKb86(NIkOa_/%6yl
+226,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de Francés?""]]}",225,17,~hRkJz0`{Hp53VaTISE6
+227,data_setvariableto,,,226,18,(H^GY!VM[hr$?pfbAI]7
+228,looks_sayforsecs,,"{""MESSAGE"": [3, ""kpM!fezA;gD-~Xe@%gBJ"", [10, ""¡Hola!""]], ""SECS"": [1, [4, ""2""]]}",227,19,"@k-OATUz7.,B_.~7_GBt"
+229,control_if,,,228,7,:0(abM%BK|mQAwg}sfq;
+230,motion_gotoxy,,"{""X"": [1, [4, ""43""]], ""Y"": [1, [4, ""75""]]}",229,8,"ryvey/wy(?Ogtqs5.(@,"
+231,looks_switchbackdropto,,"{""BACKDROP"": [1, ""pENNFP{^I_nd}NGv`3Qq""]}",230,9,G5WgeTr?|mz(SNItEK!H
+232,motion_gotoxy,,"{""X"": [1, [4, ""142""]], ""Y"": [1, [4, ""-58""]]}",231,10,"c,!Q.R.E5r_i9EiL--ne"
+233,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de ética?""]]}",232,11,{Il~`ih@v)VDxNN$[Og6
+234,data_setvariableto,,,233,12,`?%^*PhU}CaNc4?Oy-XP
+235,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de deportes?""]]}",234,13,r/{$OSA`Tp9:$_OHsI-f
+236,data_setvariableto,,,235,14,"y4l,G@us-ZR`5e28$01U"
+237,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi califcación de ICS?""]]}",236,15,B6nflofJ7@-qdz[v$275
+238,data_setvariableto,,,237,16,4OlZKb86(NIkOa_/%6yl
+239,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de Francés?""]]}",238,17,~hRkJz0`{Hp53VaTISE6
+240,data_setvariableto,,,239,18,(H^GY!VM[hr$?pfbAI]7
+241,looks_sayforsecs,,"{""MESSAGE"": [3, ""kpM!fezA;gD-~Xe@%gBJ"", [10, ""¡Hola!""]], ""SECS"": [1, [4, ""2""]]}",240,19,"@k-OATUz7.,B_.~7_GBt"
+242,control_if,,,241,7,:0(abM%BK|mQAwg}sfq;
+243,motion_gotoxy,,"{""X"": [1, [4, ""43""]], ""Y"": [1, [4, ""75""]]}",242,8,"ryvey/wy(?Ogtqs5.(@,"
+244,looks_switchbackdropto,,"{""BACKDROP"": [1, ""pENNFP{^I_nd}NGv`3Qq""]}",243,9,G5WgeTr?|mz(SNItEK!H
+245,motion_gotoxy,,"{""X"": [1, [4, ""142""]], ""Y"": [1, [4, ""-58""]]}",244,10,"c,!Q.R.E5r_i9EiL--ne"
+246,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de ética?""]]}",245,11,{Il~`ih@v)VDxNN$[Og6
+247,data_setvariableto,,,246,12,`?%^*PhU}CaNc4?Oy-XP
+248,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de deportes?""]]}",247,13,r/{$OSA`Tp9:$_OHsI-f
+249,data_setvariableto,,,248,14,"y4l,G@us-ZR`5e28$01U"
+250,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi califcación de ICS?""]]}",249,15,B6nflofJ7@-qdz[v$275
+251,data_setvariableto,,,250,16,4OlZKb86(NIkOa_/%6yl
+252,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de Francés?""]]}",251,17,~hRkJz0`{Hp53VaTISE6
+253,data_setvariableto,,,252,18,(H^GY!VM[hr$?pfbAI]7
+254,looks_sayforsecs,,"{""MESSAGE"": [3, ""kpM!fezA;gD-~Xe@%gBJ"", [10, ""¡Hola!""]], ""SECS"": [1, [4, ""2""]]}",253,19,"@k-OATUz7.,B_.~7_GBt"
+255,control_if,,,254,7,:0(abM%BK|mQAwg}sfq;
+256,motion_gotoxy,,"{""X"": [1, [4, ""43""]], ""Y"": [1, [4, ""75""]]}",255,8,"ryvey/wy(?Ogtqs5.(@,"
+257,looks_switchbackdropto,,"{""BACKDROP"": [1, ""pENNFP{^I_nd}NGv`3Qq""]}",256,9,G5WgeTr?|mz(SNItEK!H
+258,motion_gotoxy,,"{""X"": [1, [4, ""142""]], ""Y"": [1, [4, ""-58""]]}",257,10,"c,!Q.R.E5r_i9EiL--ne"
+259,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de ética?""]]}",258,11,{Il~`ih@v)VDxNN$[Og6
+260,data_setvariableto,,,259,12,`?%^*PhU}CaNc4?Oy-XP
+261,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de deportes?""]]}",260,13,r/{$OSA`Tp9:$_OHsI-f
+262,data_setvariableto,,,261,14,"y4l,G@us-ZR`5e28$01U"
+263,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi califcación de ICS?""]]}",262,15,B6nflofJ7@-qdz[v$275
+264,data_setvariableto,,,263,16,4OlZKb86(NIkOa_/%6yl
+265,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de Francés?""]]}",264,17,~hRkJz0`{Hp53VaTISE6
+266,data_setvariableto,,,265,18,(H^GY!VM[hr$?pfbAI]7
+267,looks_sayforsecs,,"{""MESSAGE"": [3, ""kpM!fezA;gD-~Xe@%gBJ"", [10, ""¡Hola!""]], ""SECS"": [1, [4, ""2""]]}",266,19,"@k-OATUz7.,B_.~7_GBt"
+268,control_if,,,267,7,:0(abM%BK|mQAwg}sfq;
+269,motion_gotoxy,,"{""X"": [1, [4, ""43""]], ""Y"": [1, [4, ""75""]]}",268,8,"ryvey/wy(?Ogtqs5.(@,"
+270,looks_switchbackdropto,,"{""BACKDROP"": [1, ""pENNFP{^I_nd}NGv`3Qq""]}",269,9,G5WgeTr?|mz(SNItEK!H
+271,motion_gotoxy,,"{""X"": [1, [4, ""142""]], ""Y"": [1, [4, ""-58""]]}",270,10,"c,!Q.R.E5r_i9EiL--ne"
+272,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de ética?""]]}",271,11,{Il~`ih@v)VDxNN$[Og6
+273,data_setvariableto,,,272,12,`?%^*PhU}CaNc4?Oy-XP
+274,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de deportes?""]]}",273,13,r/{$OSA`Tp9:$_OHsI-f
+275,data_setvariableto,,,274,14,"y4l,G@us-ZR`5e28$01U"
+276,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi califcación de ICS?""]]}",275,15,B6nflofJ7@-qdz[v$275
+277,data_setvariableto,,,276,16,4OlZKb86(NIkOa_/%6yl
+278,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de Francés?""]]}",277,17,~hRkJz0`{Hp53VaTISE6
+279,data_setvariableto,,,278,18,(H^GY!VM[hr$?pfbAI]7
+280,looks_sayforsecs,,"{""MESSAGE"": [3, ""kpM!fezA;gD-~Xe@%gBJ"", [10, ""¡Hola!""]], ""SECS"": [1, [4, ""2""]]}",279,19,"@k-OATUz7.,B_.~7_GBt"
+281,control_if,,,280,7,:0(abM%BK|mQAwg}sfq;
+282,motion_gotoxy,,"{""X"": [1, [4, ""43""]], ""Y"": [1, [4, ""75""]]}",281,8,"ryvey/wy(?Ogtqs5.(@,"
+283,looks_switchbackdropto,,"{""BACKDROP"": [1, ""pENNFP{^I_nd}NGv`3Qq""]}",282,9,G5WgeTr?|mz(SNItEK!H
+284,motion_gotoxy,,"{""X"": [1, [4, ""142""]], ""Y"": [1, [4, ""-58""]]}",283,10,"c,!Q.R.E5r_i9EiL--ne"
+285,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de ética?""]]}",284,11,{Il~`ih@v)VDxNN$[Og6
+286,data_setvariableto,,,285,12,`?%^*PhU}CaNc4?Oy-XP
+287,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de deportes?""]]}",286,13,r/{$OSA`Tp9:$_OHsI-f
+288,data_setvariableto,,,287,14,"y4l,G@us-ZR`5e28$01U"
+289,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi califcación de ICS?""]]}",288,15,B6nflofJ7@-qdz[v$275
+290,data_setvariableto,,,289,16,4OlZKb86(NIkOa_/%6yl
+291,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de Francés?""]]}",290,17,~hRkJz0`{Hp53VaTISE6
+292,data_setvariableto,,,291,18,(H^GY!VM[hr$?pfbAI]7
+293,looks_sayforsecs,,"{""MESSAGE"": [3, ""kpM!fezA;gD-~Xe@%gBJ"", [10, ""¡Hola!""]], ""SECS"": [1, [4, ""2""]]}",292,19,"@k-OATUz7.,B_.~7_GBt"
+294,control_if,,,293,7,:0(abM%BK|mQAwg}sfq;
+295,motion_gotoxy,,"{""X"": [1, [4, ""43""]], ""Y"": [1, [4, ""75""]]}",294,8,"ryvey/wy(?Ogtqs5.(@,"
+296,looks_switchbackdropto,,"{""BACKDROP"": [1, ""pENNFP{^I_nd}NGv`3Qq""]}",295,9,G5WgeTr?|mz(SNItEK!H
+297,motion_gotoxy,,"{""X"": [1, [4, ""142""]], ""Y"": [1, [4, ""-58""]]}",296,10,"c,!Q.R.E5r_i9EiL--ne"
+298,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de ética?""]]}",297,11,{Il~`ih@v)VDxNN$[Og6
+299,data_setvariableto,,,298,12,`?%^*PhU}CaNc4?Oy-XP
+300,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de deportes?""]]}",299,13,r/{$OSA`Tp9:$_OHsI-f
+301,data_setvariableto,,,300,14,"y4l,G@us-ZR`5e28$01U"
+302,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi califcación de ICS?""]]}",301,15,B6nflofJ7@-qdz[v$275
+303,data_setvariableto,,,302,16,4OlZKb86(NIkOa_/%6yl
+304,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de Francés?""]]}",303,17,~hRkJz0`{Hp53VaTISE6
+305,data_setvariableto,,,304,18,(H^GY!VM[hr$?pfbAI]7
+306,looks_sayforsecs,,"{""MESSAGE"": [3, ""kpM!fezA;gD-~Xe@%gBJ"", [10, ""¡Hola!""]], ""SECS"": [1, [4, ""2""]]}",305,19,"@k-OATUz7.,B_.~7_GBt"
+307,control_if,,,306,7,:0(abM%BK|mQAwg}sfq;
+308,motion_gotoxy,,"{""X"": [1, [4, ""43""]], ""Y"": [1, [4, ""75""]]}",307,8,"ryvey/wy(?Ogtqs5.(@,"
+309,looks_switchbackdropto,,"{""BACKDROP"": [1, ""pENNFP{^I_nd}NGv`3Qq""]}",308,9,G5WgeTr?|mz(SNItEK!H
+310,motion_gotoxy,,"{""X"": [1, [4, ""142""]], ""Y"": [1, [4, ""-58""]]}",309,10,"c,!Q.R.E5r_i9EiL--ne"
+311,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de ética?""]]}",310,11,{Il~`ih@v)VDxNN$[Og6
+312,data_setvariableto,,,311,12,`?%^*PhU}CaNc4?Oy-XP
+313,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de deportes?""]]}",312,13,r/{$OSA`Tp9:$_OHsI-f
+314,data_setvariableto,,,313,14,"y4l,G@us-ZR`5e28$01U"
+315,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi califcación de ICS?""]]}",314,15,B6nflofJ7@-qdz[v$275
+316,data_setvariableto,,,315,16,4OlZKb86(NIkOa_/%6yl
+317,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de Francés?""]]}",316,17,~hRkJz0`{Hp53VaTISE6
+318,data_setvariableto,,,317,18,(H^GY!VM[hr$?pfbAI]7
+319,looks_sayforsecs,,"{""MESSAGE"": [3, ""kpM!fezA;gD-~Xe@%gBJ"", [10, ""¡Hola!""]], ""SECS"": [1, [4, ""2""]]}",318,19,"@k-OATUz7.,B_.~7_GBt"
+320,control_if,,,319,7,:0(abM%BK|mQAwg}sfq;
+321,motion_gotoxy,,"{""X"": [1, [4, ""43""]], ""Y"": [1, [4, ""75""]]}",320,8,"ryvey/wy(?Ogtqs5.(@,"
+322,looks_switchbackdropto,,"{""BACKDROP"": [1, ""pENNFP{^I_nd}NGv`3Qq""]}",321,9,G5WgeTr?|mz(SNItEK!H
+323,motion_gotoxy,,"{""X"": [1, [4, ""142""]], ""Y"": [1, [4, ""-58""]]}",322,10,"c,!Q.R.E5r_i9EiL--ne"
+324,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de ética?""]]}",323,11,{Il~`ih@v)VDxNN$[Og6
+325,data_setvariableto,,,324,12,`?%^*PhU}CaNc4?Oy-XP
+326,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de deportes?""]]}",325,13,r/{$OSA`Tp9:$_OHsI-f
+327,data_setvariableto,,,326,14,"y4l,G@us-ZR`5e28$01U"
+328,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi califcación de ICS?""]]}",327,15,B6nflofJ7@-qdz[v$275
+329,data_setvariableto,,,328,16,4OlZKb86(NIkOa_/%6yl
+330,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de Francés?""]]}",329,17,~hRkJz0`{Hp53VaTISE6
+331,data_setvariableto,,,330,18,(H^GY!VM[hr$?pfbAI]7
+332,looks_sayforsecs,,"{""MESSAGE"": [3, ""kpM!fezA;gD-~Xe@%gBJ"", [10, ""¡Hola!""]], ""SECS"": [1, [4, ""2""]]}",331,19,"@k-OATUz7.,B_.~7_GBt"
+333,control_if,,,332,7,:0(abM%BK|mQAwg}sfq;
+334,motion_gotoxy,,"{""X"": [1, [4, ""43""]], ""Y"": [1, [4, ""75""]]}",333,8,"ryvey/wy(?Ogtqs5.(@,"
+335,looks_switchbackdropto,,"{""BACKDROP"": [1, ""pENNFP{^I_nd}NGv`3Qq""]}",334,9,G5WgeTr?|mz(SNItEK!H
+336,motion_gotoxy,,"{""X"": [1, [4, ""142""]], ""Y"": [1, [4, ""-58""]]}",335,10,"c,!Q.R.E5r_i9EiL--ne"
+337,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de ética?""]]}",336,11,{Il~`ih@v)VDxNN$[Og6
+338,data_setvariableto,,,337,12,`?%^*PhU}CaNc4?Oy-XP
+339,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de deportes?""]]}",338,13,r/{$OSA`Tp9:$_OHsI-f
+340,data_setvariableto,,,339,14,"y4l,G@us-ZR`5e28$01U"
+341,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi califcación de ICS?""]]}",340,15,B6nflofJ7@-qdz[v$275
+342,data_setvariableto,,,341,16,4OlZKb86(NIkOa_/%6yl
+343,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de Francés?""]]}",342,17,~hRkJz0`{Hp53VaTISE6
+344,data_setvariableto,,,343,18,(H^GY!VM[hr$?pfbAI]7
+345,looks_sayforsecs,,"{""MESSAGE"": [3, ""kpM!fezA;gD-~Xe@%gBJ"", [10, ""¡Hola!""]], ""SECS"": [1, [4, ""2""]]}",344,19,"@k-OATUz7.,B_.~7_GBt"
+346,control_if,,,345,7,:0(abM%BK|mQAwg}sfq;
+347,motion_gotoxy,,"{""X"": [1, [4, ""43""]], ""Y"": [1, [4, ""75""]]}",346,8,"ryvey/wy(?Ogtqs5.(@,"
+348,looks_switchbackdropto,,"{""BACKDROP"": [1, ""pENNFP{^I_nd}NGv`3Qq""]}",347,9,G5WgeTr?|mz(SNItEK!H
+349,motion_gotoxy,,"{""X"": [1, [4, ""142""]], ""Y"": [1, [4, ""-58""]]}",348,10,"c,!Q.R.E5r_i9EiL--ne"
+350,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de ética?""]]}",349,11,{Il~`ih@v)VDxNN$[Og6
+351,data_setvariableto,,,350,12,`?%^*PhU}CaNc4?Oy-XP
+352,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de deportes?""]]}",351,13,r/{$OSA`Tp9:$_OHsI-f
+353,data_setvariableto,,,352,14,"y4l,G@us-ZR`5e28$01U"
+354,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi califcación de ICS?""]]}",353,15,B6nflofJ7@-qdz[v$275
+355,data_setvariableto,,,354,16,4OlZKb86(NIkOa_/%6yl
+356,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de Francés?""]]}",355,17,~hRkJz0`{Hp53VaTISE6
+357,data_setvariableto,,,356,18,(H^GY!VM[hr$?pfbAI]7
+358,looks_sayforsecs,,"{""MESSAGE"": [3, ""kpM!fezA;gD-~Xe@%gBJ"", [10, ""¡Hola!""]], ""SECS"": [1, [4, ""2""]]}",357,19,"@k-OATUz7.,B_.~7_GBt"
+359,control_if,,,358,7,:0(abM%BK|mQAwg}sfq;
+360,motion_gotoxy,,"{""X"": [1, [4, ""43""]], ""Y"": [1, [4, ""75""]]}",359,8,"ryvey/wy(?Ogtqs5.(@,"
+361,looks_switchbackdropto,,"{""BACKDROP"": [1, ""pENNFP{^I_nd}NGv`3Qq""]}",360,9,G5WgeTr?|mz(SNItEK!H
+362,motion_gotoxy,,"{""X"": [1, [4, ""142""]], ""Y"": [1, [4, ""-58""]]}",361,10,"c,!Q.R.E5r_i9EiL--ne"
+363,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de ética?""]]}",362,11,{Il~`ih@v)VDxNN$[Og6
+364,data_setvariableto,,,363,12,`?%^*PhU}CaNc4?Oy-XP
+365,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de deportes?""]]}",364,13,r/{$OSA`Tp9:$_OHsI-f
+366,data_setvariableto,,,365,14,"y4l,G@us-ZR`5e28$01U"
+367,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi califcación de ICS?""]]}",366,15,B6nflofJ7@-qdz[v$275
+368,data_setvariableto,,,367,16,4OlZKb86(NIkOa_/%6yl
+369,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de Francés?""]]}",368,17,~hRkJz0`{Hp53VaTISE6
+370,data_setvariableto,,,369,18,(H^GY!VM[hr$?pfbAI]7
+371,looks_sayforsecs,,"{""MESSAGE"": [3, ""kpM!fezA;gD-~Xe@%gBJ"", [10, ""¡Hola!""]], ""SECS"": [1, [4, ""2""]]}",370,19,"@k-OATUz7.,B_.~7_GBt"
+372,control_if,,,371,7,:0(abM%BK|mQAwg}sfq;
+373,motion_gotoxy,,"{""X"": [1, [4, ""43""]], ""Y"": [1, [4, ""75""]]}",372,8,"ryvey/wy(?Ogtqs5.(@,"
+374,looks_switchbackdropto,,"{""BACKDROP"": [1, ""pENNFP{^I_nd}NGv`3Qq""]}",373,9,G5WgeTr?|mz(SNItEK!H
+375,motion_gotoxy,,"{""X"": [1, [4, ""142""]], ""Y"": [1, [4, ""-58""]]}",374,10,"c,!Q.R.E5r_i9EiL--ne"
+376,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de ética?""]]}",375,11,{Il~`ih@v)VDxNN$[Og6
+377,data_setvariableto,,,376,12,`?%^*PhU}CaNc4?Oy-XP
+378,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de deportes?""]]}",377,13,r/{$OSA`Tp9:$_OHsI-f
+379,data_setvariableto,,,378,14,"y4l,G@us-ZR`5e28$01U"
+380,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi califcación de ICS?""]]}",379,15,B6nflofJ7@-qdz[v$275
+381,data_setvariableto,,,380,16,4OlZKb86(NIkOa_/%6yl
+382,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de Francés?""]]}",381,17,~hRkJz0`{Hp53VaTISE6
+383,data_setvariableto,,,382,18,(H^GY!VM[hr$?pfbAI]7
+384,looks_sayforsecs,,"{""MESSAGE"": [3, ""kpM!fezA;gD-~Xe@%gBJ"", [10, ""¡Hola!""]], ""SECS"": [1, [4, ""2""]]}",383,19,"@k-OATUz7.,B_.~7_GBt"
+385,control_if,,,384,7,:0(abM%BK|mQAwg}sfq;
+386,motion_gotoxy,,"{""X"": [1, [4, ""43""]], ""Y"": [1, [4, ""75""]]}",385,8,"ryvey/wy(?Ogtqs5.(@,"
+387,looks_switchbackdropto,,"{""BACKDROP"": [1, ""pENNFP{^I_nd}NGv`3Qq""]}",386,9,G5WgeTr?|mz(SNItEK!H
+388,motion_gotoxy,,"{""X"": [1, [4, ""142""]], ""Y"": [1, [4, ""-58""]]}",387,10,"c,!Q.R.E5r_i9EiL--ne"
+389,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de ética?""]]}",388,11,{Il~`ih@v)VDxNN$[Og6
+390,data_setvariableto,,,389,12,`?%^*PhU}CaNc4?Oy-XP
+391,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de deportes?""]]}",390,13,r/{$OSA`Tp9:$_OHsI-f
+392,data_setvariableto,,,391,14,"y4l,G@us-ZR`5e28$01U"
+393,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi califcación de ICS?""]]}",392,15,B6nflofJ7@-qdz[v$275
+394,data_setvariableto,,,393,16,4OlZKb86(NIkOa_/%6yl
+395,sensing_askandwait,,"{""QUESTION"": [1, [10, ""¿Cuál fue mi calificación de Francés?""]]}",394,17,~hRkJz0`{Hp53VaTISE6
+396,data_setvariableto,,,395,18,(H^GY!VM[hr$?pfbAI]7
+397,looks_sayforsecs,,"{""MESSAGE"": [3, ""kpM!fezA;gD-~Xe@%gBJ"", [10, ""¡Hola!""]], ""SECS"": [1, [4, ""2""]]}",396,19,"@k-OATUz7.,B_.~7_GBt"

@@ -1,0 +1,25 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,100,0,,,
+1,SCRIPT,,,0,0,
+2,event_whenthisspriteclicked,,,1,0,"BUBcT`,%xk|,D=Xq%tW+"
+3,motion_gotoxy,,"{""X"": [1, [4, ""-150""]], ""Y"": [1, [4, ""0""]]}",2,2,Z]QwVkc_+p?oJS-wNq/p
+4,looks_setsizeto,,"{""SIZE"": [1, [4, ""100""]]}",3,3,"uegIQlabCwo,Xdn*u%2F"
+5,control_wait,,"{""DURATION"": [1, [5, ""4""]]}",4,4,{/~ct57}xFtNSXirSP#y
+6,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Lets race""]], ""SECS"": [1, [4, ""2""]]}",5,5,B/Wt55MY2p{~6})23HC#
+7,motion_gotoxy,,"{""X"": [1, [4, ""-150""]], ""Y"": [1, [4, ""0""]]}",6,6,5kwDwKYz@qFa-)9ePgrb
+8,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""5""]], ""X"": [1, [4, ""200""]], ""Y"": [1, [4, ""0""]]}",7,7,-V;%^sozd^av]bP|PRkZ
+9,sound_playuntildone,,"{""SOUND_MENU"": [1, ""2iBP/+6{?UA,;#gSTN:%""]}",8,8,"lnl{.v?TNp}-Wv,v~t*g"
+10,control_repeat,,,9,9,|nvht)5A7qb{/L3bux1b
+11,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Take the L""]], ""SECS"": [1, [4, ""2""]]}",10,10,%m4G1tGRq47bHa*_W|(r
+12,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Take the L""]], ""SECS"": [1, [4, ""2""]]}",11,10,%m4G1tGRq47bHa*_W|(r
+13,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Take the L""]], ""SECS"": [1, [4, ""2""]]}",12,10,%m4G1tGRq47bHa*_W|(r
+14,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Take the L""]], ""SECS"": [1, [4, ""2""]]}",13,10,%m4G1tGRq47bHa*_W|(r
+15,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Take the L""]], ""SECS"": [1, [4, ""2""]]}",14,10,%m4G1tGRq47bHa*_W|(r
+16,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""You""re to slow ""]], ""SECS"": [1, [4, ""2""]]}",15,10,"RCNOS:[.J^@4ZNekM^3,"
+17,looks_hide,,{},16,16,+=FrS0dM04^J7s_efKzF
+18,looks_setsizeto,,"{""SIZE"": [1, [4, ""200""]]}",17,17,rh%+pZaGzj*B6xr/0QYQ
+19,motion_gotoxy,,"{""X"": [1, [4, ""100""]], ""Y"": [1, [4, ""0""]]}",18,18,-=Dyw0{As[Xxf!r8WWiB
+20,control_wait,,"{""DURATION"": [1, [5, ""3.""]]}",19,19,"W[nw}b6aJSDzs,,9Y4n7"
+21,looks_show,,{},20,20,"nk`A(}10a|],2bS?[NgT"
+22,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",21,21,`pH8CTldK?~5-z=j9p5o
+23,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Let""s fight now ""]], ""SECS"": [1, [4, ""2""]]}",22,22,"!y},4]SZDKi?/Q]I;oTq"

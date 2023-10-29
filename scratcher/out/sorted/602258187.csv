@@ -1,0 +1,9 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-118,-9,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,I|=Ms#_:2PRR;GJnqR8x
+3,motion_movesteps,,"{""STEPS"": [1, [4, ""30""]]}",2,2,x/I8B_9pZ0BtVZK;2[hm
+4,looks_say,,"{""MESSAGE"": [1, [10, ""Hello!""]]}",3,3,Xo9uD6w+;Sm/v6[D3pDk
+5,looks_changesizeby,,"{""CHANGE"": [1, [4, ""35""]]}",4,4,p).!tStB.%MhTw/:I(?~
+6,SCRIPT,,,0,0,
+7,event_whenkeypressed,space,,1,0,c3fahF7p#cpbRkIniX;u

@@ -1,0 +1,156 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,7,45,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,"2}xp{v3TPzrto#,NHOk@"
+3,looks_switchbackdropto,,"{""BACKDROP"": [1, ""Ux+h[BDl^k}%L0hY+$TF""]}",2,2,H]JZ2A+d?f`_Lu#^ZQo$
+4,sensing_askandwait,,"{""QUESTION"": [1, [10, ""Adın ne?""]]}",3,3,JG%#4Q[iU|$;b6XBuR!Z
+5,looks_say,,"{""MESSAGE"": [3, ""_O^pvDGCF~e9IU`GA`+K"", [10, ""Merhaba!""]]}",4,4,c48[-Eb7h93ZOjZ%cUv/
+6,control_wait,,"{""DURATION"": [1, [5, ""2""]]}",5,5,ca`E%{Jy2Y[-^QpJ_!?S
+7,control_forever,,,6,6,w/o-Sk{*MQJMIk5uiMOB
+8,looks_sayforsecs,,"{""SECS"": [1, [4, ""1000""]], ""MESSAGE"": [1, [10, ""Sayi tahmin oyunu oynamak ister misin""]]}",7,7,-k$`j^TQcGloph(zoO00
+9,control_if_else,,,8,8,8TGjz~:(hP+/Tj9rbH|t
+10,looks_sayforsecs,,"{""SECS"": [1, [4, ""2""]], ""MESSAGE"": [1, [10, ""Tamam...  Baska Zaman Görüsürüs""]]}",9,9,rT6$WVt5rI+Hy.MJk#i+
+11,control_stop,,{},10,10,fgMQUUwtM$-MyVlZZC1Q
+12,looks_sayforsecs,,"{""SECS"": [1, [4, ""1000""]], ""MESSAGE"": [1, [10, ""Sayi tahmin oyunu oynamak ister misin""]]}",11,7,-k$`j^TQcGloph(zoO00
+13,control_if_else,,,12,8,8TGjz~:(hP+/Tj9rbH|t
+14,looks_sayforsecs,,"{""SECS"": [1, [4, ""2""]], ""MESSAGE"": [1, [10, ""Tamam...  Baska Zaman Görüsürüs""]]}",13,9,rT6$WVt5rI+Hy.MJk#i+
+15,control_stop,,{},14,10,fgMQUUwtM$-MyVlZZC1Q
+16,looks_sayforsecs,,"{""SECS"": [1, [4, ""1000""]], ""MESSAGE"": [1, [10, ""Sayi tahmin oyunu oynamak ister misin""]]}",15,7,-k$`j^TQcGloph(zoO00
+17,control_if_else,,,16,8,8TGjz~:(hP+/Tj9rbH|t
+18,looks_sayforsecs,,"{""SECS"": [1, [4, ""2""]], ""MESSAGE"": [1, [10, ""Tamam...  Baska Zaman Görüsürüs""]]}",17,9,rT6$WVt5rI+Hy.MJk#i+
+19,control_stop,,{},18,10,fgMQUUwtM$-MyVlZZC1Q
+20,looks_sayforsecs,,"{""SECS"": [1, [4, ""1000""]], ""MESSAGE"": [1, [10, ""Sayi tahmin oyunu oynamak ister misin""]]}",19,7,-k$`j^TQcGloph(zoO00
+21,control_if_else,,,20,8,8TGjz~:(hP+/Tj9rbH|t
+22,looks_sayforsecs,,"{""SECS"": [1, [4, ""2""]], ""MESSAGE"": [1, [10, ""Tamam...  Baska Zaman Görüsürüs""]]}",21,9,rT6$WVt5rI+Hy.MJk#i+
+23,control_stop,,{},22,10,fgMQUUwtM$-MyVlZZC1Q
+24,looks_sayforsecs,,"{""SECS"": [1, [4, ""1000""]], ""MESSAGE"": [1, [10, ""Sayi tahmin oyunu oynamak ister misin""]]}",23,7,-k$`j^TQcGloph(zoO00
+25,control_if_else,,,24,8,8TGjz~:(hP+/Tj9rbH|t
+26,looks_sayforsecs,,"{""SECS"": [1, [4, ""2""]], ""MESSAGE"": [1, [10, ""Tamam...  Baska Zaman Görüsürüs""]]}",25,9,rT6$WVt5rI+Hy.MJk#i+
+27,control_stop,,{},26,10,fgMQUUwtM$-MyVlZZC1Q
+28,looks_sayforsecs,,"{""SECS"": [1, [4, ""1000""]], ""MESSAGE"": [1, [10, ""Sayi tahmin oyunu oynamak ister misin""]]}",27,7,-k$`j^TQcGloph(zoO00
+29,control_if_else,,,28,8,8TGjz~:(hP+/Tj9rbH|t
+30,looks_sayforsecs,,"{""SECS"": [1, [4, ""2""]], ""MESSAGE"": [1, [10, ""Tamam...  Baska Zaman Görüsürüs""]]}",29,9,rT6$WVt5rI+Hy.MJk#i+
+31,control_stop,,{},30,10,fgMQUUwtM$-MyVlZZC1Q
+32,looks_sayforsecs,,"{""SECS"": [1, [4, ""1000""]], ""MESSAGE"": [1, [10, ""Sayi tahmin oyunu oynamak ister misin""]]}",31,7,-k$`j^TQcGloph(zoO00
+33,control_if_else,,,32,8,8TGjz~:(hP+/Tj9rbH|t
+34,looks_sayforsecs,,"{""SECS"": [1, [4, ""2""]], ""MESSAGE"": [1, [10, ""Tamam...  Baska Zaman Görüsürüs""]]}",33,9,rT6$WVt5rI+Hy.MJk#i+
+35,control_stop,,{},34,10,fgMQUUwtM$-MyVlZZC1Q
+36,looks_sayforsecs,,"{""SECS"": [1, [4, ""1000""]], ""MESSAGE"": [1, [10, ""Sayi tahmin oyunu oynamak ister misin""]]}",35,7,-k$`j^TQcGloph(zoO00
+37,control_if_else,,,36,8,8TGjz~:(hP+/Tj9rbH|t
+38,looks_sayforsecs,,"{""SECS"": [1, [4, ""2""]], ""MESSAGE"": [1, [10, ""Tamam...  Baska Zaman Görüsürüs""]]}",37,9,rT6$WVt5rI+Hy.MJk#i+
+39,control_stop,,{},38,10,fgMQUUwtM$-MyVlZZC1Q
+40,looks_sayforsecs,,"{""SECS"": [1, [4, ""1000""]], ""MESSAGE"": [1, [10, ""Sayi tahmin oyunu oynamak ister misin""]]}",39,7,-k$`j^TQcGloph(zoO00
+41,control_if_else,,,40,8,8TGjz~:(hP+/Tj9rbH|t
+42,looks_sayforsecs,,"{""SECS"": [1, [4, ""2""]], ""MESSAGE"": [1, [10, ""Tamam...  Baska Zaman Görüsürüs""]]}",41,9,rT6$WVt5rI+Hy.MJk#i+
+43,control_stop,,{},42,10,fgMQUUwtM$-MyVlZZC1Q
+44,looks_sayforsecs,,"{""SECS"": [1, [4, ""1000""]], ""MESSAGE"": [1, [10, ""Sayi tahmin oyunu oynamak ister misin""]]}",43,7,-k$`j^TQcGloph(zoO00
+45,control_if_else,,,44,8,8TGjz~:(hP+/Tj9rbH|t
+46,looks_sayforsecs,,"{""SECS"": [1, [4, ""2""]], ""MESSAGE"": [1, [10, ""Tamam...  Baska Zaman Görüsürüs""]]}",45,9,rT6$WVt5rI+Hy.MJk#i+
+47,control_stop,,{},46,10,fgMQUUwtM$-MyVlZZC1Q
+48,looks_sayforsecs,,"{""SECS"": [1, [4, ""1000""]], ""MESSAGE"": [1, [10, ""Sayi tahmin oyunu oynamak ister misin""]]}",47,7,-k$`j^TQcGloph(zoO00
+49,control_if_else,,,48,8,8TGjz~:(hP+/Tj9rbH|t
+50,looks_sayforsecs,,"{""SECS"": [1, [4, ""2""]], ""MESSAGE"": [1, [10, ""Tamam...  Baska Zaman Görüsürüs""]]}",49,9,rT6$WVt5rI+Hy.MJk#i+
+51,control_stop,,{},50,10,fgMQUUwtM$-MyVlZZC1Q
+52,looks_sayforsecs,,"{""SECS"": [1, [4, ""1000""]], ""MESSAGE"": [1, [10, ""Sayi tahmin oyunu oynamak ister misin""]]}",51,7,-k$`j^TQcGloph(zoO00
+53,control_if_else,,,52,8,8TGjz~:(hP+/Tj9rbH|t
+54,looks_sayforsecs,,"{""SECS"": [1, [4, ""2""]], ""MESSAGE"": [1, [10, ""Tamam...  Baska Zaman Görüsürüs""]]}",53,9,rT6$WVt5rI+Hy.MJk#i+
+55,control_stop,,{},54,10,fgMQUUwtM$-MyVlZZC1Q
+56,looks_sayforsecs,,"{""SECS"": [1, [4, ""1000""]], ""MESSAGE"": [1, [10, ""Sayi tahmin oyunu oynamak ister misin""]]}",55,7,-k$`j^TQcGloph(zoO00
+57,control_if_else,,,56,8,8TGjz~:(hP+/Tj9rbH|t
+58,looks_sayforsecs,,"{""SECS"": [1, [4, ""2""]], ""MESSAGE"": [1, [10, ""Tamam...  Baska Zaman Görüsürüs""]]}",57,9,rT6$WVt5rI+Hy.MJk#i+
+59,control_stop,,{},58,10,fgMQUUwtM$-MyVlZZC1Q
+60,looks_sayforsecs,,"{""SECS"": [1, [4, ""1000""]], ""MESSAGE"": [1, [10, ""Sayi tahmin oyunu oynamak ister misin""]]}",59,7,-k$`j^TQcGloph(zoO00
+61,control_if_else,,,60,8,8TGjz~:(hP+/Tj9rbH|t
+62,looks_sayforsecs,,"{""SECS"": [1, [4, ""2""]], ""MESSAGE"": [1, [10, ""Tamam...  Baska Zaman Görüsürüs""]]}",61,9,rT6$WVt5rI+Hy.MJk#i+
+63,control_stop,,{},62,10,fgMQUUwtM$-MyVlZZC1Q
+64,looks_sayforsecs,,"{""SECS"": [1, [4, ""1000""]], ""MESSAGE"": [1, [10, ""Sayi tahmin oyunu oynamak ister misin""]]}",63,7,-k$`j^TQcGloph(zoO00
+65,control_if_else,,,64,8,8TGjz~:(hP+/Tj9rbH|t
+66,looks_sayforsecs,,"{""SECS"": [1, [4, ""2""]], ""MESSAGE"": [1, [10, ""Tamam...  Baska Zaman Görüsürüs""]]}",65,9,rT6$WVt5rI+Hy.MJk#i+
+67,control_stop,,{},66,10,fgMQUUwtM$-MyVlZZC1Q
+68,looks_sayforsecs,,"{""SECS"": [1, [4, ""1000""]], ""MESSAGE"": [1, [10, ""Sayi tahmin oyunu oynamak ister misin""]]}",67,7,-k$`j^TQcGloph(zoO00
+69,control_if_else,,,68,8,8TGjz~:(hP+/Tj9rbH|t
+70,looks_sayforsecs,,"{""SECS"": [1, [4, ""2""]], ""MESSAGE"": [1, [10, ""Tamam...  Baska Zaman Görüsürüs""]]}",69,9,rT6$WVt5rI+Hy.MJk#i+
+71,control_stop,,{},70,10,fgMQUUwtM$-MyVlZZC1Q
+72,looks_sayforsecs,,"{""SECS"": [1, [4, ""1000""]], ""MESSAGE"": [1, [10, ""Sayi tahmin oyunu oynamak ister misin""]]}",71,7,-k$`j^TQcGloph(zoO00
+73,control_if_else,,,72,8,8TGjz~:(hP+/Tj9rbH|t
+74,looks_sayforsecs,,"{""SECS"": [1, [4, ""2""]], ""MESSAGE"": [1, [10, ""Tamam...  Baska Zaman Görüsürüs""]]}",73,9,rT6$WVt5rI+Hy.MJk#i+
+75,control_stop,,{},74,10,fgMQUUwtM$-MyVlZZC1Q
+76,looks_sayforsecs,,"{""SECS"": [1, [4, ""1000""]], ""MESSAGE"": [1, [10, ""Sayi tahmin oyunu oynamak ister misin""]]}",75,7,-k$`j^TQcGloph(zoO00
+77,control_if_else,,,76,8,8TGjz~:(hP+/Tj9rbH|t
+78,looks_sayforsecs,,"{""SECS"": [1, [4, ""2""]], ""MESSAGE"": [1, [10, ""Tamam...  Baska Zaman Görüsürüs""]]}",77,9,rT6$WVt5rI+Hy.MJk#i+
+79,control_stop,,{},78,10,fgMQUUwtM$-MyVlZZC1Q
+80,looks_sayforsecs,,"{""SECS"": [1, [4, ""1000""]], ""MESSAGE"": [1, [10, ""Sayi tahmin oyunu oynamak ister misin""]]}",79,7,-k$`j^TQcGloph(zoO00
+81,control_if_else,,,80,8,8TGjz~:(hP+/Tj9rbH|t
+82,looks_sayforsecs,,"{""SECS"": [1, [4, ""2""]], ""MESSAGE"": [1, [10, ""Tamam...  Baska Zaman Görüsürüs""]]}",81,9,rT6$WVt5rI+Hy.MJk#i+
+83,control_stop,,{},82,10,fgMQUUwtM$-MyVlZZC1Q
+84,looks_sayforsecs,,"{""SECS"": [1, [4, ""1000""]], ""MESSAGE"": [1, [10, ""Sayi tahmin oyunu oynamak ister misin""]]}",83,7,-k$`j^TQcGloph(zoO00
+85,control_if_else,,,84,8,8TGjz~:(hP+/Tj9rbH|t
+86,looks_sayforsecs,,"{""SECS"": [1, [4, ""2""]], ""MESSAGE"": [1, [10, ""Tamam...  Baska Zaman Görüsürüs""]]}",85,9,rT6$WVt5rI+Hy.MJk#i+
+87,control_stop,,{},86,10,fgMQUUwtM$-MyVlZZC1Q
+88,looks_sayforsecs,,"{""SECS"": [1, [4, ""1000""]], ""MESSAGE"": [1, [10, ""Sayi tahmin oyunu oynamak ister misin""]]}",87,7,-k$`j^TQcGloph(zoO00
+89,control_if_else,,,88,8,8TGjz~:(hP+/Tj9rbH|t
+90,looks_sayforsecs,,"{""SECS"": [1, [4, ""2""]], ""MESSAGE"": [1, [10, ""Tamam...  Baska Zaman Görüsürüs""]]}",89,9,rT6$WVt5rI+Hy.MJk#i+
+91,control_stop,,{},90,10,fgMQUUwtM$-MyVlZZC1Q
+92,looks_sayforsecs,,"{""SECS"": [1, [4, ""1000""]], ""MESSAGE"": [1, [10, ""Sayi tahmin oyunu oynamak ister misin""]]}",91,7,-k$`j^TQcGloph(zoO00
+93,control_if_else,,,92,8,8TGjz~:(hP+/Tj9rbH|t
+94,looks_sayforsecs,,"{""SECS"": [1, [4, ""2""]], ""MESSAGE"": [1, [10, ""Tamam...  Baska Zaman Görüsürüs""]]}",93,9,rT6$WVt5rI+Hy.MJk#i+
+95,control_stop,,{},94,10,fgMQUUwtM$-MyVlZZC1Q
+96,looks_sayforsecs,,"{""SECS"": [1, [4, ""1000""]], ""MESSAGE"": [1, [10, ""Sayi tahmin oyunu oynamak ister misin""]]}",95,7,-k$`j^TQcGloph(zoO00
+97,control_if_else,,,96,8,8TGjz~:(hP+/Tj9rbH|t
+98,looks_sayforsecs,,"{""SECS"": [1, [4, ""2""]], ""MESSAGE"": [1, [10, ""Tamam...  Baska Zaman Görüsürüs""]]}",97,9,rT6$WVt5rI+Hy.MJk#i+
+99,control_stop,,{},98,10,fgMQUUwtM$-MyVlZZC1Q
+100,looks_sayforsecs,,"{""SECS"": [1, [4, ""1000""]], ""MESSAGE"": [1, [10, ""Sayi tahmin oyunu oynamak ister misin""]]}",99,7,-k$`j^TQcGloph(zoO00
+101,control_if_else,,,100,8,8TGjz~:(hP+/Tj9rbH|t
+102,looks_sayforsecs,,"{""SECS"": [1, [4, ""2""]], ""MESSAGE"": [1, [10, ""Tamam...  Baska Zaman Görüsürüs""]]}",101,9,rT6$WVt5rI+Hy.MJk#i+
+103,control_stop,,{},102,10,fgMQUUwtM$-MyVlZZC1Q
+104,looks_sayforsecs,,"{""SECS"": [1, [4, ""1000""]], ""MESSAGE"": [1, [10, ""Sayi tahmin oyunu oynamak ister misin""]]}",103,7,-k$`j^TQcGloph(zoO00
+105,control_if_else,,,104,8,8TGjz~:(hP+/Tj9rbH|t
+106,looks_sayforsecs,,"{""SECS"": [1, [4, ""2""]], ""MESSAGE"": [1, [10, ""Tamam...  Baska Zaman Görüsürüs""]]}",105,9,rT6$WVt5rI+Hy.MJk#i+
+107,control_stop,,{},106,10,fgMQUUwtM$-MyVlZZC1Q
+108,looks_sayforsecs,,"{""SECS"": [1, [4, ""1000""]], ""MESSAGE"": [1, [10, ""Sayi tahmin oyunu oynamak ister misin""]]}",107,7,-k$`j^TQcGloph(zoO00
+109,control_if_else,,,108,8,8TGjz~:(hP+/Tj9rbH|t
+110,looks_sayforsecs,,"{""SECS"": [1, [4, ""2""]], ""MESSAGE"": [1, [10, ""Tamam...  Baska Zaman Görüsürüs""]]}",109,9,rT6$WVt5rI+Hy.MJk#i+
+111,control_stop,,{},110,10,fgMQUUwtM$-MyVlZZC1Q
+112,looks_sayforsecs,,"{""SECS"": [1, [4, ""1000""]], ""MESSAGE"": [1, [10, ""Sayi tahmin oyunu oynamak ister misin""]]}",111,7,-k$`j^TQcGloph(zoO00
+113,control_if_else,,,112,8,8TGjz~:(hP+/Tj9rbH|t
+114,looks_sayforsecs,,"{""SECS"": [1, [4, ""2""]], ""MESSAGE"": [1, [10, ""Tamam...  Baska Zaman Görüsürüs""]]}",113,9,rT6$WVt5rI+Hy.MJk#i+
+115,control_stop,,{},114,10,fgMQUUwtM$-MyVlZZC1Q
+116,looks_sayforsecs,,"{""SECS"": [1, [4, ""1000""]], ""MESSAGE"": [1, [10, ""Sayi tahmin oyunu oynamak ister misin""]]}",115,7,-k$`j^TQcGloph(zoO00
+117,control_if_else,,,116,8,8TGjz~:(hP+/Tj9rbH|t
+118,looks_sayforsecs,,"{""SECS"": [1, [4, ""2""]], ""MESSAGE"": [1, [10, ""Tamam...  Baska Zaman Görüsürüs""]]}",117,9,rT6$WVt5rI+Hy.MJk#i+
+119,control_stop,,{},118,10,fgMQUUwtM$-MyVlZZC1Q
+120,looks_sayforsecs,,"{""SECS"": [1, [4, ""1000""]], ""MESSAGE"": [1, [10, ""Sayi tahmin oyunu oynamak ister misin""]]}",119,7,-k$`j^TQcGloph(zoO00
+121,control_if_else,,,120,8,8TGjz~:(hP+/Tj9rbH|t
+122,looks_sayforsecs,,"{""SECS"": [1, [4, ""2""]], ""MESSAGE"": [1, [10, ""Tamam...  Baska Zaman Görüsürüs""]]}",121,9,rT6$WVt5rI+Hy.MJk#i+
+123,control_stop,,{},122,10,fgMQUUwtM$-MyVlZZC1Q
+124,looks_sayforsecs,,"{""SECS"": [1, [4, ""1000""]], ""MESSAGE"": [1, [10, ""Sayi tahmin oyunu oynamak ister misin""]]}",123,7,-k$`j^TQcGloph(zoO00
+125,control_if_else,,,124,8,8TGjz~:(hP+/Tj9rbH|t
+126,looks_sayforsecs,,"{""SECS"": [1, [4, ""2""]], ""MESSAGE"": [1, [10, ""Tamam...  Baska Zaman Görüsürüs""]]}",125,9,rT6$WVt5rI+Hy.MJk#i+
+127,control_stop,,{},126,10,fgMQUUwtM$-MyVlZZC1Q
+128,SCRIPT,,,0,0,
+129,event_whenbroadcastreceived,,,1,0,"Sx,DP58_!6AIZ?7,~!FQ"
+130,procedures_call,,,2,129,7@0U(!4#(QecG9@U3970
+131,procedures_definition,,,2,0,*LXN%?V[$r;jlVG_YGdE
+132,data_setvariableto,,,3,131,G.B[E:~DPkQ`a8Gl0t)0
+133,sensing_askandwait,,"{""QUESTION"": [1, [10, ""Bil bakalım hangi sayıyı tuttum?""]]}",4,132,m!!7!K;}w8wgH?/+dWxG
+134,control_repeat,,,5,133,^K2=;/opH]B(%D;*/-`9
+135,control_if,,,6,134,:d8I/8XXZ25rhIp#1SX8
+136,sensing_askandwait,,"{""QUESTION"": [1, [10, ""benim sayım daha küçük yeniden tahmin et""]]}",7,135,9ZC1z_wjAf^zj50`fg![
+137,control_if,,,8,134,:d8I/8XXZ25rhIp#1SX8
+138,sensing_askandwait,,"{""QUESTION"": [1, [10, ""benim sayım daha küçük yeniden tahmin et""]]}",9,135,9ZC1z_wjAf^zj50`fg![
+139,control_if,,,10,134,:d8I/8XXZ25rhIp#1SX8
+140,sensing_askandwait,,"{""QUESTION"": [1, [10, ""benim sayım daha küçük yeniden tahmin et""]]}",11,135,9ZC1z_wjAf^zj50`fg![
+141,control_if,,,12,134,:d8I/8XXZ25rhIp#1SX8
+142,sensing_askandwait,,"{""QUESTION"": [1, [10, ""benim sayım daha küçük yeniden tahmin et""]]}",13,135,9ZC1z_wjAf^zj50`fg![
+143,control_if,,,14,134,:d8I/8XXZ25rhIp#1SX8
+144,sensing_askandwait,,"{""QUESTION"": [1, [10, ""benim sayım daha küçük yeniden tahmin et""]]}",15,135,9ZC1z_wjAf^zj50`fg![
+145,control_if,,,16,134,:d8I/8XXZ25rhIp#1SX8
+146,sensing_askandwait,,"{""QUESTION"": [1, [10, ""benim sayım daha küçük yeniden tahmin et""]]}",17,135,9ZC1z_wjAf^zj50`fg![
+147,control_if,,,18,134,:d8I/8XXZ25rhIp#1SX8
+148,sensing_askandwait,,"{""QUESTION"": [1, [10, ""benim sayım daha küçük yeniden tahmin et""]]}",19,135,9ZC1z_wjAf^zj50`fg![
+149,control_if,,,20,134,:d8I/8XXZ25rhIp#1SX8
+150,sensing_askandwait,,"{""QUESTION"": [1, [10, ""benim sayım daha küçük yeniden tahmin et""]]}",21,135,9ZC1z_wjAf^zj50`fg![
+151,control_if,,,22,134,:d8I/8XXZ25rhIp#1SX8
+152,sensing_askandwait,,"{""QUESTION"": [1, [10, ""benim sayım daha küçük yeniden tahmin et""]]}",23,135,9ZC1z_wjAf^zj50`fg![
+153,control_if,,,24,134,:d8I/8XXZ25rhIp#1SX8
+154,sensing_askandwait,,"{""QUESTION"": [1, [10, ""benim sayım daha küçük yeniden tahmin et""]]}",25,135,9ZC1z_wjAf^zj50`fg![

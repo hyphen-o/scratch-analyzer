@@ -1,0 +1,61 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,0,0.5321743404492725,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,7]ep+wB~0w82(T#D{q9-
+3,sound_play,,"{""SOUND_MENU"": [1, ""T.g+pXNX{dCJiY0bk!m8""]}",2,2,"Pk$0uP/0~w,vES],E;xg"
+4,looks_setsizeto,,"{""SIZE"": [1, [4, ""100""]]}",3,3,#XM%[fUsRvAJ*#jl2Yz$
+5,looks_seteffectto,,"{""VALUE"": [1, [4, ""0""]]}",4,4,/@wOY?yc6|;.v{ie08Ht
+6,looks_switchcostumeto,,"{""COSTUME"": [1, ""u=V([8Brga|@XRd!jXP3""]}",5,5,a57Dqo=A0{KR!9_H6;uv
+7,control_create_clone_of,,"{""CLONE_OPTION"": [1, ""LY7lLwF?!5Jwg|O1~Fa^""]}",6,6,"Uwg0{kmft$mx:,qUl${`"
+8,looks_switchcostumeto,,"{""COSTUME"": [1, ""eI#;J!5okkww]/RPNrkn""]}",7,7,XZMj!@iS;$Y*pP@IQ9_1
+9,looks_hide,,{},8,8,x!j9]dKkv8:lFZD=%T.0
+10,data_setvariableto,,,9,9,z^`+{TJPuwD=d0GTQRuj
+11,control_repeat,,,10,10,;HQ#T^41JQbSQTTRv52t
+12,control_create_clone_of,,"{""CLONE_OPTION"": [1, ""_^Gj8ah)80eGc*hF^D;s""]}",11,11,Dl5YGCF+:iw94SG%jV6x
+13,looks_nextcostume,,{},12,12,2CjOynQ=M2yKQfJ.Teg{
+14,data_changevariableby,,,13,13,.L`qX}w{NDRX~-su~4dR
+15,control_create_clone_of,,"{""CLONE_OPTION"": [1, ""_^Gj8ah)80eGc*hF^D;s""]}",14,11,Dl5YGCF+:iw94SG%jV6x
+16,looks_nextcostume,,{},15,12,2CjOynQ=M2yKQfJ.Teg{
+17,data_changevariableby,,,16,13,.L`qX}w{NDRX~-su~4dR
+18,control_create_clone_of,,"{""CLONE_OPTION"": [1, ""_^Gj8ah)80eGc*hF^D;s""]}",17,11,Dl5YGCF+:iw94SG%jV6x
+19,looks_nextcostume,,{},18,12,2CjOynQ=M2yKQfJ.Teg{
+20,data_changevariableby,,,19,13,.L`qX}w{NDRX~-su~4dR
+21,control_create_clone_of,,"{""CLONE_OPTION"": [1, ""_^Gj8ah)80eGc*hF^D;s""]}",20,11,Dl5YGCF+:iw94SG%jV6x
+22,looks_nextcostume,,{},21,12,2CjOynQ=M2yKQfJ.Teg{
+23,data_changevariableby,,,22,13,.L`qX}w{NDRX~-su~4dR
+24,control_create_clone_of,,"{""CLONE_OPTION"": [1, ""_^Gj8ah)80eGc*hF^D;s""]}",23,11,Dl5YGCF+:iw94SG%jV6x
+25,looks_nextcostume,,{},24,12,2CjOynQ=M2yKQfJ.Teg{
+26,data_changevariableby,,,25,13,.L`qX}w{NDRX~-su~4dR
+27,control_create_clone_of,,"{""CLONE_OPTION"": [1, ""_^Gj8ah)80eGc*hF^D;s""]}",26,11,Dl5YGCF+:iw94SG%jV6x
+28,looks_nextcostume,,{},27,12,2CjOynQ=M2yKQfJ.Teg{
+29,data_changevariableby,,,28,13,.L`qX}w{NDRX~-su~4dR
+30,control_create_clone_of,,"{""CLONE_OPTION"": [1, ""_^Gj8ah)80eGc*hF^D;s""]}",29,11,Dl5YGCF+:iw94SG%jV6x
+31,looks_nextcostume,,{},30,12,2CjOynQ=M2yKQfJ.Teg{
+32,data_changevariableby,,,31,13,.L`qX}w{NDRX~-su~4dR
+33,control_create_clone_of,,"{""CLONE_OPTION"": [1, ""_^Gj8ah)80eGc*hF^D;s""]}",32,11,Dl5YGCF+:iw94SG%jV6x
+34,looks_nextcostume,,{},33,12,2CjOynQ=M2yKQfJ.Teg{
+35,data_changevariableby,,,34,13,.L`qX}w{NDRX~-su~4dR
+36,control_create_clone_of,,"{""CLONE_OPTION"": [1, ""_^Gj8ah)80eGc*hF^D;s""]}",35,11,Dl5YGCF+:iw94SG%jV6x
+37,looks_nextcostume,,{},36,12,2CjOynQ=M2yKQfJ.Teg{
+38,data_changevariableby,,,37,13,.L`qX}w{NDRX~-su~4dR
+39,control_create_clone_of,,"{""CLONE_OPTION"": [1, ""_^Gj8ah)80eGc*hF^D;s""]}",38,11,Dl5YGCF+:iw94SG%jV6x
+40,looks_nextcostume,,{},39,12,2CjOynQ=M2yKQfJ.Teg{
+41,data_changevariableby,,,40,13,.L`qX}w{NDRX~-su~4dR
+42,control_create_clone_of,,"{""CLONE_OPTION"": [1, ""_^Gj8ah)80eGc*hF^D;s""]}",41,11,Dl5YGCF+:iw94SG%jV6x
+43,looks_nextcostume,,{},42,12,2CjOynQ=M2yKQfJ.Teg{
+44,data_changevariableby,,,43,13,.L`qX}w{NDRX~-su~4dR
+45,control_create_clone_of,,"{""CLONE_OPTION"": [1, ""_^Gj8ah)80eGc*hF^D;s""]}",44,11,Dl5YGCF+:iw94SG%jV6x
+46,looks_nextcostume,,{},45,12,2CjOynQ=M2yKQfJ.Teg{
+47,data_changevariableby,,,46,13,.L`qX}w{NDRX~-su~4dR
+48,control_create_clone_of,,"{""CLONE_OPTION"": [1, ""_^Gj8ah)80eGc*hF^D;s""]}",47,11,Dl5YGCF+:iw94SG%jV6x
+49,looks_nextcostume,,{},48,12,2CjOynQ=M2yKQfJ.Teg{
+50,data_changevariableby,,,49,13,.L`qX}w{NDRX~-su~4dR
+51,control_create_clone_of,,"{""CLONE_OPTION"": [1, ""_^Gj8ah)80eGc*hF^D;s""]}",50,11,Dl5YGCF+:iw94SG%jV6x
+52,looks_nextcostume,,{},51,12,2CjOynQ=M2yKQfJ.Teg{
+53,data_changevariableby,,,52,13,.L`qX}w{NDRX~-su~4dR
+54,control_create_clone_of,,"{""CLONE_OPTION"": [1, ""_^Gj8ah)80eGc*hF^D;s""]}",53,11,Dl5YGCF+:iw94SG%jV6x
+55,looks_nextcostume,,{},54,12,2CjOynQ=M2yKQfJ.Teg{
+56,data_changevariableby,,,55,13,.L`qX}w{NDRX~-su~4dR
+57,control_create_clone_of,,"{""CLONE_OPTION"": [1, ""_^Gj8ah)80eGc*hF^D;s""]}",56,11,Dl5YGCF+:iw94SG%jV6x
+58,looks_nextcostume,,{},57,12,2CjOynQ=M2yKQfJ.Teg{
+59,data_changevariableby,,,58,13,.L`qX}w{NDRX~-su~4dR

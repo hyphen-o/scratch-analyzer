@@ -1,0 +1,36 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-187,-38,,,
+1,SCRIPT,,,0,0,
+2,event_whenkeypressed,space,,1,0,EVN`b:9oOU28Sy[i~O:d
+3,sound_play,,"{""SOUND_MENU"": [1, "";BcDjmB2@){RTPpDH%5%""]}",2,2,"?Y,WVBpVlYPdJtMqnMTA"
+4,control_repeat,,,3,3,8!U4dCcF|n[ug=u=.7~a
+5,motion_changeyby,,"{""DY"": [1, [4, ""12""]]}",4,4,Nx!;tm7X1IVUE.n+Ku]V
+6,motion_changeyby,,"{""DY"": [1, [4, ""12""]]}",5,4,Nx!;tm7X1IVUE.n+Ku]V
+7,motion_changeyby,,"{""DY"": [1, [4, ""12""]]}",6,4,Nx!;tm7X1IVUE.n+Ku]V
+8,motion_changeyby,,"{""DY"": [1, [4, ""12""]]}",7,4,Nx!;tm7X1IVUE.n+Ku]V
+9,motion_changeyby,,"{""DY"": [1, [4, ""12""]]}",8,4,Nx!;tm7X1IVUE.n+Ku]V
+10,motion_changeyby,,"{""DY"": [1, [4, ""12""]]}",9,4,Nx!;tm7X1IVUE.n+Ku]V
+11,motion_changeyby,,"{""DY"": [1, [4, ""12""]]}",10,4,Nx!;tm7X1IVUE.n+Ku]V
+12,motion_changeyby,,"{""DY"": [1, [4, ""12""]]}",11,4,Nx!;tm7X1IVUE.n+Ku]V
+13,motion_changeyby,,"{""DY"": [1, [4, ""12""]]}",12,4,Nx!;tm7X1IVUE.n+Ku]V
+14,motion_changeyby,,"{""DY"": [1, [4, ""12""]]}",13,4,Nx!;tm7X1IVUE.n+Ku]V
+15,motion_changeyby,,"{""DY"": [1, [4, ""12""]]}",14,4,Nx!;tm7X1IVUE.n+Ku]V
+16,motion_changeyby,,"{""DY"": [1, [4, ""12""]]}",15,4,Nx!;tm7X1IVUE.n+Ku]V
+17,control_repeat,,,16,4,)IgC4FxznyT+=v#z=ND:
+18,motion_changeyby,,"{""DY"": [1, [4, ""-12""]]}",17,17,"/qvV?C,@e!w,i.z#ZRHR"
+19,motion_changeyby,,"{""DY"": [1, [4, ""-12""]]}",18,17,"/qvV?C,@e!w,i.z#ZRHR"
+20,motion_changeyby,,"{""DY"": [1, [4, ""-12""]]}",19,17,"/qvV?C,@e!w,i.z#ZRHR"
+21,motion_changeyby,,"{""DY"": [1, [4, ""-12""]]}",20,17,"/qvV?C,@e!w,i.z#ZRHR"
+22,motion_changeyby,,"{""DY"": [1, [4, ""-12""]]}",21,17,"/qvV?C,@e!w,i.z#ZRHR"
+23,motion_changeyby,,"{""DY"": [1, [4, ""-12""]]}",22,17,"/qvV?C,@e!w,i.z#ZRHR"
+24,motion_changeyby,,"{""DY"": [1, [4, ""-12""]]}",23,17,"/qvV?C,@e!w,i.z#ZRHR"
+25,motion_changeyby,,"{""DY"": [1, [4, ""-12""]]}",24,17,"/qvV?C,@e!w,i.z#ZRHR"
+26,motion_changeyby,,"{""DY"": [1, [4, ""-12""]]}",25,17,"/qvV?C,@e!w,i.z#ZRHR"
+27,motion_changeyby,,"{""DY"": [1, [4, ""-12""]]}",26,17,"/qvV?C,@e!w,i.z#ZRHR"
+28,motion_changeyby,,"{""DY"": [1, [4, ""-12""]]}",27,17,"/qvV?C,@e!w,i.z#ZRHR"
+29,motion_changeyby,,"{""DY"": [1, [4, ""-12""]]}",28,17,"/qvV?C,@e!w,i.z#ZRHR"
+30,data_changevariableby,,,29,17,"BViIHJE)G^0e,*x^m)Og"
+31,SCRIPT,,,0,0,
+32,event_whenflagclicked,,,1,0,D/Jaq)1_*h#]=/8THVT~
+33,motion_gotoxy,,"{""X"": [1, [4, ""-187""]], ""Y"": [1, [4, ""-50""]]}",2,32,t2[.UE]@^1V3#zE~X}v@
+34,data_setvariableto,,,3,33,"Arjt#3nk2-z~=SM[y`;,"

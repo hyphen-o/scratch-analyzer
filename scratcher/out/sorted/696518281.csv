@@ -1,0 +1,16 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,0,-100,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,ZvcW5CM4r=-:CI!D:9Fj
+3,motion_gotoxy,,"{""X"": [1, [4, ""0""]], ""Y"": [1, [4, ""-100""]]}",2,2,|=/kjd(*}Iq7g*Lo=Al;
+4,looks_say,,"{""MESSAGE"": [1, [10, ""click me!""]]}",3,3,M%GPCxTM*tVrbKO)w9Cv
+5,SCRIPT,,,0,0,
+6,event_whenthisspriteclicked,,,1,0,89XEuW4;#Q:UR}wZ6QF!
+7,sensing_askandwait,,"{""QUESTION"": [1, [10, ""How many Sides? (1-10)""]]}",2,6,tNi9!m^=/-$OS.i(cl@[
+8,data_setvariableto,,,3,7,27NKl*+R%yu6yKc~b{HI
+9,sensing_askandwait,,"{""QUESTION"": [1, [10, ""how many rolls?""]]}",4,8,|*6EIkJDy0@MAgHR;A#T
+10,data_setvariableto,,,5,9,y#WI0HRSkN-26~9x)OL@
+11,control_if_else,,,6,10,pg3DZDf##Zp1EjDI37-:
+12,data_showvariable,,{},7,11,"iK1CL`i0W,8rzS|9|@8,"
+13,data_setvariableto,,,8,12,"%l3N/Ool=,+A@=@Wqt|{"
+14,data_setvariableto,,,9,13,eIkRM6eiijug]NaAttF4

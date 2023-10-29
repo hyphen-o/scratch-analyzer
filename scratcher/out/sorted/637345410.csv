@@ -1,0 +1,12 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-113,-88,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,EZpRpY(9pQRl/tY9{AeE
+3,motion_movesteps,,"{""STEPS"": [1, [4, ""20""]]}",2,2,/BGo6YvG^;9Ox?GKyZO%
+4,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",3,3,a1Bo|x_?Y3R#=yZ#GBb[
+5,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Hi""]], ""SECS"": [1, [4, ""2""]]}",4,4,A:SJx(*b{xNWI1[5z:tV
+6,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Do you want to hear a joke""]], ""SECS"": [1, [4, ""2""]]}",5,5,;J6=W~?4?%r*E7ztV%jR
+7,control_wait,,"{""DURATION"": [1, [5, ""3""]]}",6,6,e)6=QmFfXi-h(9@/U%wz
+8,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Why did the chicken cross the road""]], ""SECS"": [1, [4, ""2""]]}",7,7,GAmGl!1PpR@^XF1Q%n~X
+9,control_wait,,"{""DURATION"": [1, [5, ""5""]]}",8,8,ePdq*R)B=4:lUDD{/ZE8
+10,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""to get to the other side of the road""]], ""SECS"": [1, [4, ""2""]]}",9,9,((iWS:^;mUA18D23[nzf

@@ -1,0 +1,158 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-96,77,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,|9A=o~SN2)$Hm/G^mp5o
+3,looks_show,,{},2,2,c#(PjnBjl5Z8^w(RbO}3
+4,SCRIPT,,,0,0,
+5,event_whenkeypressed,space,,1,0,){FAw8Z.Ht-{Q_!It9w)
+6,control_forever,,,2,5,")Ox0pmCihPHPg9!rl,57"
+7,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",3,6,~*|^.~#~1S%SmHD%G(t)
+8,sound_changeeffectby,,"{""VALUE"": [1, [4, ""10""]]}",4,7,Q#;a%R0nP;DwNyg|!B98
+9,motion_ifonedgebounce,,{},5,8,c8J~V-.?9^efT_s#hz:{
+10,control_if,,,6,9,%KcW+9;ghZn22sA1h(VX
+11,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Привіт!""]], ""SECS"": [1, [4, ""2""]]}",7,10,"tpHz9Y|99L]35|)t+q7,"
+12,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",8,6,~*|^.~#~1S%SmHD%G(t)
+13,sound_changeeffectby,,"{""VALUE"": [1, [4, ""10""]]}",9,7,Q#;a%R0nP;DwNyg|!B98
+14,motion_ifonedgebounce,,{},10,8,c8J~V-.?9^efT_s#hz:{
+15,control_if,,,11,9,%KcW+9;ghZn22sA1h(VX
+16,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Привіт!""]], ""SECS"": [1, [4, ""2""]]}",12,10,"tpHz9Y|99L]35|)t+q7,"
+17,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",13,6,~*|^.~#~1S%SmHD%G(t)
+18,sound_changeeffectby,,"{""VALUE"": [1, [4, ""10""]]}",14,7,Q#;a%R0nP;DwNyg|!B98
+19,motion_ifonedgebounce,,{},15,8,c8J~V-.?9^efT_s#hz:{
+20,control_if,,,16,9,%KcW+9;ghZn22sA1h(VX
+21,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Привіт!""]], ""SECS"": [1, [4, ""2""]]}",17,10,"tpHz9Y|99L]35|)t+q7,"
+22,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",18,6,~*|^.~#~1S%SmHD%G(t)
+23,sound_changeeffectby,,"{""VALUE"": [1, [4, ""10""]]}",19,7,Q#;a%R0nP;DwNyg|!B98
+24,motion_ifonedgebounce,,{},20,8,c8J~V-.?9^efT_s#hz:{
+25,control_if,,,21,9,%KcW+9;ghZn22sA1h(VX
+26,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Привіт!""]], ""SECS"": [1, [4, ""2""]]}",22,10,"tpHz9Y|99L]35|)t+q7,"
+27,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",23,6,~*|^.~#~1S%SmHD%G(t)
+28,sound_changeeffectby,,"{""VALUE"": [1, [4, ""10""]]}",24,7,Q#;a%R0nP;DwNyg|!B98
+29,motion_ifonedgebounce,,{},25,8,c8J~V-.?9^efT_s#hz:{
+30,control_if,,,26,9,%KcW+9;ghZn22sA1h(VX
+31,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Привіт!""]], ""SECS"": [1, [4, ""2""]]}",27,10,"tpHz9Y|99L]35|)t+q7,"
+32,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",28,6,~*|^.~#~1S%SmHD%G(t)
+33,sound_changeeffectby,,"{""VALUE"": [1, [4, ""10""]]}",29,7,Q#;a%R0nP;DwNyg|!B98
+34,motion_ifonedgebounce,,{},30,8,c8J~V-.?9^efT_s#hz:{
+35,control_if,,,31,9,%KcW+9;ghZn22sA1h(VX
+36,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Привіт!""]], ""SECS"": [1, [4, ""2""]]}",32,10,"tpHz9Y|99L]35|)t+q7,"
+37,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",33,6,~*|^.~#~1S%SmHD%G(t)
+38,sound_changeeffectby,,"{""VALUE"": [1, [4, ""10""]]}",34,7,Q#;a%R0nP;DwNyg|!B98
+39,motion_ifonedgebounce,,{},35,8,c8J~V-.?9^efT_s#hz:{
+40,control_if,,,36,9,%KcW+9;ghZn22sA1h(VX
+41,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Привіт!""]], ""SECS"": [1, [4, ""2""]]}",37,10,"tpHz9Y|99L]35|)t+q7,"
+42,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",38,6,~*|^.~#~1S%SmHD%G(t)
+43,sound_changeeffectby,,"{""VALUE"": [1, [4, ""10""]]}",39,7,Q#;a%R0nP;DwNyg|!B98
+44,motion_ifonedgebounce,,{},40,8,c8J~V-.?9^efT_s#hz:{
+45,control_if,,,41,9,%KcW+9;ghZn22sA1h(VX
+46,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Привіт!""]], ""SECS"": [1, [4, ""2""]]}",42,10,"tpHz9Y|99L]35|)t+q7,"
+47,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",43,6,~*|^.~#~1S%SmHD%G(t)
+48,sound_changeeffectby,,"{""VALUE"": [1, [4, ""10""]]}",44,7,Q#;a%R0nP;DwNyg|!B98
+49,motion_ifonedgebounce,,{},45,8,c8J~V-.?9^efT_s#hz:{
+50,control_if,,,46,9,%KcW+9;ghZn22sA1h(VX
+51,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Привіт!""]], ""SECS"": [1, [4, ""2""]]}",47,10,"tpHz9Y|99L]35|)t+q7,"
+52,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",48,6,~*|^.~#~1S%SmHD%G(t)
+53,sound_changeeffectby,,"{""VALUE"": [1, [4, ""10""]]}",49,7,Q#;a%R0nP;DwNyg|!B98
+54,motion_ifonedgebounce,,{},50,8,c8J~V-.?9^efT_s#hz:{
+55,control_if,,,51,9,%KcW+9;ghZn22sA1h(VX
+56,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Привіт!""]], ""SECS"": [1, [4, ""2""]]}",52,10,"tpHz9Y|99L]35|)t+q7,"
+57,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",53,6,~*|^.~#~1S%SmHD%G(t)
+58,sound_changeeffectby,,"{""VALUE"": [1, [4, ""10""]]}",54,7,Q#;a%R0nP;DwNyg|!B98
+59,motion_ifonedgebounce,,{},55,8,c8J~V-.?9^efT_s#hz:{
+60,control_if,,,56,9,%KcW+9;ghZn22sA1h(VX
+61,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Привіт!""]], ""SECS"": [1, [4, ""2""]]}",57,10,"tpHz9Y|99L]35|)t+q7,"
+62,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",58,6,~*|^.~#~1S%SmHD%G(t)
+63,sound_changeeffectby,,"{""VALUE"": [1, [4, ""10""]]}",59,7,Q#;a%R0nP;DwNyg|!B98
+64,motion_ifonedgebounce,,{},60,8,c8J~V-.?9^efT_s#hz:{
+65,control_if,,,61,9,%KcW+9;ghZn22sA1h(VX
+66,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Привіт!""]], ""SECS"": [1, [4, ""2""]]}",62,10,"tpHz9Y|99L]35|)t+q7,"
+67,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",63,6,~*|^.~#~1S%SmHD%G(t)
+68,sound_changeeffectby,,"{""VALUE"": [1, [4, ""10""]]}",64,7,Q#;a%R0nP;DwNyg|!B98
+69,motion_ifonedgebounce,,{},65,8,c8J~V-.?9^efT_s#hz:{
+70,control_if,,,66,9,%KcW+9;ghZn22sA1h(VX
+71,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Привіт!""]], ""SECS"": [1, [4, ""2""]]}",67,10,"tpHz9Y|99L]35|)t+q7,"
+72,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",68,6,~*|^.~#~1S%SmHD%G(t)
+73,sound_changeeffectby,,"{""VALUE"": [1, [4, ""10""]]}",69,7,Q#;a%R0nP;DwNyg|!B98
+74,motion_ifonedgebounce,,{},70,8,c8J~V-.?9^efT_s#hz:{
+75,control_if,,,71,9,%KcW+9;ghZn22sA1h(VX
+76,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Привіт!""]], ""SECS"": [1, [4, ""2""]]}",72,10,"tpHz9Y|99L]35|)t+q7,"
+77,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",73,6,~*|^.~#~1S%SmHD%G(t)
+78,sound_changeeffectby,,"{""VALUE"": [1, [4, ""10""]]}",74,7,Q#;a%R0nP;DwNyg|!B98
+79,motion_ifonedgebounce,,{},75,8,c8J~V-.?9^efT_s#hz:{
+80,control_if,,,76,9,%KcW+9;ghZn22sA1h(VX
+81,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Привіт!""]], ""SECS"": [1, [4, ""2""]]}",77,10,"tpHz9Y|99L]35|)t+q7,"
+82,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",78,6,~*|^.~#~1S%SmHD%G(t)
+83,sound_changeeffectby,,"{""VALUE"": [1, [4, ""10""]]}",79,7,Q#;a%R0nP;DwNyg|!B98
+84,motion_ifonedgebounce,,{},80,8,c8J~V-.?9^efT_s#hz:{
+85,control_if,,,81,9,%KcW+9;ghZn22sA1h(VX
+86,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Привіт!""]], ""SECS"": [1, [4, ""2""]]}",82,10,"tpHz9Y|99L]35|)t+q7,"
+87,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",83,6,~*|^.~#~1S%SmHD%G(t)
+88,sound_changeeffectby,,"{""VALUE"": [1, [4, ""10""]]}",84,7,Q#;a%R0nP;DwNyg|!B98
+89,motion_ifonedgebounce,,{},85,8,c8J~V-.?9^efT_s#hz:{
+90,control_if,,,86,9,%KcW+9;ghZn22sA1h(VX
+91,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Привіт!""]], ""SECS"": [1, [4, ""2""]]}",87,10,"tpHz9Y|99L]35|)t+q7,"
+92,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",88,6,~*|^.~#~1S%SmHD%G(t)
+93,sound_changeeffectby,,"{""VALUE"": [1, [4, ""10""]]}",89,7,Q#;a%R0nP;DwNyg|!B98
+94,motion_ifonedgebounce,,{},90,8,c8J~V-.?9^efT_s#hz:{
+95,control_if,,,91,9,%KcW+9;ghZn22sA1h(VX
+96,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Привіт!""]], ""SECS"": [1, [4, ""2""]]}",92,10,"tpHz9Y|99L]35|)t+q7,"
+97,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",93,6,~*|^.~#~1S%SmHD%G(t)
+98,sound_changeeffectby,,"{""VALUE"": [1, [4, ""10""]]}",94,7,Q#;a%R0nP;DwNyg|!B98
+99,motion_ifonedgebounce,,{},95,8,c8J~V-.?9^efT_s#hz:{
+100,control_if,,,96,9,%KcW+9;ghZn22sA1h(VX
+101,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Привіт!""]], ""SECS"": [1, [4, ""2""]]}",97,10,"tpHz9Y|99L]35|)t+q7,"
+102,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",98,6,~*|^.~#~1S%SmHD%G(t)
+103,sound_changeeffectby,,"{""VALUE"": [1, [4, ""10""]]}",99,7,Q#;a%R0nP;DwNyg|!B98
+104,motion_ifonedgebounce,,{},100,8,c8J~V-.?9^efT_s#hz:{
+105,control_if,,,101,9,%KcW+9;ghZn22sA1h(VX
+106,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Привіт!""]], ""SECS"": [1, [4, ""2""]]}",102,10,"tpHz9Y|99L]35|)t+q7,"
+107,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",103,6,~*|^.~#~1S%SmHD%G(t)
+108,sound_changeeffectby,,"{""VALUE"": [1, [4, ""10""]]}",104,7,Q#;a%R0nP;DwNyg|!B98
+109,motion_ifonedgebounce,,{},105,8,c8J~V-.?9^efT_s#hz:{
+110,control_if,,,106,9,%KcW+9;ghZn22sA1h(VX
+111,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Привіт!""]], ""SECS"": [1, [4, ""2""]]}",107,10,"tpHz9Y|99L]35|)t+q7,"
+112,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",108,6,~*|^.~#~1S%SmHD%G(t)
+113,sound_changeeffectby,,"{""VALUE"": [1, [4, ""10""]]}",109,7,Q#;a%R0nP;DwNyg|!B98
+114,motion_ifonedgebounce,,{},110,8,c8J~V-.?9^efT_s#hz:{
+115,control_if,,,111,9,%KcW+9;ghZn22sA1h(VX
+116,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Привіт!""]], ""SECS"": [1, [4, ""2""]]}",112,10,"tpHz9Y|99L]35|)t+q7,"
+117,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",113,6,~*|^.~#~1S%SmHD%G(t)
+118,sound_changeeffectby,,"{""VALUE"": [1, [4, ""10""]]}",114,7,Q#;a%R0nP;DwNyg|!B98
+119,motion_ifonedgebounce,,{},115,8,c8J~V-.?9^efT_s#hz:{
+120,control_if,,,116,9,%KcW+9;ghZn22sA1h(VX
+121,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Привіт!""]], ""SECS"": [1, [4, ""2""]]}",117,10,"tpHz9Y|99L]35|)t+q7,"
+122,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",118,6,~*|^.~#~1S%SmHD%G(t)
+123,sound_changeeffectby,,"{""VALUE"": [1, [4, ""10""]]}",119,7,Q#;a%R0nP;DwNyg|!B98
+124,motion_ifonedgebounce,,{},120,8,c8J~V-.?9^efT_s#hz:{
+125,control_if,,,121,9,%KcW+9;ghZn22sA1h(VX
+126,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Привіт!""]], ""SECS"": [1, [4, ""2""]]}",122,10,"tpHz9Y|99L]35|)t+q7,"
+127,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",123,6,~*|^.~#~1S%SmHD%G(t)
+128,sound_changeeffectby,,"{""VALUE"": [1, [4, ""10""]]}",124,7,Q#;a%R0nP;DwNyg|!B98
+129,motion_ifonedgebounce,,{},125,8,c8J~V-.?9^efT_s#hz:{
+130,control_if,,,126,9,%KcW+9;ghZn22sA1h(VX
+131,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Привіт!""]], ""SECS"": [1, [4, ""2""]]}",127,10,"tpHz9Y|99L]35|)t+q7,"
+132,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",128,6,~*|^.~#~1S%SmHD%G(t)
+133,sound_changeeffectby,,"{""VALUE"": [1, [4, ""10""]]}",129,7,Q#;a%R0nP;DwNyg|!B98
+134,motion_ifonedgebounce,,{},130,8,c8J~V-.?9^efT_s#hz:{
+135,control_if,,,131,9,%KcW+9;ghZn22sA1h(VX
+136,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Привіт!""]], ""SECS"": [1, [4, ""2""]]}",132,10,"tpHz9Y|99L]35|)t+q7,"
+137,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",133,6,~*|^.~#~1S%SmHD%G(t)
+138,sound_changeeffectby,,"{""VALUE"": [1, [4, ""10""]]}",134,7,Q#;a%R0nP;DwNyg|!B98
+139,motion_ifonedgebounce,,{},135,8,c8J~V-.?9^efT_s#hz:{
+140,control_if,,,136,9,%KcW+9;ghZn22sA1h(VX
+141,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Привіт!""]], ""SECS"": [1, [4, ""2""]]}",137,10,"tpHz9Y|99L]35|)t+q7,"
+142,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",138,6,~*|^.~#~1S%SmHD%G(t)
+143,sound_changeeffectby,,"{""VALUE"": [1, [4, ""10""]]}",139,7,Q#;a%R0nP;DwNyg|!B98
+144,motion_ifonedgebounce,,{},140,8,c8J~V-.?9^efT_s#hz:{
+145,control_if,,,141,9,%KcW+9;ghZn22sA1h(VX
+146,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Привіт!""]], ""SECS"": [1, [4, ""2""]]}",142,10,"tpHz9Y|99L]35|)t+q7,"
+147,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",143,6,~*|^.~#~1S%SmHD%G(t)
+148,sound_changeeffectby,,"{""VALUE"": [1, [4, ""10""]]}",144,7,Q#;a%R0nP;DwNyg|!B98
+149,motion_ifonedgebounce,,{},145,8,c8J~V-.?9^efT_s#hz:{
+150,control_if,,,146,9,%KcW+9;ghZn22sA1h(VX
+151,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Привіт!""]], ""SECS"": [1, [4, ""2""]]}",147,10,"tpHz9Y|99L]35|)t+q7,"
+152,motion_movesteps,,"{""STEPS"": [1, [4, ""10""]]}",148,6,~*|^.~#~1S%SmHD%G(t)
+153,sound_changeeffectby,,"{""VALUE"": [1, [4, ""10""]]}",149,7,Q#;a%R0nP;DwNyg|!B98
+154,motion_ifonedgebounce,,{},150,8,c8J~V-.?9^efT_s#hz:{
+155,control_if,,,151,9,%KcW+9;ghZn22sA1h(VX
+156,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""Привіт!""]], ""SECS"": [1, [4, ""2""]]}",152,10,"tpHz9Y|99L]35|)t+q7,"

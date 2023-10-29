@@ -1,0 +1,32 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-55,-131,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,t+WU.(84b;CrY;}nm@gs
+3,looks_switchbackdropto,,"{""BACKDROP"": [1, ""k7]]QMoZ1kPT#RaUElC(""]}",2,2,"K#nP|p(w@,oLDlNF|{_B"
+4,looks_hide,,{},3,3,$^md$lQa^R@M#rT)Vcuj
+5,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",4,4,n=Z(2Mx-h3^O:|[a5:FL
+6,looks_show,,{},5,5,834Dt-e)]f+!q=zlG}X9
+7,looks_switchcostumeto,,"{""COSTUME"": [1, ""F@nU+L|Ulnm,w!cGdHM_""]}",6,6,|x5)8B*2X_#et+%f.8Q7
+8,motion_gotoxy,,"{""X"": [1, [4, ""-71""]], ""Y"": [1, [4, ""-128""]]}",7,7,*h2|UWd~?-04;Hm%T+db
+9,motion_movesteps,,"{""STEPS"": [1, [4, ""5""]]}",8,8,;o}L%0fo7k0HBBvE}7U)
+10,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",9,9,"vZr?H6=c.s2^1,zT+]/]"
+11,looks_switchcostumeto,,"{""COSTUME"": [1, ""$D:V^T1-RQ{/PHqW3!~N""]}",10,10,okMmyZPkRibYRCRJ!;4p
+12,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""227""]], ""Y"": [1, [4, ""96""]]}",11,11,PA3R7s#~(+s!c+BnPu:4
+13,control_wait,,"{""DURATION"": [1, [5, ""0.2""]]}",12,12,DE80P~pS${];JQw)$_`h
+14,looks_switchbackdropto,,"{""BACKDROP"": [1, ""r*=AEQf;l)c+MDr7:}jy""]}",13,13,NWt`eDH~4SwV3nah8$4;
+15,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-55""]], ""Y"": [1, [4, ""-131""]]}",14,14,z7_lfq(%~U}R76mvunp_
+16,looks_switchcostumeto,,"{""COSTUME"": [1, ""!=%QWJFW5r1ce.fz_E0W""]}",15,15,[qo7sT~XdyXllb8:Gdip
+17,control_wait,,"{""DURATION"": [1, [5, ""3""]]}",16,16,:WW)5..qmDFlITeoX$[1
+18,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""สวัสดี! เธอมาจากไหน""]], ""SECS"": [1, [4, ""2""]]}",17,17,BD}|y9oGT`UdR~0ukjmZ
+19,control_wait,,"{""DURATION"": [1, [5, ""7""]]}",18,18,Gfz;-[8d#w78x4Yy#8#}
+20,looks_sayforsecs,,"{""MESSAGE"": [1, [10, "" ฉันมาจาก ขั้วโลกเหนือ""]], ""SECS"": [1, [4, ""2""]]}",19,19,+~O5Q:ExiTEZb!)^f?/!
+21,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",20,20,ok*3i:Rr[|uoWs`-eMXD
+22,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""เธอมาทำอะไรที่นี้""]], ""SECS"": [1, [4, ""2""]]}",21,21,2zupG^FN1K-#H#]$Z_R!
+23,control_wait,,"{""DURATION"": [1, [5, ""2.5""]]}",22,22,zRL{e*ysPYU7o9Z`C2M!
+24,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""เจอสมบัติหรือยัง""]], ""SECS"": [1, [4, ""2""]]}",23,23,DXu{e=3L287IIPZ%`alt
+25,control_wait,,"{""DURATION"": [1, [5, ""2.5""]]}",24,24,_DZFrsX]1K@:)d+JhrYP
+26,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""นี้ใช่ไหม..สมบัติของเธอ""]], ""SECS"": [1, [4, ""2""]]}",25,25,"z|,PGZ!16E)NJT2Vp93f"
+27,control_wait,,"{""DURATION"": [1, [5, ""2.5""]]}",26,26,s_A{q$xGj{UuQY+8=@fR
+28,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""ได้เอาไปเลย""]], ""SECS"": [1, [4, ""2""]]}",27,27,KNV8s|f$oCBAHWyU(z]4
+29,control_wait,,"{""DURATION"": [1, [5, ""0.5""]]}",28,28,"{2$)h^@,@{@)TaK*wG1;"
+30,looks_hide,,{},29,29,|XRl$Xn|fRwrLIX[wZ4{

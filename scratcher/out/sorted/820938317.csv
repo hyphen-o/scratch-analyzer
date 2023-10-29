@@ -1,0 +1,72 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,-78.47202695764787,129,-112.1944580078125,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,"*(p~X#vI,XzG!jUL!sL$"
+3,looks_switchcostumeto,,"{""COSTUME"": [1, ""tlVCNTu]*0zK0`l_u$HM""]}",2,2,DxU;Ns6U!:o_`22fbB}_
+4,motion_gotoxy,,"{""X"": [1, [4, ""129""]], ""Y"": [1, [4, ""-113""]]}",3,3,_m(*pRePt+tI5bH3+)4e
+5,motion_setrotationstyle,,{},4,4,5hXKn;U6RQ6nFNZ882zL
+6,control_forever,,,5,5,1?|tw6vYXECEED?:DN{f
+7,control_if,,,6,6,~_f+vl]IYi`UIZ!.*Js3
+8,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",7,7,Y^u56V7/f0lRcg:Yn@(B
+9,control_if,,,8,6,~_f+vl]IYi`UIZ!.*Js3
+10,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",9,7,Y^u56V7/f0lRcg:Yn@(B
+11,control_if,,,10,6,~_f+vl]IYi`UIZ!.*Js3
+12,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",11,7,Y^u56V7/f0lRcg:Yn@(B
+13,control_if,,,12,6,~_f+vl]IYi`UIZ!.*Js3
+14,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",13,7,Y^u56V7/f0lRcg:Yn@(B
+15,control_if,,,14,6,~_f+vl]IYi`UIZ!.*Js3
+16,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",15,7,Y^u56V7/f0lRcg:Yn@(B
+17,control_if,,,16,6,~_f+vl]IYi`UIZ!.*Js3
+18,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",17,7,Y^u56V7/f0lRcg:Yn@(B
+19,control_if,,,18,6,~_f+vl]IYi`UIZ!.*Js3
+20,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",19,7,Y^u56V7/f0lRcg:Yn@(B
+21,control_if,,,20,6,~_f+vl]IYi`UIZ!.*Js3
+22,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",21,7,Y^u56V7/f0lRcg:Yn@(B
+23,control_if,,,22,6,~_f+vl]IYi`UIZ!.*Js3
+24,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",23,7,Y^u56V7/f0lRcg:Yn@(B
+25,control_if,,,24,6,~_f+vl]IYi`UIZ!.*Js3
+26,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",25,7,Y^u56V7/f0lRcg:Yn@(B
+27,control_if,,,26,6,~_f+vl]IYi`UIZ!.*Js3
+28,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",27,7,Y^u56V7/f0lRcg:Yn@(B
+29,control_if,,,28,6,~_f+vl]IYi`UIZ!.*Js3
+30,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",29,7,Y^u56V7/f0lRcg:Yn@(B
+31,control_if,,,30,6,~_f+vl]IYi`UIZ!.*Js3
+32,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",31,7,Y^u56V7/f0lRcg:Yn@(B
+33,control_if,,,32,6,~_f+vl]IYi`UIZ!.*Js3
+34,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",33,7,Y^u56V7/f0lRcg:Yn@(B
+35,control_if,,,34,6,~_f+vl]IYi`UIZ!.*Js3
+36,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",35,7,Y^u56V7/f0lRcg:Yn@(B
+37,control_if,,,36,6,~_f+vl]IYi`UIZ!.*Js3
+38,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",37,7,Y^u56V7/f0lRcg:Yn@(B
+39,control_if,,,38,6,~_f+vl]IYi`UIZ!.*Js3
+40,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",39,7,Y^u56V7/f0lRcg:Yn@(B
+41,control_if,,,40,6,~_f+vl]IYi`UIZ!.*Js3
+42,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",41,7,Y^u56V7/f0lRcg:Yn@(B
+43,control_if,,,42,6,~_f+vl]IYi`UIZ!.*Js3
+44,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",43,7,Y^u56V7/f0lRcg:Yn@(B
+45,control_if,,,44,6,~_f+vl]IYi`UIZ!.*Js3
+46,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",45,7,Y^u56V7/f0lRcg:Yn@(B
+47,control_if,,,46,6,~_f+vl]IYi`UIZ!.*Js3
+48,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",47,7,Y^u56V7/f0lRcg:Yn@(B
+49,control_if,,,48,6,~_f+vl]IYi`UIZ!.*Js3
+50,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",49,7,Y^u56V7/f0lRcg:Yn@(B
+51,control_if,,,50,6,~_f+vl]IYi`UIZ!.*Js3
+52,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",51,7,Y^u56V7/f0lRcg:Yn@(B
+53,control_if,,,52,6,~_f+vl]IYi`UIZ!.*Js3
+54,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",53,7,Y^u56V7/f0lRcg:Yn@(B
+55,control_if,,,54,6,~_f+vl]IYi`UIZ!.*Js3
+56,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",55,7,Y^u56V7/f0lRcg:Yn@(B
+57,control_if,,,56,6,~_f+vl]IYi`UIZ!.*Js3
+58,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",57,7,Y^u56V7/f0lRcg:Yn@(B
+59,control_if,,,58,6,~_f+vl]IYi`UIZ!.*Js3
+60,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",59,7,Y^u56V7/f0lRcg:Yn@(B
+61,control_if,,,60,6,~_f+vl]IYi`UIZ!.*Js3
+62,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",61,7,Y^u56V7/f0lRcg:Yn@(B
+63,control_if,,,62,6,~_f+vl]IYi`UIZ!.*Js3
+64,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",63,7,Y^u56V7/f0lRcg:Yn@(B
+65,control_if,,,64,6,~_f+vl]IYi`UIZ!.*Js3
+66,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",65,7,Y^u56V7/f0lRcg:Yn@(B
+67,SCRIPT,,,0,0,
+68,event_whenbroadcastreceived,,,1,0,k;:R^wCe(WPM$Zxn^)z)
+69,data_setvariableto,,,2,68,2Mp:!!K7CZAbxNzv!*7o
+70,looks_nextcostume,,{},3,69,"7,I}xpP}[2}j1WqFmB0:"

@@ -1,0 +1,16 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,193,-113,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,^QmClN9H^;-y1CTd_YIW
+3,looks_gotofrontback,,{},2,2,"UIXln~U%B7,S;D#,XgST"
+4,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""193""]], ""Y"": [1, [4, ""-113""]]}",3,3,5rSs$R5xr_v.d8]{AE08
+5,SCRIPT,,,0,0,
+6,event_whenthisspriteclicked,,,1,0,;%L{q;K|WxqO)ZK/gKr}
+7,looks_gotofrontback,,{},2,6,s+CcE+v}4e)8yYpKX=3w
+8,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-59""]], ""Y"": [1, [4, ""-68""]]}",3,7,"TjF_]oV^a%^%,RiLerHV"
+9,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""-9""]], ""Y"": [1, [4, ""-90""]]}",4,8,UOho1:]JraP|AN-jha_q
+10,looks_switchcostumeto,,"{""COSTUME"": [1, ""=XJMUyKT}v4ij1L0l(T2""]}",5,9,w#:#V$$ULJ$wRpBRb[.8
+11,SCRIPT,,,0,0,
+12,event_whenkeypressed,space,,1,0,"8fg`~=z*MzQ$B,R@WTtP"
+13,motion_glidesecstoxy,,"{""SECS"": [1, [4, ""1""]], ""X"": [1, [4, ""193""]], ""Y"": [1, [4, ""-113""]]}",2,12,ZUqsmEx/?#lv}mq-xe(p
+14,looks_switchcostumeto,,"{""COSTUME"": [1, ""Skb/uDtfA#/VcAc1x@n?""]}",3,13,"K+$B._,}!en-U/ZFA]y@"

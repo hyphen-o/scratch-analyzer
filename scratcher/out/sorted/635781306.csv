@@ -1,0 +1,32 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,-195,-120,,,
+1,SCRIPT,,,0,0,
+2,event_whenkeypressed,space,,1,0,E?ebB:ps{itvSOv(k(s9
+3,sound_play,,"{""SOUND_MENU"": [1, ""JRjc)!X2Nwf*(@iB,4m~""]}",2,2,",dSuv(aU]-M7E*)6}rgX"
+4,control_repeat,,,3,3,0q^[V_yvY0qMtuH]WQZ3
+5,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",4,4,"zwyf$1S:-5^EH,$gx*Xt"
+6,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",5,4,"zwyf$1S:-5^EH,$gx*Xt"
+7,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",6,4,"zwyf$1S:-5^EH,$gx*Xt"
+8,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",7,4,"zwyf$1S:-5^EH,$gx*Xt"
+9,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",8,4,"zwyf$1S:-5^EH,$gx*Xt"
+10,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",9,4,"zwyf$1S:-5^EH,$gx*Xt"
+11,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",10,4,"zwyf$1S:-5^EH,$gx*Xt"
+12,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",11,4,"zwyf$1S:-5^EH,$gx*Xt"
+13,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",12,4,"zwyf$1S:-5^EH,$gx*Xt"
+14,motion_changeyby,,"{""DY"": [1, [4, ""10""]]}",13,4,"zwyf$1S:-5^EH,$gx*Xt"
+15,control_repeat,,,14,4,"$Ou,#1Tf%^?wlS])xS_O"
+16,motion_changeyby,,"{""DY"": [1, [4, ""-10""]]}",15,15,"#B8.[H$}UubsUc^L*Sf,"
+17,motion_changeyby,,"{""DY"": [1, [4, ""-10""]]}",16,15,"#B8.[H$}UubsUc^L*Sf,"
+18,motion_changeyby,,"{""DY"": [1, [4, ""-10""]]}",17,15,"#B8.[H$}UubsUc^L*Sf,"
+19,motion_changeyby,,"{""DY"": [1, [4, ""-10""]]}",18,15,"#B8.[H$}UubsUc^L*Sf,"
+20,motion_changeyby,,"{""DY"": [1, [4, ""-10""]]}",19,15,"#B8.[H$}UubsUc^L*Sf,"
+21,motion_changeyby,,"{""DY"": [1, [4, ""-10""]]}",20,15,"#B8.[H$}UubsUc^L*Sf,"
+22,motion_changeyby,,"{""DY"": [1, [4, ""-10""]]}",21,15,"#B8.[H$}UubsUc^L*Sf,"
+23,motion_changeyby,,"{""DY"": [1, [4, ""-10""]]}",22,15,"#B8.[H$}UubsUc^L*Sf,"
+24,motion_changeyby,,"{""DY"": [1, [4, ""-10""]]}",23,15,"#B8.[H$}UubsUc^L*Sf,"
+25,motion_changeyby,,"{""DY"": [1, [4, ""-10""]]}",24,15,"#B8.[H$}UubsUc^L*Sf,"
+26,data_changevariableby,,,25,15,#S$|V90;b%gN%*FV{4G4
+27,SCRIPT,,,0,0,
+28,event_whenflagclicked,,,1,0,nu9wss42FOEuwJ`+XvaK
+29,motion_gotoxy,,"{""X"": [1, [4, ""-195""]], ""Y"": [1, [4, ""-120""]]}",2,28,/z8#td@;_c)4B6B`ZJ6n
+30,data_setvariableto,,,3,29,v+LaZom/}v?FAFV@!];B

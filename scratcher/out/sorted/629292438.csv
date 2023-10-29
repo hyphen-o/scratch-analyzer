@@ -1,0 +1,18 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,143,-118,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,{RY?@D3Xdr}GIRdfMVnu
+3,text2speech_setVoice,,"{""VOICE"": [1, ""0WzHJ3mDZC^{_0eXBoBF""]}",2,2,|m-wNd=euJdV5-F28wp?
+4,motion_gotoxy,,"{""X"": [1, [4, ""143""]], ""Y"": [1, [4, ""-118""]]}",3,3,_JS@O]KZKrN$A/1S/z=+
+5,looks_setsizeto,,"{""SIZE"": [1, [4, ""200""]]}",4,4,-+Lz*][pHtG/?dRWQrwp
+6,looks_show,,{},5,5,R]NegwDulPa2E4}t6+*7
+7,looks_switchcostumeto,,"{""COSTUME"": [1, ""|Ye4~me?#v+..6Ftr`wT""]}",6,6,451M`B#*og:A6GG8Xsxs
+8,text2speech_speakAndWait,,"{""WORDS"": [1, [10, ""My opinion on bfb ships""]]}",7,7,AduaERwn{w;HcO*N)CE{
+9,control_wait,,"{""DURATION"": [1, [5, ""3""]]}",8,8,r@%!{`rpCuVns;VB1oj9
+10,sound_play,,"{""SOUND_MENU"": [1, ""#X#z}3?mFR/NT9Eu[~03""]}",9,9,+hTd]:3GrY^]jCoG0oI!
+11,looks_switchcostumeto,,"{""COSTUME"": [1, "".*sV7/0(q,H#_IBaFGeH""]}",10,10,Rsu4pAF$V$G-y+d0Y8DO
+12,SCRIPT,,,0,0,
+13,event_whenthisspriteclicked,,,1,0,"+$HrB{?KtI2$R_d,ym8G"
+14,sensing_askandwait,,"{""QUESTION"": [1, [10, ""G?""]]}",2,13,"V3?Rv-#hs_GA5,_2n|Ir"
+15,control_if,,,3,14,R~A0+0`4nK?Pf%voN%d[
+16,sound_playuntildone,,"{""SOUND_MENU"": [1, "",ED}Pz3dC18%JKe*7]|2""]}",4,15,M}Y$G(y0JgpoE8*P^p!V

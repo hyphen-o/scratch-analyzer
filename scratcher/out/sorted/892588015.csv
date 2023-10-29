@@ -1,0 +1,21 @@
+,BlockName,Key,Field,node_id,parent_id,hash
+0,90,23,15,,,
+1,SCRIPT,,,0,0,
+2,event_whenflagclicked,,,1,0,4RILMbJEZJooSmPoR-I#
+3,motion_glideto,,"{""SECS"": [1, [4, ""1""]], ""TO"": [1, ""crLbl;IOgAZK[X:rQ[hD""]}",2,2,jit;v:i*uAy=(|9DS)27
+4,sound_playuntildone,,"{""SOUND_MENU"": [1, ""3f75Cqy/G?_n(Q`y8x{O""]}",3,3,svPy?Fj=Q(v]tD7k=xU%
+5,sensing_askandwait,,"{""QUESTION"": [1, [10, ""เหรียญ 1 บาทกี่เหรียญ""]]}",4,4,wQVgpV4^fC%?|X7`|J$i
+6,data_setvariableto,,,5,5,":/*Q6,Y5Vb6W;Gucy:o}"
+7,sound_playuntildone,,"{""SOUND_MENU"": [1, ""$X[7qkUnFA:l^Op5PHk_""]}",6,6,o0p2sucS$|bNf|T|78g{
+8,sensing_askandwait,,"{""QUESTION"": [1, [10, ""เหรียญ 2 บาทกี่เหรียญ""]]}",7,7,"LF!ZZWH;:c},}0K},nal"
+9,data_setvariableto,,,8,8,Z!^.bQU9Db`:Wv{@_ybe
+10,sound_playuntildone,,"{""SOUND_MENU"": [1, ""ztpk69}Zih@[1N`N+^CU""]}",9,9,Q2Y.b-Yg:#oNU]bxAIeM
+11,sensing_askandwait,,"{""QUESTION"": [1, [10, ""เหรียญ 5 บาทกี่เหรียญ""]]}",10,10,BFOru6u2^1};|Ug6Zntd
+12,data_setvariableto,,,11,11,"sveRkf6lbZ`r!)un)tT,"
+13,sound_playuntildone,,"{""SOUND_MENU"": [1, ""j7thF|o319wYe2gaH`F]""]}",12,12,`)?=6|$U@R8C(|KBX1T^
+14,sensing_askandwait,,"{""QUESTION"": [1, [10, ""เหรียญ 10 บาทกี่เหรียญ""]]}",13,13,}]$Qq_{;=#(g.9TgGL$C
+15,data_setvariableto,,,14,14,Qg9#yt-LT(feAw((e_@p
+16,data_setvariableto,,,15,15,tF1M;QebfCdKuFJl2=1j
+17,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""คิดก่อนๆ""]], ""SECS"": [1, [4, ""2""]]}",16,16,Le3HNzHj)_JlRq1N|fTe
+18,sound_playuntildone,,"{""SOUND_MENU"": [1, ""%W|lWkm:dH`qrmgN.yU{""]}",17,17,l@g%WfXK=};?dRp.$J(o
+19,looks_sayforsecs,,"{""MESSAGE"": [3, ""eKu5yfVxPihv8BH{wl3u"", [10, ""สวัสดี!""]], ""SECS"": [1, [4, ""2""]]}",18,18,C#e%PHGH0mk)i8BxQ]l9
