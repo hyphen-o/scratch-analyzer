@@ -1,7 +1,8 @@
 import sys
 import pandas as pd
 from tqdm import tqdm
-sys.path.append('../../')
+
+sys.path.append("../../")
 
 from prjman import ProjectManager
 
@@ -17,4 +18,3 @@ for index in tqdm(range(1508, length)):
     print(id)
     pm = ProjectManager(id)
     pm.get_sorted_blocks(DIR_PATH + str(id) + ".csv")
-

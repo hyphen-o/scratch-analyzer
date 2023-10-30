@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 class DfManager:
     def __init__(self, data):
         if isinstance(data, str):
@@ -14,16 +15,14 @@ class DfManager:
 
     def get_df(self):
         return self.__df
-    
+
     def add_row(self, row):
         row = pd.DataFrame([row], columns=self.__ROWNAME)
         self.__df = pd.concat([self.__df, row], ignore_index=True)
-    
+
     def sort_row(self, column):
         self.__df = self.__df.sort_values(column)
         return self.__df
 
     def to_csv(self, dir_path):
         self.__df.to_csv(dir_path)
-        
-

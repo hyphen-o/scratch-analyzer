@@ -1,5 +1,6 @@
 import sys
-sys.path.append('../../')
+
+sys.path.append("../../")
 
 from prjman import ProjectManager
 
