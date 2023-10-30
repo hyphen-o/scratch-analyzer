@@ -10,7 +10,7 @@ from converter import AstConverter
 
 
 class ProjectManager:
-    
+
     """Scratch作品を管理するためのクラス
 
     Args:
