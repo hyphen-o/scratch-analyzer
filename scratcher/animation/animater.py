@@ -40,6 +40,7 @@ class Animater:
             combined_frame = Image.new("RGBA", (new_width, new_height))
             combined_frame.paste(frame1, (0, 0))
             combined_frame.paste(frame2, (width1, 0))
+            
             combined_frames.append(combined_frame)
 
         # 新しいGIF画像を保存（アニメーションを保持）
