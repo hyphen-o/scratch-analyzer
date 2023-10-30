@@ -1,12 +1,13 @@
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
-from matplotlib.offsetbox import OffsetImage, AnnotationBbox 
+from matplotlib.offsetbox import OffsetImage, AnnotationBbox
 from PIL import Image
+
 
 class Animater:
     def __init__(self, data):
         self.__data = data
-    
+
     def set_data(self, data):
         self.__data = data
 
@@ -23,7 +24,7 @@ class Animater:
         width2, height2 = image2.size
 
         new_width = width1 + width2
-        new_height = max(height1, height2)  
+        new_height = max(height1, height2)
 
         # 画像を横に並べるための新しい画像リストを作成
         combined_frames = []
@@ -35,7 +36,7 @@ class Animater:
             frame1 = image1.copy()
             image2.seek(i)
             frame2 = image2.copy()
-            
+
             combined_frame = Image.new("RGBA", (new_width, new_height))
             combined_frame.paste(frame1, (0, 0))
             combined_frame.paste(frame2, (width1, 0))
@@ -47,26 +48,23 @@ class Animater:
             save_all=True,
             append_images=combined_frames[1:],  # 最初のフレームを除く
             duration=image1.info["duration"],  # 最初のGIFの表示時間を使用
-            loop=0  # 無限ループ（0は無限ループ）
+            loop=0,  # 無限ループ（0は無限ループ）
         )
 
-
     def generate_gif(self, path):
-
         def __update(frame):
             x, y = self.__data[frame]
             trajectory_data.append([x, y])  # 現在の座標を軌跡データに追加
             point.set_data(x, y)
             trajectory.set_data(*zip(*trajectory_data))  # 軌跡を更新
-            ab = AnnotationBbox(im, (x, y), xycoords='data', frameon=False) 
+            ab = AnnotationBbox(im, (x, y), xycoords="data", frameon=False)
             ax.add_artist(ab)
-            
+
             # ループしたら軌跡データをクリア
             if frame == len(self.__data) - 1:
                 trajectory_data.clear()
-            
+
             return point, trajectory
-        
 
         fig, ax = plt.subplots(figsize=(8, 8))
 
@@ -76,8 +74,8 @@ class Animater:
         ax.set_ylim(0, 1)
 
         # プロットを初期化
-        point, = ax.plot([], [], 'ro') 
-        trajectory, = ax.plot([], [], 'b-') 
+        (point,) = ax.plot([], [], "ro")
+        (trajectory,) = ax.plot([], [], "b-")
         image = plt.imread("../../animation/cat1.png")
         im = OffsetImage(image)
 
@@ -85,9 +83,9 @@ class Animater:
         trajectory_data = []
 
         # アニメーションの設定
-        ani = FuncAnimation(fig, __update, frames=len(self.__data), blit=True, interval=300)
+        ani = FuncAnimation(
+            fig, __update, frames=len(self.__data), blit=True, interval=300
+        )
 
         # GIFファイルとして保存
         ani.save(path, writer="pillow")
-
-        plt.show()

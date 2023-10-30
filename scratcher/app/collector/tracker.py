@@ -2,7 +2,8 @@ import sys
 import os
 import pandas as pd
 from tqdm import tqdm
-sys.path.append('../../')
+
+sys.path.append("../../")
 
 from prjman import ProjectManager
 from utils import remove_extension

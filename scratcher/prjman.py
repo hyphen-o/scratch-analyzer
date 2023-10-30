@@ -1,11 +1,13 @@
 import sys
-sys.path.append('../')
+
+sys.path.append("../")
 
 import csv
 from utils import json_to_file
 from api import scratch_client
 from tools import Sorter, Tracker
 from converter import AstConverter
+
 
 class ProjectManager:
     """Scratch作品を管理するためのクラス
@@ -28,13 +30,13 @@ class ProjectManager:
         try:
             self.__ID = id
             self.__project = scratch_client.get_project(self.__ID)
-            self.__sprite = self.__project['targets'][1]
-            self.__blocks = self.__project['targets'][1]['blocks']
+            self.__sprite = self.__project["targets"][1]
+            self.__blocks = self.__project["targets"][1]["blocks"]
             self.__description = scratch_client.get_description(self.__ID)
         except Exception as e:
-            print('Scratch3.0以降の作品を入力してください．')
+            print("Scratch3.0以降の作品を入力してください．")
             print(e)
-    
+
     def get_id(self):
         """管理しているScratch作品のIDを取得
 
@@ -43,7 +45,7 @@ class ProjectManager:
         """
 
         return self.__ID
-    
+
     def get_project(self):
         """現在管理している作品のプログラムを取得
 
@@ -51,7 +53,7 @@ class ProjectManager:
             dictionary: 現在管理している作品のプログラムを返す
         """
         return self.__project
-    
+
     def get_blocks(self):
         """現在管理しているスプライトに含まれるスプライトのブロックを取得
 
@@ -59,7 +61,7 @@ class ProjectManager:
             dictionary: 現在管理しているスプライトに含まれるスプライトのブロックを返す
         """
         return self.__blocks
-    
+
     def get_description(self):
         """現在管理しているScratch作品の使用方法を取得
 
@@ -67,17 +69,17 @@ class ProjectManager:
             str: 現在管理しているScratch作品の使用方法を返す
         """
         return self.__description
-    
+
     def get_blocks_length(self):
         """現在管理しているスプライトに含まれるスプライトのブロックの数を取得
 
         Returns:
             int: 現在管理しているスプライトに含まれるスプライトのブロックの数を返す
         """
-         
+
         return len(self.__blocks)
 
-    def get_ast(self, path=''):
+    def get_ast(self, path=""):
         """現在管理しているブロックをASTに変換して取得
 
         Args:
@@ -90,7 +92,7 @@ class ProjectManager:
         ast_conv = AstConverter(self.__project)
         result = ast_conv.get_ast(path)
         return result
-    
+
     def get_sorted_blocks(self, dir_path=None):
         """現在管理しているブロックを命令処理順にソートして取得
 
@@ -102,13 +104,13 @@ class ProjectManager:
         """
 
         sorter = Sorter(self.__project)
-        if(dir_path):
+        if dir_path:
             sorter.sort_blocks()
             sorter.to_csv(dir_path)
             return
         else:
             return sorter.sort_blocks()
-        
+
     def get_coordinate(self, dir_path=None):
         """現在管理しているスプライトの移動軌跡を算出し，座標データを取得
 
@@ -120,13 +122,13 @@ class ProjectManager:
         """
 
         tracker = Tracker(self.get_sorted_blocks())
-        if(dir_path):
+        if dir_path:
             tracker.get_coordinate()
             tracker.to_csv(dir_path)
             return
         else:
             return tracker.get_coordinate()
-        
+
     def to_json(self, dir_path=".", type="project"):
         """プログラムのJsonファイルを保存
 
@@ -135,14 +137,14 @@ class ProjectManager:
             type (str, optional): 保存するJsonの粒度を指定．project or sprite or blocks. デフォルトはproject.
         """
 
-        match(type):
+        match (type):
             case "project":
-                json_to_file(self.__project, f'{dir_path}/{self.__ID}.json')
+                json_to_file(self.__project, f"{dir_path}/{self.__ID}.json")
             case "sprite":
-                json_to_file(self.__sprite, f'{dir_path}/{self.__ID}_sprite.json')
+                json_to_file(self.__sprite, f"{dir_path}/{self.__ID}_sprite.json")
             case "blocks":
-                json_to_file(self.__blocks, f'{dir_path}/{self.__ID}_blocks.json')
-                
+                json_to_file(self.__blocks, f"{dir_path}/{self.__ID}_blocks.json")
+
     def is_dataset(self, ava_path="utils/filter/filter.csv"):
         """フィルタリング用関数
 
@@ -153,23 +155,21 @@ class ProjectManager:
             boolean: フィルタリングに引っかかったか否かを返す．True -> 引っかかっていない　False -> 引っかかった
         """
         ava_blocks = []
-        #フィルタリング用CSVの読み込み
-        with open(ava_path, encoding = 'utf-8-sig') as f:
+        # フィルタリング用CSVの読み込み
+        with open(ava_path, encoding="utf-8-sig") as f:
             reader = csv.reader(f)
             for row in reader:
                 ava_blocks.append(row)
-        
+
         isDataset = self.__filter_json(ava_blocks)
         return isDataset
-    
+
     # Private関数
 
-    #フィルタリング
+    # フィルタリング
     def __filter_json(self, ava_blocks):
         for k in self.__blocks:
             for block, ava in ava_blocks:
-                if self.__blocks[k]['opcode'] == block and int(ava) == 0: 
+                if self.__blocks[k]["opcode"] == block and int(ava) == 0:
                     return False
         return True
-    
-    

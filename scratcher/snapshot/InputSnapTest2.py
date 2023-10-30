@@ -16,41 +16,42 @@ from concurrent.futures import ThreadPoolExecutor
 
 # ids = pd.read_csv("/Users/socsel/dataset.csv", usecols=["p_ID"], dtype="str")
 # retryIds = pd.read_csv("/Users/socsel/retryIds.csv", usecols=["p_ID"], dtype="str")
-retryIds = pd.read_csv("out_csv/retryIds.csv",
-                       usecols=["p_ID"], dtype="str")
+retryIds = pd.read_csv("out_csv/retryIds.csv", usecols=["p_ID"], dtype="str")
 retryIds = list(retryIds)
 
 program_x = 0
 program_y = 0
 program_degrees = 60
 input_flg = False
-input_key = ''
+input_key = ""
 index = 0
 
 program_move = []
 input_keys = []
 
 # 座標情報を格納しているキー名
-MOVE = ['DX', 'DY']
-SET = ['X', 'Y']
-DEGREE = ['DEGREES', 'DIRECTION']
-STEP = ['STEPS']
-BOUND = ['motion_ifonedgebounce']
+MOVE = ["DX", "DY"]
+SET = ["X", "Y"]
+DEGREE = ["DEGREES", "DIRECTION"]
+STEP = ["STEPS"]
+BOUND = ["motion_ifonedgebounce"]
 # 待機時間情報を格納しているキー名
-WAIT = ['DURATION', 'SECS']
+WAIT = ["DURATION", "SECS"]
 
 # キー名と一致するセレニウムキーオプションの辞書
-KEY_DICT = {'space': Keys.SPACE,
-            'up arrow': Keys.ARROW_UP,
-            'down arrow': Keys.ARROW_DOWN,
-            'right arrow': Keys.ARROW_RIGHT,
-            'left arrow': Keys.ARROW_LEFT,
-            'any': Keys.SPACE}
+KEY_DICT = {
+    "space": Keys.SPACE,
+    "up arrow": Keys.ARROW_UP,
+    "down arrow": Keys.ARROW_DOWN,
+    "right arrow": Keys.ARROW_RIGHT,
+    "left arrow": Keys.ARROW_LEFT,
+    "any": Keys.SPACE,
+}
 
 # 作品のASTを取得する
 id = "787288090"
 
-df_none = pd.read_csv(f'out_csv/{id}_sorted.csv')
+df_none = pd.read_csv(f"out_csv/{id}_sorted.csv")
 
 chrome_service = fs.Service("/usr/local/bin/chromedriver")
 driver = webdriver.Chrome()
@@ -76,40 +77,39 @@ def getMovement():
     global input_key
     X = 0
     try:
-        print('Movement change-------')
+        print("Movement change-------")
         for i in range(len(df_none.index)):
-            if (not pd.isna(df_none.iloc[i][2])):
+            if not pd.isna(df_none.iloc[i][2]):
                 dic = ast.literal_eval(df_none.iloc[i][2])
                 for key in dic.keys():
                     if key in MOVE:
-                        if key == 'DX':
+                        if key == "DX":
                             program_x = program_x + int(dic[key][1][1])
-                        elif key == 'DY':
+                        elif key == "DY":
                             program_y = program_y + int(dic[key][1][1])
-                        print('progX: ' + str(program_x))
-                        print('progY: ' + str(program_y))
+                        print("progX: " + str(program_x))
+                        print("progY: " + str(program_y))
                     elif key in SET:
-                        if key == 'X':
+                        if key == "X":
                             program_x = int(dic[key][1][1])
-                        elif key == 'Y':
+                        elif key == "Y":
                             program_y = int(dic[key][1][1])
-                        print('progX: ' + str(program_x))
-                        print('progY: ' + str(program_y))
+                        print("progX: " + str(program_x))
+                        print("progY: " + str(program_y))
                     elif key in DEGREE:
                         program_degrees = int(dic[key][1][1])
-                    elif key == 'STEPS':
-                        result = getStepMovement(
-                            program_degrees, int(dic[key][1][1]))
+                    elif key == "STEPS":
+                        result = getStepMovement(program_degrees, int(dic[key][1][1]))
                         print(result[0])
                         print(result[1])
                         program_x = program_x + result[0]
                         program_y = program_y + result[1]
-            if (not pd.isna(df_none.iloc[i][1])):
+            if not pd.isna(df_none.iloc[i][1]):
                 program_move.append([program_x, program_y])
                 print(program_move)
                 input_keys.append(df_none.iloc[i][1])
                 print(input_keys)
-        print('-------')
+        print("-------")
     except Exception as e:
         print(e)
 
@@ -118,10 +118,12 @@ getMovement()
 
 
 try:
-    wait.until(EC.presence_of_element_located(
-        (By.CLASS_NAME, loadClassName)))  # 作品のロード開始を待機
-    wait.until_not(EC.presence_of_element_located(
-        (By.CLASS_NAME, loadClassName)))  # 作品のロード完了を待機
+    wait.until(
+        EC.presence_of_element_located((By.CLASS_NAME, loadClassName))
+    )  # 作品のロード開始を待機
+    wait.until_not(
+        EC.presence_of_element_located((By.CLASS_NAME, loadClassName))
+    )  # 作品のロード完了を待機
 except TimeoutException as te:
     print(str(id) + ": timeout")  # 作品が存在していないため，スキップ
     driver.close()
@@ -130,19 +132,22 @@ except TimeoutException as te:
 try:
     # スプライトのX座標,Y座標を取ってくる
     positionX = driver.find_elements(
-        By.XPATH, '/html/body/div[1]/div/div[3]/div/div[2]/div[2]/div/div[1]/div[1]/div[1]/div[2]/label/input')
+        By.XPATH,
+        "/html/body/div[1]/div/div[3]/div/div[2]/div[2]/div/div[1]/div[1]/div[1]/div[2]/label/input",
+    )
     for i in positionX:
         print(i.get_attribute("value"))
     positionY = driver.find_elements(
-        By.XPATH, '/html/body/div[1]/div/div[3]/div/div[2]/div[2]/div/div[1]/div[1]/div[1]/div[3]/label/input')
+        By.XPATH,
+        "/html/body/div[1]/div/div[3]/div/div[2]/div[2]/div/div[1]/div[1]/div[1]/div[3]/label/input",
+    )
     for i in positionY:
         print(i.get_attribute("value"))
 
-    start = driver.find_elements(
-        By.CLASS_NAME, "green-flag_green-flag_1kiAo")
+    start = driver.find_elements(By.CLASS_NAME, "green-flag_green-flag_1kiAo")
 
     start[0].click()
-    print('start')
+    print("start")
 
 except Exception as e:
     print(str(id) + ": crash error")  # Scratchがクラッシュするエラー
@@ -166,11 +171,14 @@ def ScreenShot():
 
         try:
             end = driver.find_elements(
-                By.CSS_SELECTOR, ".green-flag_green-flag_1kiAo.green-flag_is-active_2oExT")
+                By.CSS_SELECTOR,
+                ".green-flag_green-flag_1kiAo.green-flag_is-active_2oExT",
+            )
             if len(end) == 0:
                 break  # 作品のプログラムが終了していれば，スクリーンショット収集終了
             png = driver.find_element(
-                By.CLASS_NAME, "stage-wrapper_stage-canvas-wrapper_3ewmd").screenshot_as_png  # スクリーンショットを取得
+                By.CLASS_NAME, "stage-wrapper_stage-canvas-wrapper_3ewmd"
+            ).screenshot_as_png  # スクリーンショットを取得
         except Exception as e:
             print(str(id) + ": error")  # 予期せぬエラー
             print(e)
@@ -188,6 +196,7 @@ def ScreenShot():
             continue
     driver.close()
 
+
 # 自動入力を行う関数
 
 
@@ -195,10 +204,11 @@ def AutoInput():
     prog_index = 0
     input_index = 0
     for i in range(10000000):
-
         try:
             end = driver.find_elements(
-                By.CSS_SELECTOR, ".green-flag_green-flag_1kiAo.green-flag_is-active_2oExT")
+                By.CSS_SELECTOR,
+                ".green-flag_green-flag_1kiAo.green-flag_is-active_2oExT",
+            )
             if len(end) == 0:
                 break  # 作品のプログラムが終了していれば，スクリーンショット収集終了
 
@@ -208,14 +218,17 @@ def AutoInput():
             for j in positionY:
                 Y = j.get_attribute("value")
 
-            print('progX: ' + str(round(program_x)))
-            print('progY: ' + str(round(program_y)))
-            print('X: ' + str(X))
-            print('Y: ' + str(Y))
+            print("progX: " + str(round(program_x)))
+            print("progY: " + str(round(program_y)))
+            print("X: " + str(X))
+            print("Y: " + str(Y))
 
-            if (abs(round(program_move[prog_index][0]) - int(X)) < 5 and abs(round(program_move[prog_index][1]) - int(Y)) < 5):
+            if (
+                abs(round(program_move[prog_index][0]) - int(X)) < 5
+                and abs(round(program_move[prog_index][1]) - int(Y)) < 5
+            ):
                 actions = ActionChains(driver)
-                print('input!!!!!!!!!!')
+                print("input!!!!!!!!!!")
                 print(input_keys[input_index])
                 actions.key_down(KEY_DICT[input_keys[input_index]]).perform()
                 time.sleep(0.0005)

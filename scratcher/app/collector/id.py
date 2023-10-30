@@ -2,7 +2,8 @@ import sys
 import random
 import csv
 import numpy as np
-sys.path.append('../../')
+
+sys.path.append("../../")
 
 from prjman import ProjectManager
 from config import constants
@@ -10,17 +11,18 @@ from utils import DfManager, parallel_runner
 
 CSV_PATH = sys.path[-1] + "../out/sample/id.csv"
 # id_list = list(range(276660763,915471041))
-random_ids = random.randrange(276660763,915471041, 10000)
+random_ids = random.randrange(276660763, 915471041, 10000)
 random_ids = np.random.randint(low=276660763, high=915471041, size=(5000000))
 
-with open(CSV_PATH, 'w') as f:
+with open(CSV_PATH, "w") as f:
     writer = csv.writer(f)
     writer.writerow(["id"])
 # dfM = DfManager(["id"])
 count = 0
-    
+
+
 def callback(start_index, end_index):
-    with open(CSV_PATH, 'a') as f:
+    with open(CSV_PATH, "a") as f:
         for index in range(start_index, end_index):
             try:
                 global count
@@ -52,8 +54,13 @@ def callback(start_index, end_index):
                 print(e)
                 continue
 
+
 print("pararell")
-parallel_runner(callback, 5, [[0, 10000], [10001, 20000], [20001, 30000], [30001, 40000], [40001, 50000]])
+parallel_runner(
+    callback,
+    5,
+    [[0, 10000], [10001, 20000], [20001, 30000], [30001, 40000], [40001, 50000]],
+)
 # parallel_runner(callback, 1, [[0, 100]])
 
 print("pararell")

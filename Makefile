@@ -18,7 +18,7 @@ install:
 	@pip install -r requirements.txt
 
 generate-require:
-	@pipreqs . && cat ./scartcher/requirements.txt
+	@pipreqs . && cat ./scratcher/requirements.txt
 
 setup:
 	@pip install setuptools wheel

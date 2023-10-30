@@ -1,5 +1,6 @@
 import sys
-sys.path.append('../')
+
+sys.path.append("../")
 
 import numpy as np
 from tslearn.preprocessing import TimeSeriesScalerMinMax
@@ -7,6 +8,7 @@ from tslearn.utils import to_time_series_dataset
 
 from utils import DfManager
 from config import constants
+
 
 class DTW:
     def __init__(self, windowSize=False):
@@ -16,7 +18,7 @@ class DTW:
         self.__data1 = self.__load_coordinate(data1)
         self.__data2 = self.__load_coordinate(data2)
 
-    def get_dtw(self, keys=[]): 
+    def get_dtw(self, keys=[]):
         try:
             if self.__windowSize:
                 result = self.__calculate_partial_dtw(keys[0], keys[1])
@@ -26,20 +28,22 @@ class DTW:
                 return dtwVal
         except Exception:
             return "error"
-                    
 
     def __calculate_partial_dtw(self, key1, key2):
         try:
-            if len(self.__data1) < self.__windowSize or len(self.__data2) < self.__windowSize:
+            if (
+                len(self.__data1) < self.__windowSize
+                or len(self.__data2) < self.__windowSize
+            ):
                 print("ウインドウサイズがデータサイズよりも大きいです")
                 return []
 
-            minDtwValue = float('inf')
+            minDtwValue = float("inf")
             minRange1 = []
             minRange2 = []
 
-            dfM = DfManager(f'{constants.COORDINATE_PATH}{key1}.csv')
-            dfM2 = DfManager(f'{constants.COORDINATE_PATH}{key2}.csv')
+            dfM = DfManager(f"{constants.COORDINATE_PATH}{key1}.csv")
+            dfM2 = DfManager(f"{constants.COORDINATE_PATH}{key2}.csv")
             df = dfM.get_df()
             df2 = dfM2.get_df()
 
@@ -49,15 +53,23 @@ class DTW:
                 for j in range(len(self.__data2)):
                     if j + self.__windowSize - 1 > len(self.__data2):
                         break
-                    self.__ranged_data1 = self.__data1[i: i + self.__windowSize - 1]
-                    self.__ranged_data2 = self.__data2[j: j + self.__windowSize - 1]
+                    self.__ranged_data1 = self.__data1[i : i + self.__windowSize - 1]
+                    self.__ranged_data2 = self.__data2[j : j + self.__windowSize - 1]
 
-                    dtwVal = self.__calculate_dtw(self.__ranged_data1, self.__ranged_data2)[1]
+                    dtwVal = self.__calculate_dtw(
+                        self.__ranged_data1, self.__ranged_data2
+                    )[1]
                     if dtwVal <= minDtwValue:
                         minDtwValue = dtwVal
 
-                        minRange1 = [df.iloc[i]['move_index'], df.iloc[i + self.__windowSize - 1]['move_index']]
-                        minRange2 = [df2.iloc[j]['move_index'], df2.iloc[j + self.__windowSize - 1]['move_index']]
+                        minRange1 = [
+                            df.iloc[i]["move_index"],
+                            df.iloc[i + self.__windowSize - 1]["move_index"],
+                        ]
+                        minRange2 = [
+                            df2.iloc[j]["move_index"],
+                            df2.iloc[j + self.__windowSize - 1]["move_index"],
+                        ]
         except Exception as e:
             print(e)
 
@@ -65,19 +77,22 @@ class DTW:
 
     def __load_coordinate(self, data):
         """
-            data = [
-                [x, y],
-                [x1, x2],
-                ...
-            ]
+        data = [
+            [x, y],
+            [x1, x2],
+            ...
+        ]
         """
 
-        return TimeSeriesScalerMinMax().fit_transform(
-            to_time_series_dataset([data])).flatten().reshape(-1, 2)
+        return (
+            TimeSeriesScalerMinMax()
+            .fit_transform(to_time_series_dataset([data]))
+            .flatten()
+            .reshape(-1, 2)
+        )
 
     def __calculate_dtw(self, x, y):
         try:
-
             # xのデータ数，yのデータ数をそれぞれTx,Tyに代入
             Tx = len(x)
             Ty = len(y)
@@ -109,10 +124,9 @@ class DTW:
             # その他のマスの累積コストを求める
             for i in range(1, Tx):
                 for j in range(1, Ty):
-                    pi, pj, m = self.__getMin(C[i - 1, j],
-                                            C[i, j - 1],
-                                            C[i - 1, j - 1],
-                                            i, j)
+                    pi, pj, m = self.__getMin(
+                        C[i - 1, j], C[i, j - 1], C[i - 1, j - 1], i, j
+                    )
                     # get_minで返ってきた最小コストを累積コストに足す
                     C[i, j] = self.__calculateDist(x[i], y[j]) + m
                     # get_minで返ってきた最小コストの行/列番号を保持
@@ -126,7 +140,7 @@ class DTW:
             i = Tx - 1
             j = Ty - 1
 
-            while ((B[i, j][0] != 0) or (B[i, j][1] != 0)):
+            while (B[i, j][0] != 0) or (B[i, j][1] != 0):
                 path.append(B[i, j])
                 i, j = B[i, j].astype(int)
             path.append([0, 0])
@@ -134,7 +148,7 @@ class DTW:
 
         except Exception:
             return (0, 0, 0)
-        
+
     # 距離算出
     def __calculateDist(self, a, b):
         return ((a[0] - b[0]) ** 2 + (a[1] - b[1]) ** 2) ** 0.5
