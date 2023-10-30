@@ -19,4 +19,4 @@ jobs:
       - name: Install dependencies
         run: pip install black
       - name: Run black
-        run: black scratcher
+        run: black --check scratcher
