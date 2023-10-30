@@ -20,6 +20,9 @@ install:
 format:
 	@black .
 
+lint:
+	@pylint .
+
 generate-require:
 	@pipreqs . && cat ./scratcher/requirements.txt
 
