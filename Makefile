@@ -17,6 +17,9 @@ cp-out:
 install:
 	@pip install -r requirements.txt
 
+format:
+	@black .
+
 generate-require:
 	@pipreqs . && cat ./scratcher/requirements.txt
 
