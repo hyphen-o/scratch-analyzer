@@ -12,7 +12,7 @@ def generate_hash(value1, value2):
     hash_object = hashlib.sha256()
 
     # ソートされた値を結合してバイト列に変換し、ハッシュオブジェクトに追加
-    data = "".join(sorted_values).encode('utf-8')
+    data = "".join(sorted_values).encode("utf-8")
     hash_object.update(data)
 
     # ハッシュ値を取得して返す
