@@ -1,8 +1,0 @@
-,BlockName,Key,Field,node_id,parent_id,hash
-0,90,241,58.00000000000001,,,
-1,SCRIPT,,,0,0,
-2,event_whenflagclicked,,,1,0,J%bLBhJHl}-7A7VlImrh
-3,control_wait,,"{""DURATION"": [1, [5, ""10""]]}",2,2,LCwdkq2.YUEfA1ffn.B#
-4,sound_play,,"{""SOUND_MENU"": [1, ""1Fcz$l]HifUG,g+IKxnV""]}",3,3,Q^P$#C1N#k^~.:K`D6E}
-5,sound_playuntildone,,"{""SOUND_MENU"": [1, ""vWXwTbR4cLGlWO=B(4cn""]}",4,4,D0}b(bM1^n/hie%D[lv$
-6,motion_movesteps,,"{""STEPS"": [1, [4, ""100""]]}",5,5,d[1JMXBH{`_i4e$9k^Vm

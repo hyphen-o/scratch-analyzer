@@ -1,8 +1,0 @@
-,BlockName,Key,Field,node_id,parent_id,hash
-0,90,140,-105,,,
-1,SCRIPT,,,0,0,
-2,event_whenthisspriteclicked,,,1,0,K1[g~FYK:yyWvogRBuV{
-3,motion_gotoxy,,"{""X"": [1, [4, ""140""]], ""Y"": [1, [4, ""-105""]]}",2,2,y4:jNrir-gO0S@8k.f]A
-4,sensing_askandwait,,"{""QUESTION"": [1, [10, ""想找什麼商品？""]]}",3,3,jbsX`6xd*TdpoPG%`d2Q
-5,control_if_else,,,4,4,7CE%O~pce$#3(UL-i2Ng
-6,looks_sayforsecs,,"{""MESSAGE"": [1, [10, ""有相關商品""]], ""SECS"": [1, [4, ""2""]]}",5,5,j4*YNpH}Pl2Qa:GeXlhG

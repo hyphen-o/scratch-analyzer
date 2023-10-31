@@ -1,9 +1,0 @@
-,BlockName,Key,Field,node_id,parent_id,hash
-0,90,0,0,,,
-1,SCRIPT,,,0,0,
-2,event_whenflagclicked,,,1,0,P*O-_K=T8y$eoeN|?whG
-3,motion_setx,,"{""X"": [1, [4, ""-120""]]}",2,2,0Tt$IG#0v)-Y4wW)+AX(
-4,control_wait,,"{""DURATION"": [1, [5, ""1""]]}",3,3,"T3,Q#HE`rgcFA#[FMeJ%"
-5,SCRIPT,,,0,0,
-6,event_whenkeypressed,space,,1,0,DfTC1liC~Nf*9sY[18?V
-7,motion_gotoxy,,"{""X"": [1, [4, ""0""]], ""Y"": [1, [4, ""0""]]}",2,6,tJ+0=.~PYO~R9DP8P=P|
