@@ -14,6 +14,14 @@ help:
 
 .PHONY: help Makefile
 
+# html:
+# 	@$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
+
+cp:
+	@cp -r $(BUILDDIR)/html/* $(BUILDDIR)
+	@rm -rf $(BUILDDIR)/html
+
+
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile
