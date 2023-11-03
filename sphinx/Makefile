@@ -20,6 +20,7 @@ help:
 cp:
 	@cp -r $(BUILDDIR)/html/* $(BUILDDIR)
 	@rm -rf $(BUILDDIR)/html
+	@git restore $(BUILDDIR)
 
 
 # Catch-all target: route all unknown targets to Sphinx using the new
