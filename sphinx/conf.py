@@ -1,12 +1,3 @@
-import os
-import sys
-
-# ルートディレクトリをパスに追加
-# この操作にて、ルートディレクトリ直下にある、〇〇.pyが読み込まれます。
-sys.path.extend([
-    os.path.abspath('../..'),           # ルートディレクトリ
-])
-
 # Configuration file for the Sphinx documentation builder.
 #
 # For the full list of built-in configuration values, see the documentation:
@@ -18,17 +9,16 @@ sys.path.extend([
 project = 'scratcher'
 copyright = '2023, keigo-o'
 author = 'keigo-o'
-release = '0.0.1'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['sphinx.ext.autodoc']
+extensions = []
 
 templates_path = ['_templates']
-exclude_patterns = []
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
-
+language = 'ja'
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
