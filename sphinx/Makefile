@@ -18,9 +18,9 @@ help:
 # 	@$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
 
 cp:
-	@cp -r $(BUILDDIR)/html/* $(BUILDDIR)
-	@rm -rf $(BUILDDIR)/html
-	@git restore $(BUILDDIR)
+	@cp -r $(BUILDDIR)/html/* $(BUILDDIR)/
+	@git add $(BUILDDIR)/html/* $(BUILDDIR)/
+	@git rm -rf $(BUILDDIR)/html
 
 
 # Catch-all target: route all unknown targets to Sphinx using the new
