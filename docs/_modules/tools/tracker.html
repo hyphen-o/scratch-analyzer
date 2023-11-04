@@ -1,0 +1,344 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="" lang="" version="-//W3C//DTD XHTML 1.1//EN" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="">
+    <link rel="icon" type="image/x-icon" href="">
+
+  
+  <title>tools.tracker &mdash; scratcher  ドキュメント</title>
+  
+
+  
+
+  
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'/>
+
+
+  <link rel="stylesheet" href="../../_static/css/img.css" type="text/css"/>
+  
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  
+    <link rel="stylesheet" href="../../_static/css/pdj.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="../../_static/css/darker.css" type="text/css" media="(prefers-color-scheme: dark)"/>
+        <link rel="index" title="索引"
+              href="../../genindex.html"/>
+        <link rel="search" title="検索" href="../../search.html"/>
+    <link rel="top" title="scratcher  ドキュメント" href="../../index.html"/>
+        <link rel="up" title="モジュールコード" href="../index.html"/>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="cache-control" content="public" />
+    <meta name="robots" content="follow, all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Add jQuery library -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+    <script type="module" src="https://googlechromelabs.github.io/dark-mode-toggle/src/dark-mode-toggle.mjs"></script>
+
+  </head>
+
+  <body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+	
+        <a href="../../index.html" class="fa fa-home"> scratcher </a>
+	
+	
+        <div role="search">
+	  
+	  <form id ="rtd-search-form" class="wy-form"
+		action="../../search.html" method="get">
+	    <input type="text" name="q" placeholder="Search docs" />
+	    <input type="hidden" name="check_keywords" value="yes" />
+	    <input type="hidden" name="area" value="default" />
+	  </form>
+	  
+	</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	
+          
+          
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../prjman.html"><code class="docutils literal notranslate"><span class="pre">ProjectManager</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../prjman.html#prjman.ProjectManager.get_ast"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_ast()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prjman.html#prjman.ProjectManager.get_blocks"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_blocks()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prjman.html#prjman.ProjectManager.get_blocks_length"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_blocks_length()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prjman.html#prjman.ProjectManager.get_coordinate"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_coordinate()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prjman.html#prjman.ProjectManager.get_description"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_description()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prjman.html#prjman.ProjectManager.get_id"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_id()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prjman.html#prjman.ProjectManager.get_project"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_project()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prjman.html#prjman.ProjectManager.get_sorted_blocks"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_sorted_blocks()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prjman.html#prjman.ProjectManager.is_dataset"><code class="docutils literal notranslate"><span class="pre">ProjectManager.is_dataset()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prjman.html#prjman.ProjectManager.to_json"><code class="docutils literal notranslate"><span class="pre">ProjectManager.to_json()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../api.scratch_client.html"><code class="docutils literal notranslate"><span class="pre">get_description()</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../api.scratch_client.html#api.scratch_client.get_project"><code class="docutils literal notranslate"><span class="pre">get_project()</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../api.scratch_client.html#api.scratch_client.get_token"><code class="docutils literal notranslate"><span class="pre">get_token()</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tools.sorter.html"><code class="docutils literal notranslate"><span class="pre">Sorter</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../tools.sorter.html#tools.sorter.Sorter.sort_blocks"><code class="docutils literal notranslate"><span class="pre">Sorter.sort_blocks()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tools.sorter.html#tools.sorter.Sorter.to_csv"><code class="docutils literal notranslate"><span class="pre">Sorter.to_csv()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../tools.tracker.html"><code class="docutils literal notranslate"><span class="pre">Tracker</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../tools.tracker.html#tools.tracker.Tracker.get_coordinate"><code class="docutils literal notranslate"><span class="pre">Tracker.get_coordinate()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tools.tracker.html#tools.tracker.Tracker.to_csv"><code class="docutils literal notranslate"><span class="pre">Tracker.to_csv()</span></code></a></li>
+</ul>
+</li>
+</ul>
+
+          
+        
+
+      </div>
+      &nbsp;
+    </nav>
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      <nav class="wy-nav-top" id="barra-mobile" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="#">scratcher </a>
+      </nav>
+
+      <div class="wy-nav-content">
+	<div class="fundo-claro">
+	</div>
+	<div class="fundo-escuro">
+	</div>
+
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+	    
+	    <!-- <ul class="wy-breadcrumbs"> -->
+	    <!--   <li><a href="#">Docs</a> &raquo;</li> -->
+
+	    <!--   <li>Features</li> -->
+	    <!--   <li class="wy-breadcrumbs-aside"> -->
+
+	    <!-- 	<a href="_sources/index.txt" rel="nofollow"> View page source</a> -->
+
+	    <!--   </li> -->
+	    <!-- </ul> -->
+	    <!-- <hr/> -->
+	  </div>
+          <div role="main" class="">
+
+	    <div id="content" class="hfeed entry-container hentry">
+      	<div id="dark-mode-toggle-container">
+	  <dark-mode-toggle appearance="toggle" dark="switch to light mode" light="switch to dark mode">
+	  </dark-mode-toggle>
+	</div>
+  <h1>tools.tracker のソースコード</h1><div class="highlight"><pre>
+<span></span><span class="kn">import</span> <span class="nn">sys</span>
+
+<span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;../&quot;</span><span class="p">)</span>
+
+<span class="kn">from</span> <span class="nn">utils</span> <span class="kn">import</span> <span class="n">DfManager</span>
+<span class="kn">from</span> <span class="nn">config</span> <span class="kn">import</span> <span class="n">constants</span>
+
+<span class="kn">import</span> <span class="nn">math</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">ast</span>
+
+
+<div class="viewcode-block" id="Tracker">
+<a class="viewcode-back" href="../../tools.tracker.html#tools.tracker.Tracker">[ドキュメント]</a>
+<span class="k">class</span> <span class="nc">Tracker</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Scratch作品のスプライト動作軌跡を取得するためのクラス</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1"># 座標情報を格納しているキー名</span>
+    <span class="n">__MOVE</span> <span class="o">=</span> <span class="n">constants</span><span class="o">.</span><span class="n">MOVE_FIELDS</span>
+    <span class="n">__SET</span> <span class="o">=</span> <span class="n">constants</span><span class="o">.</span><span class="n">SET_FIELDS</span>
+    <span class="n">__DEGREE</span> <span class="o">=</span> <span class="n">constants</span><span class="o">.</span><span class="n">DEGREE_FIELDS</span>
+    <span class="c1"># 待機時間情報を格納しているキー名</span>
+    <span class="n">__WAIT</span> <span class="o">=</span> <span class="n">constants</span><span class="o">.</span><span class="n">WAIT_FIELDS</span>
+    <span class="n">__COORDINATE</span> <span class="o">=</span> <span class="n">constants</span><span class="o">.</span><span class="n">COORDINATE_FIELDS</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">project</span><span class="p">):</span>
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">project</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">__sorted_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">project</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">project</span><span class="p">,</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">__sorted_df</span> <span class="o">=</span> <span class="n">project</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;プロジェクトへのパスか，プロジェクトを入力としてください．&quot;</span><span class="p">)</span>
+            <span class="k">return</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">__dfM</span> <span class="o">=</span> <span class="n">DfManager</span><span class="p">([</span><span class="s2">&quot;key&quot;</span><span class="p">,</span> <span class="s2">&quot;x&quot;</span><span class="p">,</span> <span class="s2">&quot;y&quot;</span><span class="p">,</span> <span class="s2">&quot;wait&quot;</span><span class="p">,</span> <span class="s2">&quot;move_index&quot;</span><span class="p">])</span>
+
+<div class="viewcode-block" id="Tracker.to_csv">
+<a class="viewcode-back" href="../../tools.tracker.html#tools.tracker.Tracker.to_csv">[ドキュメント]</a>
+    <span class="k">def</span> <span class="nf">to_csv</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dir_path</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;時系列の座標情報をCSVに保存</span>
+<span class="sd">            Args:</span>
+<span class="sd">                dir_path(str): CSVを保存するパス（ファイル名含む）</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__dfM</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">dir_path</span><span class="p">)</span></div>
+
+
+    <span class="k">def</span> <span class="nf">__get_step_movement</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">steps</span><span class="p">):</span>
+        <span class="n">degree_rad</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">radians</span><span class="p">(</span><span class="mf">90.0</span> <span class="o">-</span> <span class="nb">float</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__degree</span><span class="p">))</span>
+        <span class="n">dx</span> <span class="o">=</span> <span class="n">steps</span> <span class="o">*</span> <span class="n">math</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="n">degree_rad</span><span class="p">)</span>
+        <span class="n">dy</span> <span class="o">=</span> <span class="n">steps</span> <span class="o">*</span> <span class="n">math</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">degree_rad</span><span class="p">)</span>
+        <span class="k">return</span> <span class="p">(</span><span class="n">dx</span><span class="p">,</span> <span class="n">dy</span><span class="p">)</span>
+
+<div class="viewcode-block" id="Tracker.get_coordinate">
+<a class="viewcode-back" href="../../tools.tracker.html#tools.tracker.Tracker.get_coordinate">[ドキュメント]</a>
+    <span class="k">def</span> <span class="nf">get_coordinate</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;ソートされたブロックからスプライトの動作軌跡を計算して取得</span>
+<span class="sd">        Returns:</span>
+<span class="sd">            Dataframe: 計算した動作軌跡のDataframeを返す</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__degree</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__sorted_df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="s2">&quot;BlockName&quot;</span><span class="p">]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__x</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__sorted_df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="s2">&quot;Key&quot;</span><span class="p">]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__y</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__sorted_df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="s2">&quot;Field&quot;</span><span class="p">]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__df_length</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__sorted_df</span><span class="o">.</span><span class="n">index</span><span class="p">)</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">__df_length</span><span class="p">):</span>
+                <span class="n">block_name</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__sorted_df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="s2">&quot;BlockName&quot;</span><span class="p">]</span>
+                <span class="k">if</span> <span class="n">block_name</span> <span class="o">==</span> <span class="s2">&quot;event_whenflagclicked&quot;</span><span class="p">:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">__dfM</span><span class="o">.</span><span class="n">add_row</span><span class="p">([</span><span class="kc">None</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">__x</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">__y</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">i</span><span class="p">])</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">__calculate_coordinate</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+                    <span class="k">break</span>
+            <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">__df_length</span><span class="p">):</span>
+                <span class="n">block_name</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__sorted_df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="s2">&quot;BlockName&quot;</span><span class="p">]</span>
+                <span class="k">if</span> <span class="s2">&quot;event&quot;</span> <span class="ow">in</span> <span class="nb">str</span><span class="p">(</span><span class="n">block_name</span><span class="p">):</span>
+                    <span class="k">if</span> <span class="n">block_name</span> <span class="o">!=</span> <span class="s2">&quot;event_whenflagclicked&quot;</span><span class="p">:</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">__dfM</span><span class="o">.</span><span class="n">add_row</span><span class="p">([</span><span class="kc">None</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">__x</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">__y</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">i</span><span class="p">])</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">__calculate_coordinate</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__dfM</span><span class="o">.</span><span class="n">get_df</span><span class="p">()</span>
+
+        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;error: &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">e</span><span class="p">))</span></div>
+
+
+    <span class="k">def</span> <span class="nf">__calculate_coordinate</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">index</span><span class="p">):</span>
+        <span class="n">wait</span> <span class="o">=</span> <span class="mf">0.0</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">index</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">__df_length</span><span class="p">):</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">__sorted_df</span><span class="p">[</span><span class="s2">&quot;BlockName&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;SCRIPT&quot;</span><span class="p">:</span>
+                    <span class="k">return</span>
+                <span class="k">if</span> <span class="ow">not</span> <span class="n">pd</span><span class="o">.</span><span class="n">isna</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__sorted_df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="s2">&quot;Field&quot;</span><span class="p">]):</span>
+                    <span class="n">dic</span> <span class="o">=</span> <span class="n">ast</span><span class="o">.</span><span class="n">literal_eval</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__sorted_df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="s2">&quot;Field&quot;</span><span class="p">])</span>
+                    <span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">dic</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+                        <span class="k">if</span> <span class="n">key</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">__MOVE</span><span class="p">:</span>
+                            <span class="k">if</span> <span class="n">key</span> <span class="o">==</span> <span class="s2">&quot;DX&quot;</span><span class="p">:</span>
+                                <span class="bp">self</span><span class="o">.</span><span class="n">__x</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__x</span><span class="p">)</span> <span class="o">+</span> <span class="nb">float</span><span class="p">(</span><span class="n">dic</span><span class="p">[</span><span class="n">key</span><span class="p">][</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">])</span>
+                            <span class="k">elif</span> <span class="n">key</span> <span class="o">==</span> <span class="s2">&quot;DY&quot;</span><span class="p">:</span>
+                                <span class="bp">self</span><span class="o">.</span><span class="n">__y</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__y</span><span class="p">)</span> <span class="o">+</span> <span class="nb">float</span><span class="p">(</span><span class="n">dic</span><span class="p">[</span><span class="n">key</span><span class="p">][</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">])</span>
+                        <span class="k">elif</span> <span class="n">key</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">__SET</span><span class="p">:</span>
+                            <span class="k">if</span> <span class="n">key</span> <span class="o">==</span> <span class="s2">&quot;X&quot;</span><span class="p">:</span>
+                                <span class="bp">self</span><span class="o">.</span><span class="n">__x</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">dic</span><span class="p">[</span><span class="n">key</span><span class="p">][</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">])</span>
+                            <span class="k">elif</span> <span class="n">key</span> <span class="o">==</span> <span class="s2">&quot;Y&quot;</span><span class="p">:</span>
+                                <span class="bp">self</span><span class="o">.</span><span class="n">__y</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">dic</span><span class="p">[</span><span class="n">key</span><span class="p">][</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">])</span>
+                        <span class="k">elif</span> <span class="n">key</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">__DEGREE</span><span class="p">:</span>
+                            <span class="k">if</span> <span class="n">key</span> <span class="o">==</span> <span class="s2">&quot;DEGREES&quot;</span><span class="p">:</span>
+                                <span class="k">if</span> <span class="p">(</span>
+                                    <span class="bp">self</span><span class="o">.</span><span class="n">__sorted_df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="s2">&quot;BlockName&quot;</span><span class="p">]</span>
+                                    <span class="o">==</span> <span class="s2">&quot;motion_turnleft&quot;</span>
+                                <span class="p">):</span>
+                                    <span class="bp">self</span><span class="o">.</span><span class="n">__degree</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__degree</span><span class="p">)</span> <span class="o">+</span> <span class="nb">float</span><span class="p">(</span>
+                                        <span class="n">dic</span><span class="p">[</span><span class="n">key</span><span class="p">][</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span>
+                                    <span class="p">)</span>
+                                <span class="k">elif</span> <span class="p">(</span>
+                                    <span class="bp">self</span><span class="o">.</span><span class="n">__sorted_df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="s2">&quot;BlockName&quot;</span><span class="p">]</span>
+                                    <span class="o">==</span> <span class="s2">&quot;motion_turnright&quot;</span>
+                                <span class="p">):</span>
+                                    <span class="bp">self</span><span class="o">.</span><span class="n">__degree</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__degree</span><span class="p">)</span> <span class="o">-</span> <span class="nb">float</span><span class="p">(</span>
+                                        <span class="n">dic</span><span class="p">[</span><span class="n">key</span><span class="p">][</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span>
+                                    <span class="p">)</span>
+                            <span class="k">if</span> <span class="n">key</span> <span class="o">==</span> <span class="s2">&quot;DIRECTION&quot;</span><span class="p">:</span>
+                                <span class="bp">self</span><span class="o">.</span><span class="n">__degree</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">dic</span><span class="p">[</span><span class="n">key</span><span class="p">][</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">])</span>
+                        <span class="k">elif</span> <span class="n">key</span> <span class="o">==</span> <span class="s2">&quot;STEPS&quot;</span><span class="p">:</span>
+                            <span class="n">result</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__get_step_movement</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">dic</span><span class="p">[</span><span class="n">key</span><span class="p">][</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">]))</span>
+                            <span class="bp">self</span><span class="o">.</span><span class="n">__x</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__x</span><span class="p">)</span> <span class="o">+</span> <span class="n">result</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+                            <span class="bp">self</span><span class="o">.</span><span class="n">__y</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__y</span><span class="p">)</span> <span class="o">+</span> <span class="n">result</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+                        <span class="k">elif</span> <span class="n">key</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">__WAIT</span><span class="p">:</span>
+                            <span class="n">wait</span> <span class="o">+=</span> <span class="nb">float</span><span class="p">(</span><span class="n">dic</span><span class="p">[</span><span class="n">key</span><span class="p">][</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">])</span>
+                    <span class="k">for</span> <span class="n">string</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">__COORDINATE</span><span class="p">:</span>
+                        <span class="k">if</span> <span class="n">string</span> <span class="ow">in</span> <span class="n">dic</span><span class="p">:</span>
+                            <span class="bp">self</span><span class="o">.</span><span class="n">__dfM</span><span class="o">.</span><span class="n">add_row</span><span class="p">([</span><span class="kc">None</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">__x</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">__y</span><span class="p">,</span> <span class="n">wait</span><span class="p">,</span> <span class="n">i</span><span class="p">])</span>
+                            <span class="k">break</span>
+                    <span class="n">wait</span> <span class="o">=</span> <span class="mf">0.0</span>
+            <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
+
+        <span class="k">return</span></div>
+
+</pre></div>
+
+	    </div>
+            <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2023, keigo-o.
+    </p>
+  </div>
+
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/jucacrispim/sphinx_pdj_theme">theme</a> provided by <a href="https://poraodojuca.dev">Porão do Juca</a>.
+
+</footer>
+	</div>
+	</div>
+	  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+    <script type="text/javascript" src="../../_static/documentation_options.js">
+
+    </script>
+    <script type="text/javascript" src="../../_static/doctools.js">
+
+    </script>
+    <script type="text/javascript" src="../../_static/sphinx_highlight.js">
+
+    </script>
+    <script type="text/javascript" src="../../_static/translations.js">
+
+    </script>
+
+  
+
+   <script type="text/javascript"
+           src="../../_static/js/theme.js"></script>
+
+   <script type="text/javascript"
+           src="../../_static/js/pdj.js"></script>
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+  </body>
+</html>

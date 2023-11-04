@@ -11,6 +11,9 @@ Welcome to scratcher's documentation!
    :caption: Contents:
 
    prjman
+   api.scratch_client
+   tools.sorter
+   tools.tracker
 
 Indices and tables
 ==================

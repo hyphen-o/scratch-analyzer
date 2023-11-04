@@ -1,0 +1,504 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="" lang="" version="-//W3C//DTD XHTML 1.1//EN" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="">
+    <link rel="icon" type="image/x-icon" href="">
+
+  
+  <title>tools.sorter &mdash; scratcher  ドキュメント</title>
+  
+
+  
+
+  
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'/>
+
+
+  <link rel="stylesheet" href="../../_static/css/img.css" type="text/css"/>
+  
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  
+    <link rel="stylesheet" href="../../_static/css/pdj.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="../../_static/css/darker.css" type="text/css" media="(prefers-color-scheme: dark)"/>
+        <link rel="index" title="索引"
+              href="../../genindex.html"/>
+        <link rel="search" title="検索" href="../../search.html"/>
+    <link rel="top" title="scratcher  ドキュメント" href="../../index.html"/>
+        <link rel="up" title="モジュールコード" href="../index.html"/>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="cache-control" content="public" />
+    <meta name="robots" content="follow, all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Add jQuery library -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+    <script type="module" src="https://googlechromelabs.github.io/dark-mode-toggle/src/dark-mode-toggle.mjs"></script>
+
+  </head>
+
+  <body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+	
+        <a href="../../index.html" class="fa fa-home"> scratcher </a>
+	
+	
+        <div role="search">
+	  
+	  <form id ="rtd-search-form" class="wy-form"
+		action="../../search.html" method="get">
+	    <input type="text" name="q" placeholder="Search docs" />
+	    <input type="hidden" name="check_keywords" value="yes" />
+	    <input type="hidden" name="area" value="default" />
+	  </form>
+	  
+	</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	
+          
+          
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../prjman.html"><code class="docutils literal notranslate"><span class="pre">ProjectManager</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../prjman.html#prjman.ProjectManager.get_ast"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_ast()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prjman.html#prjman.ProjectManager.get_blocks"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_blocks()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prjman.html#prjman.ProjectManager.get_blocks_length"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_blocks_length()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prjman.html#prjman.ProjectManager.get_coordinate"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_coordinate()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prjman.html#prjman.ProjectManager.get_description"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_description()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prjman.html#prjman.ProjectManager.get_id"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_id()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prjman.html#prjman.ProjectManager.get_project"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_project()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prjman.html#prjman.ProjectManager.get_sorted_blocks"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_sorted_blocks()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prjman.html#prjman.ProjectManager.is_dataset"><code class="docutils literal notranslate"><span class="pre">ProjectManager.is_dataset()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prjman.html#prjman.ProjectManager.to_json"><code class="docutils literal notranslate"><span class="pre">ProjectManager.to_json()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../api.scratch_client.html"><code class="docutils literal notranslate"><span class="pre">get_description()</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../api.scratch_client.html#api.scratch_client.get_project"><code class="docutils literal notranslate"><span class="pre">get_project()</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../api.scratch_client.html#api.scratch_client.get_token"><code class="docutils literal notranslate"><span class="pre">get_token()</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tools.sorter.html"><code class="docutils literal notranslate"><span class="pre">Sorter</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../tools.sorter.html#tools.sorter.Sorter.sort_blocks"><code class="docutils literal notranslate"><span class="pre">Sorter.sort_blocks()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tools.sorter.html#tools.sorter.Sorter.to_csv"><code class="docutils literal notranslate"><span class="pre">Sorter.to_csv()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../tools.tracker.html"><code class="docutils literal notranslate"><span class="pre">Tracker</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../tools.tracker.html#tools.tracker.Tracker.get_coordinate"><code class="docutils literal notranslate"><span class="pre">Tracker.get_coordinate()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tools.tracker.html#tools.tracker.Tracker.to_csv"><code class="docutils literal notranslate"><span class="pre">Tracker.to_csv()</span></code></a></li>
+</ul>
+</li>
+</ul>
+
+          
+        
+
+      </div>
+      &nbsp;
+    </nav>
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      <nav class="wy-nav-top" id="barra-mobile" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="#">scratcher </a>
+      </nav>
+
+      <div class="wy-nav-content">
+	<div class="fundo-claro">
+	</div>
+	<div class="fundo-escuro">
+	</div>
+
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+	    
+	    <!-- <ul class="wy-breadcrumbs"> -->
+	    <!--   <li><a href="#">Docs</a> &raquo;</li> -->
+
+	    <!--   <li>Features</li> -->
+	    <!--   <li class="wy-breadcrumbs-aside"> -->
+
+	    <!-- 	<a href="_sources/index.txt" rel="nofollow"> View page source</a> -->
+
+	    <!--   </li> -->
+	    <!-- </ul> -->
+	    <!-- <hr/> -->
+	  </div>
+          <div role="main" class="">
+
+	    <div id="content" class="hfeed entry-container hentry">
+      	<div id="dark-mode-toggle-container">
+	  <dark-mode-toggle appearance="toggle" dark="switch to light mode" light="switch to dark mode">
+	  </dark-mode-toggle>
+	</div>
+  <h1>tools.sorter のソースコード</h1><div class="highlight"><pre>
+<span></span><span class="kn">import</span> <span class="nn">sys</span>
+
+<span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;../&quot;</span><span class="p">)</span>
+
+<span class="kn">from</span> <span class="nn">utils</span> <span class="kn">import</span> <span class="n">DfManager</span><span class="p">,</span> <span class="n">single_to_double</span>
+<span class="kn">from</span> <span class="nn">config</span> <span class="kn">import</span> <span class="n">constants</span>
+
+
+<div class="viewcode-block" id="Sorter">
+<a class="viewcode-back" href="../../tools.sorter.html#tools.sorter.Sorter">[ドキュメント]</a>
+<span class="k">class</span> <span class="nc">Sorter</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Scratch作品を命令処理順にソートするためのクラス</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">__IF_BLOCKS</span> <span class="o">=</span> <span class="n">constants</span><span class="o">.</span><span class="n">IF_BLOCKS</span>
+    <span class="n">__R_BLOCKS</span> <span class="o">=</span> <span class="n">constants</span><span class="o">.</span><span class="n">REPEAT_BLOCKS</span>
+    <span class="n">__E_BLOCKS</span> <span class="o">=</span> <span class="n">constants</span><span class="o">.</span><span class="n">EVENT_BLOCKS</span>
+    <span class="n">__VAR_BLOCKS</span> <span class="o">=</span> <span class="n">constants</span><span class="o">.</span><span class="n">VARIABLE_BLOCKS</span>
+    <span class="n">__PRO_CALL_BLOCKS</span> <span class="o">=</span> <span class="n">constants</span><span class="o">.</span><span class="n">PROCEDURES_CALL</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">project</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Sorterの初期化</span>
+<span class="sd">            Args:</span>
+<span class="sd">                project(dictionary): 作品のJSON</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__dfM</span> <span class="o">=</span> <span class="n">DfManager</span><span class="p">(</span>
+            <span class="p">[</span><span class="s2">&quot;BlockName&quot;</span><span class="p">,</span> <span class="s2">&quot;Key&quot;</span><span class="p">,</span> <span class="s2">&quot;Field&quot;</span><span class="p">,</span> <span class="s2">&quot;node_id&quot;</span><span class="p">,</span> <span class="s2">&quot;parent_id&quot;</span><span class="p">,</span> <span class="s2">&quot;hash&quot;</span><span class="p">]</span>
+        <span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__blocks</span> <span class="o">=</span> <span class="n">project</span><span class="p">[</span><span class="s2">&quot;targets&quot;</span><span class="p">][</span><span class="mi">1</span><span class="p">][</span><span class="s2">&quot;blocks&quot;</span><span class="p">]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__sprite</span> <span class="o">=</span> <span class="n">project</span><span class="p">[</span><span class="s2">&quot;targets&quot;</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__variables</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__get_variables</span><span class="p">(</span><span class="n">project</span><span class="p">[</span><span class="s2">&quot;monitors&quot;</span><span class="p">])</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__node_id</span> <span class="o">=</span> <span class="mi">0</span>
+
+<div class="viewcode-block" id="Sorter.to_csv">
+<a class="viewcode-back" href="../../tools.sorter.html#tools.sorter.Sorter.to_csv">[ドキュメント]</a>
+    <span class="k">def</span> <span class="nf">to_csv</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dir_path</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;ソートされたブロックをCSVに保存</span>
+<span class="sd">            Args:</span>
+<span class="sd">                dir_path(str): CSVを保存するパス（ファイル名含む）</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__dfM</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">dir_path</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="Sorter.sort_blocks">
+<a class="viewcode-back" href="../../tools.sorter.html#tools.sorter.Sorter.sort_blocks">[ドキュメント]</a>
+    <span class="k">def</span> <span class="nf">sort_blocks</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;ブロックを命令処理順にソートして取得</span>
+<span class="sd">        Returns:</span>
+<span class="sd">            Dataframe: ブロックを命令処理順にソートしたDataframeを返す</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__dfM</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+            <span class="p">[</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">__sprite</span><span class="p">[</span><span class="s2">&quot;direction&quot;</span><span class="p">],</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">__sprite</span><span class="p">[</span><span class="s2">&quot;x&quot;</span><span class="p">],</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">__sprite</span><span class="p">[</span><span class="s2">&quot;y&quot;</span><span class="p">],</span>
+                <span class="kc">None</span><span class="p">,</span>
+                <span class="kc">None</span><span class="p">,</span>
+                <span class="kc">None</span><span class="p">,</span>
+            <span class="p">]</span>
+        <span class="p">)</span>
+        <span class="k">for</span> <span class="n">block_hash</span><span class="p">,</span> <span class="n">block</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">__blocks</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="k">if</span> <span class="s2">&quot;event&quot;</span> <span class="ow">in</span> <span class="n">block</span><span class="p">[</span><span class="s2">&quot;opcode&quot;</span><span class="p">]:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">__write_blocks</span><span class="p">(</span><span class="n">block_hash</span><span class="p">)</span>
+
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__dfM</span><span class="o">.</span><span class="n">get_df</span><span class="p">()</span></div>
+
+
+    <span class="k">def</span> <span class="nf">__get_variables</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">monitors</span><span class="p">):</span>
+        <span class="n">variables</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="k">for</span> <span class="n">monitor</span> <span class="ow">in</span> <span class="n">monitors</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">monitor</span><span class="p">[</span><span class="s2">&quot;opcode&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;data_variable&quot;</span><span class="p">:</span>
+                <span class="n">variables</span><span class="p">[</span><span class="n">monitor</span><span class="p">[</span><span class="s2">&quot;id&quot;</span><span class="p">]]</span> <span class="o">=</span> <span class="s2">&quot;0&quot;</span>
+        <span class="k">return</span> <span class="n">variables</span>
+
+    <span class="k">def</span> <span class="nf">__get_parent_index</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">block</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">block</span><span class="p">[</span><span class="s2">&quot;parent&quot;</span><span class="p">]:</span>
+            <span class="n">df</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__dfM</span><span class="o">.</span><span class="n">get_df</span><span class="p">()</span>
+            <span class="k">return</span> <span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;hash&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="n">block</span><span class="p">[</span><span class="s2">&quot;parent&quot;</span><span class="p">]]</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">to_list</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">return</span> <span class="mi">0</span>
+
+    <span class="k">def</span> <span class="nf">__categorize_blocks</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">block_name</span><span class="p">):</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">block_name</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">__E_BLOCKS</span><span class="p">:</span>
+                <span class="k">return</span> <span class="s2">&quot;EVENT&quot;</span>
+            <span class="k">elif</span> <span class="n">block_name</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">__IF_BLOCKS</span><span class="p">:</span>
+                <span class="k">return</span> <span class="s2">&quot;IF&quot;</span>
+            <span class="k">elif</span> <span class="n">block_name</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">__R_BLOCKS</span><span class="p">:</span>
+                <span class="k">return</span> <span class="s2">&quot;REPEAT&quot;</span>
+            <span class="k">elif</span> <span class="n">block_name</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">__VAR_BLOCKS</span><span class="p">:</span>
+                <span class="k">return</span> <span class="s2">&quot;VARIABLE&quot;</span>
+            <span class="k">elif</span> <span class="n">block_name</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">__PRO_CALL_BLOCKS</span><span class="p">:</span>
+                <span class="k">return</span> <span class="s2">&quot;CALL&quot;</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="k">return</span> <span class="s2">&quot;NORMAL&quot;</span>
+        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">__has_forever_block</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">block_hash</span><span class="p">):</span>
+        <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">__blocks</span><span class="p">[</span><span class="n">block_hash</span><span class="p">][</span><span class="s2">&quot;opcode&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="n">constants</span><span class="o">.</span><span class="n">FOREVER_BLOCK</span><span class="p">:</span>
+                <span class="k">return</span> <span class="kc">True</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">__blocks</span><span class="p">[</span><span class="n">block_hash</span><span class="p">][</span><span class="s2">&quot;next&quot;</span><span class="p">]:</span>
+                <span class="n">block_hash</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__blocks</span><span class="p">[</span><span class="n">block_hash</span><span class="p">][</span><span class="s2">&quot;next&quot;</span><span class="p">]</span>
+                <span class="k">continue</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="k">return</span> <span class="kc">False</span>
+
+    <span class="k">def</span> <span class="nf">__get_variable_value</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">input</span><span class="p">):</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="nb">input</span><span class="p">)</span> <span class="o">==</span> <span class="mi">3</span><span class="p">:</span>
+            <span class="k">if</span> <span class="nb">input</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">2</span><span class="p">]</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">__variables</span><span class="p">:</span>
+                <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__variables</span><span class="p">[</span><span class="nb">input</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">2</span><span class="p">]]</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="k">return</span> <span class="s2">&quot;0&quot;</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">return</span> <span class="nb">input</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span>
+
+    <span class="k">def</span> <span class="nf">__write_blocks</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">block_hash</span><span class="p">):</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">block</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__blocks</span><span class="p">[</span><span class="n">block_hash</span><span class="p">]</span>
+            <span class="n">block_name</span> <span class="o">=</span> <span class="n">block</span><span class="p">[</span><span class="s2">&quot;opcode&quot;</span><span class="p">]</span>
+            <span class="n">category</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__categorize_blocks</span><span class="p">(</span><span class="n">block_name</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">__node_id</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="k">match</span> <span class="n">category</span><span class="p">:</span>
+                <span class="k">case</span> <span class="s2">&quot;EVENT&quot;</span><span class="p">:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">__node_id</span> <span class="o">=</span> <span class="mi">0</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">__dfM</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+                        <span class="p">[</span>
+                            <span class="s2">&quot;SCRIPT&quot;</span><span class="p">,</span>
+                            <span class="kc">None</span><span class="p">,</span>
+                            <span class="kc">None</span><span class="p">,</span>
+                            <span class="bp">self</span><span class="o">.</span><span class="n">__node_id</span><span class="p">,</span>
+                            <span class="bp">self</span><span class="o">.</span><span class="n">__get_parent_index</span><span class="p">(</span><span class="n">block</span><span class="p">),</span>
+                            <span class="kc">None</span><span class="p">,</span>
+                        <span class="p">]</span>
+                    <span class="p">)</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">__node_id</span> <span class="o">+=</span> <span class="mi">1</span>
+                    <span class="k">if</span> <span class="n">block_name</span> <span class="o">==</span> <span class="n">constants</span><span class="o">.</span><span class="n">EVENT_KEY_BLOCK</span><span class="p">:</span>
+                        <span class="n">key_name</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__blocks</span><span class="p">[</span><span class="n">block_hash</span><span class="p">][</span><span class="s2">&quot;fields&quot;</span><span class="p">][</span><span class="s2">&quot;KEY_OPTION&quot;</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">__dfM</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+                            <span class="p">[</span>
+                                <span class="n">block_name</span><span class="p">,</span>
+                                <span class="n">key_name</span><span class="p">,</span>
+                                <span class="kc">None</span><span class="p">,</span>
+                                <span class="bp">self</span><span class="o">.</span><span class="n">__node_id</span><span class="p">,</span>
+                                <span class="bp">self</span><span class="o">.</span><span class="n">__get_parent_index</span><span class="p">(</span><span class="n">block</span><span class="p">),</span>
+                                <span class="n">block_hash</span><span class="p">,</span>
+                            <span class="p">]</span>
+                        <span class="p">)</span>
+                    <span class="k">else</span><span class="p">:</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">__dfM</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+                            <span class="p">[</span>
+                                <span class="n">block_name</span><span class="p">,</span>
+                                <span class="kc">None</span><span class="p">,</span>
+                                <span class="kc">None</span><span class="p">,</span>
+                                <span class="bp">self</span><span class="o">.</span><span class="n">__node_id</span><span class="p">,</span>
+                                <span class="bp">self</span><span class="o">.</span><span class="n">__get_parent_index</span><span class="p">(</span><span class="n">block</span><span class="p">),</span>
+                                <span class="n">block_hash</span><span class="p">,</span>
+                            <span class="p">]</span>
+                        <span class="p">)</span>
+                    <span class="k">if</span> <span class="n">block</span><span class="p">[</span><span class="s2">&quot;next&quot;</span><span class="p">]:</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">__write_blocks</span><span class="p">(</span><span class="n">block</span><span class="p">[</span><span class="s2">&quot;next&quot;</span><span class="p">])</span>
+                <span class="k">case</span> <span class="s2">&quot;REPEAT&quot;</span><span class="p">:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">__dfM</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+                        <span class="p">[</span>
+                            <span class="n">block_name</span><span class="p">,</span>
+                            <span class="kc">None</span><span class="p">,</span>
+                            <span class="kc">None</span><span class="p">,</span>
+                            <span class="bp">self</span><span class="o">.</span><span class="n">__node_id</span><span class="p">,</span>
+                            <span class="bp">self</span><span class="o">.</span><span class="n">__get_parent_index</span><span class="p">(</span><span class="n">block</span><span class="p">),</span>
+                            <span class="n">block_hash</span><span class="p">,</span>
+                        <span class="p">]</span>
+                    <span class="p">)</span>
+                    <span class="k">if</span> <span class="n">block_name</span> <span class="o">==</span> <span class="n">constants</span><span class="o">.</span><span class="n">REPEAT_BLOCK</span><span class="p">:</span>
+                        <span class="n">times</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__get_variable_value</span><span class="p">(</span><span class="n">block</span><span class="p">[</span><span class="s2">&quot;inputs&quot;</span><span class="p">][</span><span class="s2">&quot;TIMES&quot;</span><span class="p">]))</span>
+                    <span class="k">elif</span> <span class="n">block_name</span> <span class="o">==</span> <span class="n">constants</span><span class="o">.</span><span class="n">FOREVER_BLOCK</span><span class="p">:</span>
+                        <span class="n">times</span> <span class="o">=</span> <span class="n">constants</span><span class="o">.</span><span class="n">REPEAT_TIMES</span>
+                    <span class="k">if</span> <span class="n">block</span><span class="p">[</span><span class="s2">&quot;inputs&quot;</span><span class="p">][</span><span class="s2">&quot;SUBSTACK&quot;</span><span class="p">]:</span>
+                        <span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">times</span><span class="p">):</span>
+                            <span class="bp">self</span><span class="o">.</span><span class="n">__write_blocks</span><span class="p">(</span><span class="n">block</span><span class="p">[</span><span class="s2">&quot;inputs&quot;</span><span class="p">][</span><span class="s2">&quot;SUBSTACK&quot;</span><span class="p">][</span><span class="mi">1</span><span class="p">])</span>
+                    <span class="k">if</span> <span class="n">block</span><span class="p">[</span><span class="s2">&quot;next&quot;</span><span class="p">]:</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">__write_blocks</span><span class="p">(</span><span class="n">block</span><span class="p">[</span><span class="s2">&quot;next&quot;</span><span class="p">])</span>
+                <span class="k">case</span> <span class="s2">&quot;IF&quot;</span><span class="p">:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">__dfM</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+                        <span class="p">[</span>
+                            <span class="n">block_name</span><span class="p">,</span>
+                            <span class="kc">None</span><span class="p">,</span>
+                            <span class="kc">None</span><span class="p">,</span>
+                            <span class="bp">self</span><span class="o">.</span><span class="n">__node_id</span><span class="p">,</span>
+                            <span class="bp">self</span><span class="o">.</span><span class="n">__get_parent_index</span><span class="p">(</span><span class="n">block</span><span class="p">),</span>
+                            <span class="n">block_hash</span><span class="p">,</span>
+                        <span class="p">]</span>
+                    <span class="p">)</span>
+                    <span class="k">if</span> <span class="n">block</span><span class="p">[</span><span class="s2">&quot;inputs&quot;</span><span class="p">][</span><span class="s2">&quot;SUBSTACK&quot;</span><span class="p">]:</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">__write_blocks</span><span class="p">(</span><span class="n">block</span><span class="p">[</span><span class="s2">&quot;inputs&quot;</span><span class="p">][</span><span class="s2">&quot;SUBSTACK&quot;</span><span class="p">][</span><span class="mi">1</span><span class="p">])</span>
+                <span class="k">case</span> <span class="s2">&quot;VARIABLE&quot;</span><span class="p">:</span>
+                    <span class="k">if</span> <span class="n">block_name</span> <span class="o">==</span> <span class="n">constants</span><span class="o">.</span><span class="n">SET_VARIABLE</span><span class="p">:</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">__variables</span><span class="p">[</span>
+                            <span class="n">block</span><span class="p">[</span><span class="s2">&quot;fields&quot;</span><span class="p">][</span><span class="s2">&quot;VARIABLE&quot;</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span>
+                        <span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__get_variable_value</span><span class="p">(</span><span class="n">block</span><span class="p">[</span><span class="s2">&quot;inputs&quot;</span><span class="p">][</span><span class="s2">&quot;VALUE&quot;</span><span class="p">])</span>
+                    <span class="k">elif</span> <span class="n">block_name</span> <span class="o">==</span> <span class="n">constants</span><span class="o">.</span><span class="n">CHANGE_VARIABLE</span><span class="p">:</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">__variables</span><span class="p">[</span><span class="n">block</span><span class="p">[</span><span class="s2">&quot;fields&quot;</span><span class="p">][</span><span class="s2">&quot;VARIABLE&quot;</span><span class="p">][</span><span class="mi">1</span><span class="p">]]</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span>
+                            <span class="nb">float</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__variables</span><span class="p">[</span><span class="n">block</span><span class="p">[</span><span class="s2">&quot;fields&quot;</span><span class="p">][</span><span class="s2">&quot;VARIABLE&quot;</span><span class="p">][</span><span class="mi">1</span><span class="p">]])</span>
+                            <span class="o">+</span> <span class="nb">float</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__get_variable_value</span><span class="p">(</span><span class="n">block</span><span class="p">[</span><span class="s2">&quot;inputs&quot;</span><span class="p">][</span><span class="s2">&quot;VALUE&quot;</span><span class="p">]))</span>
+                        <span class="p">)</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">__dfM</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+                        <span class="p">[</span>
+                            <span class="n">block_name</span><span class="p">,</span>
+                            <span class="kc">None</span><span class="p">,</span>
+                            <span class="kc">None</span><span class="p">,</span>
+                            <span class="bp">self</span><span class="o">.</span><span class="n">__node_id</span><span class="p">,</span>
+                            <span class="bp">self</span><span class="o">.</span><span class="n">__get_parent_index</span><span class="p">(</span><span class="n">block</span><span class="p">),</span>
+                            <span class="n">block_hash</span><span class="p">,</span>
+                        <span class="p">]</span>
+                    <span class="p">)</span>
+                    <span class="k">if</span> <span class="n">block</span><span class="p">[</span><span class="s2">&quot;next&quot;</span><span class="p">]:</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">__write_blocks</span><span class="p">(</span><span class="n">block</span><span class="p">[</span><span class="s2">&quot;next&quot;</span><span class="p">])</span>
+                <span class="k">case</span> <span class="s2">&quot;CALL&quot;</span><span class="p">:</span>
+                    <span class="n">procedure_name</span> <span class="o">=</span> <span class="n">block</span><span class="p">[</span><span class="s2">&quot;mutation&quot;</span><span class="p">][</span><span class="s2">&quot;proccode&quot;</span><span class="p">]</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">__dfM</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+                        <span class="p">[</span>
+                            <span class="n">block_name</span><span class="p">,</span>
+                            <span class="kc">None</span><span class="p">,</span>
+                            <span class="kc">None</span><span class="p">,</span>
+                            <span class="bp">self</span><span class="o">.</span><span class="n">__node_id</span><span class="p">,</span>
+                            <span class="bp">self</span><span class="o">.</span><span class="n">__get_parent_index</span><span class="p">(</span><span class="n">block</span><span class="p">),</span>
+                            <span class="n">block_hash</span><span class="p">,</span>
+                        <span class="p">]</span>
+                    <span class="p">)</span>
+                    <span class="k">for</span> <span class="n">block_hash</span><span class="p">,</span> <span class="n">block2</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">__blocks</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+                        <span class="k">if</span> <span class="n">block2</span><span class="p">[</span><span class="s2">&quot;opcode&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="n">constants</span><span class="o">.</span><span class="n">PROCEDURES_DEFINE</span><span class="p">:</span>
+                            <span class="k">if</span> <span class="p">(</span>
+                                <span class="bp">self</span><span class="o">.</span><span class="n">__blocks</span><span class="p">[</span><span class="n">block2</span><span class="p">[</span><span class="s2">&quot;inputs&quot;</span><span class="p">][</span><span class="s2">&quot;custom_block&quot;</span><span class="p">][</span><span class="mi">1</span><span class="p">]][</span>
+                                    <span class="s2">&quot;mutation&quot;</span>
+                                <span class="p">][</span><span class="s2">&quot;proccode&quot;</span><span class="p">]</span>
+                                <span class="o">==</span> <span class="n">procedure_name</span>
+                            <span class="p">):</span>
+                                <span class="k">if</span> <span class="n">block2</span><span class="p">[</span><span class="s2">&quot;next&quot;</span><span class="p">]:</span>
+                                    <span class="bp">self</span><span class="o">.</span><span class="n">__dfM</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+                                        <span class="p">[</span>
+                                            <span class="n">block2</span><span class="p">[</span><span class="s2">&quot;opcode&quot;</span><span class="p">],</span>
+                                            <span class="kc">None</span><span class="p">,</span>
+                                            <span class="kc">None</span><span class="p">,</span>
+                                            <span class="bp">self</span><span class="o">.</span><span class="n">__node_id</span><span class="p">,</span>
+                                            <span class="bp">self</span><span class="o">.</span><span class="n">__get_parent_index</span><span class="p">(</span><span class="n">block2</span><span class="p">),</span>
+                                            <span class="n">block_hash</span><span class="p">,</span>
+                                        <span class="p">]</span>
+                                    <span class="p">)</span>
+                                    <span class="bp">self</span><span class="o">.</span><span class="n">__write_blocks</span><span class="p">(</span><span class="n">block2</span><span class="p">[</span><span class="s2">&quot;next&quot;</span><span class="p">])</span>
+                                    <span class="k">break</span>
+                    <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">__has_forever_block</span><span class="p">(</span><span class="n">block_hash</span><span class="p">):</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">__write_blocks</span><span class="p">(</span><span class="n">block</span><span class="p">[</span><span class="s2">&quot;next&quot;</span><span class="p">])</span>
+                <span class="k">case</span><span class="w"> </span><span class="k">_</span><span class="p">:</span>
+                    <span class="k">if</span> <span class="n">block</span><span class="p">[</span><span class="s2">&quot;inputs&quot;</span><span class="p">]</span> <span class="o">!=</span> <span class="kc">None</span><span class="p">:</span>
+                        <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="nb">input</span> <span class="ow">in</span> <span class="n">block</span><span class="p">[</span><span class="s2">&quot;inputs&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+                            <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">block</span><span class="p">[</span><span class="s2">&quot;inputs&quot;</span><span class="p">][</span><span class="n">key</span><span class="p">][</span><span class="mi">1</span><span class="p">],</span> <span class="nb">list</span><span class="p">):</span>
+                                <span class="n">block</span><span class="p">[</span><span class="s2">&quot;inputs&quot;</span><span class="p">][</span><span class="n">key</span><span class="p">][</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__get_variable_value</span><span class="p">(</span>
+                                    <span class="nb">input</span>
+                                <span class="p">)</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">__dfM</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+                            <span class="p">[</span>
+                                <span class="n">block_name</span><span class="p">,</span>
+                                <span class="kc">None</span><span class="p">,</span>
+                                <span class="n">single_to_double</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">block</span><span class="p">[</span><span class="s2">&quot;inputs&quot;</span><span class="p">])),</span>
+                                <span class="bp">self</span><span class="o">.</span><span class="n">__node_id</span><span class="p">,</span>
+                                <span class="bp">self</span><span class="o">.</span><span class="n">__get_parent_index</span><span class="p">(</span><span class="n">block</span><span class="p">),</span>
+                                <span class="n">block_hash</span><span class="p">,</span>
+                            <span class="p">]</span>
+                        <span class="p">)</span>
+                    <span class="k">elif</span> <span class="n">block</span><span class="p">[</span><span class="s2">&quot;fields&quot;</span><span class="p">]</span> <span class="o">!=</span> <span class="kc">None</span><span class="p">:</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">__dfM</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+                            <span class="p">[</span>
+                                <span class="n">block_name</span><span class="p">,</span>
+                                <span class="n">single_to_double</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">block</span><span class="p">[</span><span class="s2">&quot;fields&quot;</span><span class="p">])),</span>
+                                <span class="kc">None</span><span class="p">,</span>
+                                <span class="bp">self</span><span class="o">.</span><span class="n">__node_id</span><span class="p">,</span>
+                                <span class="bp">self</span><span class="o">.</span><span class="n">__get_parent_index</span><span class="p">(</span><span class="n">block</span><span class="p">),</span>
+                                <span class="n">block_hash</span><span class="p">,</span>
+                            <span class="p">]</span>
+                        <span class="p">)</span>
+                    <span class="k">else</span><span class="p">:</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">__dfM</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+                            <span class="p">[</span>
+                                <span class="n">block_name</span><span class="p">,</span>
+                                <span class="kc">None</span><span class="p">,</span>
+                                <span class="kc">None</span><span class="p">,</span>
+                                <span class="bp">self</span><span class="o">.</span><span class="n">__node_id</span><span class="p">,</span>
+                                <span class="bp">self</span><span class="o">.</span><span class="n">__get_parent_index</span><span class="p">(</span><span class="n">block</span><span class="p">),</span>
+                                <span class="n">block_hash</span><span class="p">,</span>
+                            <span class="p">]</span>
+                        <span class="p">)</span>
+
+                    <span class="k">if</span> <span class="n">block</span><span class="p">[</span><span class="s2">&quot;next&quot;</span><span class="p">]:</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">__write_blocks</span><span class="p">(</span><span class="n">block</span><span class="p">[</span><span class="s2">&quot;next&quot;</span><span class="p">])</span>
+        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="n">e</span><span class="p">)</span></div>
+
+</pre></div>
+
+	    </div>
+            <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2023, keigo-o.
+    </p>
+  </div>
+
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/jucacrispim/sphinx_pdj_theme">theme</a> provided by <a href="https://poraodojuca.dev">Porão do Juca</a>.
+
+</footer>
+	</div>
+	</div>
+	  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+    <script type="text/javascript" src="../../_static/documentation_options.js">
+
+    </script>
+    <script type="text/javascript" src="../../_static/doctools.js">
+
+    </script>
+    <script type="text/javascript" src="../../_static/sphinx_highlight.js">
+
+    </script>
+    <script type="text/javascript" src="../../_static/translations.js">
+
+    </script>
+
+  
+
+   <script type="text/javascript"
+           src="../../_static/js/theme.js"></script>
+
+   <script type="text/javascript"
+           src="../../_static/js/pdj.js"></script>
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+  </body>
+</html>

@@ -11,6 +11,13 @@ BASE_URL = constants.SCRATCH_BASE_URL
 
 # プロジェクト取得用のトークン取得
 def get_token(id):
+    """Scartch作品のJSON取得に必要なトークンを取得
+    Args:
+        id (int): プロジェクトID
+
+    Returns:
+        str: JSON取得に必要なトークン
+    """
     try:
         response = requests.get(f"{API_BASE_URL}/projects/{id}")
     except Exception as e:
@@ -26,6 +33,13 @@ def get_token(id):
 
 
 def get_description(id):
+    """Scartch作品の説明文を取得
+    Args:
+        id (int): プロジェクトID
+
+    Returns:
+        str: 対象のScratch作品の説明文
+    """
     try:
         response = requests.get(f"{API_BASE_URL}/projects/{id}")
 
@@ -39,6 +53,13 @@ def get_description(id):
 
 # プロジェクト取得
 def get_project(id):
+    """Scartch作品のJSONを取得
+    Args:
+        id (int): プロジェクトID
+
+    Returns:
+        dictionary: 対象のScratch作品のJSON
+    """
     json_data = ""
     try:
         token = get_token(id)
