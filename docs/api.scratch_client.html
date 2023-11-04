@@ -10,7 +10,7 @@
     <link rel="icon" type="image/x-icon" href="">
 
   
-  <title>Welcome to scratcher&#39;s documentation! &mdash; scratcher  ドキュメント</title>
+  <title>&lt;no title&gt; &mdash; scratcher  ドキュメント</title>
   
 
   
@@ -33,8 +33,9 @@
         <link rel="index" title="索引"
               href="genindex.html"/>
         <link rel="search" title="検索" href="search.html"/>
-    <link rel="top" title="scratcher  ドキュメント" href="#"/>
-        <link rel="next" title="&lt;no title&gt;" href="prjman.html"/>
+    <link rel="top" title="scratcher  ドキュメント" href="index.html"/>
+        <link rel="next" title="&lt;no title&gt;" href="tools.sorter.html"/>
+        <link rel="prev" title="&lt;no title&gt;" href="prjman.html"/>
 
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta http-equiv="cache-control" content="public" />
@@ -53,7 +54,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-nav-search">
 	
-        <a href="#" class="fa fa-home"> scratcher </a>
+        <a href="index.html" class="fa fa-home"> scratcher </a>
 	
 	
         <div role="search">
@@ -73,7 +74,7 @@
           
           
               <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="prjman.html"><code class="docutils literal notranslate"><span class="pre">ProjectManager</span></code></a><ul>
 <li class="toctree-l2"><a class="reference internal" href="prjman.html#prjman.ProjectManager.get_ast"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_ast()</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="prjman.html#prjman.ProjectManager.get_blocks"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_blocks()</span></code></a></li>
@@ -87,9 +88,9 @@
 <li class="toctree-l2"><a class="reference internal" href="prjman.html#prjman.ProjectManager.to_json"><code class="docutils literal notranslate"><span class="pre">ProjectManager.to_json()</span></code></a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="api.scratch_client.html"><code class="docutils literal notranslate"><span class="pre">get_description()</span></code></a></li>
-<li class="toctree-l1"><a class="reference internal" href="api.scratch_client.html#api.scratch_client.get_project"><code class="docutils literal notranslate"><span class="pre">get_project()</span></code></a></li>
-<li class="toctree-l1"><a class="reference internal" href="api.scratch_client.html#api.scratch_client.get_token"><code class="docutils literal notranslate"><span class="pre">get_token()</span></code></a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#"><code class="docutils literal notranslate"><span class="pre">get_description()</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="#api.scratch_client.get_project"><code class="docutils literal notranslate"><span class="pre">get_project()</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="#api.scratch_client.get_token"><code class="docutils literal notranslate"><span class="pre">get_token()</span></code></a></li>
 <li class="toctree-l1"><a class="reference internal" href="tools.sorter.html"><code class="docutils literal notranslate"><span class="pre">Sorter</span></code></a><ul>
 <li class="toctree-l2"><a class="reference internal" href="tools.sorter.html#tools.sorter.Sorter.sort_blocks"><code class="docutils literal notranslate"><span class="pre">Sorter.sort_blocks()</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="tools.sorter.html#tools.sorter.Sorter.to_csv"><code class="docutils literal notranslate"><span class="pre">Sorter.to_csv()</span></code></a></li>
@@ -143,48 +144,56 @@
 	  <dark-mode-toggle appearance="toggle" dark="switch to light mode" light="switch to dark mode">
 	  </dark-mode-toggle>
 	</div>
-  <section id="welcome-to-scratcher-s-documentation">
-<h1>Welcome to scratcher's documentation!<a class="headerlink" href="#welcome-to-scratcher-s-documentation" title="Link to this heading">¶</a></h1>
-<div class="toctree-wrapper compound">
-<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="prjman.html"><code class="docutils literal notranslate"><span class="pre">ProjectManager</span></code></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="prjman.html#prjman.ProjectManager.get_ast"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_ast()</span></code></a></li>
-<li class="toctree-l2"><a class="reference internal" href="prjman.html#prjman.ProjectManager.get_blocks"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_blocks()</span></code></a></li>
-<li class="toctree-l2"><a class="reference internal" href="prjman.html#prjman.ProjectManager.get_blocks_length"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_blocks_length()</span></code></a></li>
-<li class="toctree-l2"><a class="reference internal" href="prjman.html#prjman.ProjectManager.get_coordinate"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_coordinate()</span></code></a></li>
-<li class="toctree-l2"><a class="reference internal" href="prjman.html#prjman.ProjectManager.get_description"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_description()</span></code></a></li>
-<li class="toctree-l2"><a class="reference internal" href="prjman.html#prjman.ProjectManager.get_id"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_id()</span></code></a></li>
-<li class="toctree-l2"><a class="reference internal" href="prjman.html#prjman.ProjectManager.get_project"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_project()</span></code></a></li>
-<li class="toctree-l2"><a class="reference internal" href="prjman.html#prjman.ProjectManager.get_sorted_blocks"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_sorted_blocks()</span></code></a></li>
-<li class="toctree-l2"><a class="reference internal" href="prjman.html#prjman.ProjectManager.is_dataset"><code class="docutils literal notranslate"><span class="pre">ProjectManager.is_dataset()</span></code></a></li>
-<li class="toctree-l2"><a class="reference internal" href="prjman.html#prjman.ProjectManager.to_json"><code class="docutils literal notranslate"><span class="pre">ProjectManager.to_json()</span></code></a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="api.scratch_client.html"><code class="docutils literal notranslate"><span class="pre">get_description()</span></code></a></li>
-<li class="toctree-l1"><a class="reference internal" href="api.scratch_client.html#api.scratch_client.get_project"><code class="docutils literal notranslate"><span class="pre">get_project()</span></code></a></li>
-<li class="toctree-l1"><a class="reference internal" href="api.scratch_client.html#api.scratch_client.get_token"><code class="docutils literal notranslate"><span class="pre">get_token()</span></code></a></li>
-<li class="toctree-l1"><a class="reference internal" href="tools.sorter.html"><code class="docutils literal notranslate"><span class="pre">Sorter</span></code></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="tools.sorter.html#tools.sorter.Sorter.sort_blocks"><code class="docutils literal notranslate"><span class="pre">Sorter.sort_blocks()</span></code></a></li>
-<li class="toctree-l2"><a class="reference internal" href="tools.sorter.html#tools.sorter.Sorter.to_csv"><code class="docutils literal notranslate"><span class="pre">Sorter.to_csv()</span></code></a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="tools.tracker.html"><code class="docutils literal notranslate"><span class="pre">Tracker</span></code></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="tools.tracker.html#tools.tracker.Tracker.get_coordinate"><code class="docutils literal notranslate"><span class="pre">Tracker.get_coordinate()</span></code></a></li>
-<li class="toctree-l2"><a class="reference internal" href="tools.tracker.html#tools.tracker.Tracker.to_csv"><code class="docutils literal notranslate"><span class="pre">Tracker.to_csv()</span></code></a></li>
-</ul>
-</li>
-</ul>
-</div>
-</section>
-<section id="indices-and-tables">
-<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Link to this heading">¶</a></h1>
-<ul class="simple">
-<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">索引</span></a></p></li>
-<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">モジュール索引</span></a></p></li>
-<li><p><a class="reference internal" href="search.html"><span class="std std-ref">検索ページ</span></a></p></li>
-</ul>
-</section>
+  <p>api.scratch_client</p>
+<hr class="docutils" />
+<dl class="py function" id="module-api.scratch_client">
+<dt class="sig sig-object py" id="api.scratch_client.get_description">
+<span class="sig-prename descclassname"><span class="pre">api.scratch_client.</span></span><span class="sig-name descname"><span class="pre">get_description</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">id</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/api/scratch_client.html#get_description"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#api.scratch_client.get_description" title="Link to this definition">¶</a></dt>
+<dd><p>Scartch作品の説明文を取得
+:param id: プロジェクトID
+:type id: int</p>
+<dl class="field-list simple">
+<dt class="field-odd">戻り値<span class="colon">:</span></dt>
+<dd class="field-odd"><p>対象のScratch作品の説明文</p>
+</dd>
+<dt class="field-even">戻り値の型<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="api.scratch_client.get_project">
+<span class="sig-prename descclassname"><span class="pre">api.scratch_client.</span></span><span class="sig-name descname"><span class="pre">get_project</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">id</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/api/scratch_client.html#get_project"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#api.scratch_client.get_project" title="Link to this definition">¶</a></dt>
+<dd><p>Scartch作品のJSONを取得
+:param id: プロジェクトID
+:type id: int</p>
+<dl class="field-list simple">
+<dt class="field-odd">戻り値<span class="colon">:</span></dt>
+<dd class="field-odd"><p>対象のScratch作品のJSON</p>
+</dd>
+<dt class="field-even">戻り値の型<span class="colon">:</span></dt>
+<dd class="field-even"><p>dictionary</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="api.scratch_client.get_token">
+<span class="sig-prename descclassname"><span class="pre">api.scratch_client.</span></span><span class="sig-name descname"><span class="pre">get_token</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">id</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/api/scratch_client.html#get_token"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#api.scratch_client.get_token" title="Link to this definition">¶</a></dt>
+<dd><p>Scartch作品のJSON取得に必要なトークンを取得
+:param id: プロジェクトID
+:type id: int</p>
+<dl class="field-list simple">
+<dt class="field-odd">戻り値<span class="colon">:</span></dt>
+<dd class="field-odd"><p>JSON取得に必要なトークン</p>
+</dd>
+<dt class="field-even">戻り値の型<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
 
 
 	    </div>
@@ -192,8 +201,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="prjman.html" class="btn btn-neutral float-right" title="&lt;no title&gt;">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="tools.sorter.html" class="btn btn-neutral float-right" title="&lt;no title&gt;">Next <span class="fa fa-arrow-circle-right"></span></a>
       
+      
+        <a href="prjman.html" class="btn btn-neutral" title="&lt;no title&gt;"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

@@ -11,6 +11,8 @@ import ast
 
 
 class Tracker:
+    """Scratch作品のスプライト動作軌跡を取得するためのクラス"""
+
     # 座標情報を格納しているキー名
     __MOVE = constants.MOVE_FIELDS
     __SET = constants.SET_FIELDS
@@ -31,6 +33,10 @@ class Tracker:
         self.__dfM = DfManager(["key", "x", "y", "wait", "move_index"])
 
     def to_csv(self, dir_path):
+        """時系列の座標情報をCSVに保存
+        Args:
+            dir_path(str): CSVを保存するパス（ファイル名含む）
+        """
         self.__dfM.to_csv(dir_path)
 
     def __get_step_movement(self, steps):
@@ -40,11 +46,14 @@ class Tracker:
         return (dx, dy)
 
     def get_coordinate(self):
+        """ソートされたブロックからスプライトの動作軌跡を計算して取得
+        Returns:
+            Dataframe: 計算した動作軌跡のDataframeを返す
+        """
         self.__degree = self.__sorted_df.iloc[0]["BlockName"]
         self.__x = self.__sorted_df.iloc[0]["Key"]
         self.__y = self.__sorted_df.iloc[0]["Field"]
         self.__df_length = len(self.__sorted_df.index)
-        print(self.__degree)
         try:
             for i in range(1, self.__df_length):
                 block_name = self.__sorted_df.iloc[i]["BlockName"]

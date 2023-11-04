@@ -7,6 +7,8 @@ from config import constants
 
 
 class Sorter:
+    """Scratch作品を命令処理順にソートするためのクラス"""
+
     __IF_BLOCKS = constants.IF_BLOCKS
     __R_BLOCKS = constants.REPEAT_BLOCKS
     __E_BLOCKS = constants.EVENT_BLOCKS
@@ -14,6 +16,10 @@ class Sorter:
     __PRO_CALL_BLOCKS = constants.PROCEDURES_CALL
 
     def __init__(self, project):
+        """Sorterの初期化
+        Args:
+            project(dictionary): 作品のJSON
+        """
         self.__dfM = DfManager(
             ["BlockName", "Key", "Field", "node_id", "parent_id", "hash"]
         )
@@ -23,9 +29,17 @@ class Sorter:
         self.__node_id = 0
 
     def to_csv(self, dir_path):
+        """ソートされたブロックをCSVに保存
+        Args:
+            dir_path(str): CSVを保存するパス（ファイル名含む）
+        """
         self.__dfM.to_csv(dir_path)
 
     def sort_blocks(self):
+        """ブロックを命令処理順にソートして取得
+        Returns:
+            Dataframe: ブロックを命令処理順にソートしたDataframeを返す
+        """
         self.__dfM.add_row(
             [
                 self.__sprite["direction"],
