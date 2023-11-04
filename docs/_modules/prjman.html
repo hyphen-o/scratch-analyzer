@@ -1,0 +1,404 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="" lang="" version="-//W3C//DTD XHTML 1.1//EN" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="">
+    <link rel="icon" type="image/x-icon" href="">
+
+  
+  <title>prjman &mdash; scratcher  ドキュメント</title>
+  
+
+  
+
+  
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'/>
+
+
+  <link rel="stylesheet" href="../_static/css/img.css" type="text/css"/>
+  
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  
+    <link rel="stylesheet" href="../_static/css/pdj.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="../_static/css/darker.css" type="text/css" media="(prefers-color-scheme: dark)"/>
+        <link rel="index" title="索引"
+              href="../genindex.html"/>
+        <link rel="search" title="検索" href="../search.html"/>
+    <link rel="top" title="scratcher  ドキュメント" href="../index.html"/>
+        <link rel="up" title="モジュールコード" href="index.html"/>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="cache-control" content="public" />
+    <meta name="robots" content="follow, all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Add jQuery library -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+    <script type="module" src="https://googlechromelabs.github.io/dark-mode-toggle/src/dark-mode-toggle.mjs"></script>
+
+  </head>
+
+  <body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+	
+        <a href="../index.html" class="fa fa-home"> scratcher </a>
+	
+	
+        <div role="search">
+	  
+	  <form id ="rtd-search-form" class="wy-form"
+		action="../search.html" method="get">
+	    <input type="text" name="q" placeholder="Search docs" />
+	    <input type="hidden" name="check_keywords" value="yes" />
+	    <input type="hidden" name="area" value="default" />
+	  </form>
+	  
+	</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	
+          
+          
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../prjman.html"><code class="docutils literal notranslate"><span class="pre">ProjectManager</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../prjman.html#prjman.ProjectManager.get_ast"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_ast()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prjman.html#prjman.ProjectManager.get_blocks"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_blocks()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prjman.html#prjman.ProjectManager.get_blocks_length"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_blocks_length()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prjman.html#prjman.ProjectManager.get_coordinate"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_coordinate()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prjman.html#prjman.ProjectManager.get_description"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_description()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prjman.html#prjman.ProjectManager.get_id"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_id()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prjman.html#prjman.ProjectManager.get_project"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_project()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prjman.html#prjman.ProjectManager.get_sorted_blocks"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_sorted_blocks()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prjman.html#prjman.ProjectManager.is_dataset"><code class="docutils literal notranslate"><span class="pre">ProjectManager.is_dataset()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prjman.html#prjman.ProjectManager.to_json"><code class="docutils literal notranslate"><span class="pre">ProjectManager.to_json()</span></code></a></li>
+</ul>
+</li>
+</ul>
+
+          
+        
+
+      </div>
+      &nbsp;
+    </nav>
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      <nav class="wy-nav-top" id="barra-mobile" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="#">scratcher </a>
+      </nav>
+
+      <div class="wy-nav-content">
+	<div class="fundo-claro">
+	</div>
+	<div class="fundo-escuro">
+	</div>
+
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+	    
+	    <!-- <ul class="wy-breadcrumbs"> -->
+	    <!--   <li><a href="#">Docs</a> &raquo;</li> -->
+
+	    <!--   <li>Features</li> -->
+	    <!--   <li class="wy-breadcrumbs-aside"> -->
+
+	    <!-- 	<a href="_sources/index.txt" rel="nofollow"> View page source</a> -->
+
+	    <!--   </li> -->
+	    <!-- </ul> -->
+	    <!-- <hr/> -->
+	  </div>
+          <div role="main" class="">
+
+	    <div id="content" class="hfeed entry-container hentry">
+      	<div id="dark-mode-toggle-container">
+	  <dark-mode-toggle appearance="toggle" dark="switch to light mode" light="switch to dark mode">
+	  </dark-mode-toggle>
+	</div>
+  <h1>prjman のソースコード</h1><div class="highlight"><pre>
+<span></span><span class="kn">import</span> <span class="nn">sys</span>
+
+<span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;../&quot;</span><span class="p">)</span>
+
+<span class="kn">import</span> <span class="nn">csv</span>
+<span class="kn">from</span> <span class="nn">utils</span> <span class="kn">import</span> <span class="n">json_to_file</span>
+<span class="kn">from</span> <span class="nn">api</span> <span class="kn">import</span> <span class="n">scratch_client</span>
+<span class="kn">from</span> <span class="nn">tools</span> <span class="kn">import</span> <span class="n">Sorter</span><span class="p">,</span> <span class="n">Tracker</span>
+<span class="kn">from</span> <span class="nn">converter</span> <span class="kn">import</span> <span class="n">AstConverter</span>
+
+
+<div class="viewcode-block" id="ProjectManager">
+<a class="viewcode-back" href="../prjman.html#prjman.ProjectManager">[ドキュメント]</a>
+<span class="k">class</span> <span class="nc">ProjectManager</span><span class="p">:</span>
+
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Scratch作品を管理するためのクラス</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        __ID (int): 現在管理しているScratch作品のID</span>
+<span class="sd">        __project (dictionary): 現在管理しているScratch作品全体のプログラム</span>
+<span class="sd">        __sprite (dictionary): 現在管理しているScratch作品の1番目のスプライトのプログラム</span>
+<span class="sd">        __blocks (dictionary): 現在管理しているScratch作品の1番目のスプライトに含まれるスプライトのブロック</span>
+<span class="sd">        __description（str）: 現在管理しているScratch作品の使用方法</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">id</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;ProjectManagerの初期化</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            id (int): 対象とするScratch作品のID</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="k">try</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">__ID</span> <span class="o">=</span> <span class="nb">id</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">__project</span> <span class="o">=</span> <span class="n">scratch_client</span><span class="o">.</span><span class="n">get_project</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__ID</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">__sprite</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__project</span><span class="p">[</span><span class="s2">&quot;targets&quot;</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">__blocks</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__project</span><span class="p">[</span><span class="s2">&quot;targets&quot;</span><span class="p">][</span><span class="mi">1</span><span class="p">][</span><span class="s2">&quot;blocks&quot;</span><span class="p">]</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">__description</span> <span class="o">=</span> <span class="n">scratch_client</span><span class="o">.</span><span class="n">get_description</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__ID</span><span class="p">)</span>
+        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Scratch3.0以降の作品を入力してください．&quot;</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
+
+<div class="viewcode-block" id="ProjectManager.get_id">
+<a class="viewcode-back" href="../prjman.html#prjman.ProjectManager.get_id">[ドキュメント]</a>
+    <span class="k">def</span> <span class="nf">get_id</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;管理しているScratch作品のIDを取得</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            int: 保持しているScratch作品のIDを返す</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__ID</span></div>
+
+
+<div class="viewcode-block" id="ProjectManager.get_project">
+<a class="viewcode-back" href="../prjman.html#prjman.ProjectManager.get_project">[ドキュメント]</a>
+    <span class="k">def</span> <span class="nf">get_project</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;現在管理している作品のプログラムを取得</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            dictionary: 現在管理している作品のプログラムを返す</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__project</span></div>
+
+
+<div class="viewcode-block" id="ProjectManager.get_blocks">
+<a class="viewcode-back" href="../prjman.html#prjman.ProjectManager.get_blocks">[ドキュメント]</a>
+    <span class="k">def</span> <span class="nf">get_blocks</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;現在管理しているスプライトに含まれるスプライトのブロックを取得</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            dictionary: 現在管理しているスプライトに含まれるスプライトのブロックを返す</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__blocks</span></div>
+
+
+<div class="viewcode-block" id="ProjectManager.get_description">
+<a class="viewcode-back" href="../prjman.html#prjman.ProjectManager.get_description">[ドキュメント]</a>
+    <span class="k">def</span> <span class="nf">get_description</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;現在管理しているScratch作品の使用方法を取得</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            str: 現在管理しているScratch作品の使用方法を返す</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__description</span></div>
+
+
+<div class="viewcode-block" id="ProjectManager.get_blocks_length">
+<a class="viewcode-back" href="../prjman.html#prjman.ProjectManager.get_blocks_length">[ドキュメント]</a>
+    <span class="k">def</span> <span class="nf">get_blocks_length</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;現在管理しているスプライトに含まれるスプライトのブロックの数を取得</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            int: 現在管理しているスプライトに含まれるスプライトのブロックの数を返す</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__blocks</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="ProjectManager.get_ast">
+<a class="viewcode-back" href="../prjman.html#prjman.ProjectManager.get_ast">[ドキュメント]</a>
+    <span class="k">def</span> <span class="nf">get_ast</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;現在管理しているブロックをASTに変換して取得</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            path (str, optional): ASTをファイルに保存する際のパス. 保存しない場合は指定なしでよい.</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            dictionary: 現在管理しているブロックをASTに変換したJSONを返す</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="n">ast_conv</span> <span class="o">=</span> <span class="n">AstConverter</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__project</span><span class="p">)</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="n">ast_conv</span><span class="o">.</span><span class="n">get_ast</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">result</span></div>
+
+
+<div class="viewcode-block" id="ProjectManager.get_sorted_blocks">
+<a class="viewcode-back" href="../prjman.html#prjman.ProjectManager.get_sorted_blocks">[ドキュメント]</a>
+    <span class="k">def</span> <span class="nf">get_sorted_blocks</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dir_path</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;現在管理しているブロックを命令処理順にソートして取得</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            dir_path (str, optional): ソートしたブロックをファイルに保存する場合のディレクトリのパス. 保存しない場合は指定なしでよい.</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            Dataframe: 現在管理しているブロックを命令処理順にソートしたDataframeを返す</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="n">sorter</span> <span class="o">=</span> <span class="n">Sorter</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__project</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">dir_path</span><span class="p">:</span>
+            <span class="n">sorter</span><span class="o">.</span><span class="n">sort_blocks</span><span class="p">()</span>
+            <span class="n">sorter</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">dir_path</span><span class="p">)</span>
+            <span class="k">return</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">sorter</span><span class="o">.</span><span class="n">sort_blocks</span><span class="p">()</span></div>
+
+
+<div class="viewcode-block" id="ProjectManager.get_coordinate">
+<a class="viewcode-back" href="../prjman.html#prjman.ProjectManager.get_coordinate">[ドキュメント]</a>
+    <span class="k">def</span> <span class="nf">get_coordinate</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dir_path</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;現在管理しているスプライトの移動軌跡を算出し，座標データを取得</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            dir_path (str, optional): 座標データをファイルに保存する場合のディレクトリのパス. 保存しない場合は指定なしでよい.</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            DAtaframe: 現在管理しているスプライトの移動軌跡を算出し，座標データを返す</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="n">tracker</span> <span class="o">=</span> <span class="n">Tracker</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">get_sorted_blocks</span><span class="p">())</span>
+        <span class="k">if</span> <span class="n">dir_path</span><span class="p">:</span>
+            <span class="n">tracker</span><span class="o">.</span><span class="n">get_coordinate</span><span class="p">()</span>
+            <span class="n">tracker</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">dir_path</span><span class="p">)</span>
+            <span class="k">return</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">tracker</span><span class="o">.</span><span class="n">get_coordinate</span><span class="p">()</span></div>
+
+
+<div class="viewcode-block" id="ProjectManager.to_json">
+<a class="viewcode-back" href="../prjman.html#prjman.ProjectManager.to_json">[ドキュメント]</a>
+    <span class="k">def</span> <span class="nf">to_json</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dir_path</span><span class="o">=</span><span class="s2">&quot;.&quot;</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="s2">&quot;project&quot;</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;プログラムのJsonファイルを保存</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            dir_path (str, optional): jsonファイルを保存する際のディレクトリのパス. 指定なしだと直下に保存.</span>
+<span class="sd">            type (str, optional): 保存するJsonの粒度を指定．project or sprite or blocks. デフォルトはproject.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="k">match</span> <span class="p">(</span><span class="nb">type</span><span class="p">):</span>
+            <span class="k">case</span> <span class="s2">&quot;project&quot;</span><span class="p">:</span>
+                <span class="n">json_to_file</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__project</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">dir_path</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">__ID</span><span class="si">}</span><span class="s2">.json&quot;</span><span class="p">)</span>
+            <span class="k">case</span> <span class="s2">&quot;sprite&quot;</span><span class="p">:</span>
+                <span class="n">json_to_file</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__sprite</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">dir_path</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">__ID</span><span class="si">}</span><span class="s2">_sprite.json&quot;</span><span class="p">)</span>
+            <span class="k">case</span> <span class="s2">&quot;blocks&quot;</span><span class="p">:</span>
+                <span class="n">json_to_file</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__blocks</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">dir_path</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">__ID</span><span class="si">}</span><span class="s2">_blocks.json&quot;</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="ProjectManager.is_dataset">
+<a class="viewcode-back" href="../prjman.html#prjman.ProjectManager.is_dataset">[ドキュメント]</a>
+    <span class="k">def</span> <span class="nf">is_dataset</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ava_path</span><span class="o">=</span><span class="s2">&quot;utils/filter/filter.csv&quot;</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;フィルタリング用関数</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            ava_path (str, optional): フィルタリング用CSVのパス. Defaults to &quot;utils/filter/filter.csv&quot;.</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            boolean: フィルタリングに引っかかったか否かを返す．True -&gt; 引っかかっていない　False -&gt; 引っかかった</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">ava_blocks</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="c1"># フィルタリング用CSVの読み込み</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">ava_path</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8-sig&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+            <span class="n">reader</span> <span class="o">=</span> <span class="n">csv</span><span class="o">.</span><span class="n">reader</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">reader</span><span class="p">:</span>
+                <span class="n">ava_blocks</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">row</span><span class="p">)</span>
+
+        <span class="n">isDataset</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__filter_json</span><span class="p">(</span><span class="n">ava_blocks</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">isDataset</span></div>
+
+
+    <span class="c1"># Private関数</span>
+
+    <span class="c1"># フィルタリング</span>
+    <span class="k">def</span> <span class="nf">__filter_json</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ava_blocks</span><span class="p">):</span>
+        <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">__blocks</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">block</span><span class="p">,</span> <span class="n">ava</span> <span class="ow">in</span> <span class="n">ava_blocks</span><span class="p">:</span>
+                <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">__blocks</span><span class="p">[</span><span class="n">k</span><span class="p">][</span><span class="s2">&quot;opcode&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="n">block</span> <span class="ow">and</span> <span class="nb">int</span><span class="p">(</span><span class="n">ava</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+                    <span class="k">return</span> <span class="kc">False</span>
+        <span class="k">return</span> <span class="kc">True</span></div>
+
+</pre></div>
+
+	    </div>
+            <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2023, keigo-o.
+    </p>
+  </div>
+
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/jucacrispim/sphinx_pdj_theme">theme</a> provided by <a href="https://poraodojuca.dev">Porão do Juca</a>.
+
+</footer>
+	</div>
+	</div>
+	  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+    <script type="text/javascript" src="../_static/documentation_options.js">
+
+    </script>
+    <script type="text/javascript" src="../_static/doctools.js">
+
+    </script>
+    <script type="text/javascript" src="../_static/sphinx_highlight.js">
+
+    </script>
+    <script type="text/javascript" src="../_static/translations.js">
+
+    </script>
+
+  
+
+   <script type="text/javascript"
+           src="../_static/js/theme.js"></script>
+
+   <script type="text/javascript"
+           src="../_static/js/pdj.js"></script>
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+  </body>
+</html>

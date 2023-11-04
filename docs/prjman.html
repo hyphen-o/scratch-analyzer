@@ -1,0 +1,372 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="" lang="" version="-//W3C//DTD XHTML 1.1//EN" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="">
+    <link rel="icon" type="image/x-icon" href="">
+
+  
+  <title>&lt;no title&gt; &mdash; scratcher  ドキュメント</title>
+  
+
+  
+
+  
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'/>
+
+
+  <link rel="stylesheet" href="_static/css/img.css" type="text/css"/>
+  
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  
+    <link rel="stylesheet" href="_static/css/pdj.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="_static/css/darker.css" type="text/css" media="(prefers-color-scheme: dark)"/>
+        <link rel="index" title="索引"
+              href="genindex.html"/>
+        <link rel="search" title="検索" href="search.html"/>
+    <link rel="top" title="scratcher  ドキュメント" href="index.html"/>
+        <link rel="prev" title="Welcome to scratcher&#39;s documentation!" href="index.html"/>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="cache-control" content="public" />
+    <meta name="robots" content="follow, all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Add jQuery library -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+    <script type="module" src="https://googlechromelabs.github.io/dark-mode-toggle/src/dark-mode-toggle.mjs"></script>
+
+  </head>
+
+  <body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+	
+        <a href="index.html" class="fa fa-home"> scratcher </a>
+	
+	
+        <div role="search">
+	  
+	  <form id ="rtd-search-form" class="wy-form"
+		action="search.html" method="get">
+	    <input type="text" name="q" placeholder="Search docs" />
+	    <input type="hidden" name="check_keywords" value="yes" />
+	    <input type="hidden" name="area" value="default" />
+	  </form>
+	  
+	</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	
+          
+          
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#"><code class="docutils literal notranslate"><span class="pre">ProjectManager</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#prjman.ProjectManager.get_ast"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_ast()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#prjman.ProjectManager.get_blocks"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_blocks()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#prjman.ProjectManager.get_blocks_length"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_blocks_length()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#prjman.ProjectManager.get_coordinate"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_coordinate()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#prjman.ProjectManager.get_description"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_description()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#prjman.ProjectManager.get_id"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_id()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#prjman.ProjectManager.get_project"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_project()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#prjman.ProjectManager.get_sorted_blocks"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_sorted_blocks()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#prjman.ProjectManager.is_dataset"><code class="docutils literal notranslate"><span class="pre">ProjectManager.is_dataset()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#prjman.ProjectManager.to_json"><code class="docutils literal notranslate"><span class="pre">ProjectManager.to_json()</span></code></a></li>
+</ul>
+</li>
+</ul>
+
+          
+        
+
+      </div>
+      &nbsp;
+    </nav>
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      <nav class="wy-nav-top" id="barra-mobile" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="#">scratcher </a>
+      </nav>
+
+      <div class="wy-nav-content">
+	<div class="fundo-claro">
+	</div>
+	<div class="fundo-escuro">
+	</div>
+
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+	    
+	    <!-- <ul class="wy-breadcrumbs"> -->
+	    <!--   <li><a href="#">Docs</a> &raquo;</li> -->
+
+	    <!--   <li>Features</li> -->
+	    <!--   <li class="wy-breadcrumbs-aside"> -->
+
+	    <!-- 	<a href="_sources/index.txt" rel="nofollow"> View page source</a> -->
+
+	    <!--   </li> -->
+	    <!-- </ul> -->
+	    <!-- <hr/> -->
+	  </div>
+          <div role="main" class="">
+
+	    <div id="content" class="hfeed entry-container hentry">
+      	<div id="dark-mode-toggle-container">
+	  <dark-mode-toggle appearance="toggle" dark="switch to light mode" light="switch to dark mode">
+	  </dark-mode-toggle>
+	</div>
+  <p>Prjman</p>
+<hr class="docutils" />
+<dl class="py class" id="module-prjman">
+<dt class="sig sig-object py" id="prjman.ProjectManager">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">prjman.</span></span><span class="sig-name descname"><span class="pre">ProjectManager</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">id</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/prjman.html#ProjectManager"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#prjman.ProjectManager" title="Link to this definition">¶</a></dt>
+<dd><p>Scratch作品を管理するためのクラス</p>
+<dl class="field-list simple">
+<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>__ID</strong> (<em>int</em>) -- 現在管理しているScratch作品のID</p></li>
+<li><p><strong>__project</strong> (<em>dictionary</em>) -- 現在管理しているScratch作品全体のプログラム</p></li>
+<li><p><strong>__sprite</strong> (<em>dictionary</em>) -- 現在管理しているScratch作品の1番目のスプライトのプログラム</p></li>
+<li><p><strong>__blocks</strong> (<em>dictionary</em>) -- 現在管理しているScratch作品の1番目のスプライトに含まれるスプライトのブロック</p></li>
+<li><p><strong>__description（str）</strong> -- 現在管理しているScratch作品の使用方法</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="prjman.ProjectManager.get_ast">
+<span class="sig-name descname"><span class="pre">get_ast</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">''</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/prjman.html#ProjectManager.get_ast"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#prjman.ProjectManager.get_ast" title="Link to this definition">¶</a></dt>
+<dd><p>現在管理しているブロックをASTに変換して取得</p>
+<dl class="field-list simple">
+<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>path</strong> (<em>str</em><em>, </em><em>optional</em>) -- ASTをファイルに保存する際のパス. 保存しない場合は指定なしでよい.</p>
+</dd>
+<dt class="field-even">戻り値<span class="colon">:</span></dt>
+<dd class="field-even"><p>現在管理しているブロックをASTに変換したJSONを返す</p>
+</dd>
+<dt class="field-odd">戻り値の型<span class="colon">:</span></dt>
+<dd class="field-odd"><p>dictionary</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="prjman.ProjectManager.get_blocks">
+<span class="sig-name descname"><span class="pre">get_blocks</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/prjman.html#ProjectManager.get_blocks"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#prjman.ProjectManager.get_blocks" title="Link to this definition">¶</a></dt>
+<dd><p>現在管理しているスプライトに含まれるスプライトのブロックを取得</p>
+<dl class="field-list simple">
+<dt class="field-odd">戻り値<span class="colon">:</span></dt>
+<dd class="field-odd"><p>現在管理しているスプライトに含まれるスプライトのブロックを返す</p>
+</dd>
+<dt class="field-even">戻り値の型<span class="colon">:</span></dt>
+<dd class="field-even"><p>dictionary</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="prjman.ProjectManager.get_blocks_length">
+<span class="sig-name descname"><span class="pre">get_blocks_length</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/prjman.html#ProjectManager.get_blocks_length"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#prjman.ProjectManager.get_blocks_length" title="Link to this definition">¶</a></dt>
+<dd><p>現在管理しているスプライトに含まれるスプライトのブロックの数を取得</p>
+<dl class="field-list simple">
+<dt class="field-odd">戻り値<span class="colon">:</span></dt>
+<dd class="field-odd"><p>現在管理しているスプライトに含まれるスプライトのブロックの数を返す</p>
+</dd>
+<dt class="field-even">戻り値の型<span class="colon">:</span></dt>
+<dd class="field-even"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="prjman.ProjectManager.get_coordinate">
+<span class="sig-name descname"><span class="pre">get_coordinate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dir_path</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/prjman.html#ProjectManager.get_coordinate"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#prjman.ProjectManager.get_coordinate" title="Link to this definition">¶</a></dt>
+<dd><p>現在管理しているスプライトの移動軌跡を算出し，座標データを取得</p>
+<dl class="field-list simple">
+<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>dir_path</strong> (<em>str</em><em>, </em><em>optional</em>) -- 座標データをファイルに保存する場合のディレクトリのパス. 保存しない場合は指定なしでよい.</p>
+</dd>
+<dt class="field-even">戻り値<span class="colon">:</span></dt>
+<dd class="field-even"><p>現在管理しているスプライトの移動軌跡を算出し，座標データを返す</p>
+</dd>
+<dt class="field-odd">戻り値の型<span class="colon">:</span></dt>
+<dd class="field-odd"><p>DAtaframe</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="prjman.ProjectManager.get_description">
+<span class="sig-name descname"><span class="pre">get_description</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/prjman.html#ProjectManager.get_description"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#prjman.ProjectManager.get_description" title="Link to this definition">¶</a></dt>
+<dd><p>現在管理しているScratch作品の使用方法を取得</p>
+<dl class="field-list simple">
+<dt class="field-odd">戻り値<span class="colon">:</span></dt>
+<dd class="field-odd"><p>現在管理しているScratch作品の使用方法を返す</p>
+</dd>
+<dt class="field-even">戻り値の型<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="prjman.ProjectManager.get_id">
+<span class="sig-name descname"><span class="pre">get_id</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/prjman.html#ProjectManager.get_id"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#prjman.ProjectManager.get_id" title="Link to this definition">¶</a></dt>
+<dd><p>管理しているScratch作品のIDを取得</p>
+<dl class="field-list simple">
+<dt class="field-odd">戻り値<span class="colon">:</span></dt>
+<dd class="field-odd"><p>保持しているScratch作品のIDを返す</p>
+</dd>
+<dt class="field-even">戻り値の型<span class="colon">:</span></dt>
+<dd class="field-even"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="prjman.ProjectManager.get_project">
+<span class="sig-name descname"><span class="pre">get_project</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/prjman.html#ProjectManager.get_project"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#prjman.ProjectManager.get_project" title="Link to this definition">¶</a></dt>
+<dd><p>現在管理している作品のプログラムを取得</p>
+<dl class="field-list simple">
+<dt class="field-odd">戻り値<span class="colon">:</span></dt>
+<dd class="field-odd"><p>現在管理している作品のプログラムを返す</p>
+</dd>
+<dt class="field-even">戻り値の型<span class="colon">:</span></dt>
+<dd class="field-even"><p>dictionary</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="prjman.ProjectManager.get_sorted_blocks">
+<span class="sig-name descname"><span class="pre">get_sorted_blocks</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dir_path</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/prjman.html#ProjectManager.get_sorted_blocks"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#prjman.ProjectManager.get_sorted_blocks" title="Link to this definition">¶</a></dt>
+<dd><p>現在管理しているブロックを命令処理順にソートして取得</p>
+<dl class="field-list simple">
+<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>dir_path</strong> (<em>str</em><em>, </em><em>optional</em>) -- ソートしたブロックをファイルに保存する場合のディレクトリのパス. 保存しない場合は指定なしでよい.</p>
+</dd>
+<dt class="field-even">戻り値<span class="colon">:</span></dt>
+<dd class="field-even"><p>現在管理しているブロックを命令処理順にソートしたDataframeを返す</p>
+</dd>
+<dt class="field-odd">戻り値の型<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Dataframe</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="prjman.ProjectManager.is_dataset">
+<span class="sig-name descname"><span class="pre">is_dataset</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ava_path</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'utils/filter/filter.csv'</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/prjman.html#ProjectManager.is_dataset"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#prjman.ProjectManager.is_dataset" title="Link to this definition">¶</a></dt>
+<dd><p>フィルタリング用関数</p>
+<dl class="field-list simple">
+<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>ava_path</strong> (<em>str</em><em>, </em><em>optional</em>) -- フィルタリング用CSVのパス. Defaults to &quot;utils/filter/filter.csv&quot;.</p>
+</dd>
+<dt class="field-even">戻り値<span class="colon">:</span></dt>
+<dd class="field-even"><p>フィルタリングに引っかかったか否かを返す．True -&gt; 引っかかっていない　False -&gt; 引っかかった</p>
+</dd>
+<dt class="field-odd">戻り値の型<span class="colon">:</span></dt>
+<dd class="field-odd"><p>boolean</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="prjman.ProjectManager.to_json">
+<span class="sig-name descname"><span class="pre">to_json</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dir_path</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'.'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'project'</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/prjman.html#ProjectManager.to_json"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#prjman.ProjectManager.to_json" title="Link to this definition">¶</a></dt>
+<dd><p>プログラムのJsonファイルを保存</p>
+<dl class="field-list simple">
+<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>dir_path</strong> (<em>str</em><em>, </em><em>optional</em>) -- jsonファイルを保存する際のディレクトリのパス. 指定なしだと直下に保存.</p></li>
+<li><p><strong>type</strong> (<em>str</em><em>, </em><em>optional</em>) -- 保存するJsonの粒度を指定．project or sprite or blocks. デフォルトはproject.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+
+
+	    </div>
+            <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="Welcome to scratcher&#39;s documentation!"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2023, keigo-o.
+    </p>
+  </div>
+
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/jucacrispim/sphinx_pdj_theme">theme</a> provided by <a href="https://poraodojuca.dev">Porão do Juca</a>.
+
+</footer>
+	</div>
+	</div>
+	  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+    <script type="text/javascript" src="_static/documentation_options.js">
+
+    </script>
+    <script type="text/javascript" src="_static/doctools.js">
+
+    </script>
+    <script type="text/javascript" src="_static/sphinx_highlight.js">
+
+    </script>
+    <script type="text/javascript" src="_static/translations.js">
+
+    </script>
+
+  
+
+   <script type="text/javascript"
+           src="_static/js/theme.js"></script>
+
+   <script type="text/javascript"
+           src="_static/js/pdj.js"></script>
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+  </body>
+</html>

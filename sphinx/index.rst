@@ -10,7 +10,7 @@ Welcome to scratcher's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
+   prjman
 
 Indices and tables
 ==================
