@@ -80,6 +80,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../../prjman.html#prjman.ProjectManager.get_blocks_length"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_blocks_length()</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../prjman.html#prjman.ProjectManager.get_coordinate"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_coordinate()</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../prjman.html#prjman.ProjectManager.get_description"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_description()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prjman.html#prjman.ProjectManager.get_head_blocks"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_head_blocks()</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../prjman.html#prjman.ProjectManager.get_id"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_id()</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../prjman.html#prjman.ProjectManager.get_project"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_project()</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../prjman.html#prjman.ProjectManager.get_sorted_blocks"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_sorted_blocks()</span></code></a></li>
@@ -160,11 +161,11 @@
 <a class="viewcode-back" href="../../api.scratch_client.html#api.scratch_client.get_token">[ドキュメント]</a>
 <span class="k">def</span> <span class="nf">get_token</span><span class="p">(</span><span class="nb">id</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Scartch作品のJSON取得に必要なトークンを取得</span>
-<span class="sd">        Args:</span>
-<span class="sd">            id (int): プロジェクトID</span>
+<span class="sd">    Args:</span>
+<span class="sd">        id (int): プロジェクトID</span>
 
-<span class="sd">        Returns:</span>
-<span class="sd">            str: JSON取得に必要なトークン</span>
+<span class="sd">    Returns:</span>
+<span class="sd">        str: JSON取得に必要なトークン</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="k">try</span><span class="p">:</span>
         <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">API_BASE_URL</span><span class="si">}</span><span class="s2">/projects/</span><span class="si">{</span><span class="nb">id</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
@@ -185,11 +186,11 @@
 <a class="viewcode-back" href="../../api.scratch_client.html#api.scratch_client.get_description">[ドキュメント]</a>
 <span class="k">def</span> <span class="nf">get_description</span><span class="p">(</span><span class="nb">id</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Scartch作品の説明文を取得</span>
-<span class="sd">        Args:</span>
-<span class="sd">            id (int): プロジェクトID</span>
+<span class="sd">    Args:</span>
+<span class="sd">        id (int): プロジェクトID</span>
 
-<span class="sd">        Returns:</span>
-<span class="sd">            str: 対象のScratch作品の説明文</span>
+<span class="sd">    Returns:</span>
+<span class="sd">        str: 対象のScratch作品の説明文</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="k">try</span><span class="p">:</span>
         <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">API_BASE_URL</span><span class="si">}</span><span class="s2">/projects/</span><span class="si">{</span><span class="nb">id</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
@@ -208,11 +209,11 @@
 <a class="viewcode-back" href="../../api.scratch_client.html#api.scratch_client.get_project">[ドキュメント]</a>
 <span class="k">def</span> <span class="nf">get_project</span><span class="p">(</span><span class="nb">id</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Scartch作品のJSONを取得</span>
-<span class="sd">        Args:</span>
-<span class="sd">            id (int): プロジェクトID</span>
+<span class="sd">    Args:</span>
+<span class="sd">        id (int): プロジェクトID</span>
 
-<span class="sd">        Returns:</span>
-<span class="sd">            dictionary: 対象のScratch作品のJSON</span>
+<span class="sd">    Returns:</span>
+<span class="sd">        dictionary: 対象のScratch作品のJSON</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">json_data</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
     <span class="k">try</span><span class="p">:</span>
