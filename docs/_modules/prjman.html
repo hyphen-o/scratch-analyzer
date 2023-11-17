@@ -80,6 +80,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../prjman.html#prjman.ProjectManager.get_blocks_length"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_blocks_length()</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="../prjman.html#prjman.ProjectManager.get_coordinate"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_coordinate()</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="../prjman.html#prjman.ProjectManager.get_description"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_description()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prjman.html#prjman.ProjectManager.get_head_blocks"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_head_blocks()</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="../prjman.html#prjman.ProjectManager.get_id"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_id()</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="../prjman.html#prjman.ProjectManager.get_project"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_project()</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="../prjman.html#prjman.ProjectManager.get_sorted_blocks"><code class="docutils literal notranslate"><span class="pre">ProjectManager.get_sorted_blocks()</span></code></a></li>
@@ -164,8 +165,8 @@
 <span class="sd">    Args:</span>
 <span class="sd">        __ID (int): 現在管理しているScratch作品のID</span>
 <span class="sd">        __project (dictionary): 現在管理しているScratch作品全体のプログラム</span>
-<span class="sd">        __sprite (dictionary): 現在管理しているScratch作品の1番目のスプライトのプログラム</span>
-<span class="sd">        __blocks (dictionary): 現在管理しているScratch作品の1番目のスプライトに含まれるスプライトのブロック</span>
+<span class="sd">        __sprites (dictionary): 現在管理しているScratch作品のスプライトのプログラム</span>
+<span class="sd">        __blocks (dictionary): 現在管理しているScratch作品のスプライトに含まれるスプライトのブロック</span>
 <span class="sd">        __description（str）: 現在管理しているScratch作品の使用方法</span>
 <span class="sd">    &quot;&quot;&quot;</span>
 
@@ -179,12 +180,14 @@
         <span class="k">try</span><span class="p">:</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">__ID</span> <span class="o">=</span> <span class="nb">id</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">__project</span> <span class="o">=</span> <span class="n">scratch_client</span><span class="o">.</span><span class="n">get_project</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__ID</span><span class="p">)</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">__sprite</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__project</span><span class="p">[</span><span class="s2">&quot;targets&quot;</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">__blocks</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__project</span><span class="p">[</span><span class="s2">&quot;targets&quot;</span><span class="p">][</span><span class="mi">1</span><span class="p">][</span><span class="s2">&quot;blocks&quot;</span><span class="p">]</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">__head_blocks</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__project</span><span class="p">[</span><span class="s2">&quot;targets&quot;</span><span class="p">][</span><span class="mi">1</span><span class="p">][</span><span class="s2">&quot;blocks&quot;</span><span class="p">]</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">__sprites</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__project</span><span class="p">[</span><span class="s2">&quot;targets&quot;</span><span class="p">]</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">__blocks</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__format_blocks</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">__project</span><span class="p">[</span><span class="s2">&quot;target&quot;</span><span class="p">]))</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">__description</span> <span class="o">=</span> <span class="n">scratch_client</span><span class="o">.</span><span class="n">get_description</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__ID</span><span class="p">)</span>
         <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
             <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Scratch3.0以降の作品を入力してください．&quot;</span><span class="p">)</span>
             <span class="nb">print</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
+
 
 <div class="viewcode-block" id="ProjectManager.get_id">
 <a class="viewcode-back" href="../prjman.html#prjman.ProjectManager.get_id">[ドキュメント]</a>
@@ -209,6 +212,17 @@
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__project</span></div>
 
 
+<div class="viewcode-block" id="ProjectManager.get_head_blocks">
+<a class="viewcode-back" href="../prjman.html#prjman.ProjectManager.get_head_blocks">[ドキュメント]</a>
+    <span class="k">def</span> <span class="nf">get_head_blocks</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;現在管理しているスプライトに含まれるスプライトのブロックを取得</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            dictionary: 現在管理しているスプライトに含まれるスプライトのブロックを返す</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__head_blocks</span></div>
+
+    
 <div class="viewcode-block" id="ProjectManager.get_blocks">
 <a class="viewcode-back" href="../prjman.html#prjman.ProjectManager.get_blocks">[ドキュメント]</a>
     <span class="k">def</span> <span class="nf">get_blocks</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
@@ -316,7 +330,7 @@
             <span class="k">case</span> <span class="s2">&quot;project&quot;</span><span class="p">:</span>
                 <span class="n">json_to_file</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__project</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">dir_path</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">__ID</span><span class="si">}</span><span class="s2">.json&quot;</span><span class="p">)</span>
             <span class="k">case</span> <span class="s2">&quot;sprite&quot;</span><span class="p">:</span>
-                <span class="n">json_to_file</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__sprite</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">dir_path</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">__ID</span><span class="si">}</span><span class="s2">_sprite.json&quot;</span><span class="p">)</span>
+                <span class="n">json_to_file</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__sprites</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">dir_path</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">__ID</span><span class="si">}</span><span class="s2">_sprite.json&quot;</span><span class="p">)</span>
             <span class="k">case</span> <span class="s2">&quot;blocks&quot;</span><span class="p">:</span>
                 <span class="n">json_to_file</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__blocks</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">dir_path</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">__ID</span><span class="si">}</span><span class="s2">_blocks.json&quot;</span><span class="p">)</span></div>
 
@@ -351,7 +365,13 @@
             <span class="k">for</span> <span class="n">block</span><span class="p">,</span> <span class="n">ava</span> <span class="ow">in</span> <span class="n">ava_blocks</span><span class="p">:</span>
                 <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">__blocks</span><span class="p">[</span><span class="n">k</span><span class="p">][</span><span class="s2">&quot;opcode&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="n">block</span> <span class="ow">and</span> <span class="nb">int</span><span class="p">(</span><span class="n">ava</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
                     <span class="k">return</span> <span class="kc">False</span>
-        <span class="k">return</span> <span class="kc">True</span></div>
+        <span class="k">return</span> <span class="kc">True</span>
+
+    <span class="k">def</span> <span class="nf">__format_blocks</span><span class="p">(</span><span class="n">target</span><span class="p">):</span>
+        <span class="k">return</span> <span class="p">{</span>
+            <span class="s2">&quot;isStage&quot;</span><span class="p">:</span> <span class="n">target</span><span class="p">[</span><span class="s2">&quot;isStage&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;blocks&quot;</span><span class="p">:</span> <span class="n">target</span><span class="p">[</span><span class="s2">&quot;blocks&quot;</span><span class="p">]</span>
+        <span class="p">}</span></div>
 
 </pre></div>
 
