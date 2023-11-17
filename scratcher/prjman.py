@@ -16,8 +16,8 @@ class ProjectManager:
     Args:
         __ID (int): 現在管理しているScratch作品のID
         __project (dictionary): 現在管理しているScratch作品全体のプログラム
-        __sprite (dictionary): 現在管理しているScratch作品の1番目のスプライトのプログラム
-        __blocks (dictionary): 現在管理しているScratch作品の1番目のスプライトに含まれるスプライトのブロック
+        __sprites (dictionary): 現在管理しているScratch作品のスプライトのプログラム
+        __blocks (dictionary): 現在管理しているScratch作品のスプライトに含まれるスプライトのブロック
         __description（str）: 現在管理しているScratch作品の使用方法
     """
 
@@ -31,12 +31,14 @@ class ProjectManager:
         try:
             self.__ID = id
             self.__project = scratch_client.get_project(self.__ID)
-            self.__sprite = self.__project["targets"][1]
-            self.__blocks = self.__project["targets"][1]["blocks"]
+            self.__head_blocks = self.__project["targets"][1]["blocks"]
+            self.__sprites = self.__project["targets"]
+            self.__blocks = list(map(self.__format_blocks, self.__project["target"]))
             self.__description = scratch_client.get_description(self.__ID)
         except Exception as e:
             print("Scratch3.0以降の作品を入力してください．")
             print(e)
+
 
     def get_id(self):
         """管理しているScratch作品のIDを取得
@@ -55,6 +57,14 @@ class ProjectManager:
         """
         return self.__project
 
+    def get_head_blocks(self):
+        """現在管理しているスプライトに含まれるスプライトのブロックを取得
+
+        Returns:
+            dictionary: 現在管理しているスプライトに含まれるスプライトのブロックを返す
+        """
+        return self.__head_blocks
+    
     def get_blocks(self):
         """現在管理しているスプライトに含まれるスプライトのブロックを取得
 
@@ -142,7 +152,7 @@ class ProjectManager:
             case "project":
                 json_to_file(self.__project, f"{dir_path}/{self.__ID}.json")
             case "sprite":
-                json_to_file(self.__sprite, f"{dir_path}/{self.__ID}_sprite.json")
+                json_to_file(self.__sprites, f"{dir_path}/{self.__ID}_sprite.json")
             case "blocks":
                 json_to_file(self.__blocks, f"{dir_path}/{self.__ID}_blocks.json")
 
@@ -174,3 +184,9 @@ class ProjectManager:
                 if self.__blocks[k]["opcode"] == block and int(ava) == 0:
                     return False
         return True
+
+    def __format_blocks(target):
+        return {
+            "isStage": target["isStage"],
+            "blocks": target["blocks"]
+        }

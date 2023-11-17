@@ -85,8 +85,6 @@ class AstConverter:
             json_blocks = sprite_data["blocks"]
             self.__blocks = json_blocks
             # ステージは無視
-            if sprite_name == "Stage":
-                continue
             for hash, block in self.__blocks.items():
                 if block["topLevel"] == True:
                     sprite_ast = self.__sprite_to_ast(hash)
