@@ -19,21 +19,21 @@ def draw_scatter(props):
 
     if props["isLog"]:
         props["y"] = np.log10(props["y"])
-        props["x"] = np.log10(props["x"])
-        plt.gca().xaxis.set_major_formatter(FuncFormatter(__format_func))
+        # props["x"] = np.log10(props["x"])
+        # plt.gca().xaxis.set_major_formatter(FuncFormatter(__formatx_func))
         plt.gca().yaxis.set_major_formatter(FuncFormatter(__format_func))
 
     plt.rcParams["font.family"] = "Hiragino Sans"
     plt.scatter(props["x"], props["y"], color="darkorange", s=1)
-    plt.xlabel(props["xlabel"])
-    plt.ylabel(props["ylabel"])
+    # plt.xlabel(props["xlabel"])
+    # plt.ylabel(props["ylabel"])
 
-    if props["xlim"]:
-        plt.xlim(0, props["xlim"])
-    if props["ylim"]:
-        plt.ylim(0, props["ylim"])
+    # if props["xlim"]:
+    #     plt.xlim(0, props["xlim"])
+    # if props["ylim"]:
+    #     plt.ylim(0, props["ylim"])
 
-    plt.title(props["title"])
+    # plt.title(props["title"])
     plt.grid(True)
     plt.savefig(props["save_path"])
     plt.show()
@@ -57,7 +57,7 @@ def draw_hexbin(props):
     if props["isLog"]:
         props["y"] = np.log10(props["y"])
         props["x"] = np.log10(props["x"])
-        plt.gca().xaxis.set_major_formatter(FuncFormatter(__format_func))
+        plt.gca().xaxis.set_major_formatter(FuncFormatter(__formatx_func))
         plt.gca().yaxis.set_major_formatter(FuncFormatter(__format_func))
 
     # hexbinプロット
@@ -93,7 +93,7 @@ def draw_lines(props):
         xlim: float,
         ylim: float,
     }"""
-
+    plt.figure()
     plt.rcParams["font.family"] = "Hiragino Sans"
 
     plt.plot(props["x"], props["y1"], linestyle="-", color="b", label="X")
@@ -106,17 +106,17 @@ def draw_lines(props):
     # 凡例を表示
     plt.legend()
 
-    plt.title(props["title"])
+    # plt.title(props["title"])
     plt.grid(True)
 
     # グラフを表示
     plt.savefig(props["save_path"])
-    plt.show()
+    # plt.show()
 
 
-def __format_func(value):
+def __format_func(value, pos):
     return r"$10^{{{:.0f}}}$".format(value)
 
 
-def __formatx_func(value):
+def __formatx_func(value, pos):
     return "{:.2f}".format(10**value)
