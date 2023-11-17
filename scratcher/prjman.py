@@ -39,7 +39,6 @@ class ProjectManager:
             print("Scratch3.0以降の作品を入力してください．")
             print(e)
 
-
     def get_id(self):
         """管理しているScratch作品のIDを取得
 
@@ -64,7 +63,7 @@ class ProjectManager:
             dictionary: 現在管理しているスプライトに含まれるスプライトのブロックを返す
         """
         return self.__head_blocks
-    
+
     def get_blocks(self):
         """現在管理しているスプライトに含まれるスプライトのブロックを取得
 
@@ -186,7 +185,4 @@ class ProjectManager:
         return True
 
     def __format_blocks(target):
-        return {
-            "isStage": target["isStage"],
-            "blocks": target["blocks"]
-        }
+        return {"isStage": target["isStage"], "blocks": target["blocks"]}
