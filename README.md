@@ -1,7 +1,7 @@
 # Scratcher
 
 ## Document
-[Scratcher/Document](https://keigo-0314.github.io/scratch-analyzer/)
+[Scratcher/Document](https://hyphen-o.github.io/scratch-analyzer/)
 
 ## 本ライブラリを使う主な目的
 
