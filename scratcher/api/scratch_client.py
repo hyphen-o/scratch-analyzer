@@ -9,6 +9,28 @@ API_BASE_URL = constants.SCRATCH_API_BASE_URL
 BASE_URL = constants.SCRATCH_BASE_URL
 
 
+# プロジェクトのメタ情報取得
+def get_meta(id):
+    """Scartch作品のメタ情報を取得
+    Args:
+        id (int): プロジェクトID
+
+    Returns:
+        str: Scratch作品のメタ情報を含んだJSON
+    """
+    try:
+        response = requests.get(f"{API_BASE_URL}/projects/{id}")
+    except Exception as e:
+        print("トークン取得中にエラーが発生しました")
+        print(e)
+
+    project = response.json()
+
+    if project["id"]:
+        return project
+    else:
+        return False
+
 # プロジェクト取得用のトークン取得
 def get_token(id):
     """Scartch作品のJSON取得に必要なトークンを取得
