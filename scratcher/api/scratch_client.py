@@ -32,12 +32,10 @@ def get_remix_parent(id, deep=0):
     else:
         if deep == 0:
             return None
-        else: 
-            return {
-                "parent_id": id,
-                "deep": deep
-            }
-    
+        else:
+            return {"parent_id": id, "deep": deep}
+
+
 # プロジェクトのメタ情報取得
 def get_meta(id):
     """Scartch作品のメタ情報を取得
@@ -59,6 +57,7 @@ def get_meta(id):
         return meta
     else:
         return False
+
 
 # プロジェクト取得用のトークン取得
 def get_token(id):
