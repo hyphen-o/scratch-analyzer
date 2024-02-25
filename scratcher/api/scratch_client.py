@@ -9,6 +9,35 @@ API_BASE_URL = constants.SCRATCH_API_BASE_URL
 BASE_URL = constants.SCRATCH_BASE_URL
 
 
+# プロジェクトのリミックス元IDの取得
+def get_remix_parent(id, deep=0):
+    """Scartch作品のリミックス元IDを取得
+    Args:
+        id (int): プロジェクトID
+        deep（int): リミックス元までに何回派生しているか
+
+    Returns:
+        str: Scratch作品のメタ情報を含んだJSON
+    """
+    try:
+        response = requests.get(f"{API_BASE_URL}/projects/{id}")
+    except Exception as e:
+        print("トークン取得中にエラーが発生しました")
+        print(e)
+
+    meta = response.json()
+
+    if meta["remix"]["parent"]:
+        return get_remix_parent(meta["remix"]["parent"], deep + 1)
+    else:
+        if deep == 0:
+            return None
+        else: 
+            return {
+                "parent_id": id,
+                "deep": deep
+            }
+    
 # プロジェクトのメタ情報取得
 def get_meta(id):
     """Scartch作品のメタ情報を取得
@@ -24,10 +53,10 @@ def get_meta(id):
         print("トークン取得中にエラーが発生しました")
         print(e)
 
-    project = response.json()
+    meta = response.json()
 
-    if project["id"]:
-        return project
+    if meta["id"]:
+        return meta
     else:
         return False
 
