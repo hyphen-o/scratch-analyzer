@@ -8,10 +8,9 @@ from config import constants
 API_BASE_URL = constants.SCRATCH_API_BASE_URL
 BASE_URL = constants.SCRATCH_BASE_URL
 
-
 # プロジェクトのリミックス元IDの取得
 def get_remix_parent(id, deep=0):
-    """Scartch作品のリミックス元IDを取得
+    """Scratch作品のリミックス元IDを取得
     Args:
         id (int): プロジェクトID
         deep（int): リミックス元までに何回派生しているか
@@ -81,8 +80,7 @@ def get_token(id):
     else:
         return False
 
-
-def get_description(id):
+# プロジェクトの説明文取得 def get_description(id):
     """Scartch作品の説明文を取得
     Args:
         id (int): プロジェクトID
