@@ -80,7 +80,8 @@ def get_token(id):
     else:
         return False
 
-# プロジェクトの説明文取得 def get_description(id):
+# プロジェクトの説明文取得 
+def get_description(id):
     """Scartch作品の説明文を取得
     Args:
         id (int): プロジェクトID
