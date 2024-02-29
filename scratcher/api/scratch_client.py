@@ -35,6 +35,27 @@ def get_remix_parent(id, deep=0):
         else:
             return {"parent_id": id, "deep": deep}
 
+# プロジェクトのリミックス元のID取得
+def get_remix(id):
+    """Scartch作品のリミックス元作品のIDを取得
+    Args:
+        id (int): プロジェクトID
+
+    Returns:
+        int: リミックス元作品のID
+    """
+    try:
+        response = requests.get(f"{API_BASE_URL}/projects/{id}")
+    except Exception as e:
+        print("トークン取得中にエラーが発生しました")
+        print(e)
+
+    meta = response.json()
+
+    if meta["id"]:
+        return meta["remix"]["parent"]
+    else:
+        return False
 
 # プロジェクトのメタ情報取得
 def get_meta(id):
