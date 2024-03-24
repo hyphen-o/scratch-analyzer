@@ -1,4 +1,5 @@
 import sys
+import time
 
 sys.path.append("../")
 
@@ -20,6 +21,7 @@ def get_remix_parent(id, deep=0):
         str: Scratch作品のメタ情報を含んだJSON
     """
     try:
+        time.sleep(1)
         response = requests.get(f"{API_BASE_URL}/projects/{id}")
     except Exception as e:
         print("トークン取得中にエラーが発生しました")
@@ -45,6 +47,7 @@ def get_remix(id):
         int: リミックス元作品のID
     """
     try:
+        time.sleep(1)
         response = requests.get(f"{API_BASE_URL}/projects/{id}")
     except Exception as e:
         print("トークン取得中にエラーが発生しました")
@@ -67,6 +70,7 @@ def get_meta(id):
         str: Scratch作品のメタ情報を含んだJSON
     """
     try:
+        time.sleep(1)
         response = requests.get(f"{API_BASE_URL}/projects/{id}")
     except Exception as e:
         print("トークン取得中にエラーが発生しました")
@@ -90,6 +94,7 @@ def get_token(id):
         str: JSON取得に必要なトークン
     """
     try:
+        time.sleep(1)
         response = requests.get(f"{API_BASE_URL}/projects/{id}")
     except Exception as e:
         print("トークン取得中にエラーが発生しました")
@@ -113,6 +118,7 @@ def get_description(id):
         str: 対象のScratch作品の説明文
     """
     try:
+        time.sleep(1)
         response = requests.get(f"{API_BASE_URL}/projects/{id}")
 
         project = response.json()
@@ -135,6 +141,7 @@ def get_project(id):
     json_data = ""
     try:
         token = get_token(id)
+        time.sleep(1)
         json_data = requests.get(f"{BASE_URL}/{id}?token={token}").json()
     except Exception as e:
         print("プロジェクト取得中にエラーが発生しました")
