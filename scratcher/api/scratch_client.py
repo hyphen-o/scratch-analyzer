@@ -39,7 +39,7 @@ def get_remix_parent(id, deep=0):
 
 # プロジェクトのリミックス元のID取得
 def get_remix(id):
-    """Scartch作品のリミックス元作品のIDを取得
+    """Scratch作品のリミックス元作品のIDを取得
     Args:
         id (int): プロジェクトID
 
@@ -62,7 +62,7 @@ def get_remix(id):
 
 # プロジェクトのメタ情報取得
 def get_meta(id):
-    """Scartch作品のメタ情報を取得
+    """Scratch作品のメタ情報を取得
     Args:
         id (int): プロジェクトID
 
@@ -86,7 +86,7 @@ def get_meta(id):
 
 # プロジェクト取得用のトークン取得
 def get_token(id):
-    """Scartch作品のJSON取得に必要なトークンを取得
+    """Scratch作品のJSON取得に必要なトークンを取得
     Args:
         id (int): プロジェクトID
 
@@ -110,7 +110,7 @@ def get_token(id):
 
 # プロジェクトの説明文取得
 def get_description(id):
-    """Scartch作品の説明文を取得
+    """Scratch作品の説明文を取得
     Args:
         id (int): プロジェクトID
 
@@ -131,7 +131,7 @@ def get_description(id):
 
 # プロジェクト取得
 def get_project(id):
-    """Scartch作品のJSONを取得
+    """Scratch作品のJSONを取得
     Args:
         id (int): プロジェクトID
 
