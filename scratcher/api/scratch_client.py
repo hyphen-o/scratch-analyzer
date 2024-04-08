@@ -37,6 +37,7 @@ def get_remix_parent(id, deep=0):
         else:
             return {"parent_id": id, "deep": deep}
 
+
 # プロジェクトのリミックス元のID取得
 def get_remix(id):
     """Scratch作品のリミックス元作品のIDを取得
@@ -60,6 +61,7 @@ def get_remix(id):
     else:
         return False
 
+
 # プロジェクトのメタ情報取得
 def get_meta(id):
     """Scratch作品のメタ情報を取得
@@ -80,6 +82,28 @@ def get_meta(id):
 
     if meta["id"]:
         return meta
+    else:
+        return False
+
+
+def get_username(id):
+    """Scratch作品の作成ユーザ名を取得
+    Args:
+        id (int): プロジェクトID
+
+    Returns:
+        str: Scratch作品の作成ユーザ名
+    """
+    try:
+        response = requests.get(f"{API_BASE_URL}/projects/{id}")
+    except Exception as e:
+        print("トークン取得中にエラーが発生しました")
+        print(e)
+
+    meta = response.json()
+
+    if "id" in meta:
+        return str(meta["author"]["username"])
     else:
         return False
 
@@ -151,3 +175,26 @@ def get_project(id):
         return json_data
     else:
         return False
+
+
+def get_project_num(id):
+    """対象ユーザが作成したScratch作品の数を取得
+    Args:
+        id (int): プロジェクトID
+
+    Returns:
+        int: 対象ユーザが作成したScratch作品の数
+    """
+
+    try:
+        response = requests.get(f"{API_BASE_URL}/users/{id}/projects")
+
+        project = response.json()
+
+        if project:
+            return len(project)
+        else:
+            return 0
+    except Exception as e:
+        print("トークン取得中にエラーが発生しました")
+        print(e)
