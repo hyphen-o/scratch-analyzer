@@ -5,12 +5,8 @@ sys.path.append("../../")
 
 from api import get_username, get_project_num
 
-with open('users.csv', 'w', encoding='utf-8') as file:
-    writer = csv.writer(file)
-    writer.writerow(["project_id", "username", "projectNum"])
-
 num = 0
-for i in tqdm(range(997067481, 276751787, -1)):
+for i in tqdm(range(996888792, 276751787, -1)):
   with open('users.csv', 'a', newline='', encoding='utf-8') as file:
       writer = csv.writer(file)
       username = get_username(i)

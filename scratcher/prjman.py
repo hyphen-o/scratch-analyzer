@@ -88,6 +88,19 @@ class ProjectManager:
         """
 
         return len(self.__blocks)
+    
+    def get_all_blocks_length(self):
+        """現在管理している全スプライトに含まれるブロック数の合計を取得
+
+        Returns:
+            int: 現在管理している全スプライトに含まれるブロック数の合計を返す
+        """
+        
+        length = 0
+        for target in self.__blocks:
+            length += len(target["blocks"])
+
+        return length
 
     def get_ast(self, path=""):
         """現在管理しているブロックをASTに変換して取得
