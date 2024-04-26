@@ -17,7 +17,7 @@ sample_id2 = 971457785
 # # リミックスしていない作品
 sample_id3 = 732248801
 # # サンプルプロジェクト
-sample_id4 = 2767515787
+sample_id4 = 797975999
 
 
 # プロジェクトの大元のリミックス元とそこから何回派生しているか
@@ -49,10 +49,9 @@ blocks_length = project_manager.get_blocks_length()
 blockType = project_manager.get_blocks()
 # スプライト数を取得 "isStage"の数がスプライト数？1つはステージなので-1する
 
-# CTスコアを取得
+# CTスコア合計点数を取得
 mastery = drscratch_analyzer.Mastery(sample_id4)
 CTscore = mastery.total_score()
-#CTscore = drscratch_analyzer.analyze(sample_id2)
 
 # 出力
 print("blocks count =" + blocks_length)
