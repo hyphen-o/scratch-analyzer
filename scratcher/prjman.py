@@ -16,6 +16,7 @@ class ProjectManager:
     Args:
         __ID (int): 現在管理しているScratch作品のID
         __project (dictionary): 現在管理しているScratch作品全体のプログラム
+        __start_splites (dictionary): スプライトの始まりの行の参照
         __sprites (dictionary): 現在管理しているScratch作品のスプライトのプログラム
         __blocks (dictionary): 現在管理しているScratch作品のスプライトに含まれるスプライトのブロック
         __description（str）: 現在管理しているScratch作品の使用方法
@@ -32,6 +33,7 @@ class ProjectManager:
             self.__ID = id
             self.__project = scratch_client.get_project(self.__ID)
             self.__head_blocks = self.__project["targets"][1]["blocks"]
+            self.__start_splites = self.__project["targets"][0]["isStage"]
             self.__sprites = self.__project["targets"]
             self.__blocks = list(map(self.__format_blocks, self.__project["target"]))
             self.__description = scratch_client.get_description(self.__ID)
@@ -88,6 +90,15 @@ class ProjectManager:
         """
 
         return len(self.__blocks)
+    
+    def get_sprites_length(self):
+        """作品のスプライト数を取得
+        
+        Retuens:
+            int: 作品のスプライト数を返す
+        """
+
+        return len(self.__start_splites)
 
     def get_ast(self, path=""):
         """現在管理しているブロックをASTに変換して取得
