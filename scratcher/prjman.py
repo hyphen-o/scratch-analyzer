@@ -16,7 +16,7 @@ class ProjectManager:
     Args:
         __ID (int): 現在管理しているScratch作品のID
         __project (dictionary): 現在管理しているScratch作品全体のプログラム
-        __start_splites (dictionary): スプライトの始まりの行の参照
+        __start_splites (boolean): 先頭のスプライトがステージかどうかの判定
         __sprites (dictionary): 現在管理しているScratch作品のスプライトのプログラム
         __blocks (dictionary): 現在管理しているScratch作品のスプライトに含まれるスプライトのブロック
         __description（str）: 現在管理しているScratch作品の使用方法
@@ -98,7 +98,7 @@ class ProjectManager:
             int: 作品のスプライト数を返す
         """
 
-        return len(self.__start_splites)
+        return len(self.__sprites)
 
     def get_ast(self, path=""):
         """現在管理しているブロックをASTに変換して取得

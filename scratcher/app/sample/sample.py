@@ -13,6 +13,28 @@ from prjman import ProjectManager
 # # サンプルプロジェクト
 sample_id = 797975999
 
+# ブロック数を取得
+project_manager = ProjectManager(sample_id)
+blocks_length = project_manager.get_all_blocks_length()
+# ブロックを取得
+# blockType = project_manager.get_blocks()
+# スプライト数を取得 "isStage"の数がスプライト数？1つはステージなので-1する
+sprits_length = project_manager.get_sprites_length()
+# CTスコア合計点数を取得
+mastery = drscratch_analyzer.Mastery()
+mastery.process("../797975999.json")
+mastery.analyze("./out.json")
+CTscore = mastery.total_score()
+
+# 出力
+print("blocks count = " + blocks_length)
+# print("blockType =" + blockType)
+print("sprites count = " + sprits_length)
+print("CTscore = " + CTscore)
+
+
+
+
 
 # プロジェクトの大元のリミックス元とそこから何回派生しているか
 # PM = scratch_client.get_remix_parent(sample_id2)
@@ -33,21 +55,3 @@ sample_id = 797975999
 #     # print("parent_id: " + str(MD["remix"]["parent"]))
 #     with open('data/test_MD_' + str(sample_id2) + '.json', 'w') as f:
 #         json.dump(str(MD["remix"]["parent"]), f, indent=2)
-
-# ブロック数を取得
-project_manager = ProjectManager(sample_id)
-blocks_length = project_manager.get_blocks_length()
-# ブロックを取得
-blockType = project_manager.get_blocks()
-# スプライト数を取得 "isStage"の数がスプライト数？1つはステージなので-1する
-sprits_length = project_manager.get_sprites_length()
-# CTスコア合計点数を取得
-mastery = drscratch_analyzer.Mastery(sample_id)
-CTscore = mastery.total_score()
-
-# 出力
-print("blocks count = " + blocks_length)
-# print("blockType =" + blockType)
-print("sprites count = " + sprits_length)
-print("CTscore = " + CTscore)
-
