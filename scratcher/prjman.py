@@ -18,6 +18,7 @@ class ProjectManager:
         __project (dictionary): 現在管理しているScratch作品全体のプログラム
         __start_splites (boolean): 先頭のスプライトがステージかどうかの判定
         __sprites (dictionary): 現在管理しているScratch作品のスプライトのプログラム
+        __opcodes (dictionary): opcodeをリストで取得
         __blocks (dictionary): 現在管理しているScratch作品のスプライトに含まれるスプライトのブロック
         __description（str）: 現在管理しているScratch作品の使用方法
     """
@@ -35,6 +36,7 @@ class ProjectManager:
             self.__head_blocks = self.__project["targets"][1]["blocks"]
             self.__start_splites = self.__project["targets"][0]["isStage"]
             self.__sprites = self.__project["targets"]
+            self.__opcodes = [block_data["opcode"] for block_data in self.__project["target"][1]["blocks"].values()]
             self.__blocks = list(map(self.__format_blocks, self.__project["target"]))
             self.__description = scratch_client.get_description(self.__ID)
         except Exception as e:
@@ -99,7 +101,7 @@ class ProjectManager:
         """
         
         length = 0
-        for target in self.__blocks:
+        for target in self.__splites:
             length += len(target["blocks"])
 
         return length
@@ -111,6 +113,27 @@ class ProjectManager:
         """
 
         return len(self.__sprites)
+    
+    def get_opcodes(self):
+        opcodes = []
+        # self.__projectから"blocks"内の各要素から"opcode"の値を取得し、self.__opcodesに格納
+        for block_data in self.__project["target"][1]["blocks"].values():
+            opcodes.append(block_data["opcode"])
+
+        return opcodes
+    
+    def get_blocks_type_length(self):
+        """作品のブロックの種類数を取得
+        
+        Retuens:
+            int: ブロックの種類数を返す
+        """
+
+        # self.__opcodesに格納されているデータからopcodeの種類数を取得する
+        unique_opcodes = set(self.__opcodes)
+        opcode_count = len(unique_opcodes)
+        return opcode_count
+    
 
     def get_ast(self, path=""):
         """現在管理しているブロックをASTに変換して取得
