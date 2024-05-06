@@ -114,14 +114,6 @@ class ProjectManager:
 
         return len(self.__sprites)
     
-    def get_opcodes(self):
-        opcodes = []
-        # self.__projectから"blocks"内の各要素から"opcode"の値を取得し、self.__opcodesに格納
-        for block_data in self.__project["target"][1]["blocks"].values():
-            opcodes.append(block_data["opcode"])
-
-        return opcodes
-    
     def get_blocks_type_length(self):
         """作品のブロックの種類数を取得
         
