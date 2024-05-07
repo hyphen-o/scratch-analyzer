@@ -36,11 +36,15 @@ class ProjectManager:
             self.__head_blocks = self.__project["targets"][1]["blocks"]
             self.__start_splites = self.__project["targets"][0]["isStage"]
             self.__sprites = self.__project["targets"]
-            self.__opcodes = [block_data["opcode"] for block_data in self.__project["target"][1]["blocks"].values()]
-            self.__blocks = list(map(self.__format_blocks, self.__project["target"]))
+            self.__blocks = [block_data for block_data in self.__project["targets"][1]["blocks"].values()]
+            print(self.__blocks)
+            self.__opcodes = []
+            for block_opcode in self.__blocks:
+                self.__opcodes.append(block_opcode['opcode'])
+            print(self.__opcodes)
+            # self.__blocks = list(map(self.__format_blocks, self.__project["targets"]))
             self.__description = scratch_client.get_description(self.__ID)
         except Exception as e:
-            print("Scratch3.0以降の作品を入力してください．")
             print(e)
 
     def get_id(self):
@@ -101,7 +105,7 @@ class ProjectManager:
         """
         
         length = 0
-        for target in self.__splites:
+        for target in self.__sprites:
             length += len(target["blocks"])
 
         return length

@@ -15,25 +15,24 @@ sample_id = 797975999
 
 # ブロック数を取得
 project_manager = ProjectManager(sample_id)
+print("instance")
 blocks_length = project_manager.get_all_blocks_length()
 
 # ブロックを取得
 blockType_length = project_manager.get_blocks_type_length()
 
 # スプライト数を取得 "isStage"の数がスプライト数？1つはステージなので-1する
-# sprits_length = project_manager.get_sprites_length()
+sprits_length = project_manager.get_sprites_length()
 
 # CTスコア合計点数を取得
-# mastery = drscratch_analyzer.Mastery()
-# mastery.process("/Users/momoka-h/Desktop/scratch-analyzer/scratcher/sample_json/797975999.json")
-# mastery.analyze("./out.json")
-# CTscore = mastery.total_score()
+mastery = drscratch_analyzer.Mastery()
+mastery.process("../../sample_json/797975999.json")
+mastery.analyze("./out.json")
 
 # 出力
-print("blocks count = " + blocks_length)
-# print("blockType =" + blockType)
-# print("sprites count = " + sprits_length)
-# print("CTscore = " + CTscore)
+print("blocks count = " + str(blocks_length))
+print("blockType =" + str(blockType_length))
+print("sprites count = " + str(sprits_length))
 
 
 

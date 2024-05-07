@@ -1,0 +1,46 @@
+{
+    "Logic": {
+        "1": true,
+        "2": false,
+        "3": false,
+        "MaxScore": 1
+    },
+    "FlowControl": {
+        "1": true,
+        "2": true,
+        "3": false,
+        "MaxScore": 2
+    },
+    "Synchronization": {
+        "1": true,
+        "2": false,
+        "3": false,
+        "MaxScore": 1
+    },
+    "Abstraction": {
+        "1": false,
+        "2": false,
+        "3": false,
+        "MaxScore": 0
+    },
+    "DataRepresentation": {
+        "1": true,
+        "2": false,
+        "3": false,
+        "MaxScore": 1
+    },
+    "UserInteractivity": {
+        "1": true,
+        "2": true,
+        "3": false,
+        "MaxScore": 2
+    },
+    "Parallelism": {
+        "1": false,
+        "2": false,
+        "3": false,
+        "MaxScore": 0
+    },
+    "CTScore": 7,
+    "Total": 9
+}
