@@ -1,39 +1,39 @@
 {
     "Logic": {
         "1": true,
-        "2": false,
-        "3": false,
-        "MaxScore": 1
+        "2": true,
+        "3": true,
+        "MaxScore": 3
     },
     "FlowControl": {
-        "1": true,
+        "1": false,
         "2": true,
-        "3": false,
-        "MaxScore": 2
+        "3": true,
+        "MaxScore": 3
     },
     "Synchronization": {
         "1": true,
-        "2": false,
-        "3": false,
-        "MaxScore": 1
+        "2": true,
+        "3": true,
+        "MaxScore": 3
     },
     "Abstraction": {
-        "1": false,
-        "2": false,
-        "3": false,
-        "MaxScore": 0
+        "1": true,
+        "2": true,
+        "3": true,
+        "MaxScore": 3
     },
     "DataRepresentation": {
         "1": true,
-        "2": false,
-        "3": false,
-        "MaxScore": 1
+        "2": true,
+        "3": true,
+        "MaxScore": 3
     },
     "UserInteractivity": {
         "1": true,
         "2": true,
-        "3": false,
-        "MaxScore": 2
+        "3": true,
+        "MaxScore": 3
     },
     "Parallelism": {
         "1": false,
@@ -41,6 +41,6 @@
         "3": false,
         "MaxScore": 0
     },
-    "CTScore": 7,
-    "Total": 9
+    "CTScore": 18,
+    "Total": 35
 }

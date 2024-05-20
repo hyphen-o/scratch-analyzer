@@ -41,7 +41,7 @@ class ProjectManager:
             self.__opcodes = []
             for block_opcode in self.__blocks:
                 self.__opcodes.append(block_opcode['opcode'])
-            print(self.__opcodes)
+            # print(self.__opcodes)
             # self.__blocks = list(map(self.__format_blocks, self.__project["targets"]))
             self.__description = scratch_client.get_description(self.__ID)
         except Exception as e:
@@ -125,7 +125,7 @@ class ProjectManager:
             int: ブロックの種類数を返す
         """
 
-        # self.__opcodesに格納されているデータからopcodeの種類数を取得する
+        # # opcodeの種類数を取得する
         unique_opcodes = set(self.__opcodes)
         opcode_count = len(unique_opcodes)
         return opcode_count
