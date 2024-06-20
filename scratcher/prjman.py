@@ -35,9 +35,13 @@ class ProjectManager:
             self.__project = scratch_client.get_project(self.__ID)
             self.__head_blocks = self.__project["targets"][1]["blocks"]
             self.__start_splites = self.__project["targets"][0]["isStage"]
-            self.__sprites = self.__project["targets"]
+            try:
+                self.__sprites = self.__project["targets"]
+            except Exception as e:
+                print(e)
+            # self.__sprites = self.__project["targets"]
+            # print(self.__sprites)
             self.__blocks = [block_data for block_data in self.__project["targets"][1]["blocks"].values()]
-            print(self.__blocks)
             self.__opcodes = []
             for block_opcode in self.__blocks:
                 self.__opcodes.append(block_opcode['opcode'])
@@ -106,9 +110,11 @@ class ProjectManager:
         
         length = 0
         for target in self.__sprites:
-            length += len(target["blocks"])
+            if isinstance(target["blocks"], list):
+                length += len(target["blocks"])
 
         return length
+    
     def get_sprites_length(self):
         """作品のスプライト数を取得
         
