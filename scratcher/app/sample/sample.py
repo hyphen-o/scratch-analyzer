@@ -82,6 +82,7 @@ def extract_metrics(project_ids, author_ids, remix_root_ids):
             blocks_lengths.append(project_manager.get_all_blocks_length())
             block_types_lengths.append(project_manager.get_blocks_type_length())
             sprites_lengths.append(project_manager.get_sprites_length())
+
             print("blocks count = " + str(blocks_lengths[-1]))
             print("blockType = " + str(block_types_lengths[-1]))
             print("sprites count = " + str(sprites_lengths[-1]))
@@ -92,8 +93,17 @@ def extract_metrics(project_ids, author_ids, remix_root_ids):
             del author_ids[i]
             del remix_root_ids[i]
         except Exception as e:
-            print(f"プロジェクトID {project_id} の処理中にエラーが発生: {e}")
-            i += 1
+            print(f"プロジェクトID {project_id} の処理中にエラーが発生　リストから削除: {e}")
+            del project_ids[i]
+            del author_ids[i]
+            del remix_root_ids[i]
+
+        # ct_directory = '../../dataset/projects_ct'
+        #     with open('out.json', 'r', encoding='utf-8') as file:
+        #     data = json.load(file)
+        # # # CTScoreの値をint型の変数に格納
+        # ct_score = data["CTScore"]
+
 
     return blocks_lengths.copy(), block_types_lengths.copy(), sprites_lengths.copy()
 
@@ -121,22 +131,58 @@ def save_project_json(project_ids, directory):
                 i += 1
         else:
             print(f"プロジェクトID {project_id} のJSONを取得不可")
-            print(f"プロジェクトID {project_id} の処理中にインデックスエラーが発生　リストから削除")
-            del project_ids[i]
-            del author_ids[i]
-            del remix_root_ids[i]
+            i += 1
         
+def save_ct_score_file(project_ids):
+    i = 0
+    while i < len(project_ids):
+        try:
+            project_id = project_ids[i]
+            mastery = drscratch_analyzer.Mastery()
+            json_directory = '../../dataset/projects_json'
+            ct_directory = '../../dataset/projects_ct'
+            mastery.process(os.path.join(json_directory, f"{project_id}.json"))
+            mastery.analyze(os.path.join(ct_directory, f"{project_id}＿ct.json"))
+        except Exception as e:
+                print(f"プロジェクトID {project_id} のct_JSONを保存中にエラー発生")
+                print(e)
+                i += 1
+        else:
+            print(f"プロジェクトID {project_id} のct_JSONを取得不可")
+            i += 1
 
+def count_files_in_directory(directory, pattern="*"):
+    """指定されたディレクトリ内のファイル数をカウント
+
+    Args:
+        directory (str): ディレクトリのパス
+        pattern (str): ファイルパターン（デフォルトは全ファイルを対象）
+
+    Returns:
+        int: ディレクトリ内のファイル数
+    """
+    file_pattern = os.path.join(directory, pattern)
+    files = glob.glob(file_pattern)
+    return len(files)
+        
 # 使用例
-directory = '../../dataset/sample_projects'
-author_ids, project_ids, remix_root_ids = extract_ids_from_files(directory)
-blocks_lengths, block_types_lengths, sprites_lengths = extract_metrics(project_ids, author_ids, remix_root_ids)
+directory = '../../dataset/projects'
+# author_ids, project_ids, remix_root_ids = extract_ids_from_files(directory)
+# blocks_lengths, block_types_lengths, sprites_lengths = extract_metrics(project_ids, author_ids, remix_root_ids)
 
-# # 作品をjsonファイルに保存
-# save_directory = '../../dataset/projects_json'
+# 作品をjsonファイルに保存
+save_directory = '../../dataset/projects_json'
 # save_project_json(project_ids, save_directory)
 
-# # メトリクス抽出
+# 作品のCT_SCOREを取得し，ファイルに保存
+ct_directory = '../../dataset/projects_ct'
+# save_ct_score_file(project_ids)
+
+# ファイル数確認
+# print("all_projects: " + str(count_files_in_directory(save_directory)))
+# print("ctscore_projects: " + str(count_files_in_directory(ct_directory)))
+
+# メトリクス抽出
 # def extract_metrics(project_ids):
 #     blocks_lengths = []
 #     block_types_lengths = []
@@ -152,61 +198,13 @@ blocks_lengths, block_types_lengths, sprites_lengths = extract_metrics(project_i
 #         print("sprites count = " + str(sprites_lengths[-1]))
 #     return blocks_lengths.copy(), block_types_lengths.copy(), sprites_lengths.copy()
 
-# csvに保存
-def save_to_csv(author_ids, project_ids, blocks_lengths, block_types_lengths, sprites_lengths, ct_score, output_file):
-    with open(output_file, 'w', newline='') as csvfile:
-        csvwriter = csv.writer(csvfile)
-        csvwriter.writerow(['Author_ID', 'Project_ID', 'remix_root_ID', 'Blocks_length', 'BlockType_length', 'Sprites_length'])  # ヘッダー行を書き込む
-        for author_id, project_id, remix_root_id, blocks_length, block_types_length, sprites_length in zip(author_ids, project_ids, remix_root_ids, blocks_lengths, block_types_lengths, sprites_lengths):
-            csvwriter.writerow([author_id, project_id, remix_root_id, blocks_length, block_types_length, sprites_length])
-
-# # 使用例
-# directory = '../../dataset/sample_projects'  # JSONファイルが格納されているディレクトリのパス
-# author_ids, project_ids, remix_root_ids = extract_ids_from_files(directory)
-# blocks_lengths, block_types_lengths, sprites_lengths = extract_metrics(project_ids)
-
-# print("Author IDs:", author_ids)
-# print("author IDs len:", len(author_ids))
-# print("Project IDs:", project_ids)
-# print("Project IDs len:", len(project_ids))
-# print("Remix Root IDs:", remix_root_ids)
-# print("Remix Root IDs len:", len(remix_root_ids))
-
-# print("B : ", len(blocks_lengths))
-# print("BT : ", len(block_types_lengths))
-# print("S : ", len(sprites_lengths))
-
-# # # サンプルプロジェクト
-# sample_id = 797975999
-
-# for project_id in project_ids:
-#     print(project_id)
-# print(len(project_ids))
-
-# print(len(blocks_lengths))
-# print(len(block_types_lengths))
-# print(len(sprites_lengths))
-
-# if not (len(author_ids) == len(project_ids) == len(blocks_lengths) == len(block_types_lengths) == len(sprites_lengths)):
-#     print("Error: Lists have different lengths")
-#     print(f"author_ids: {len(author_ids)}, project_ids: {len(project_ids)}, blocks_lengths: {len(blocks_lengths)}, block_types_lengths: {len(block_types_lengths)}, sprites_lengths: {len(sprites_lengths)}")
-# else:
-#     output_file = 'output.csv'
-#     save_to_csv(author_ids, project_ids, blocks_lengths, block_types_lengths, sprites_lengths, output_file)
-#     print("Data saved to", output_file)
-
-# for id in project_ids:
-
-#     # # ブロック数を取得
-#     project_manager = ProjectManager(id)
-#     # print("instance")
-#     blocks_length = project_manager.get_all_blocks_length()
-
-#     # # ブロックを取得
-#     blockType_length = project_manager.get_blocks_type_length()
-
-#     # # スプライト数を取得 "isStage"の数がスプライト数？1つはステージなので-1する
-#     sprites_length = project_manager.get_sprites_length()
+# # csvに保存
+# def save_to_csv(author_ids, project_ids, blocks_lengths, block_types_lengths, sprites_lengths, ct_score, output_file):
+#     with open(output_file, 'w', newline='') as csvfile:
+#         csvwriter = csv.writer(csvfile)
+#         csvwriter.writerow(['Author_ID', 'Project_ID', 'remix_root_ID', 'Blocks_length', 'BlockType_length', 'Sprites_length'])  # ヘッダー行を書き込む
+#         for author_id, project_id, remix_root_id, blocks_length, block_types_length, sprites_length in zip(author_ids, project_ids, remix_root_ids, blocks_lengths, block_types_lengths, sprites_lengths):
+#             csvwriter.writerow([author_id, project_id, remix_root_id, blocks_length, block_types_length, sprites_length])
 
 #     # # # CTスコア合計点数を取得
 #     # mastery = drscratch_analyzer.Mastery()
